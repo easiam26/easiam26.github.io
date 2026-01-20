@@ -9,16 +9,25 @@
     --nav-height: 80px;
 }
 
-* { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     color: var(--text-color);
     line-height: 1.7;
     background-color: var(--bg-color);
-    padding-top: var(--nav-height); /* 고정 메뉴 공간 확보 */
-    text-align: center; /* 모든 텍스트 중앙 정렬 */
+    padding-top: var(--nav-height);
+    /* 고정 메뉴 공간 확보 */
+    text-align: center;
+    /* 모든 텍스트 중앙 정렬 */
 }
 
 /* 중앙 정렬 컨테이너 (SciCADE 스타일) */
@@ -36,7 +45,7 @@ body {
     width: 100%;
     height: var(--nav-height);
     background-color: var(--white);
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     z-index: 2000;
     display: flex;
     align-items: center;
@@ -65,7 +74,10 @@ body {
     list-style: none;
 }
 
-.nav-links > li { position: relative; }
+.nav-links>li {
+    position: relative;
+}
+
 .nav-links a {
     text-decoration: none;
     color: var(--text-color);
@@ -74,7 +86,9 @@ body {
     transition: 0.3s;
 }
 
-.nav-links a:hover { color: var(--primary-color); }
+.nav-links a:hover {
+    color: var(--primary-color);
+}
 
 /* 드롭다운 메뉴 */
 .dropdown-menu {
@@ -83,7 +97,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     background: var(--white);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     display: none;
     min-width: 220px;
     border-radius: 4px;
@@ -91,7 +105,10 @@ body {
     list-style: none;
 }
 
-.dropdown:hover .dropdown-menu { display: block; }
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
 .dropdown-menu li a {
     padding: 12px 20px;
     display: block;
@@ -113,9 +130,10 @@ body {
 .hero {
     position: relative;
     /* 세로 길이를 조절하는 핵심 부분 */
-    height: 500px; /* 고정 높이로 설정 (추천: 500px ~ 600px) */
+    height: 500px;
+    /* 고정 높이로 설정 (추천: 500px ~ 600px) */
     /* 또는 height: 60vh; (화면 높이의 60% 사용 시) */
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -126,13 +144,18 @@ body {
 .hero-bg img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* 이미지가 줄어든 영역에 맞춰 꽉 차게 조절됨 */
-    object-position: center; /* 이미지의 중앙이 보이도록 설정 */
+    object-fit: cover;
+    /* 이미지가 줄어든 영역에 맞춰 꽉 차게 조절됨 */
+    object-position: center;
+    /* 이미지의 중앙이 보이도록 설정 */
 }
 
 .hero-bg {
     position: absolute;
-    top: 0; left: 0; width: 100%; height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     z-index: -1;
 }
 
@@ -145,24 +168,40 @@ body {
 }
 */
 
-.hero-title { font-size: 3.5rem; margin-bottom: 20px; text-shadow: 0 4px 10px rgba(0,0,0,0.5); }
-.hero-subtitle { font-size: 1.5rem; text-transform: uppercase; letter-spacing: 3px; margin-bottom: 10px; }
+.hero-title {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
 
 /* Table 스타일 (Registration) */
 .reg-table {
-    width: 50%; /* 너비를 50%로 설정 */
-    margin-left: auto; /* 좌측 여백 자동 */
-    margin-right: auto; /* 우측 여백 자동 */
+    width: 60%;
+    /* 너비를 50%로 설정 */
+    margin-left: auto;
+    /* 좌측 여백 자동 */
+    margin-right: auto;
+    /* 우측 여백 자동 */
     border-collapse: collapse;
     margin-top: 30px;
     background: white;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
-.reg-table th, .reg-table td {
+
+.reg-table th,
+.reg-table td {
     padding: 12px;
     border: 1px solid #eee;
     text-align: center;
 }
+
 /* .reg-table th { background: var(--light-bg); color: var(--primary-color); } * */
 .reg-table th {
     background-color: var(--light-bg);
@@ -171,8 +210,16 @@ body {
 }
 
 /* Section & Grid */
-.section { padding: 30px 0; }
-.section-title { font-size: 2.1rem; margin-bottom: 20px; color: var(--primary-color); }
+.section {
+    padding: 30px 0;
+}
+
+.section-title {
+    font-size: 2.1rem;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
+
 .bg-light {
     background-color: var(--light-bg);
 }
@@ -241,8 +288,10 @@ body {
     list-style: none;
     padding: 0;
     max-width: 600px;
-    margin: 0 auto; /* 리스트 자체를 중앙 정렬 */
-    text-align: left; /* 텍스트는 가독성을 위해 좌측 정렬 (원할 경우 center로 변경 가능) */
+    margin: 0 auto;
+    /* 리스트 자체를 중앙 정렬 */
+    text-align: left;
+    /* 텍스트는 가독성을 위해 좌측 정렬 (원할 경우 center로 변경 가능) */
 }
 
 .date-list li {
@@ -260,7 +309,8 @@ body {
 /* index.html 전용 스폰서 섹션 스타일 */
 .sponsors-section {
     padding: 80px 0;
-    background-color: var(--light-bg); /* 배경색을 약간 다르게 하여 구분 */
+    background-color: var(--light-bg);
+    /* 배경색을 약간 다르게 하여 구분 */
 }
 
 .sponsors-grid {
@@ -268,12 +318,14 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 50px; /* 로고 사이 간격 */
+    gap: 50px;
+    /* 로고 사이 간격 */
     margin-top: 40px;
 }
 
 .sponsor-item {
-    width: 200px; /* 로고 너비 고정 */
+    width: 200px;
+    /* 로고 너비 고정 */
     height: 100px;
     display: flex;
     align-items: center;
@@ -281,13 +333,13 @@ body {
     background: white;
     padding: 15px;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
     transition: var(--transition);
 }
 
 .sponsor-item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .sponsor-item img {
