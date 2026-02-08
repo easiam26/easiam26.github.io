@@ -1,0 +1,76 @@
+---
+layout: default
+title: Committees
+---
+
+<section id="organizing" class="section bg-light">
+    <div class="container">
+        <h2 class="section-title">Committees</h2>
+
+        <div class="committee-group">
+            <h3 class="committee-subtitle">Local Chairs</h3>
+            <div class="committee-grid chairs">
+                {% for member in site.data.committees.local_chairs %}
+                <div class="member-card">
+                    <div class="member-info">
+                        <h4>{{ member.name }}</h4>
+                        <p>{{ member.affiliation }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="committee-group">
+            <h3 class="committee-subtitle">Local Organizing Committee</h3>
+            <div class="committee-grid">
+                {% for member in site.data.committees.local_organizing %}
+                <div class="member-card">
+                    <div class="member-info">
+                        <h4>{{ member.name }}</h4>
+                        <p>{{ member.affiliation }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="scientific" class="section">
+    <div class="container">
+        <h2 class="section-title">Scientific Committee</h2>
+
+        {% if site.data.committees.advisory.size > 0 %}
+        <div class="committee-group">
+            <h3 class="committee-subtitle">EASIAM Advisory Committee</h3>
+            <div class="committee-grid">
+                {% for member in site.data.committees.advisory %}
+                <div class="member-card">
+                    <div class="member-info">
+                        <h4>{{ member.name }}</h4>
+                        <p>{{ member.affiliation }}{% if member.country %}, {{ member.country }}{% endif %}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if site.data.committees.executive.size > 0 %}
+        <div class="committee-group">
+            <h3 class="committee-subtitle">EASIAM Executive Committee</h3>
+            <div class="committee-grid">
+                {% for member in site.data.committees.executive %}
+                <div class="member-card">
+                    <div class="member-info">
+                        <h4>{{ member.name }}</h4>
+                        <p>{{ member.affiliation }}{% if member.country %}, {{ member.country }}{% endif %}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</section>

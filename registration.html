@@ -1,0 +1,26 @@
+---
+layout: default
+title: Registration
+---
+
+<main class="container" style="padding: 60px 0;">
+    <h2 style="margin-bottom:40px; color:var(--primary-color);">Registration Fees</h2>
+    <table class="reg-table">
+        <thead>
+            <tr style="background:#f8f9fa;">
+                <th>Category</th>
+                <th>Early Bird (By {{ site.data.registration.categories[0].early_deadline }})</th>
+                <th>Regular (After {{ site.data.registration.categories[0].early_deadline }})</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for category in site.data.registration.categories %}
+            <tr>
+                <td>{{ category.name }}</td>
+                <td>{{ category.early_bird }}</td>
+                <td>{{ category.regular }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</main>

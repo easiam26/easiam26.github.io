@@ -1,0 +1,26 @@
+# Site settings
+title: EASIAM 2026
+description: 19th East Asia SIAM Annual Meeting - August 23-27, 2026, Jeju Island, Korea
+url: "" # Leave empty for GitHub Pages auto-detection
+baseurl: "" # Leave empty if hosting at username.github.io/
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"

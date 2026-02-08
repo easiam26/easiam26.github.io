@@ -1,0 +1,19 @@
+- name: "NIMS"
+  logo: "logo_nims.png"
+  alt: "NIMS Logo"
+
+- name: "MINDS"
+  logo: "logo_minds.png"
+  alt: "MINDS Logo"
+
+- name: "POSTECH Math"
+  logo: "logo_postechmath.png"
+  alt: "POSTECH Math Logo"
+
+- name: "SIAM"
+  logo: "logo_siam.png"
+  alt: "SIAM Logo"
+
+- name: "KSIAM"
+  logo: "logo_ksiam.png"
+  alt: "KSIAM Logo"

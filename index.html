@@ -1,0 +1,50 @@
+---
+layout: default
+title: Home
+---
+
+<header class="hero">
+    <div class="hero-bg">
+        <img src="{{ '/assets/images/bg_jeju.png' | relative_url }}" alt="Jeju Island">
+        <div class="overlay"></div>
+    </div>
+    <div class="container">
+        <h1 class="hero-title">{{ site.data.conference.name }}</h1>
+        <h2>{{ site.data.conference.dates }} | {{ site.data.conference.venue }}</h2>
+    </div>
+</header>
+
+<section id="about" class="section">
+    <div class="container">
+        <h2 class="section-title">About EASIAM 2026</h2>
+        <p>{{ site.data.conference.about }}</p>
+    </div>
+</section>
+
+<section id="dates" class="section">
+    <div class="container">
+        <h2 class="section-title">Important Dates</h2>
+        <ul class="date-list">
+            {% for date in site.data.dates %}
+            <li>
+                <strong>{{ date.name }}{% if date.subtitle %}<br>
+                    <span style="font-size: 0.9em; font-weight: normal;">{{ date.subtitle }}</span>{% endif %}:</strong>
+                <span>{{ date.date }}</span>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
+
+<section id="sponsors" class="sponsors-section">
+    <div class="container">
+        <h2 class="section-title">Organizers</h2>
+        <div class="sponsors-grid">
+            {% for org in site.data.organizers %}
+            <div class="sponsor-item">
+                <img src="{{ '/assets/images/' | append: org.logo | relative_url }}" alt="{{ org.alt }}">
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

@@ -1,0 +1,36 @@
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="{{ '/' | relative_url }}" class="logo">{{ site.data.conference.short_name }}</a>
+        <ul class="nav-links">
+            <li><a href="{{ '/' | relative_url }}">Home</a></li>
+            <li class="dropdown">
+                <a href="#">About</a>
+                <ul class="dropdown-menu">
+                    <li><a href="{{ '/committees' | relative_url }}#organizing">Organizing Committee</a></li>
+                    <li><a href="{{ '/committees' | relative_url }}#scientific">Scientific Committee</a></li>
+                    <li><a href="{{ '/contact' | relative_url }}">Contact</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Program</a>
+                <ul class="dropdown-menu">
+                    <li><a href="{{ '/speakers' | relative_url }}#plenary">Plenary Speakers</a></li>
+                    <li><a href="{{ '/speakers' | relative_url }}#invited">Invited Speakers</a></li>
+                    <li><a href="{{ '/minisymposiums' | relative_url }}">Mini-symposiums</a></li>
+                </ul>
+            </li>
+            <li><a href="{{ '/registration' | relative_url }}">Registration</a></li>
+            <li class="dropdown">
+                <a href="#">Submission</a>
+                <ul class="dropdown-menu">
+                    <li><a href="{{ '/minisymposium-submission' | relative_url }}">Minisymposium</a></li>
+                    <li><a href="{{ '/submission' | relative_url }}">Abstract Submission</a></li>
+                </ul>
+            </li>
+            <li><a href="{{ '/venue' | relative_url }}">Venue</a></li>
+            <li><a href="{{ '/minisymposium-submission' | relative_url }}"
+                    style="background: var(--primary-color); color: white; padding: 8px 16px; border-radius: 4px; font-weight: bold;">Proposal</a>
+            </li>
+        </ul>
+    </div>
+</nav>

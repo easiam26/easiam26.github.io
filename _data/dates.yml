@@ -1,0 +1,19 @@
+- name: "Minisymposium Proposals Deadline"
+  date: "March 31, 2026"
+
+- name: "Notification of Minisymposium Acceptance"
+  date: "April 7, 2026"
+
+- name: "Abstract Submission Deadline"
+  subtitle: "(Minisymposium, Contributed Talks, and Posters)"
+  date: "May 31, 2026"
+
+- name: "Notification of Abstract Acceptance"
+  subtitle: "(Contributed Talks, and Posters)"
+  date: "June 7, 2026"
+
+- name: "Early Bird Registration Deadline"
+  date: "June 30, 2026"
+
+- name: "Conference Dates"
+  date: "August 23-27, 2026"
