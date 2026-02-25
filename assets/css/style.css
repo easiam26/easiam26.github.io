@@ -276,6 +276,28 @@ body {
     border-bottom: none;
 }
 
+/* Table 스타일 (Registration) */
+.reg-table {
+    width: 60%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.reg-table th,
+.reg-table td {
+    padding: 12px;
+    border: 1px solid #eee;
+    text-align: center;
+}
+
+.reg-table th {
+    background-color: var(--light-bg);
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
 /* Footer */
 footer {
     background-color: var(--primary-color);
