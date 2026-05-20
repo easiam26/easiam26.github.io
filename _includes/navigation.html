@@ -1,7 +1,8 @@
 <nav class="navbar">
     <div class="nav-container">
-        <a href="{{ '/' | relative_url }}" class="logo">{{ site.data.conference.short_name }}</a>
-
+        <a href="{{ '/' | relative_url }}" class="logo">
+            <img src="{{ '/assets/images/logo_easiam2026.png' | relative_url }}" alt="EASIAM 2026" style="height: 50px; width: auto; vertical-align: middle;">
+        </a>
         <!-- Hamburger menu button for mobile -->
         <button class="hamburger" id="hamburger" aria-label="Toggle menu">
             <span></span>
@@ -11,6 +12,16 @@
 
         <ul class="nav-links" id="navLinks">
             <li><a href="{{ '/' | relative_url }}">Home</a></li>
+            <li class="dropdown">
+                <a href="#">General Information</a>
+                <ul class="dropdown-menu">
+                    <li><a href="{{ '/jeju' | relative_url }}">Jeju</a></li>
+                    <li><a href="{{ '/travel-grant' | relative_url }}">Travel Grant</a></li>
+                    <li><a href="{{ '/accommodation' | relative_url }}">Accommodation</a></li>
+                    <li><a href="{{ '/excursion' | relative_url }}">Excursion</a></li>
+                    <li><a href="{{ '/visa-information' | relative_url }}">Visa Information</a></li>
+                </ul>
+            </li>
             <li class="dropdown">
                 <a href="#">About</a>
                 <ul class="dropdown-menu">
@@ -37,9 +48,15 @@
             </li>
             <li><a href="{{ '/student-paper-prize' | relative_url }}">Student Paper Prize</a></li>
             <li><a href="{{ '/venue' | relative_url }}">Venue</a></li>
-            <li><a href="{{ '/minisymposium-submission' | relative_url }}"
-                    style="background: var(--primary-color); color: white; padding: 8px 16px; border-radius: 4px; font-weight: bold;">Proposal</a>
+            <li><a href="{{ '/submission' | relative_url }}"
+                    style="background: var(--primary-color); color: white;
+                    padding: 8px 16px; border-radius: 4px; font-weight:
+                    bold;">Submission</a>
             </li>
+<!--            <li><a href="{{ '/registration' | relative_url }}"
+                    style="background: var(--primary-color); color: white; padding: 8px 16px; border-radius: 4px; font-weight: bold;">Registration</a>
+            </li>
+            --!>
         </ul>
     </div>
 </nav>
