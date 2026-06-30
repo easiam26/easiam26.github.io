@@ -11,13 +11,16 @@
   date: "June 14, 2026"
 
 - name: "Abstract Submission Deadline (MS)"
-  date: "June 30, 2026"
+  date: "<strike>June 30, 2026</strike> July 15, 2026"
 
 - name: "Early Bird Registration Deadline"
-  date: "June 30, 2026"
+  date: "<strike>June 30, 2026</strike> July 15, 2026"
 
 - name: "Notification of Abstract Acceptance"
   date: "July 15, 2026"
+
+- name: "Travel Award Application Deadline"
+  date: "July 17, 2026"
 
 - name: "Conference Dates"
   date: "August 23-27, 2026"
