@@ -1,0 +1,106 @@
+plenary:
+  - name: Carol S. Woodward
+    photo: /assets/images/speakers/carol-s-woodward.jpg
+    photo_alt: Portrait of Carol S. Woodward
+    talk_title: Adaptive Time Integration Methods, Software, and Applications
+    abstract:
+      - >-
+        Adaptive time integration has become an essential tool for the efficient and accurate simulation of time-dependent science and engineering applications. In this presentation, we examine the value of adaptive stepping strategies for controlling error and reducing computational cost. We then develop the formulation of both fixed step and newly developed adaptive multirate methods, emphasizing how these multirate approaches exploit disparate temporal scales to achieve greater efficiency than standard single-rate schemes. A further focus is on software infrastructure, where robust implementations of adaptive and multirate integrators enable practical deployment in large-scale scientific computing. We highlight how these methods are hardened in reliable software frameworks and discuss their use in applications spanning quantum dynamics, combustion, and nuclear physics. Together, these examples demonstrate the impact of advanced time integration methods on the simulation of complex physical systems and underscore the interplay between numerical analysis, algorithm design, and scientific software development.
+    bio:
+      - >-
+        Dr. Carol Woodward is a Distinguished Member of the Technical Staff at Lawrence Livermore National Laboratory and currently serves as President of the Society for Industrial and Applied Mathematics (SIAM). She received her PhD in Computational and Applied Mathematics from Rice University and has been at Lawrence Livermore National Laboratory in the Center for Applied Scientific Computing since then. She is the Director of the Frameworks, Algorithms, and Software Technologies (FASTMath) Institute, a 10-institution effort to provide numerical algorithms expertise and software to scientists across the United States Department of Energy. She also leads the development and deployment of the SUNDIALS package of time integrators and nonlinear solvers which garners over 100,000 downloads/clones each year. Her research interests include numerical methods for nonlinear partial differential equations, nonlinear and linear solvers, time integration methods, numerical software development, and parallel computing. Dr. Woodward was named to the 2017 Class of Fellows of SIAM and to the 2021 Class of Fellows of the Association for Women in Mathematics. In 2023 Dr. Woodward was a co-winner of the ACM/SIAM Prize in Computational Science and Engineering as part of the SUNDIALS Core Development Team.
+
+  - name: Shi Jin
+    photo: /assets/images/speakers/shi-jin.jpg
+    photo_alt: Portrait of Shi Jin
+    talk_title: Quantum Computations of nonlinear PDEs and the UnitaryLab Software
+    abstract:
+      - >-
+        Quantum computers are designed based on quantum mechanics principle, they are most suitable to solve the Schrodinger equation, and linear PDEs (and ODEs) evolved by unitary operators. Nonlinearity and Nonunitarity are the main challenges for quantum simulations of PDEs.
+      - >-
+        For linear PDEs (and ODEs) Schroginerization provides a general method to unitarize them for quantum simulation. For nonlinear problems we first introduce our quantum algorithms for (nonlinear) Hamiton-Jacobi equations, for both multi-valued solutions and viscosity solutions that are needed beyond the formation of caustics. We also introduce quantum algorithms for Young measures associated with nonlinear PDEs, which are effective tools to compute weak solutions to nonlinear PDEs that have singular solutions such as shocks, caustics, physical instabilities or (random) uncertainties.
+      - >-
+        We also introduce “UnitaryLab”, which is an AI-powered research software package of quantum algorithms for scientific computing.
+    bio:
+      - >-
+        Shi Jin is the Director of Institute of Natural Sciences, and Chair Professor of Mathematics, at Shanghai Jiao Tong University. He also serves as a director of Ministry of Education Key Lab on Scientific and Engineering Computing, and director of Shanghai Jiao Tong University Chongqing Artificial Intelligence Institute.
+      - >-
+        He received a Feng Kang Prize of Scientific Computing in 2001, a Morningside Silver Medal in 2007, a Shanghai Natural Science Prize (first class) in 2024, a “Frontier of Science“ award in International Congress of Basic Sciences in 2025, and a Shanghai Jiao Tong University Ruiyuan Science and Technology Grand Prize in 2026. He is an inaugural Fellow of the American Mathematical Society (AMS) (2012), a Fellow of Society of Industrial and Applied Mathematics (SIAM) (2013), an inaugural Fellow of the Chinese Society of Industrial and Applied Mathematics (CSIAM) (2020), an Invited Speaker at the International Congress of Mathematicians in 2018 and at the International Congress of Industry and Applied Mathematics in 2027. In 2021 he was elected a Foreign Member of Academia Europaea and a Fellow of European Academy of Sciences.
+      - >-
+        His research interests include kinetic theory, hyperbolic conservation laws, quantum dynamics, uncertainty quantification, interacting particle systems， computational fluid dynamics, machine learning and quantum computing, etc. He has published over 250 papers in Acta Numerica, Comm. Pure Appl. Math., PNAS, Phys. Rev. Lett., etc.
+
+  - name: Myungjoo Kang
+    photo: /assets/images/speakers/myungjoo-kang.jpg
+    photo_alt: Portrait of Myungjoo Kang
+    talk_title: Deep Learning-Based Surface Reconstruction from Point Clouds
+    abstract:
+      - >-
+        In this presentation, we introduce an advanced deep learning approach for reconstructing surfaces from unorganized point clouds. By leveraging an implicit surface representation through a level set function, our method ensures watertight results and seamlessly adapts to various topologies. We employ the p-Poisson equation to precisely learn the signed distance function (SDF), improving accuracy through a variable splitting strategy that incorporates the SDF gradient as an auxiliary variable. Additionally, we enforce a curl-free condition on the auxiliary variable to exploit the irrotational nature of conservative vector fields. Our numerical results illustrate that this strategic integration of partial differential equations and key vector field characteristics efficiently reconstructs high-quality surfaces without the need for prior surface knowledge
+    bio: []
+
+invited:
+  - name: Te-Sheng Lin
+    photo: /assets/images/speakers/te-sheng-lin.png
+    photo_alt: Portrait of Te-Sheng Lin
+    talk_title: Structure-Aware Scientific Machine Learning for Interface Problems
+    abstract:
+      - >-
+        Interface problems arise in a broad range of applications, including multiphase flows, materials science, and biological membranes. Their numerical solution is challenging because jumps, derivative discontinuities, singular sources, and geometric constraints are often concentrated near lower-dimensional interfaces. Standard PINNs and neural PDE solvers may fail to resolve these structures accurately due to their smooth and generic representations. In this talk, I will present structure-aware scientific machine learning methods for interface-related PDEs. The main theme is to incorporate interface geometry, jump conditions, singular structures, and classical numerical discretizations into neural solvers. These methods demonstrate how scientific machine learning can move beyond black-box approximation toward neural PDE solvers that respect the analytical structure of interface problems.
+    bio:
+      - >-
+        Te-Sheng Lin is a Professor in the Department of Applied Mathematics at National Yang Ming Chiao Tung University, Taiwan. He received his Ph.D. in Mathematical Sciences from the New Jersey Institute of Technology in 2012. His research interests include numerical analysis, partial differential equations, scientific computing, fluid dynamics, and scientific machine learning. His recent work focuses on structure-aware computational methods for PDEs and scientific machine learning. He also works on coherent structures and nonlinear pattern formation in fluid dynamics, as well as interdisciplinary data-driven modeling in experimental and biomedical sciences.
+
+  - name: Zhenli Xu
+    photo: /assets/images/speakers/zhenli-xu.png
+    photo_alt: Portrait of Zhenli Xu
+    talk_title: Machine-Learning Interatomic Potentials for Long-Range Systems
+    abstract:
+      - >-
+        Machine-learning interatomic potentials have emerged as a revolutionary class of force-field models in molecular simulations, delivering quantum-mechanical accuracy at a fraction of the computational cost and enabling the simulation of large-scale systems over extended timescales. However, they often focus on modeling local environments, neglecting crucial long-range interactions. We propose a Sum-of-Gaussians Neural Network (SOG-Net), a lightweight and versatile framework for integrating long-range interactions into machine learning force field. The SOG-Net employs a latent-variable learning network that seamlessly bridges short-range and long-range components, coupled with an efficient Fourier convolution layer that incorporates long-range effects. By learning sum-of-Gaussians multipliers across different convolution layers, the SOG-Net adaptively captures diverse long-range decay behaviors while maintaining close-to-linear computational complexity during training and simulation via non-uniform fast Fourier transforms. The method is demonstrated effective for a broad range of long-range systems.
+    bio:
+      - >-
+        Zhenli Xu is a distinguished professor at School of Mathematical Sciences, Shanghai Jiao Tong University (SJTU). He received B.S. and Ph.D. degrees from University of Science and Technology of China, and was postdoctoral fellow at University of North Carolina at Charlotte and Humboldt fellow at University of Stuttgart. He joined SJTU in 2010. He was selected in the National Youth Top-notch Talent Program of Central Organization Department of China in 2012, and awarded the National Science Fund for Distinguished Young Scholars in 2023. Professor Xu is in the editorial boards of journals of Advances in Applied Mathematics and Mechanics, Communications in Mathematical Sciences, and Mathematical and Computational Applications. His research fields include fast algorithms and high performance computing, machine learning, molecular dynamics and and numerical PDEs.
+
+  - name: Guanghui Hu
+    photo: /assets/images/speakers/guanghui-hu.jpg
+    photo_alt: Portrait of Guanghui Hu
+    talk_title: "Towards extreme efficiency: numerical methods for PDEs in AI era"
+    abstract:
+      - >-
+        Partial differential equations (PDEs) are foundational to computational science, but the rise of "AI for Science" demands unprecedented efficiency from traditional numerical methods. Concurrently, the emergence of a new computing paradigm fusing physical mechanisms with data, coupled with rapid hardware advancements, offers fresh opportunities to push the efficiency limits of classical solvers. In this talk, we will review our recent progress in high-performance PDE numerical methods, focusing on the application of adaptive mesh refinement, treecode algorithms, and multigrid techniques in computational physics, highlighting their superior efficiency and accuracy in domains like fluid dynamics. Central to these advancements is AFEPack, an open-source C++ numerical library developed by the speaker and collaborators. We elaborate on its design philosophy, the implementation of these acceleration techniques via low-level data structures, and the development of specialized libraries for targeted physical disciplines. Finally, we present a reinforcement learning framework for airfoil optimization driven by our derivative library, AFVM4CFD, analyzing key implementation challenges and demonstrating its competitiveness through numerical results. Ultimately, this talk highlights viable pathways to extreme efficiency in traditional numerical methods, aiming to inspire next-generation fusion paradigms between physical mechanisms and machine learning.
+    bio:
+      - >-
+        Dr. Guanghui Hu is a Professor in the Department of Mathematics at the University of Macau and is affiliated with the State Key Laboratory of Internet of Things for Smart City. He received his B.Sc. (2003) and M.Sc. (2006) from Sichuan University, and his Ph.D. (2010) from Hong Kong Baptist University. He served as a postdoctoral researcher at Michigan State University from 2010 to 2012. His research focuses on numerical methods for partial differential equations and computational physics. His work is supported by grants from the National Natural Science Foundation of China and FDCT of Macao SAR, and he has authored over 60 publications. He serves on the editorial boards of Communications in Computational Physics and Advances in Applied Mathematics and Mechanics, as well as the Chinese journal Mathematics Numerica Sinica. He also serves as a member of the Executive Committee of the SIAM East Asian Section and the China Society for Computational Mathematics.
+
+  - name: Kenji Kajiwara
+    photo: /assets/images/speakers/kenji-kajiwara.png
+    photo_alt: Portrait of Kenji Kajiwara
+    talk_title: "Geometric Shape Generation: Integrability, Artisticity and Mechanical Optimality"
+    abstract:
+      - >-
+        Recently, I have been working with colleagues in differential geometry, architecture, and industrial design to pioneer the field of geometric shape generation where integrable systems play a crucial role. While integrable systems describe universal structures in a sense, the equations and the solutions they define are “special.” In geometric shape generation, this special nature often leads to the definition of meaningful, unique shapes, for example, “aesthetic” shapes, or shapes possessing mechanical optimality. In this talk, while reviewing these special shapes, I will discuss on two topics. The first concerns log-aesthetic curves (LAC), which were introduced in the field of industrial design as a family of curves considered aesthetic by car designers. Recently, their symmetry “self-affinity” (similar to the self-similarity of fractal figures) has been mathematically formulated, and a new family of “aesthetic curves”, including the quadratic curves, has been obtained within the framework of Klein geometry. The second topic concerns classical truss structures in the field of architecture known as the Michell structures, which combine integrability, artisticity and mechanical optimality. I will report on recent results regarding Michell-Prager-type truss structures defined by discrete power functions and discrete logarithmic functions described by the Painlevé VI equation.
+    bio:
+      - >-
+        Kenji Kajiwara is a professor and the founding member of the Institute of Mathematics for Industry (IMI), Kyushu University, Japan since 2011. He has been Director of the IMI since 2022. He was awarded a Ph.D. from The University of Tokyo in 1994, then served as a lecturer and an associate professor at Doshisha University, Kyoto, Japan in 1994-2001. In 2001 he moved to the Faculty of Mathematics, Kyushu University and served as an associate professor in 2001-2009, then a professor in 2009-2011. His mathematical expertise is integrable systems and (discrete) differential geometry. He is contributing to the mathematical community in Japan by serving as a Vice President of Japan SIAM for 2020-2022, together with an associate member of the Science Council of Japan since 2023. At the international level, he has been serving as the Council Member of the Asia Pacific Consortium of Mathematics for Industry (APCMfI) since 2021 and also an Officer-at-Large of the International Council for Industrial and Applied Mathematics (ICIAM) since 2023.
+
+  - name: Zhi Zhou
+    photo: /assets/images/speakers/zhi-zhou.jpg
+    photo_alt: Portrait of Zhi Zhou
+    talk_title: "The Parareal Algorithm Revisited: Toward Parallel-in-Time Integration"
+    abstract:
+      - >-
+        The parareal algorithm is one of the most widely studied and effective parallel-in-time methods for the numerical approximation of time-dependent problems. Its main idea is to combine a computationally inexpensive coarse solver, which provides a rough prediction of the solution over large time steps, with a more accurate but expensive fine solver, which is applied in parallel on coarse time subintervals to iteratively improve the approximation. In recent years, this approach has attracted considerable attention as a promising strategy for accelerating large-scale simulations of evolutionary partial differential equations. In this talk, I will present some of our recent work on the development, analysis, and application of parareal algorithms for PDEs. I will begin with parabolic equations, where we investigate how to design and optimize the coarse propagator so as to improve the performance of the parareal algorithm and achieve optimal convergence rates. I will then discuss an extension of the framework to linear multistep methods, with particular emphasis on the treatment and correction of initial values on each coarse time subinterval in order to maintain stability and accuracy. Finally, I will turn to the application of parareal algorithms to non-diffusive models, where the absence of smoothing effects introduces additional analytical and computational challenges.
+    bio:
+      - >-
+        Zhi Zhou is currently a Professor in the Department of Applied Mathematics at The Hong Kong Polytechnic University. Before joining PolyU in 2017, he received his Ph.D. from Texas A&M University in 2015 and conducted postdoctoral research at Columbia University from 2015 to 2017. His research interests include numerical analysis of partial differential equations, scientific computing, nonlocal models, and computational inverse problems. He has published one monograph and more than eighty research papers. His contributions have been recognized with the Early Career Award from the Hong Kong Research Grants Council, the Frontier of Science Award at the International Congress of Basic Science 2024, and his selection as a Highly Cited Researcher in Mathematics by Clarivate.
+
+  - name: Mikyoung Lim
+    photo: /assets/images/speakers/mikyoung-lim.png
+    photo_alt: Portrait of Mikyoung Lim
+    talk_title: Direct and inverse problems for inclusions via layer potentials
+    abstract:
+      - >-
+        Inclusion problems arise naturally in materials science and imaging, where one seeks to understand the effects of embedded structures or reconstruct the geometry and material properties of the inclusions. In this talk, I discuss both direct and inverse problems for inclusions governed by partial differential equations. Since inverse problems are closely related to the corresponding direct problems, I first present solution methods based on layer potential techniques and complex analysis. I then discuss several imaging and cloaking results for simply connected and multi-coated inclusions. In particular, I present an analytic inversion formula for planar conductivity inclusions, which provides an explicit reconstruction of the inclusion geometry from exterior measurements. I also discuss homogenization-based approaches to the design of cloaking structures.
+    bio:
+      - >-
+        Mikyoung Lim is a professor in the Department of Mathematical Sciences at KAIST. She received her Ph.D. in mathematics from Seoul National University in 2003. She held postdoctoral and faculty positions at École Polytechnique and Colorado State University before joining KAIST. Her research interests include inverse problems, imaging, composite materials, spectral analysis of integral operators, and data-driven approaches to inverse problems. She received the MediaV Young Researcher Award at the 2014 International Conference on Inverse Problems (ICIP) and was a plenary speaker at the Applied Inverse Problems (AIP) Conference 2025.

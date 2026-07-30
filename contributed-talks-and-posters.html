@@ -1,0 +1,87 @@
+---
+layout: default
+title: Contributed Talks and Posters
+permalink: /contributed-talks-and-posters/
+---
+
+<main class="program-page">
+    <header class="program-hero">
+        <div class="container">
+            <h1>Contributed Talks and Posters</h1>
+        </div>
+    </header>
+
+    <section class="section program-section" data-program-tools>
+        <div class="container">
+            <div class="program-toolbar">
+                <label class="program-search">
+                    <span>Search presentations</span>
+                    <input type="search" data-program-search placeholder="Search by speaker, affiliation, or title…" autocomplete="off">
+                </label>
+                <button type="button" class="program-button" data-print-program>Print</button>
+            </div>
+
+            <div class="program-tabs" role="tablist" aria-label="Presentation type">
+                <button type="button" class="program-tab-button active" role="tab" aria-selected="true" aria-controls="contributed-talks" data-program-tab="contributed-talks">Contributed Talks</button>
+                <button type="button" class="program-tab-button" role="tab" aria-selected="false" aria-controls="poster-presentations" data-program-tab="poster-presentations">Poster Presentations</button>
+            </div>
+
+            <section id="contributed-talks" class="program-tab-panel active" role="tabpanel">
+                <p class="program-intro">Contributed talks are organized into seven thematic sessions. Select a session to view its schedule and presentations.</p>
+                <p class="program-empty" data-program-empty hidden>No contributed talks match your search.</p>
+                <div class="program-accordion-list">
+                    {% assign ct_sessions = site.data.program.sessions | where: "program_type", "CT" %}
+                    {% for session in ct_sessions %}
+                    {% assign session_talks = site.data.program.talks | where: "session_id", session.session_id %}
+                    {% assign slot = site.data.program.slots | where: "slot_id", session.slot_id | first %}
+                    <details class="program-card searchable-item">
+                        <summary>
+                            <span class="program-card-id">{{ session.session_id | escape }}</span>
+                            <span class="program-card-heading">
+                                <strong>{{ session.title | escape }}</strong>
+                                <small>{{ slot.date | date: "%A, %B %d" }} · {{ slot.start }}–{{ slot.end }} · Room {{ session.room | escape }}</small>
+                            </span>
+                            <span class="program-card-toggle" aria-hidden="true"></span>
+                        </summary>
+                        <div class="program-card-body">
+                            <ol class="talk-list">
+                                {% for talk in session_talks %}
+                                <li>
+                                    <div class="talk-meta"><span>{{ talk.start }}–{{ talk.end }}</span><span>Room {{ talk.room | escape }}</span></div>
+                                    <h4>{{ talk.title | escape }}</h4>
+                                    <p class="talk-speaker"><strong>{{ talk.speaker | escape }}</strong>{% if talk.affiliation %} <span>({{ talk.affiliation | escape }})</span>{% endif %}</p>
+                                    {% if talk.authors %}<p class="talk-authors">Authors: {{ talk.authors | escape }}</p>{% endif %}
+                                    {% if talk.abstract %}<p class="talk-abstract">{{ talk.abstract | escape }}</p>{% endif %}
+                                </li>
+                                {% endfor %}
+                            </ol>
+                        </div>
+                    </details>
+                    {% endfor %}
+                </div>
+            </section>
+
+            <section id="poster-presentations" class="program-tab-panel" role="tabpanel" hidden>
+                <p class="program-intro">Poster Session: Tuesday, August 25, 17:10–18:40, Room H. Select a poster to view authors and abstract.</p>
+                <p class="program-empty" data-program-empty hidden>No posters match your search.</p>
+                <div class="poster-grid">
+                    {% for poster in site.data.program.posters %}
+                    <details class="poster-card searchable-item">
+                        <summary>
+                            <span class="poster-number">Poster {{ poster.poster_number }}</span>
+                            <strong>{{ poster.title | escape }}</strong>
+                            <span class="poster-speaker">{{ poster.speaker | escape }}{% if poster.affiliation %} · {{ poster.affiliation | escape }}{% endif %}</span>
+                        </summary>
+                        <div class="poster-card-body">
+                            {% if poster.authors %}<p><strong>Authors:</strong> {{ poster.authors | escape }}</p>{% endif %}
+                            {% if poster.abstract %}<p>{{ poster.abstract | escape }}</p>{% endif %}
+                        </div>
+                    </details>
+                    {% endfor %}
+                </div>
+            </section>
+        </div>
+    </section>
+</main>
+
+<script src="{{ '/assets/js/program.js' | relative_url }}" defer></script>

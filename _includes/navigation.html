@@ -30,11 +30,14 @@
                 </ul>
             </li>
             <li class="dropdown">
-                <a href="#">Program</a>
+                <a href="{{ '/program-at-a-glance' | relative_url }}">Program</a>
                 <ul class="dropdown-menu">
-                    <li><a href="{{ '/speakers' | relative_url }}#plenary">Plenary Speakers</a></li>
-                    <li><a href="{{ '/speakers' | relative_url }}#invited">Invited Speakers</a></li>
-                    <li><a href="{{ '/minisymposiums' | relative_url }}">Mini-symposiums</a></li>
+                    <li><a href="{{ '/program-at-a-glance' | relative_url }}">Program at a Glance</a></li>
+                    <li><a href="{{ '/plenary-speakers' | relative_url }}">Plenary Speakers</a></li>
+                    <li><a href="{{ '/invited-speakers' | relative_url }}">Invited Speakers</a></li>
+                    <li><a href="{{ '/minisymposia' | relative_url }}">Minisymposia</a></li>
+                    <li><a href="{{ '/contributed-talks-and-posters' | relative_url }}">Contributed Talks and Posters</a></li>
+                    <li><a href="{{ '/student-chapter-session' | relative_url }}">Student-Chapter Session</a></li>
                 </ul>
             </li>
             <li><a href="{{ '/registration' | relative_url }}">Registration</a></li>
@@ -56,7 +59,7 @@
 <!--            <li><a href="{{ '/registration' | relative_url }}"
                     style="background: var(--primary-color); color: white; padding: 8px 16px; border-radius: 4px; font-weight: bold;">Registration</a>
             </li>
-            --!>
+            -->
         </ul>
     </div>
 </nav>
@@ -83,9 +86,22 @@
     // Close menu when clicking a link
     navLinks.querySelectorAll('a').forEach(link => {
         link.addEventListener('click', function () {
-            if (window.innerWidth <= 768) {
+            if (window.innerWidth <= 768 && !link.matches('.dropdown > a')) {
                 navLinks.classList.remove('active');
                 hamburger.classList.remove('active');
+            }
+        });
+    });
+
+    // On mobile, the first tap opens a dropdown; its submenu links remain navigable.
+    navLinks.querySelectorAll('.dropdown > a').forEach(link => {
+        link.addEventListener('click', function (event) {
+            if (window.innerWidth <= 768) {
+                event.preventDefault();
+                const dropdown = link.parentElement;
+                const willOpen = !dropdown.classList.contains('active');
+                navLinks.querySelectorAll('.dropdown.active').forEach(item => item.classList.remove('active'));
+                dropdown.classList.toggle('active', willOpen);
             }
         });
     });

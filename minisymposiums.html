@@ -1,9 +1,94 @@
 ---
 layout: default
-title: Mini-symposiums
+title: Minisymposia
+permalink: /minisymposia/
 ---
 
-<main class="container" style="padding: 60px 0;">
-    <h2 id="minisymposium" style="margin-bottom:40px; color:var(--primary-color);">Mini-symposiums</h2>
-    <p style="text-align:center;"></p>
+<main class="program-page">
+    <header class="program-hero">
+        <div class="container">
+            <h1>Minisymposia</h1>
+        </div>
+    </header>
+
+    <section class="section program-section" data-program-tools>
+        <div class="container">
+            <div class="program-toolbar">
+                <label class="program-search">
+                    <span>Search minisymposia</span>
+                    <input type="search" data-program-search placeholder="Search by session, organizer, speaker, or title…" autocomplete="off">
+                </label>
+                <div class="program-actions">
+                    <button type="button" class="program-button program-button-secondary" data-details-action="open">Open all</button>
+                    <button type="button" class="program-button program-button-secondary" data-details-action="close">Close all</button>
+                    <button type="button" class="program-button" data-print-program>Print</button>
+                </div>
+            </div>
+
+            <p class="program-intro">Select a minisymposium to see its schedule and full list of public talks. Times and rooms follow the current working program.</p>
+            <p class="program-empty" data-program-empty hidden>No minisymposia match your search.</p>
+
+            <div class="program-accordion-list">
+                {% assign ms_sessions = site.data.program.sessions | where: "program_type", "MS" %}
+                {% assign ms_groups = ms_sessions | group_by: "parent_program_id" %}
+                {% for group in ms_groups %}
+                {% assign first_session = group.items | first %}
+                {% assign group_talks = site.data.program.talks | where: "parent_program_id", group.name %}
+                <details class="program-card searchable-item">
+                    <summary>
+                        <span class="program-card-id">{{ group.name | escape }}</span>
+                        <span class="program-card-heading">
+                            <strong>{{ first_session.title | escape }}</strong>
+                            <small>Main organizer: {{ first_session.main_organizer | escape }}{% if first_session.main_organizer_affiliation %} ({{ first_session.main_organizer_affiliation | escape }}){% endif %} · {{ group_talks.size }} talk{% if group_talks.size != 1 %}s{% endif %}</small>
+                        </span>
+                        <span class="program-card-toggle" aria-hidden="true"></span>
+                    </summary>
+                    <div class="program-card-body">
+                        <div class="organizer-panel">
+                            <h3>Organizers</h3>
+                            <p><strong>Main organizer:</strong> {{ first_session.main_organizer | escape }}{% if first_session.main_organizer_affiliation %} <span>({{ first_session.main_organizer_affiliation | escape }})</span>{% endif %}</p>
+                            {% assign co_organizer_count = first_session.co_organizers | size %}
+                            {% if co_organizer_count > 0 %}
+                            <ul>
+                                {% for organizer in first_session.co_organizers %}
+                                <li><strong>Co-organizer:</strong> {{ organizer.name | escape }}{% if organizer.affiliation %} <span>({{ organizer.affiliation | escape }})</span>{% endif %}</li>
+                                {% endfor %}
+                            </ul>
+                            {% endif %}
+                        </div>
+                        <div class="session-schedule-list">
+                            {% for session in group.items %}
+                            {% assign slot = site.data.program.slots | where: "slot_id", session.slot_id | first %}
+                            <div class="session-schedule-item">
+                                <strong>{{ session.session_id | escape }}</strong>
+                                <span>{{ slot.date | date: "%A, %B %d" }}</span>
+                                <span>{{ slot.start }}–{{ slot.end }}</span>
+                                <span>Room {{ session.room | escape }}</span>
+                            </div>
+                            {% endfor %}
+                        </div>
+
+                        <h3>Program &amp; Speakers</h3>
+                        <ol class="talk-list">
+                            {% for talk in group_talks %}
+                            <li>
+                                <div class="talk-meta">
+                                    <span>{{ talk.session_id | escape }} · {{ talk.start }}–{{ talk.end }}</span>
+                                    <span>Room {{ talk.room | escape }}</span>
+                                </div>
+                                <h4>{{ talk.title | escape }}</h4>
+                                <p class="talk-speaker"><strong>{{ talk.speaker | escape }}</strong>{% if talk.affiliation %} <span>({{ talk.affiliation | escape }})</span>{% endif %}</p>
+                                {% if talk.authors %}<p class="talk-authors">Authors: {{ talk.authors | escape }}</p>{% endif %}
+                                {% if talk.abstract %}<p class="talk-abstract">{{ talk.abstract | escape }}</p>{% endif %}
+                            </li>
+                            {% endfor %}
+                        </ol>
+                    </div>
+                </details>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
 </main>
+
+<script src="{{ '/assets/js/program.js' | relative_url }}" defer></script>

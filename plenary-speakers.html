@@ -1,0 +1,74 @@
+---
+layout: default
+title: Plenary Speakers
+permalink: /plenary-speakers/
+---
+
+<main class="program-page">
+    <header class="program-hero">
+        <div class="container">
+            <h1>Plenary Speakers</h1>
+        </div>
+    </header>
+
+    <section class="section program-section">
+        <div class="container">
+            <div class="speaker-profile-list">
+                {% assign plenary_events = site.data.program.fixed_program | where: "event_type", "Plenary" %}
+                {% for event in plenary_events %}
+                {% assign profile = site.data.speakers.plenary | where: "name", event.speaker | first %}
+                {% assign detail = site.data.speaker_details.plenary | where: "name", event.speaker | first %}
+                {% assign abstract_count = detail.abstract | size %}
+                {% assign bio_count = detail.bio | size %}
+                <article class="speaker-profile-card has-photo">
+                    {% if detail.photo %}
+                    <div class="speaker-photo-wrap">
+                        <img src="{{ detail.photo | relative_url }}" alt="{{ detail.photo_alt | escape }}" class="speaker-photo">
+                    </div>
+                    {% else %}
+                    <div class="speaker-photo-wrap speaker-photo-placeholder" role="img" aria-label="Photo coming soon for {{ event.speaker | escape }}">
+                        <span>Photo<br>coming soon</span>
+                    </div>
+                    {% endif %}
+                    <div class="speaker-profile-content">
+                        <span class="program-badge">{{ event.title | escape }}</span>
+                        <h2>{{ event.speaker | escape }}</h2>
+                        {% if profile.affiliation %}<p class="speaker-affiliation">{{ profile.affiliation | escape }}</p>{% endif %}
+
+                        {% if detail.talk_title %}
+                        <p class="speaker-talk-label">Talk</p>
+                        <h3 class="speaker-talk-title">{{ detail.talk_title | escape }}</h3>
+                        {% endif %}
+
+                        <dl class="speaker-schedule">
+                            <div><dt>Date</dt><dd>{{ event.date | date: "%A, %B %d" }}</dd></div>
+                            <div><dt>Time</dt><dd>{{ event.start }}–{{ event.end }}</dd></div>
+                            <div><dt>Room</dt><dd>{{ event.room | escape }}</dd></div>
+                        </dl>
+
+                        {% if abstract_count > 0 or bio_count > 0 %}
+                        <details class="speaker-details">
+                            <summary>{% if bio_count > 0 %}Abstract &amp; Biography{% else %}Abstract{% endif %}</summary>
+                            <div class="speaker-details-body">
+                                {% if abstract_count > 0 %}
+                                <section>
+                                    <h4>Abstract</h4>
+                                    {% for paragraph in detail.abstract %}<p>{{ paragraph | escape }}</p>{% endfor %}
+                                </section>
+                                {% endif %}
+                                {% if bio_count > 0 %}
+                                <section>
+                                    <h4>Biography</h4>
+                                    {% for paragraph in detail.bio %}<p>{{ paragraph | escape }}</p>{% endfor %}
+                                </section>
+                                {% endif %}
+                            </div>
+                        </details>
+                        {% endif %}
+                    </div>
+                </article>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+</main>

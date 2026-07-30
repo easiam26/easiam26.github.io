@@ -1,38 +1,28 @@
 ---
 layout: default
-title: Speakers
+title: Program Speakers
+permalink: /speakers/
+published: false
 ---
 
-<main class="container" style="padding: 60px 0;">
-    <section id="plenary" class="section">
-        <h2 class="section-title">Plenary Speakers</h2>
-        <div class="committee-group">
-            <div class="committee-grid">
-                {% for main_speaker in site.data.speakers.plenary %}
-                <div class="member-card">
-                    <div class="member-info">
-                        <h4>{{ main_speaker.name }}</h4>
-                        <p>{{ main_speaker.affiliation }}</p>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
+<main class="program-page">
+    <header class="program-hero">
+        <div class="container">
+            <h1>Program Speakers</h1>
         </div>
-    </section>
-
-    <section id="invited" class="section bg-light" style="margin-top: 40px;">
-        <h2 class="section-title">Invited Speakers</h2>
-        <div class="committee-group">
-            <div class="committee-grid">
-                {% for speaker in site.data.speakers.invited %}
-                <div class="member-card">
-                    <div class="member-info">
-                        <h4>{{ speaker.name }}</h4>
-                        <p>{{ speaker.affiliation }}</p>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
+    </header>
+    <section class="section program-section">
+        <div class="container program-link-grid">
+            <a class="program-link-card" href="{{ '/plenary-speakers' | relative_url }}">
+                <span class="program-badge">3 lectures</span>
+                <strong>Plenary Speakers</strong>
+                <span>View plenary speakers and lecture times.</span>
+            </a>
+            <a class="program-link-card" href="{{ '/invited-speakers' | relative_url }}">
+                <span class="program-badge">6 lectures</span>
+                <strong>Invited Speakers</strong>
+                <span>View invited speakers and lecture times.</span>
+            </a>
         </div>
     </section>
 </main>
