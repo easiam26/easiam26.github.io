@@ -1,0 +1,30 @@
+nearby_hotels:
+  - name: "Jeju Palace Hotel"
+    address: "9, Tapdong-ro (Samdo 2-dong), Jeju-si"
+    distance: "0.4 km"
+    website: "http://www.cjpalace.co.kr/"
+    booking_url: "https://www.booking.com/searchresults.html?ss=Jeju%20Palace%20Hotel%2C%20Jeju"
+
+  - name: "Jeju Pacific Hotel"
+    address: "20, Seosa-ro (Yongdam 1-dong), Jeju-si"
+    distance: "0.7 km"
+    website: "http://www.jejupacific.co.kr/"
+    booking_url: "https://www.booking.com/hotel/kr/jeju-pacific.html"
+
+  - name: "Hotel RegentMarine Jeju"
+    address: "20, Seobudu 2-gil (Geonip-dong), Jeju-si"
+    distance: "0.7 km"
+    website: "https://www.hotelrmblue.com/en/"
+    booking_url: "https://www.booking.com/hotel/kr/regentmarine-the-blue.html"
+
+  - name: "Hotel Whistlelark Jeju"
+    address: "26, Seobudu 2-gil, Jeju-si"
+    distance: "0.7 km"
+    website: "http://www.whistlelark.co.kr/?lang=en"
+    booking_url: "https://www.booking.com/hotel/kr/whistle.html"
+
+  - name: "Jeju Galaxy Hotel"
+    address: "33, Namseong-ro (Yongdam 1-dong), Jeju-si"
+    distance: "1.7 km"
+    website: "http://jejugalaxyhotel.com/"
+    booking_url: "https://www.booking.com/searchresults.html?ss=Jeju%20Galaxy%20Hotel%2C%20Jeju"

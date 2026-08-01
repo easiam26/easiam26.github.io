@@ -3,21 +3,43 @@ layout: default
 title: Accommodation
 ---
 
-<main class="container" style="padding: 60px 0;">
-    <h2 style="margin-bottom:40px; color:var(--primary-color);">Accommodation</h2>
-    
-    <div style="max-width: 800px; margin: 0 auto; text-align: center;">
-    <div style="line-height: 1.6;">
-        <p style="font-size: 1.1em; margin-bottom: 20px;"><strong>The official conference hotel is the Oriental Hotel, Jeju Island, Korea.</strong></p>
-        
-        <p>The Oriental Hotel will also serve as the main venue for EASIAM 2026. Participants may choose to stay at the conference hotel or at nearby hotels in Jeju City.</p>
-        
-        <p style="margin-top: 20px;">
-            <a href="https://www.oriental.co.kr/view/index.do?SS_SVC_LANG_CODE=ENG" target="_blank" rel="noopener noreferrer" style="color: var(--primary-color); font-weight: bold; text-decoration: none;">Visit Oriental Hotel Website &rarr;</a>
-        </p>
+<main class="container accommodation-page">
+    <h1>Accommodation</h1>
 
-        <div style="background: #eef2f5; padding: 20px; border-left: 4px solid var(--primary-color); margin-top: 30px;">
-            <p style="margin-bottom: 0;">More information on accommodation options near the conference venue will be updated soon.</p>
+    <section class="venue-hotel" aria-labelledby="venue-hotel-title">
+        <p class="accommodation-kicker">Official Conference Hotel &amp; Venue</p>
+        <h2 id="venue-hotel-title">Jeju Oriental Hotel</h2>
+        <p>Jeju Oriental Hotel is the official conference hotel and the main venue for EASIAM 2026. Participants may stay at the conference hotel or choose one of the nearby hotels listed below.</p>
+        <p class="hotel-address">47, Tapdong-ro, Jeju-si</p>
+        <a class="hotel-link hotel-link-primary" href="https://www.oriental.co.kr/view/index.do?SS_SVC_LANG_CODE=ENG" target="_blank" rel="noopener noreferrer">Hotel Website</a>
+    </section>
+
+    <section class="nearby-hotels" aria-labelledby="nearby-hotels-title">
+        <div class="accommodation-heading">
+            <p class="accommodation-kicker">Nearby Accommodation</p>
+            <h2 id="nearby-hotels-title">Hotels near the conference venue</h2>
+            <p>Distances are approximate straight-line distances from Jeju Oriental Hotel. Actual walking and driving distances may vary.</p>
         </div>
-    </div>
+
+        <div class="hotel-grid">
+            {% for hotel in site.data.accommodation.nearby_hotels %}
+            <article class="hotel-card">
+                <div>
+                    <h3>{{ hotel.name }}</h3>
+                    <p class="hotel-address">{{ hotel.address }}</p>
+                </div>
+                <p class="hotel-distance">
+                    <span>Distance from the venue:</span>
+                    <strong>{{ hotel.distance }}</strong>
+                </p>
+                <div class="hotel-actions">
+                    <a class="hotel-link hotel-link-primary" href="{{ hotel.website }}" target="_blank" rel="noopener noreferrer">Hotel Website</a>
+                    <a class="hotel-link hotel-link-secondary" href="{{ hotel.booking_url }}" target="_blank" rel="noopener noreferrer">Booking.com Link</a>
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+
+        <p class="booking-disclaimer">EASIAM 2026 is not affiliated with, endorsed by, or sponsored by Booking.com or any other third-party booking platform. External links are provided solely for participants' convenience and do not constitute an endorsement.</p>
+    </section>
 </main>
