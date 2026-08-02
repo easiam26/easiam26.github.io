@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "generated_on": "2026-07-30",
+  "generated_on": "2026-08-03",
   "source": "master/EASIAM2026_program_management_master.xlsx",
   "publication_policy": {
     "excludes_private_email": true,
@@ -660,12 +660,12 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Dispersive PDEs: Modeling, Analysis and Numerical Simulations",
-      "main_organizer": "Weizhu Bao",
-      "main_organizer_affiliation": "National University of Singapore",
+      "main_organizer": "Yue Feng",
+      "main_organizer_affiliation": "Xi'an Jiaotong University",
       "co_organizers": [
         {
-          "name": "Yue Feng",
-          "affiliation": "Xi'an Jiaotong University"
+          "name": "Weizhu Bao",
+          "affiliation": "National University of Singapore"
         }
       ],
       "slot_id": "D3S1",
@@ -678,12 +678,12 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Dispersive PDEs: Modeling, Analysis and Numerical Simulations",
-      "main_organizer": "Weizhu Bao",
-      "main_organizer_affiliation": "National University of Singapore",
+      "main_organizer": "Yue Feng",
+      "main_organizer_affiliation": "Xi'an Jiaotong University",
       "co_organizers": [
         {
-          "name": "Yue Feng",
-          "affiliation": "Xi'an Jiaotong University"
+          "name": "Weizhu Bao",
+          "affiliation": "National University of Singapore"
         }
       ],
       "slot_id": "D3S2",
@@ -696,11 +696,11 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Recent Advances in AI for Scientific Computing",
-      "main_organizer": "Youngjoon Hong",
+      "main_organizer": "Jinsil Lee",
       "main_organizer_affiliation": "Seoul National University",
       "co_organizers": [
         {
-          "name": "Jinsil Lee",
+          "name": "Youngjoon Hong",
           "affiliation": "Seoul National University"
         },
         {
@@ -718,11 +718,11 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Recent Advances in AI for Scientific Computing",
-      "main_organizer": "Youngjoon Hong",
+      "main_organizer": "Jinsil Lee",
       "main_organizer_affiliation": "Seoul National University",
       "co_organizers": [
         {
-          "name": "Jinsil Lee",
+          "name": "Youngjoon Hong",
           "affiliation": "Seoul National University"
         },
         {
@@ -820,11 +820,11 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Recent advances in analysis and numerical methods for wave scattering problems",
-      "main_organizer": "Weiying Zheng",
+      "main_organizer": "Tao Yin",
       "main_organizer_affiliation": "Academy of Mathematics and Systems Science, Chinese Academy of Sciences",
       "co_organizers": [
         {
-          "name": "Tao Yin",
+          "name": "Weiying Zheng",
           "affiliation": "Academy of Mathematics and Systems Science, Chinese Academy of Sciences"
         }
       ],
@@ -838,11 +838,11 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Recent advances in analysis and numerical methods for wave scattering problems",
-      "main_organizer": "Weiying Zheng",
+      "main_organizer": "Tao Yin",
       "main_organizer_affiliation": "Academy of Mathematics and Systems Science, Chinese Academy of Sciences",
       "co_organizers": [
         {
-          "name": "Tao Yin",
+          "name": "Weiying Zheng",
           "affiliation": "Academy of Mathematics and Systems Science, Chinese Academy of Sciences"
         }
       ],
@@ -856,8 +856,8 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Advances in Computational Mathematics and Machine Learning for Scientific\nComputing",
-      "main_organizer": "Bing-Ze Lu",
-      "main_organizer_affiliation": "Department of Mathematics,National Chung Cheng University, Taiwan",
+      "main_organizer": "BingZe Lu",
+      "main_organizer_affiliation": "Department of mathematics, National Chung Cheng University",
       "co_organizers": [
         {
           "name": "Yu-Chen Shu",
@@ -874,8 +874,8 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Advances in Computational Mathematics and Machine Learning for Scientific\nComputing",
-      "main_organizer": "Bing-Ze Lu",
-      "main_organizer_affiliation": "Department of Mathematics,National Chung Cheng University, Taiwan",
+      "main_organizer": "BingZe Lu",
+      "main_organizer_affiliation": "Department of mathematics, National Chung Cheng University",
       "co_organizers": [
         {
           "name": "Yu-Chen Shu",
@@ -927,12 +927,12 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Numerical PDEs for scientific machine learning and the vice versa",
-      "main_organizer": "Eric Chung",
-      "main_organizer_affiliation": "The Chinese University of Hong Kong",
+      "main_organizer": "Hyea Hyun Kim",
+      "main_organizer_affiliation": "Kyung Hee University",
       "co_organizers": [
         {
-          "name": "Hyea Hyun Kim",
-          "affiliation": "Kyung Hee University"
+          "name": "Eric Chung",
+          "affiliation": "The Chinese University of Hong Kong"
         }
       ],
       "slot_id": "D1S3",
@@ -945,12 +945,12 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Numerical PDEs for scientific machine learning and the vice versa",
-      "main_organizer": "Eric Chung",
-      "main_organizer_affiliation": "The Chinese University of Hong Kong",
+      "main_organizer": "Hyea Hyun Kim",
+      "main_organizer_affiliation": "Kyung Hee University",
       "co_organizers": [
         {
-          "name": "Hyea Hyun Kim",
-          "affiliation": "Kyung Hee University"
+          "name": "Eric Chung",
+          "affiliation": "The Chinese University of Hong Kong"
         }
       ],
       "slot_id": "D1S4",
@@ -1002,11 +1002,11 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Numerical Methods for Semiconductor Device Simulation",
-      "main_organizer": "Weiying Zheng",
+      "main_organizer": "Donghang Zhang",
       "main_organizer_affiliation": "Academy of Mathematics and System Science, Chinese Academy of Sciences",
       "co_organizers": [
         {
-          "name": "Donghang Zhang",
+          "name": "Weiying Zheng",
           "affiliation": "Academy of Mathematics and System Science, Chinese Academy of Sciences"
         }
       ],
@@ -1020,11 +1020,11 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Numerical Methods for Semiconductor Device Simulation",
-      "main_organizer": "Weiying Zheng",
+      "main_organizer": "Donghang Zhang",
       "main_organizer_affiliation": "Academy of Mathematics and System Science, Chinese Academy of Sciences",
       "co_organizers": [
         {
-          "name": "Donghang Zhang",
+          "name": "Weiying Zheng",
           "affiliation": "Academy of Mathematics and System Science, Chinese Academy of Sciences"
         }
       ],
@@ -1083,7 +1083,7 @@
       "session_part": null,
       "title": "Verified and High-Performance Numerical Computation: Nonlinear Problems, Iterative Methods, and Matrix Multiplication Emulation",
       "main_organizer": "Katsuhisa Ozaki",
-      "main_organizer_affiliation": "Shibaura Institute of Technology, Japan",
+      "main_organizer_affiliation": "Shibaura Institute of Technology",
       "co_organizers": [],
       "slot_id": "D3S4",
       "room": "I1",
@@ -1096,7 +1096,7 @@
       "session_part": "A",
       "title": "Recent Advances in Computational Science with Machine Learning",
       "main_organizer": "Seungchan Ko",
-      "main_organizer_affiliation": "Department of Mathematics, Inha University",
+      "main_organizer_affiliation": "Inha University",
       "co_organizers": [
         {
           "name": "Changhoon Song",
@@ -1114,7 +1114,7 @@
       "session_part": "B",
       "title": "Recent Advances in Computational Science with Machine Learning",
       "main_organizer": "Seungchan Ko",
-      "main_organizer_affiliation": "Department of Mathematics, Inha University",
+      "main_organizer_affiliation": "Inha University",
       "co_organizers": [
         {
           "name": "Changhoon Song",
@@ -1131,16 +1131,16 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Recent Advances in Matrix Factorization: Theory and Algorithms",
-      "main_organizer": "Zhigang Jia",
-      "main_organizer_affiliation": "School of Mathematics and Statistics & RIMS, Jiangsu Normal University",
+      "main_organizer": "Jie Meng",
+      "main_organizer_affiliation": "Ocean University of China",
       "co_organizers": [
+        {
+          "name": "Zhigang Jia",
+          "affiliation": "School of Mathematics and Statistics & RIMS, Jiangsu Normal University"
+        },
         {
           "name": "Hyun-Min Kim",
           "affiliation": "Department of Mathematics, Pusan National University"
-        },
-        {
-          "name": "Jie Meng",
-          "affiliation": "School of Mathematical Sciences, Ocean University of China"
         }
       ],
       "slot_id": "D2S2",
@@ -1153,16 +1153,16 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Recent Advances in Matrix Factorization: Theory and Algorithms",
-      "main_organizer": "Zhigang Jia",
-      "main_organizer_affiliation": "School of Mathematics and Statistics & RIMS, Jiangsu Normal University",
+      "main_organizer": "Jie Meng",
+      "main_organizer_affiliation": "Ocean University of China",
       "co_organizers": [
+        {
+          "name": "Zhigang Jia",
+          "affiliation": "School of Mathematics and Statistics & RIMS, Jiangsu Normal University"
+        },
         {
           "name": "Hyun-Min Kim",
           "affiliation": "Department of Mathematics, Pusan National University"
-        },
-        {
-          "name": "Jie Meng",
-          "affiliation": "School of Mathematical Sciences, Ocean University of China"
         }
       ],
       "slot_id": "D2S3",
@@ -1263,11 +1263,11 @@
       "program_type": "MS",
       "session_part": null,
       "title": "Learning-Based Scientific Computation: Theory, Algorithms, and Applications",
-      "main_organizer": "Qianxiao Li",
+      "main_organizer": "Aiqing Zhu",
       "main_organizer_affiliation": "Department of Mathematics, National University of Singapore",
       "co_organizers": [
         {
-          "name": "Aiqing Zhu",
+          "name": "Qianxiao Li",
           "affiliation": "Department of Mathematics, National University of Singapore"
         },
         {
@@ -1286,7 +1286,7 @@
       "session_part": null,
       "title": "Recent Advances in Modeling and Numerical Methods for Interface Problems",
       "main_organizer": "Yu-Hau Tseng",
-      "main_organizer_affiliation": "Department of Applied Mathematics, National University of Kaohsiung, Taiwan",
+      "main_organizer_affiliation": "National University of Kaohsiung, Taiwan",
       "co_organizers": [
         {
           "name": "Wei-Fan Hu",
@@ -1307,16 +1307,16 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "High Order Numerical Methods: Design, Analysis, and Applications",
-      "main_organizer": "Juan Cheng",
-      "main_organizer_affiliation": "Capital Normal University",
+      "main_organizer": "Xinghui Zhong",
+      "main_organizer_affiliation": "Zhejiang University",
       "co_organizers": [
+        {
+          "name": "Juan Cheng",
+          "affiliation": "Capital Normal University"
+        },
         {
           "name": "Jie Du",
           "affiliation": "East China Normal University"
-        },
-        {
-          "name": "Xinghui Zhong",
-          "affiliation": "Zhejiang University"
         }
       ],
       "slot_id": "D1S3",
@@ -1329,16 +1329,16 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "High Order Numerical Methods: Design, Analysis, and Applications",
-      "main_organizer": "Juan Cheng",
-      "main_organizer_affiliation": "Capital Normal University",
+      "main_organizer": "Xinghui Zhong",
+      "main_organizer_affiliation": "Zhejiang University",
       "co_organizers": [
+        {
+          "name": "Juan Cheng",
+          "affiliation": "Capital Normal University"
+        },
         {
           "name": "Jie Du",
           "affiliation": "East China Normal University"
-        },
-        {
-          "name": "Xinghui Zhong",
-          "affiliation": "Zhejiang University"
         }
       ],
       "slot_id": "D1S4",
@@ -1351,15 +1351,15 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Numerical Methods and Computational Modeling for Complex Physical Systems",
-      "main_organizer": "Xia Ji",
-      "main_organizer_affiliation": "Beijing Institute of Technology",
+      "main_organizer": "Shuo Zhang",
+      "main_organizer_affiliation": "Academy of Mathematics and Systems Science, Chinese Academy of Sciences",
       "co_organizers": [
         {
-          "name": "Hehu Xie",
-          "affiliation": "Academy of Mathematics and Systems Science, Chinese Academy of Sciences"
+          "name": "Xia Ji",
+          "affiliation": "Beijing Institute of Technology"
         },
         {
-          "name": "Shuo Zhang",
+          "name": "Hehu Xie",
           "affiliation": "Academy of Mathematics and Systems Science, Chinese Academy of Sciences"
         }
       ],
@@ -1373,15 +1373,15 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Numerical Methods and Computational Modeling for Complex Physical Systems",
-      "main_organizer": "Xia Ji",
-      "main_organizer_affiliation": "Beijing Institute of Technology",
+      "main_organizer": "Shuo Zhang",
+      "main_organizer_affiliation": "Academy of Mathematics and Systems Science, Chinese Academy of Sciences",
       "co_organizers": [
         {
-          "name": "Hehu Xie",
-          "affiliation": "Academy of Mathematics and Systems Science, Chinese Academy of Sciences"
+          "name": "Xia Ji",
+          "affiliation": "Beijing Institute of Technology"
         },
         {
-          "name": "Shuo Zhang",
+          "name": "Hehu Xie",
           "affiliation": "Academy of Mathematics and Systems Science, Chinese Academy of Sciences"
         }
       ],
@@ -1525,12 +1525,12 @@
       "program_type": "MS",
       "session_part": null,
       "title": "Non-linear Wave Phenomena: From Quantum Interactions to Stochastic and Transonic Flows",
-      "main_organizer": "Shih-Wei Chou",
-      "main_organizer_affiliation": "Department of Financial Engineering and Actuarial Mathematics, Soochow University",
+      "main_organizer": "Ying-Chieh Lin",
+      "main_organizer_affiliation": "Department of Applied Mathematics, National University of Kaohsiung",
       "co_organizers": [
         {
-          "name": "Ying-Chieh Lin",
-          "affiliation": "Department of Applied Mathematics, National University of Kaohsiung"
+          "name": "Shih-Wei Chou",
+          "affiliation": "Department of Financial Engineering and Actuarial Mathematics, Soochow University"
         }
       ],
       "slot_id": "D3S3",
@@ -1543,12 +1543,12 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Low-Rank Tensor Approximation and Neural Sampling Methods for High-Dimensional Scientific Computing",
-      "main_organizer": "Qifeng Liao",
-      "main_organizer_affiliation": "ShanghaiTech University",
+      "main_organizer": "Kejun Tang",
+      "main_organizer_affiliation": "Great Bay University",
       "co_organizers": [
         {
-          "name": "Kejun Tang",
-          "affiliation": "Great Bay University"
+          "name": "Qifeng Liao",
+          "affiliation": "ShanghaiTech University"
         }
       ],
       "slot_id": "D3S1",
@@ -1561,12 +1561,12 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Low-Rank Tensor Approximation and Neural Sampling Methods for High-Dimensional Scientific Computing",
-      "main_organizer": "Qifeng Liao",
-      "main_organizer_affiliation": "ShanghaiTech University",
+      "main_organizer": "Kejun Tang",
+      "main_organizer_affiliation": "Great Bay University",
       "co_organizers": [
         {
-          "name": "Kejun Tang",
-          "affiliation": "Great Bay University"
+          "name": "Qifeng Liao",
+          "affiliation": "ShanghaiTech University"
         }
       ],
       "slot_id": "D3S2",
@@ -1579,16 +1579,16 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Uncertainty Quantification and Mathematical Foundations of Deep Learning: Recent Advances in Methods, Theory, and Applications",
-      "main_organizer": "Ling Guo",
-      "main_organizer_affiliation": "Shanghai Normal University",
+      "main_organizer": "Jiahua Jiang",
+      "main_organizer_affiliation": "ShanghaiTech University",
       "co_organizers": [
+        {
+          "name": "Ling Guo",
+          "affiliation": "Shanghai Normal University"
+        },
         {
           "name": "Liang Yan",
           "affiliation": "Southeast University"
-        },
-        {
-          "name": "Jiahua Jiang",
-          "affiliation": "ShanghaiTech University"
         }
       ],
       "slot_id": "D1S1",
@@ -1601,16 +1601,16 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Uncertainty Quantification and Mathematical Foundations of Deep Learning: Recent Advances in Methods, Theory, and Applications",
-      "main_organizer": "Ling Guo",
-      "main_organizer_affiliation": "Shanghai Normal University",
+      "main_organizer": "Jiahua Jiang",
+      "main_organizer_affiliation": "ShanghaiTech University",
       "co_organizers": [
+        {
+          "name": "Ling Guo",
+          "affiliation": "Shanghai Normal University"
+        },
         {
           "name": "Liang Yan",
           "affiliation": "Southeast University"
-        },
-        {
-          "name": "Jiahua Jiang",
-          "affiliation": "ShanghaiTech University"
         }
       ],
       "slot_id": "D1S2",
@@ -1663,16 +1663,16 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Fast Solvers for Multiphysics Problems",
-      "main_organizer": "Shihua Gong",
-      "main_organizer_affiliation": "The Chinese University of Hong Kong, Shenzhen",
+      "main_organizer": "Wei Wang",
+      "main_organizer_affiliation": "Academy of Mathematics and Systems Science, CAS",
       "co_organizers": [
+        {
+          "name": "Shihua Gong",
+          "affiliation": "The Chinese University of Hong Kong, Shenzhen"
+        },
         {
           "name": "Chupeng Ma",
           "affiliation": "Great Bay University"
-        },
-        {
-          "name": "Wei Wang",
-          "affiliation": "Academy of Mathematics and Systems Science, CAS"
         }
       ],
       "slot_id": "D4S2",
@@ -1685,16 +1685,16 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Fast Solvers for Multiphysics Problems",
-      "main_organizer": "Shihua Gong",
-      "main_organizer_affiliation": "The Chinese University of Hong Kong, Shenzhen",
+      "main_organizer": "Wei Wang",
+      "main_organizer_affiliation": "Academy of Mathematics and Systems Science, CAS",
       "co_organizers": [
+        {
+          "name": "Shihua Gong",
+          "affiliation": "The Chinese University of Hong Kong, Shenzhen"
+        },
         {
           "name": "Chupeng Ma",
           "affiliation": "Great Bay University"
-        },
-        {
-          "name": "Wei Wang",
-          "affiliation": "Academy of Mathematics and Systems Science, CAS"
         }
       ],
       "slot_id": "D4S3",
@@ -1747,12 +1747,12 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Multiscale modeling and numerical methods for multiphysics materials",
-      "main_organizer": "Xiang Yang",
-      "main_organizer_affiliation": "Hong Kong University of Science and Technology",
+      "main_organizer": "Luchan Zhang",
+      "main_organizer_affiliation": "Shenzhen University",
       "co_organizers": [
         {
-          "name": "Zhang Luchan",
-          "affiliation": "Shenzhen University"
+          "name": "Xiang Yang",
+          "affiliation": "Hong Kong University of Science and Technology"
         },
         {
           "name": "Qin Xiaoxue",
@@ -1769,12 +1769,12 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Multiscale modeling and numerical methods for multiphysics materials",
-      "main_organizer": "Xiang Yang",
-      "main_organizer_affiliation": "Hong Kong University of Science and Technology",
+      "main_organizer": "Luchan Zhang",
+      "main_organizer_affiliation": "Shenzhen University",
       "co_organizers": [
         {
-          "name": "Zhang Luchan",
-          "affiliation": "Shenzhen University"
+          "name": "Xiang Yang",
+          "affiliation": "Hong Kong University of Science and Technology"
         },
         {
           "name": "Qin Xiaoxue",
@@ -1791,16 +1791,16 @@
       "program_type": "MS",
       "session_part": null,
       "title": "PINNs and AI Agents for Engineering Applications",
-      "main_organizer": "Jae-Hyuk Lim",
-      "main_organizer_affiliation": "Kyunghee University",
+      "main_organizer": "Hyunseok Oh",
+      "main_organizer_affiliation": "GIST",
       "co_organizers": [
+        {
+          "name": "Jae-Hyuk Lim",
+          "affiliation": "Kyunghee University"
+        },
         {
           "name": "Seungchul Lee",
           "affiliation": "KAIST"
-        },
-        {
-          "name": "Hyunseok Oh",
-          "affiliation": "GIST"
         }
       ],
       "slot_id": "D3S3",
