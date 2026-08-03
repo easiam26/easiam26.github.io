@@ -959,13 +959,169 @@ footer {
     color: #35524d;
     font-size: 1.05rem;
     line-height: 1.75;
-    margin: 0 auto;
-    max-width: 860px;
+    margin: 0;
+    max-width: none;
     padding: 30px 34px 20px;
+    width: 100%;
 }
 
 .student-chapter-card p {
     margin: 0 0 1.25em;
+}
+
+.student-chapter-layout {
+    display: grid;
+    gap: 34px;
+}
+
+.student-program-feature,
+.student-chapter-program {
+    min-width: 0;
+}
+
+.student-section-eyebrow {
+    color: var(--primary-color);
+    font-size: 0.76rem;
+    font-weight: 850;
+    letter-spacing: 0.1em;
+    margin: 0 0 5px;
+    text-transform: uppercase;
+}
+
+.student-program-feature > h2,
+.student-section-heading h2 {
+    color: #173f3a;
+    font-size: 1.6rem;
+    line-height: 1.25;
+    margin: 0 0 16px;
+}
+
+.student-prize-card {
+    background: linear-gradient(135deg, #f4faf8 0%, #ffffff 72%);
+    border: 1px solid #b8d2cd;
+    border-top: 5px solid var(--secondary-color);
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(25, 47, 44, 0.07);
+    padding: 26px 30px 22px;
+}
+
+.student-session-meta {
+    display: grid;
+    gap: 14px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin: 0 0 24px;
+}
+
+.student-session-meta div {
+    border-left: 3px solid #a9c8c2;
+    padding-left: 12px;
+}
+
+.student-session-meta dt {
+    color: var(--light-text);
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+}
+
+.student-session-meta dd {
+    color: #173f3a;
+    font-weight: 750;
+    margin: 3px 0 0;
+}
+
+.student-prize-card h3,
+.student-chapter-card h2 {
+    color: #204c46;
+    font-size: 1.15rem;
+    margin: 8px 0 13px;
+}
+
+.student-prize-description {
+    color: #35524d;
+    font-size: 1rem;
+    line-height: 1.7;
+    margin: 0 0 22px;
+    max-width: 920px;
+}
+
+.student-finalist-list,
+.student-representative-list {
+    display: grid;
+    gap: 10px 16px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    list-style: none;
+    margin: 0;
+}
+
+.student-finalist-list li,
+.student-representative-list li {
+    background: rgba(234, 244, 242, 0.72);
+    border-radius: 8px;
+    display: grid;
+    gap: 2px;
+    padding: 11px 13px;
+}
+
+.student-finalist-list strong,
+.student-representative-list strong {
+    color: #173f3a;
+    font-size: 0.95rem;
+}
+
+.student-finalist-list span,
+.student-representative-list span {
+    color: var(--light-text);
+    font-size: 0.84rem;
+    line-height: 1.45;
+}
+
+.student-session-note {
+    color: var(--light-text);
+    font-size: 0.82rem;
+    margin: 17px 0 0;
+}
+
+.student-chapter-card h2 {
+    border-top: 1px solid #dfe9e7;
+    margin-top: 26px;
+    padding-top: 24px;
+}
+
+.student-section-heading {
+    align-items: end;
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.student-section-heading h2 {
+    margin-bottom: 5px;
+}
+
+.student-section-heading p:last-child {
+    color: var(--light-text);
+    margin: 0;
+}
+
+.student-program-search {
+    display: block;
+    margin-bottom: 18px;
+    max-width: none;
+}
+
+.student-session-intro {
+    margin-top: 24px;
+}
+
+.student-session-chair h3 {
+    margin: 0 0 4px;
+}
+
+.student-session-chair p {
+    margin: 0;
 }
 
 .speaker-profile-content {
@@ -1541,6 +1697,26 @@ footer {
 
     .student-chapter-card {
         padding: 24px 20px 14px;
+    }
+
+    .student-chapter-layout {
+        gap: 28px;
+    }
+
+    .student-prize-card {
+        padding: 22px 18px 18px;
+    }
+
+    .student-session-meta,
+    .student-finalist-list,
+    .student-representative-list {
+        grid-template-columns: 1fr;
+    }
+
+    .student-section-heading {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 16px;
     }
 
     .program-actions,

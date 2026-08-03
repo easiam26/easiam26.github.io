@@ -11,15 +11,120 @@ permalink: /student-chapter-session/
         </div>
     </header>
 
-    <section class="section program-section">
-        <div class="container">
-            <article class="student-chapter-card">
-                <p>The EASIAM 2026 Student Chapter Session brings together student members of SIAM Student Chapters from across Asia to share their research, exchange ideas, and build connections within the EASIAM community.</p>
+    <section class="section program-section" data-program-tools>
+        <div class="container student-chapter-layout">
+            {% assign spp_session = site.data.program.sessions | where: "session_id", "SPP" | first %}
+            {% assign spp_slot = site.data.program.slots | where: "slot_id", spp_session.slot_id | first %}
+            <section class="student-program-feature" aria-labelledby="student-paper-prize-heading">
+                <p class="student-section-eyebrow">Featured Session</p>
+                <h2 id="student-paper-prize-heading">Student Paper Prize (SPP)</h2>
+                <article class="student-prize-card">
+                    <dl class="student-session-meta">
+                        <div>
+                            <dt>Date</dt>
+                            <dd>{{ spp_slot.date | date: "%A, %B %d, %Y" }}</dd>
+                        </div>
+                        <div>
+                            <dt>Time</dt>
+                            <dd>{{ spp_slot.start }}–{{ spp_slot.end }}</dd>
+                        </div>
+                        <div>
+                            <dt>Room</dt>
+                            <dd>{{ spp_session.room | escape }}</dd>
+                        </div>
+                    </dl>
 
-                <p>The session will feature student-led research presentations and opportunities for discussion and networking. Through this program, participating chapters will introduce their activities and research interests, explore possibilities for future collaboration, and strengthen the regional student community in applied mathematics, computational science, and related fields.</p>
+                    <p class="student-prize-description">Five students have been selected from among the applicants to the EASIAM Student Paper Prize and will present their work in this session. Based on these presentations, three final prize recipients will be selected.</p>
 
-                <p>Students and early-career participants attending EASIAM 2026 are warmly encouraged to join the session.</p>
-            </article>
+                    <h3>Finalists</h3>
+                    <ul class="student-finalist-list">
+                        <li><strong>Ryoki Endo</strong><span>Niigata University</span></li>
+                        <li><strong>Heechang Kim</strong><span>Pohang University of Science and Technology</span></li>
+                        <li><strong>Peiying Wu</strong><span>Wuhan University</span></li>
+                        <li><strong>Yifei Sun</strong><span>Soochow University</span></li>
+                        <li><strong>Jingpu Cheng</strong><span>National University of Singapore</span></li>
+                    </ul>
+                    <p class="student-session-note">Talk titles and abstracts will be added when they become available.</p>
+                </article>
+            </section>
+
+            <section class="student-chapter-program" aria-labelledby="student-chapter-program-heading">
+                <div class="student-section-heading">
+                    <div>
+                        <p class="student-section-eyebrow">Student-Led Research</p>
+                        <h2 id="student-chapter-program-heading">Student-Chapter Program</h2>
+                    </div>
+                    <div class="program-actions">
+                        <button type="button" class="program-button program-button-secondary" data-details-action="open">Expand all</button>
+                        <button type="button" class="program-button program-button-secondary" data-details-action="close">Collapse all</button>
+                        <button type="button" class="program-button" data-print-program>Print</button>
+                    </div>
+                </div>
+
+                <article class="student-chapter-card">
+                    <p>The EASIAM 2026 Student Chapter Session brings together student members of SIAM Student Chapters from across Asia to share their research, exchange ideas, and build connections within the EASIAM community.</p>
+
+                    <p>The session will feature student-led research presentations and opportunities for discussion and networking. Through this program, participating chapters will introduce their activities and research interests, explore possibilities for future collaboration, and strengthen the regional student community in applied mathematics, computational science, and related fields.</p>
+
+                    <p>Students and early-career participants attending EASIAM 2026 are warmly encouraged to join the session.</p>
+
+                    <h2>Student Representatives</h2>
+                    <ul class="student-representative-list">
+                        <li><strong>Yuntong Huang</strong><span>President, HKUST SIAM Student Chapter</span></li>
+                        <li><strong>Jungmin Lee</strong><span>President, POSTECH SIAM Student Chapter</span></li>
+                        <li><strong>Heechang Kim</strong><span>POSTECH SIAM Student Chapter</span></li>
+                        <li><strong>Yihao Xu</strong><span>President, CUHK SIAM Student Chapter</span></li>
+                        <li><strong>Qizheng Yang</strong><span>Vice President, CUHK SIAM Student Chapter</span></li>
+                        <li><strong>Yiyang Li</strong><span>President, PolyU SIAM Student Chapter</span></li>
+                        <li><strong>Xinpeng Li</strong><span>CAS</span></li>
+                        <li><strong>Shunsuke Maeda</strong><span>Waseda University</span></li>
+                    </ul>
+                </article>
+
+                <p class="program-intro student-session-intro">Select a session to view its chair, speakers, talk titles, and abstracts.</p>
+
+                <label class="program-search student-program-search">
+                    <span>Search the Student-Chapter program</span>
+                    <input type="search" data-program-search placeholder="Search by session, speaker, affiliation, or title…" autocomplete="off">
+                </label>
+
+                <p class="program-empty" data-program-empty hidden>No Student-Chapter sessions match your search.</p>
+                <div class="program-accordion-list">
+                    {% assign student_sessions = site.data.program.sessions | where: "program_type", "CT-SC" %}
+                    {% for session in student_sessions %}
+                    {% assign session_talks = site.data.program.talks | where: "session_id", session.session_id %}
+                    {% assign slot = site.data.program.slots | where: "slot_id", session.slot_id | first %}
+                    <details class="program-card searchable-item">
+                        <summary>
+                            <span class="program-card-id">{{ session.public_label | escape }}</span>
+                            <span class="program-card-heading">
+                                <strong>{{ session.title | escape }}</strong>
+                                <small>{{ slot.date | date: "%A, %B %d" }} · {{ slot.start }}–{{ slot.end }} · Room {{ session.room | escape }} · Chair: {{ session.chair | escape }}</small>
+                            </span>
+                            <span class="program-card-toggle" aria-hidden="true"></span>
+                        </summary>
+                        <div class="program-card-body">
+                            <div class="organizer-panel student-session-chair">
+                                <h3>Session Chair</h3>
+                                <p>{{ session.chair | escape }}</p>
+                            </div>
+                            <ol class="talk-list">
+                                {% for talk in session_talks %}
+                                <li>
+                                    <div class="talk-meta"><span>Talk {{ talk.order }}</span><span>Room {{ talk.room | escape }}</span></div>
+                                    <h4>{{ talk.title | escape }}</h4>
+                                    <p class="talk-speaker"><strong>{{ talk.speaker | escape }}</strong>{% if talk.affiliation %} <span>({{ talk.affiliation | escape }})</span>{% endif %}</p>
+                                    {% if talk.abstract %}<p class="talk-abstract">{{ talk.abstract | escape }}</p>{% endif %}
+                                </li>
+                                {% endfor %}
+                            </ol>
+                        </div>
+                    </details>
+                    {% endfor %}
+                </div>
+            </section>
         </div>
     </section>
 </main>
+
+<script src="{{ '/assets/js/program.js' | relative_url }}" defer></script>

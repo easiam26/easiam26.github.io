@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "generated_on": "2026-08-03",
   "source": "master/EASIAM2026_program_management_master.xlsx",
   "publication_policy": {
@@ -10,7 +10,11 @@
     "ms_talk_max_minutes": 20,
     "five_talk_ms_minutes": 16,
     "ms_website_includes_co_organizers": true,
-    "at_a_glance_uses_main_organizer_only": true
+    "at_a_glance_uses_main_organizer_only": true,
+    "ct_student_chapter_details_published": true,
+    "ct_student_chapter_order_and_timing_pending_confirmation": true,
+    "spp_session_published": true,
+    "spp_talk_details_pending": true
   },
   "conference": {
     "name": "EASIAM 2026",
@@ -71,7 +75,8 @@
         "H3",
         "S1",
         "S2",
-        "I1"
+        "I1",
+        "M"
       ]
     },
     {
@@ -580,6 +585,7 @@
       "program_type": "MS",
       "session_part": null,
       "title": "Recent Progress in Partial Differential and Difference Equations",
+      "public_label": "MS01",
       "main_organizer": "Takiko Sasaki",
       "main_organizer_affiliation": "Musashino University",
       "co_organizers": [
@@ -588,6 +594,7 @@
           "affiliation": "Musashino University"
         }
       ],
+      "chair": null,
       "slot_id": "D1S2",
       "room": "I1",
       "talk_count": 5
@@ -598,9 +605,11 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Recent Topics in Applied Mathematics and Computation",
+      "public_label": "MS02A",
       "main_organizer": "Peter Chang-Yi Weng",
       "main_organizer_affiliation": "National Chiayi University",
       "co_organizers": [],
+      "chair": null,
       "slot_id": "D4S1",
       "room": "H3",
       "talk_count": 4
@@ -611,9 +620,11 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Recent Topics in Applied Mathematics and Computation",
+      "public_label": "MS02B",
       "main_organizer": "Peter Chang-Yi Weng",
       "main_organizer_affiliation": "National Chiayi University",
       "co_organizers": [],
+      "chair": null,
       "slot_id": "D4S2",
       "room": "H3",
       "talk_count": 4
@@ -624,6 +635,7 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Numerical analysis and applications of nonlocal models",
+      "public_label": "MS03A",
       "main_organizer": "Xiaobo Yin",
       "main_organizer_affiliation": "Central China Normal University",
       "co_organizers": [
@@ -632,6 +644,7 @@
           "affiliation": "Wuhan University"
         }
       ],
+      "chair": null,
       "slot_id": "D1S3",
       "room": "S2",
       "talk_count": 4
@@ -642,6 +655,7 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Numerical analysis and applications of nonlocal models",
+      "public_label": "MS03B",
       "main_organizer": "Xiaobo Yin",
       "main_organizer_affiliation": "Central China Normal University",
       "co_organizers": [
@@ -650,6 +664,7 @@
           "affiliation": "Wuhan University"
         }
       ],
+      "chair": null,
       "slot_id": "D1S4",
       "room": "S2",
       "talk_count": 4
@@ -660,6 +675,7 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Dispersive PDEs: Modeling, Analysis and Numerical Simulations",
+      "public_label": "MS04A",
       "main_organizer": "Yue Feng",
       "main_organizer_affiliation": "Xi'an Jiaotong University",
       "co_organizers": [
@@ -668,6 +684,7 @@
           "affiliation": "National University of Singapore"
         }
       ],
+      "chair": null,
       "slot_id": "D3S1",
       "room": "H1",
       "talk_count": 4
@@ -678,6 +695,7 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Dispersive PDEs: Modeling, Analysis and Numerical Simulations",
+      "public_label": "MS04B",
       "main_organizer": "Yue Feng",
       "main_organizer_affiliation": "Xi'an Jiaotong University",
       "co_organizers": [
@@ -686,6 +704,7 @@
           "affiliation": "National University of Singapore"
         }
       ],
+      "chair": null,
       "slot_id": "D3S2",
       "room": "H1",
       "talk_count": 4
@@ -696,6 +715,7 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Recent Advances in AI for Scientific Computing",
+      "public_label": "MS05A",
       "main_organizer": "Jinsil Lee",
       "main_organizer_affiliation": "Seoul National University",
       "co_organizers": [
@@ -708,6 +728,7 @@
           "affiliation": "Seoul National University"
         }
       ],
+      "chair": null,
       "slot_id": "D4S2",
       "room": "H1",
       "talk_count": 4
@@ -718,6 +739,7 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Recent Advances in AI for Scientific Computing",
+      "public_label": "MS05B",
       "main_organizer": "Jinsil Lee",
       "main_organizer_affiliation": "Seoul National University",
       "co_organizers": [
@@ -730,6 +752,7 @@
           "affiliation": "Seoul National University"
         }
       ],
+      "chair": null,
       "slot_id": "D4S3",
       "room": "H1",
       "talk_count": 4
@@ -740,6 +763,7 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Locally Conserved and Structure-Preserving Numerical Algorithms for Partial Differential Equations",
+      "public_label": "MS06A",
       "main_organizer": "Shuyu Sun",
       "main_organizer_affiliation": "Tongji University",
       "co_organizers": [
@@ -748,6 +772,7 @@
           "affiliation": "Yonsei University"
         }
       ],
+      "chair": null,
       "slot_id": "D1S1",
       "room": "H1",
       "talk_count": 4
@@ -758,6 +783,7 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Locally Conserved and Structure-Preserving Numerical Algorithms for Partial Differential Equations",
+      "public_label": "MS06B",
       "main_organizer": "Shuyu Sun",
       "main_organizer_affiliation": "Tongji University",
       "co_organizers": [
@@ -766,6 +792,7 @@
           "affiliation": "Yonsei University"
         }
       ],
+      "chair": null,
       "slot_id": "D1S2",
       "room": "H1",
       "talk_count": 4
@@ -776,6 +803,7 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Mathematics and AI for Scientific Computing",
+      "public_label": "MS07A",
       "main_organizer": "Yuqing Li",
       "main_organizer_affiliation": "East China Normal University",
       "co_organizers": [
@@ -788,6 +816,7 @@
           "affiliation": "Eastern Institute of Technology, Ningbo"
         }
       ],
+      "chair": null,
       "slot_id": "D4S1",
       "room": "S1",
       "talk_count": 4
@@ -798,6 +827,7 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Mathematics and AI for Scientific Computing",
+      "public_label": "MS07B",
       "main_organizer": "Yuqing Li",
       "main_organizer_affiliation": "East China Normal University",
       "co_organizers": [
@@ -810,6 +840,7 @@
           "affiliation": "Eastern Institute of Technology, Ningbo"
         }
       ],
+      "chair": null,
       "slot_id": "D4S2",
       "room": "S1",
       "talk_count": 4
@@ -820,6 +851,7 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Recent advances in analysis and numerical methods for wave scattering problems",
+      "public_label": "MS08A",
       "main_organizer": "Tao Yin",
       "main_organizer_affiliation": "Academy of Mathematics and Systems Science, Chinese Academy of Sciences",
       "co_organizers": [
@@ -828,6 +860,7 @@
           "affiliation": "Academy of Mathematics and Systems Science, Chinese Academy of Sciences"
         }
       ],
+      "chair": null,
       "slot_id": "D2S2",
       "room": "S2",
       "talk_count": 4
@@ -838,6 +871,7 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Recent advances in analysis and numerical methods for wave scattering problems",
+      "public_label": "MS08B",
       "main_organizer": "Tao Yin",
       "main_organizer_affiliation": "Academy of Mathematics and Systems Science, Chinese Academy of Sciences",
       "co_organizers": [
@@ -846,6 +880,7 @@
           "affiliation": "Academy of Mathematics and Systems Science, Chinese Academy of Sciences"
         }
       ],
+      "chair": null,
       "slot_id": "D2S3",
       "room": "S2",
       "talk_count": 4
@@ -856,6 +891,7 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Advances in Computational Mathematics and Machine Learning for Scientific\nComputing",
+      "public_label": "MS09A",
       "main_organizer": "BingZe Lu",
       "main_organizer_affiliation": "Department of mathematics, National Chung Cheng University",
       "co_organizers": [
@@ -864,6 +900,7 @@
           "affiliation": "Department of Mathematics, National Cheng Kung University, Taiwan"
         }
       ],
+      "chair": null,
       "slot_id": "D3S3",
       "room": "H1",
       "talk_count": 4
@@ -874,6 +911,7 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Advances in Computational Mathematics and Machine Learning for Scientific\nComputing",
+      "public_label": "MS09B",
       "main_organizer": "BingZe Lu",
       "main_organizer_affiliation": "Department of mathematics, National Chung Cheng University",
       "co_organizers": [
@@ -882,6 +920,7 @@
           "affiliation": "Department of Mathematics, National Cheng Kung University, Taiwan"
         }
       ],
+      "chair": null,
       "slot_id": "D3S4",
       "room": "H1",
       "talk_count": 3
@@ -892,9 +931,11 @@
       "program_type": "MS",
       "session_part": null,
       "title": "Modeling Health and Disease in the Age of AI",
+      "public_label": "MS10",
       "main_organizer": "Eunha Shim",
       "main_organizer_affiliation": "Department of Mathematics, Soongsil University",
       "co_organizers": [],
+      "chair": null,
       "slot_id": "D2S3",
       "room": "H1",
       "talk_count": 4
@@ -905,6 +946,7 @@
       "program_type": "MS",
       "session_part": null,
       "title": "Statistical Learning for Inverse Problem: Methodologies and Applications",
+      "public_label": "MS11",
       "main_organizer": "Hongqiao Wang",
       "main_organizer_affiliation": "Central South University",
       "co_organizers": [
@@ -917,6 +959,7 @@
           "affiliation": "Ocean University of China"
         }
       ],
+      "chair": null,
       "slot_id": "D3S4",
       "room": "S2",
       "talk_count": 5
@@ -927,6 +970,7 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Numerical PDEs for scientific machine learning and the vice versa",
+      "public_label": "MS12A",
       "main_organizer": "Hyea Hyun Kim",
       "main_organizer_affiliation": "Kyung Hee University",
       "co_organizers": [
@@ -935,6 +979,7 @@
           "affiliation": "The Chinese University of Hong Kong"
         }
       ],
+      "chair": null,
       "slot_id": "D1S3",
       "room": "H1",
       "talk_count": 4
@@ -945,6 +990,7 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Numerical PDEs for scientific machine learning and the vice versa",
+      "public_label": "MS12B",
       "main_organizer": "Hyea Hyun Kim",
       "main_organizer_affiliation": "Kyung Hee University",
       "co_organizers": [
@@ -953,6 +999,7 @@
           "affiliation": "The Chinese University of Hong Kong"
         }
       ],
+      "chair": null,
       "slot_id": "D1S4",
       "room": "H1",
       "talk_count": 4
@@ -963,9 +1010,11 @@
       "program_type": "MS",
       "session_part": null,
       "title": "Numerical Optimization and Related Applications",
+      "public_label": "MS13",
       "main_organizer": "Mei-Heng Yueh",
       "main_organizer_affiliation": "National Taiwan Normal University",
       "co_organizers": [],
+      "chair": null,
       "slot_id": "D2S1",
       "room": "S2",
       "talk_count": 4
@@ -976,9 +1025,11 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "New developments in numerical verification and analysis for nonlinear problems",
+      "public_label": "MS14A",
       "main_organizer": "Tomoyuki Miyaji",
       "main_organizer_affiliation": "Kyoto University",
       "co_organizers": [],
+      "chair": null,
       "slot_id": "D1S3",
       "room": "H3",
       "talk_count": 4
@@ -989,9 +1040,11 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "New developments in numerical verification and analysis for nonlinear problems",
+      "public_label": "MS14B",
       "main_organizer": "Tomoyuki Miyaji",
       "main_organizer_affiliation": "Kyoto University",
       "co_organizers": [],
+      "chair": null,
       "slot_id": "D1S4",
       "room": "H3",
       "talk_count": 4
@@ -1002,6 +1055,7 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Numerical Methods for Semiconductor Device Simulation",
+      "public_label": "MS15A",
       "main_organizer": "Donghang Zhang",
       "main_organizer_affiliation": "Academy of Mathematics and System Science, Chinese Academy of Sciences",
       "co_organizers": [
@@ -1010,6 +1064,7 @@
           "affiliation": "Academy of Mathematics and System Science, Chinese Academy of Sciences"
         }
       ],
+      "chair": null,
       "slot_id": "D2S1",
       "room": "S1",
       "talk_count": 4
@@ -1020,6 +1075,7 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Numerical Methods for Semiconductor Device Simulation",
+      "public_label": "MS15B",
       "main_organizer": "Donghang Zhang",
       "main_organizer_affiliation": "Academy of Mathematics and System Science, Chinese Academy of Sciences",
       "co_organizers": [
@@ -1028,6 +1084,7 @@
           "affiliation": "Academy of Mathematics and System Science, Chinese Academy of Sciences"
         }
       ],
+      "chair": null,
       "slot_id": "D2S2",
       "room": "S1",
       "talk_count": 3
@@ -1038,6 +1095,7 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Recent Advances in Numerical Shape and Topology Optimization Methods: From Theory to Practice",
+      "public_label": "MS16A",
       "main_organizer": "Wei Gong",
       "main_organizer_affiliation": "Academy of Mathematics and Systems Science, Chinese Academy of Sciences",
       "co_organizers": [
@@ -1050,6 +1108,7 @@
           "affiliation": "East China Normal University, China"
         }
       ],
+      "chair": null,
       "slot_id": "D4S2",
       "room": "S2",
       "talk_count": 4
@@ -1060,6 +1119,7 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Recent Advances in Numerical Shape and Topology Optimization Methods: From Theory to Practice",
+      "public_label": "MS16B",
       "main_organizer": "Wei Gong",
       "main_organizer_affiliation": "Academy of Mathematics and Systems Science, Chinese Academy of Sciences",
       "co_organizers": [
@@ -1072,6 +1132,7 @@
           "affiliation": "East China Normal University, China"
         }
       ],
+      "chair": null,
       "slot_id": "D4S3",
       "room": "S2",
       "talk_count": 4
@@ -1082,9 +1143,11 @@
       "program_type": "MS",
       "session_part": null,
       "title": "Verified and High-Performance Numerical Computation: Nonlinear Problems, Iterative Methods, and Matrix Multiplication Emulation",
+      "public_label": "MS17",
       "main_organizer": "Katsuhisa Ozaki",
       "main_organizer_affiliation": "Shibaura Institute of Technology",
       "co_organizers": [],
+      "chair": null,
       "slot_id": "D3S4",
       "room": "I1",
       "talk_count": 4
@@ -1095,6 +1158,7 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Recent Advances in Computational Science with Machine Learning",
+      "public_label": "MS18A",
       "main_organizer": "Seungchan Ko",
       "main_organizer_affiliation": "Inha University",
       "co_organizers": [
@@ -1103,6 +1167,7 @@
           "affiliation": "Research Institute of Mathematics, Seoul National University"
         }
       ],
+      "chair": null,
       "slot_id": "D1S1",
       "room": "S2",
       "talk_count": 4
@@ -1113,6 +1178,7 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Recent Advances in Computational Science with Machine Learning",
+      "public_label": "MS18B",
       "main_organizer": "Seungchan Ko",
       "main_organizer_affiliation": "Inha University",
       "co_organizers": [
@@ -1121,6 +1187,7 @@
           "affiliation": "Research Institute of Mathematics, Seoul National University"
         }
       ],
+      "chair": null,
       "slot_id": "D1S2",
       "room": "S2",
       "talk_count": 4
@@ -1131,6 +1198,7 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Recent Advances in Matrix Factorization: Theory and Algorithms",
+      "public_label": "MS19A",
       "main_organizer": "Jie Meng",
       "main_organizer_affiliation": "Ocean University of China",
       "co_organizers": [
@@ -1143,6 +1211,7 @@
           "affiliation": "Department of Mathematics, Pusan National University"
         }
       ],
+      "chair": null,
       "slot_id": "D2S2",
       "room": "I1",
       "talk_count": 4
@@ -1153,6 +1222,7 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Recent Advances in Matrix Factorization: Theory and Algorithms",
+      "public_label": "MS19B",
       "main_organizer": "Jie Meng",
       "main_organizer_affiliation": "Ocean University of China",
       "co_organizers": [
@@ -1165,6 +1235,7 @@
           "affiliation": "Department of Mathematics, Pusan National University"
         }
       ],
+      "chair": null,
       "slot_id": "D2S3",
       "room": "I1",
       "talk_count": 4
@@ -1175,6 +1246,7 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Topological data analysis and machine learning",
+      "public_label": "MS20A",
       "main_organizer": "Jae-Hun Jung",
       "main_organizer_affiliation": "POSTECH",
       "co_organizers": [
@@ -1187,6 +1259,7 @@
           "affiliation": "NTU"
         }
       ],
+      "chair": null,
       "slot_id": "D2S1",
       "room": "H3",
       "talk_count": 4
@@ -1197,6 +1270,7 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Topological data analysis and machine learning",
+      "public_label": "MS20B",
       "main_organizer": "Jae-Hun Jung",
       "main_organizer_affiliation": "POSTECH",
       "co_organizers": [
@@ -1209,6 +1283,7 @@
           "affiliation": "NTU"
         }
       ],
+      "chair": null,
       "slot_id": "D2S2",
       "room": "H3",
       "talk_count": 4
@@ -1219,6 +1294,7 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Recent developments in sampling methods, uncertainty quantification, and generative AI",
+      "public_label": "MS21A",
       "main_organizer": "Zhiwen Zhang",
       "main_organizer_affiliation": "The University of Hong Kong",
       "co_organizers": [
@@ -1231,6 +1307,7 @@
           "affiliation": "Nanyang Technological University"
         }
       ],
+      "chair": null,
       "slot_id": "D2S1",
       "room": "H1",
       "talk_count": 4
@@ -1241,6 +1318,7 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Recent developments in sampling methods, uncertainty quantification, and generative AI",
+      "public_label": "MS21B",
       "main_organizer": "Zhiwen Zhang",
       "main_organizer_affiliation": "The University of Hong Kong",
       "co_organizers": [
@@ -1253,6 +1331,7 @@
           "affiliation": "Nanyang Technological University"
         }
       ],
+      "chair": null,
       "slot_id": "D2S2",
       "room": "H1",
       "talk_count": 4
@@ -1263,6 +1342,7 @@
       "program_type": "MS",
       "session_part": null,
       "title": "Learning-Based Scientific Computation: Theory, Algorithms, and Applications",
+      "public_label": "MS22",
       "main_organizer": "Aiqing Zhu",
       "main_organizer_affiliation": "Department of Mathematics, National University of Singapore",
       "co_organizers": [
@@ -1275,6 +1355,7 @@
           "affiliation": "Institute for Functional Intelligent Materials, National University of Singapore"
         }
       ],
+      "chair": null,
       "slot_id": "D3S2",
       "room": "I1",
       "talk_count": 4
@@ -1285,6 +1366,7 @@
       "program_type": "MS",
       "session_part": null,
       "title": "Recent Advances in Modeling and Numerical Methods for Interface Problems",
+      "public_label": "MS23",
       "main_organizer": "Yu-Hau Tseng",
       "main_organizer_affiliation": "National University of Kaohsiung, Taiwan",
       "co_organizers": [
@@ -1297,6 +1379,7 @@
           "affiliation": "Department of Applied Mathematics, National University of Kaohsiung, Taiwan"
         }
       ],
+      "chair": null,
       "slot_id": "D2S1",
       "room": "I1",
       "talk_count": 4
@@ -1307,6 +1390,7 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "High Order Numerical Methods: Design, Analysis, and Applications",
+      "public_label": "MS24A",
       "main_organizer": "Xinghui Zhong",
       "main_organizer_affiliation": "Zhejiang University",
       "co_organizers": [
@@ -1319,6 +1403,7 @@
           "affiliation": "East China Normal University"
         }
       ],
+      "chair": null,
       "slot_id": "D1S3",
       "room": "I1",
       "talk_count": 4
@@ -1329,6 +1414,7 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "High Order Numerical Methods: Design, Analysis, and Applications",
+      "public_label": "MS24B",
       "main_organizer": "Xinghui Zhong",
       "main_organizer_affiliation": "Zhejiang University",
       "co_organizers": [
@@ -1341,6 +1427,7 @@
           "affiliation": "East China Normal University"
         }
       ],
+      "chair": null,
       "slot_id": "D1S4",
       "room": "I1",
       "talk_count": 4
@@ -1351,6 +1438,7 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Numerical Methods and Computational Modeling for Complex Physical Systems",
+      "public_label": "MS25A",
       "main_organizer": "Shuo Zhang",
       "main_organizer_affiliation": "Academy of Mathematics and Systems Science, Chinese Academy of Sciences",
       "co_organizers": [
@@ -1363,6 +1451,7 @@
           "affiliation": "Academy of Mathematics and Systems Science, Chinese Academy of Sciences"
         }
       ],
+      "chair": null,
       "slot_id": "D3S1",
       "room": "H3",
       "talk_count": 4
@@ -1373,6 +1462,7 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Numerical Methods and Computational Modeling for Complex Physical Systems",
+      "public_label": "MS25B",
       "main_organizer": "Shuo Zhang",
       "main_organizer_affiliation": "Academy of Mathematics and Systems Science, Chinese Academy of Sciences",
       "co_organizers": [
@@ -1385,6 +1475,7 @@
           "affiliation": "Academy of Mathematics and Systems Science, Chinese Academy of Sciences"
         }
       ],
+      "chair": null,
       "slot_id": "D3S2",
       "room": "H3",
       "talk_count": 4
@@ -1395,6 +1486,7 @@
       "program_type": "MS",
       "session_part": null,
       "title": "Bridging AI and Scientific Computing",
+      "public_label": "MS26",
       "main_organizer": "Cheng Yuan",
       "main_organizer_affiliation": "Wuhan University",
       "co_organizers": [
@@ -1407,6 +1499,7 @@
           "affiliation": "Wuhan University"
         }
       ],
+      "chair": null,
       "slot_id": "D3S4",
       "room": "S1",
       "talk_count": 5
@@ -1417,6 +1510,7 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Propagation, Patterns, and Spatiotemporal Heterogeneity in Reaction–Diffusion Models for Biology",
+      "public_label": "MS27A",
       "main_organizer": "Xiaoqing He",
       "main_organizer_affiliation": "East China Normal University",
       "co_organizers": [
@@ -1425,6 +1519,7 @@
           "affiliation": "Sun Yat-sen University"
         }
       ],
+      "chair": null,
       "slot_id": "D1S1",
       "room": "S1",
       "talk_count": 4
@@ -1435,6 +1530,7 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Propagation, Patterns, and Spatiotemporal Heterogeneity in Reaction–Diffusion Models for Biology",
+      "public_label": "MS27B",
       "main_organizer": "Xiaoqing He",
       "main_organizer_affiliation": "East China Normal University",
       "co_organizers": [
@@ -1443,6 +1539,7 @@
           "affiliation": "Sun Yat-sen University"
         }
       ],
+      "chair": null,
       "slot_id": "D1S2",
       "room": "S1",
       "talk_count": 3
@@ -1453,6 +1550,7 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Geometric Shape Generation (I)",
+      "public_label": "MS28A",
       "main_organizer": "Yoshiki Jikumaru",
       "main_organizer_affiliation": "Toyo University",
       "co_organizers": [
@@ -1461,6 +1559,7 @@
           "affiliation": "Shimane University"
         }
       ],
+      "chair": null,
       "slot_id": "D3S3",
       "room": "H3",
       "talk_count": 4
@@ -1471,6 +1570,7 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Geometric Shape Generation (I)",
+      "public_label": "MS28B",
       "main_organizer": "Yoshiki Jikumaru",
       "main_organizer_affiliation": "Toyo University",
       "co_organizers": [
@@ -1479,6 +1579,7 @@
           "affiliation": "Shimane University"
         }
       ],
+      "chair": null,
       "slot_id": "D3S4",
       "room": "H3",
       "talk_count": 4
@@ -1489,6 +1590,7 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Recent advances on kinetic theory and continuum mechanics",
+      "public_label": "MS29A",
       "main_organizer": "Hiroshi Fujiwara",
       "main_organizer_affiliation": "Kyoto University",
       "co_organizers": [
@@ -1497,6 +1599,7 @@
           "affiliation": "Kyoto University"
         }
       ],
+      "chair": null,
       "slot_id": "D3S1",
       "room": "S1",
       "talk_count": 4
@@ -1507,6 +1610,7 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Recent advances on kinetic theory and continuum mechanics",
+      "public_label": "MS29B",
       "main_organizer": "Hiroshi Fujiwara",
       "main_organizer_affiliation": "Kyoto University",
       "co_organizers": [
@@ -1515,6 +1619,7 @@
           "affiliation": "Kyoto University"
         }
       ],
+      "chair": null,
       "slot_id": "D3S2",
       "room": "S1",
       "talk_count": 4
@@ -1525,6 +1630,7 @@
       "program_type": "MS",
       "session_part": null,
       "title": "Non-linear Wave Phenomena: From Quantum Interactions to Stochastic and Transonic Flows",
+      "public_label": "MS30",
       "main_organizer": "Ying-Chieh Lin",
       "main_organizer_affiliation": "Department of Applied Mathematics, National University of Kaohsiung",
       "co_organizers": [
@@ -1533,6 +1639,7 @@
           "affiliation": "Department of Financial Engineering and Actuarial Mathematics, Soochow University"
         }
       ],
+      "chair": null,
       "slot_id": "D3S3",
       "room": "S2",
       "talk_count": 5
@@ -1543,6 +1650,7 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Low-Rank Tensor Approximation and Neural Sampling Methods for High-Dimensional Scientific Computing",
+      "public_label": "MS31A",
       "main_organizer": "Kejun Tang",
       "main_organizer_affiliation": "Great Bay University",
       "co_organizers": [
@@ -1551,6 +1659,7 @@
           "affiliation": "ShanghaiTech University"
         }
       ],
+      "chair": null,
       "slot_id": "D3S1",
       "room": "S2",
       "talk_count": 4
@@ -1561,6 +1670,7 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Low-Rank Tensor Approximation and Neural Sampling Methods for High-Dimensional Scientific Computing",
+      "public_label": "MS31B",
       "main_organizer": "Kejun Tang",
       "main_organizer_affiliation": "Great Bay University",
       "co_organizers": [
@@ -1569,6 +1679,7 @@
           "affiliation": "ShanghaiTech University"
         }
       ],
+      "chair": null,
       "slot_id": "D3S2",
       "room": "S2",
       "talk_count": 4
@@ -1579,6 +1690,7 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Uncertainty Quantification and Mathematical Foundations of Deep Learning: Recent Advances in Methods, Theory, and Applications",
+      "public_label": "MS32A",
       "main_organizer": "Jiahua Jiang",
       "main_organizer_affiliation": "ShanghaiTech University",
       "co_organizers": [
@@ -1591,6 +1703,7 @@
           "affiliation": "Southeast University"
         }
       ],
+      "chair": null,
       "slot_id": "D1S1",
       "room": "H3",
       "talk_count": 4
@@ -1601,6 +1714,7 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Uncertainty Quantification and Mathematical Foundations of Deep Learning: Recent Advances in Methods, Theory, and Applications",
+      "public_label": "MS32B",
       "main_organizer": "Jiahua Jiang",
       "main_organizer_affiliation": "ShanghaiTech University",
       "co_organizers": [
@@ -1613,6 +1727,7 @@
           "affiliation": "Southeast University"
         }
       ],
+      "chair": null,
       "slot_id": "D1S2",
       "room": "H3",
       "talk_count": 4
@@ -1623,6 +1738,7 @@
       "program_type": "MS",
       "session_part": null,
       "title": "Geometric Shape Generation (II)",
+      "public_label": "MS33",
       "main_organizer": "Joseph Cho",
       "main_organizer_affiliation": "Handong Global University",
       "co_organizers": [
@@ -1635,6 +1751,7 @@
           "affiliation": "Tokushima University"
         }
       ],
+      "chair": null,
       "slot_id": "D4S3",
       "room": "S1",
       "talk_count": 4
@@ -1645,6 +1762,7 @@
       "program_type": "MS",
       "session_part": null,
       "title": "High-Order Numerical Methods for Hyperbolic Conservation Laws",
+      "public_label": "MS34",
       "main_organizer": "Jiaxi Gu",
       "main_organizer_affiliation": "Pohang University of Science and Technology",
       "co_organizers": [
@@ -1653,6 +1771,7 @@
           "affiliation": "Ocean University of China"
         }
       ],
+      "chair": null,
       "slot_id": "D4S1",
       "room": "S2",
       "talk_count": 4
@@ -1663,6 +1782,7 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Fast Solvers for Multiphysics Problems",
+      "public_label": "MS35A",
       "main_organizer": "Wei Wang",
       "main_organizer_affiliation": "Academy of Mathematics and Systems Science, CAS",
       "co_organizers": [
@@ -1675,6 +1795,7 @@
           "affiliation": "Great Bay University"
         }
       ],
+      "chair": null,
       "slot_id": "D4S2",
       "room": "I1",
       "talk_count": 4
@@ -1685,6 +1806,7 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Fast Solvers for Multiphysics Problems",
+      "public_label": "MS35B",
       "main_organizer": "Wei Wang",
       "main_organizer_affiliation": "Academy of Mathematics and Systems Science, CAS",
       "co_organizers": [
@@ -1697,6 +1819,7 @@
           "affiliation": "Great Bay University"
         }
       ],
+      "chair": null,
       "slot_id": "D4S3",
       "room": "I1",
       "talk_count": 4
@@ -1707,6 +1830,7 @@
       "program_type": "MS",
       "session_part": null,
       "title": "Machine Learning Methods for Stochastic Dynamics",
+      "public_label": "MS36",
       "main_organizer": "Li Zeng",
       "main_organizer_affiliation": "Fuzhou University",
       "co_organizers": [
@@ -1715,6 +1839,7 @@
           "affiliation": "Beijing Normal-Hong Kong Baptist University"
         }
       ],
+      "chair": null,
       "slot_id": "D2S3",
       "room": "H3",
       "talk_count": 4
@@ -1725,6 +1850,7 @@
       "program_type": "MS",
       "session_part": null,
       "title": "Numerical Methods for Phase-Field Models: Advances, Challenges and Applications",
+      "public_label": "MS37",
       "main_organizer": "Chaoyu Quan",
       "main_organizer_affiliation": "The Chinese University of Hong Kong (Shenzhen)",
       "co_organizers": [
@@ -1737,6 +1863,7 @@
           "affiliation": "Beijing Normal-Hong Kong Baptist University"
         }
       ],
+      "chair": null,
       "slot_id": "D4S1",
       "room": "I1",
       "talk_count": 4
@@ -1747,6 +1874,7 @@
       "program_type": "MS",
       "session_part": "A",
       "title": "Multiscale modeling and numerical methods for multiphysics materials",
+      "public_label": "MS38A",
       "main_organizer": "Luchan Zhang",
       "main_organizer_affiliation": "Shenzhen University",
       "co_organizers": [
@@ -1759,6 +1887,7 @@
           "affiliation": "Shanghai Univeristy"
         }
       ],
+      "chair": null,
       "slot_id": "D1S3",
       "room": "S1",
       "talk_count": 4
@@ -1769,6 +1898,7 @@
       "program_type": "MS",
       "session_part": "B",
       "title": "Multiscale modeling and numerical methods for multiphysics materials",
+      "public_label": "MS38B",
       "main_organizer": "Luchan Zhang",
       "main_organizer_affiliation": "Shenzhen University",
       "co_organizers": [
@@ -1781,6 +1911,7 @@
           "affiliation": "Shanghai Univeristy"
         }
       ],
+      "chair": null,
       "slot_id": "D1S4",
       "room": "S1",
       "talk_count": 4
@@ -1791,6 +1922,7 @@
       "program_type": "MS",
       "session_part": null,
       "title": "PINNs and AI Agents for Engineering Applications",
+      "public_label": "MS39",
       "main_organizer": "Hyunseok Oh",
       "main_organizer_affiliation": "GIST",
       "co_organizers": [
@@ -1803,6 +1935,7 @@
           "affiliation": "KAIST"
         }
       ],
+      "chair": null,
       "slot_id": "D3S3",
       "room": "S1",
       "talk_count": 5
@@ -1813,9 +1946,11 @@
       "program_type": "CT",
       "session_part": null,
       "title": "High-Order and Structure-Preserving Numerical PDE Methods",
+      "public_label": "CT01",
       "main_organizer": null,
       "main_organizer_affiliation": null,
       "co_organizers": [],
+      "chair": null,
       "slot_id": "D1S1",
       "room": "I1",
       "talk_count": 5
@@ -1826,9 +1961,11 @@
       "program_type": "CT",
       "session_part": null,
       "title": "Kinetic Equations, Complex Fluids, and Vortex Dynamics",
+      "public_label": "CT02",
       "main_organizer": null,
       "main_organizer_affiliation": null,
       "co_organizers": [],
+      "chair": null,
       "slot_id": "D2S3",
       "room": "S1",
       "talk_count": 5
@@ -1839,9 +1976,11 @@
       "program_type": "CT",
       "session_part": null,
       "title": "Scientific Machine Learning for Differential Equations and Multiscale Computing",
+      "public_label": "CT03",
       "main_organizer": null,
       "main_organizer_affiliation": null,
       "co_organizers": [],
+      "chair": null,
       "slot_id": "D4S3",
       "room": "H3",
       "talk_count": 5
@@ -1852,9 +1991,11 @@
       "program_type": "CT",
       "session_part": null,
       "title": "Mathematical Biology, Reaction Networks, and Collective Dynamics",
+      "public_label": "CT04",
       "main_organizer": null,
       "main_organizer_affiliation": null,
       "co_organizers": [],
+      "chair": null,
       "slot_id": "D2S2",
       "room": "M",
       "talk_count": 5
@@ -1865,9 +2006,11 @@
       "program_type": "CT",
       "session_part": null,
       "title": "Discrete Dynamics, Combinatorics, and Optimization",
+      "public_label": "CT05",
       "main_organizer": null,
       "main_organizer_affiliation": null,
       "co_organizers": [],
+      "chair": null,
       "slot_id": "D3S3",
       "room": "I1",
       "talk_count": 5
@@ -1878,9 +2021,11 @@
       "program_type": "CT",
       "session_part": null,
       "title": "Special Functions, Nonlocal Problems, and Wave Equations",
+      "public_label": "CT06",
       "main_organizer": null,
       "main_organizer_affiliation": null,
       "co_organizers": [],
+      "chair": null,
       "slot_id": "D4S1",
       "room": "H1",
       "talk_count": 5
@@ -1891,41 +2036,107 @@
       "program_type": "CT",
       "session_part": null,
       "title": "Data-Driven Geometry, Imaging, and Materials",
+      "public_label": "CT07",
       "main_organizer": null,
       "main_organizer_affiliation": null,
       "co_organizers": [],
+      "chair": null,
       "slot_id": "D3S1",
       "room": "I1",
       "talk_count": 4
-    }
-  ],
-  "pending_room_assignments": [
+    },
     {
+      "session_id": "CT-SC1",
+      "parent_program_id": "CT-SC",
+      "program_type": "CT-SC",
+      "session_part": null,
+      "title": "Optimization, Optimal Transport, and Learning Dynamics",
+      "public_label": "CT-Student-Chapter A",
+      "main_organizer": null,
+      "main_organizer_affiliation": null,
+      "co_organizers": [],
+      "chair": "Yihao Xu",
       "slot_id": "D2S3",
       "room": "M",
-      "public_label": "CT-Student-Chapter A"
+      "talk_count": 6
     },
     {
+      "session_id": "CT-SC2",
+      "parent_program_id": "CT-SC",
+      "program_type": "CT-SC",
+      "session_part": null,
+      "title": "Scientific Machine Learning and Data-Driven Inference",
+      "public_label": "CT-Student-Chapter B",
+      "main_organizer": null,
+      "main_organizer_affiliation": null,
+      "co_organizers": [],
+      "chair": "Jungmin LEE",
       "slot_id": "D3S1",
       "room": "M",
-      "public_label": "CT-Student-Chapter B"
+      "talk_count": 5
     },
     {
+      "session_id": "CT-SC3",
+      "parent_program_id": "CT-SC",
+      "program_type": "CT-SC",
+      "session_part": null,
+      "title": "Mathematical Modeling and Numerical Methods for Dynamical Systems",
+      "public_label": "CT-Student-Chapter C",
+      "main_organizer": null,
+      "main_organizer_affiliation": null,
+      "co_organizers": [],
+      "chair": "Yuntong Huang",
       "slot_id": "D3S2",
       "room": "M",
-      "public_label": "CT-Student-Chapter C"
+      "talk_count": 5
     },
     {
+      "session_id": "CT-SC4",
+      "parent_program_id": "CT-SC",
+      "program_type": "CT-SC",
+      "session_part": null,
+      "title": "Phylogenetic Networks and Topological Data Analysis",
+      "public_label": "CT-Student-Chapter D",
+      "main_organizer": null,
+      "main_organizer_affiliation": null,
+      "co_organizers": [],
+      "chair": "Shunsuke Maeda",
       "slot_id": "D3S3",
       "room": "M",
-      "public_label": "CT-Student-Chapter D"
+      "talk_count": 5
     },
     {
+      "session_id": "CT-SC5",
+      "parent_program_id": "CT-SC",
+      "program_type": "CT-SC",
+      "session_part": null,
+      "title": "Numerical Analysis, Linear Algebra, and Inverse Problems",
+      "public_label": "CT-Student-Chapter E",
+      "main_organizer": null,
+      "main_organizer_affiliation": null,
+      "co_organizers": [],
+      "chair": "CHENG Zilan",
       "slot_id": "D3S4",
       "room": "M",
-      "public_label": "CT-Student-Chapter E"
+      "talk_count": 5
+    },
+    {
+      "session_id": "SPP",
+      "parent_program_id": "SPP",
+      "program_type": "SPP",
+      "session_part": null,
+      "title": "Student Paper Prize (SPP)",
+      "public_label": "SPP",
+      "main_organizer": null,
+      "main_organizer_affiliation": null,
+      "co_organizers": [],
+      "chair": null,
+      "slot_id": "D1S3",
+      "room": "M",
+      "talk_count": 5
     }
   ],
+  "pending_room_assignments": [],
   "talks": [
     {
       "presentation_id": "MS-CMT-0139",
@@ -6619,6 +6830,500 @@
       "start": "12:06",
       "end": "12:22",
       "room": "H3"
+    },
+    {
+      "presentation_id": "CT-SC-001",
+      "program_type": "CT-SC",
+      "cmt_paper_id": null,
+      "parent_program_id": "CT-SC",
+      "session_id": "CT-SC1",
+      "order": 1,
+      "duration_minutes": null,
+      "speaker": "FENG Yaxing",
+      "affiliation": "The Hong Kong University of Science and Technology",
+      "title": "Discrete Mean-Field Games on Graphs as Finite-Dimensional Initial-Value Optimization",
+      "abstract": "In this work, we propose an initial-value formulation of discrete mean-field games on finite graphs (Graph MFG) and design a neural-network-based solver. Graph MFG describes an infinite number of non-cooperative, interacting homogeneous agents moving between node states along edges to optimize their respective objectives. The Nash equilibrium of a Graph MFG is characterized by a coupled system of ordinary differential equations (ODEs), comprising a forward continuity equation and a backward Hamilton–Jacobi equation at each node of the graph. We focus primarily on potential mean-field games (Potential MFG) on finite graphs, which possess an infinite-dimensional constrained optimization structure. We reformulate Potential MFG as an initial-value, finite-dimensional optimization problem with dynamic constraints, termed Graph MFG-IV. Specifically, the initial condition of the Hamilton–Jacobi equation is treated as the sole optimization variable, constrained by a system of coupled Hamilton–Jacobi and continuity equations that serves as an ODE integrator. This finite-dimensional reformulation avoids time discretization of infinite-dimensional paths and has a substantially smaller search space than the general pathwise problem setting.",
+      "authors": null,
+      "slot_id": "D2S3",
+      "date": "2026-08-25",
+      "start": null,
+      "end": null,
+      "room": "M"
+    },
+    {
+      "presentation_id": "CT-SC-002",
+      "program_type": "CT-SC",
+      "cmt_paper_id": null,
+      "parent_program_id": "CT-SC",
+      "session_id": "CT-SC1",
+      "order": 2,
+      "duration_minutes": null,
+      "speaker": "Yiyang Li",
+      "affiliation": "The Hong Kong Polytechnic University",
+      "title": "First-Order Algorithms for Stochastic Multi-Objective Optimization Problems",
+      "abstract": "Stochastic multi-objective optimization (SMOO) problems arise in many applications in which multiple conflicting performance criteria are evaluated under uncertainty through their expectations, such as return and risk. In this paper, we develop a projected-gradient algorithm that combines sample average approximation with a scalarization-free approach for SMOO. We introduce a Tikhonov-regularized simplex quadratic program to define a single-valued multi-gradient direction and a regularized Pareto-stationarity measure. We establish the Lipschitz continuity of the induced multiplier and direction mappings on the convex feasible set. We also show that the regularized stationarity measure converges to the Pareto-stationarity measure as the regularization parameter tends to zero. We establish stationarity-complexity results for the proposed algorithm and quantify the sample size required to guarantee approximation accuracy. Numerical results demonstrate the effectiveness of the proposed algorithm.",
+      "authors": null,
+      "slot_id": "D2S3",
+      "date": "2026-08-25",
+      "start": null,
+      "end": null,
+      "room": "M"
+    },
+    {
+      "presentation_id": "CT-SC-003",
+      "program_type": "CT-SC",
+      "cmt_paper_id": null,
+      "parent_program_id": "CT-SC",
+      "session_id": "CT-SC1",
+      "order": 3,
+      "duration_minutes": null,
+      "speaker": "Seunghoon Jeong",
+      "affiliation": "Pohang University of Science and Technology",
+      "title": "Transformer Attention Dynamics Through the Lens of Nonconvex Wasserstein Gradient Flows",
+      "abstract": "Since the seminal Transformer architecture introduced by Vaswani et al., attention mechanisms have become a central organizing principle in modern machine learning, including large language models and many other learning systems. In the mean-field regime, simplified attention layers can be viewed as interacting particle systems whose continuum limit is governed by a McKean–Vlasov equation. Such equations can often be formulated as Wasserstein gradient flows over the space of probability measures with finite second moments.\n\nIn this talk, I will discuss recent results on the analytic properties of stationary McKean–Vlasov solutions and their role in the long-time behavior of simplified attention dynamics. In particular, although the underlying energy landscape is generally nonconvex, we show that the associated McKean–Vlasov dynamics can still converge asymptotically to a stationary solution. This suggests that simplified Transformer attention dynamics possess an intrinsic long-time selection mechanism governed by the stationary structure of nonconvex Wasserstein gradient flows. This is joint work with Beomjun Choi (KAIST) and Geuntaek Seo (POSTECH).",
+      "authors": null,
+      "slot_id": "D2S3",
+      "date": "2026-08-25",
+      "start": null,
+      "end": null,
+      "room": "M"
+    },
+    {
+      "presentation_id": "CT-SC-004",
+      "program_type": "CT-SC",
+      "cmt_paper_id": null,
+      "parent_program_id": "CT-SC",
+      "session_id": "CT-SC1",
+      "order": 4,
+      "duration_minutes": null,
+      "speaker": "XU Yihao",
+      "affiliation": "The Chinese University of Hong Kong",
+      "title": "Entropy-Regularized Causal Optimal Transport: Improved Bregman Projections and Stopping Duality",
+      "abstract": "Optimal transport (OT) provides a general framework for comparing probability distributions and solving matching problems, but direct discretizations often require large linear programs. Entropy-regularized optimal transport (EOT) replaces this hard problem with a structured convex formulation using Kullback–Leibler geometry, enabling scalable Bregman-projection updates. We study causal EOT, in which an information constraint enforces non-anticipativity. For Brownian randomized stopping with a prescribed time law, the coupling must satisfy both marginal and causal constraints, so standard EOT algorithms cannot be applied directly.\n\nTo address this issue, we develop an improved Bregman-projection scheme designed to handle the marginal and non-anticipativity constraints. It decomposes the discretized causal problem into tractable projection steps, replacing a global linear-program solve with scalable iterative updates. A delayed causal construction supplies finite-entropy feasible couplings and, for atomless time marginals and bounded continuous costs, connects the regularized values to causal OT as the entropy parameter vanishes. From a complementary optimal-stopping viewpoint, a time-law Lagrange multiplier yields a finite-horizon dual. This dual both clarifies the constraints and provides a complementary computational formulation.",
+      "authors": null,
+      "slot_id": "D2S3",
+      "date": "2026-08-25",
+      "start": null,
+      "end": null,
+      "room": "M"
+    },
+    {
+      "presentation_id": "CT-SC-005",
+      "program_type": "CT-SC",
+      "cmt_paper_id": null,
+      "parent_program_id": "CT-SC",
+      "session_id": "CT-SC1",
+      "order": 5,
+      "duration_minutes": null,
+      "speaker": "Wang Aokun",
+      "affiliation": "Nanyang Technological University, Singapore",
+      "title": "DPOT: A DeepParticle Method for Computation of Optimal Transport with Convergence Guarantee",
+      "abstract": "We propose a novel machine-learning approach for computing the optimal transport map between two continuous distributions from their unpaired samples, based on the DeepParticle method. The proposed method leads to a min-min optimization problem during training and imposes no restrictions on the network architecture. Theoretically, we establish a weak convergence guarantee and a quantitative error bound between the learned map and the optimal transport map. Our numerical experiments validate the theoretical results and the effectiveness of the new approach, particularly on real-world tasks.",
+      "authors": null,
+      "slot_id": "D2S3",
+      "date": "2026-08-25",
+      "start": null,
+      "end": null,
+      "room": "M"
+    },
+    {
+      "presentation_id": "CT-SC-006",
+      "program_type": "CT-SC",
+      "cmt_paper_id": null,
+      "parent_program_id": "CT-SC",
+      "session_id": "CT-SC1",
+      "order": 6,
+      "duration_minutes": null,
+      "speaker": "Di Hou",
+      "affiliation": "Department of Mathematics, National University of Singapore, Singapore",
+      "title": "A Low-Rank Augmented Lagrangian Method for Polyhedral–SDP and Moment-SOS Relaxations of Polynomial Optimization",
+      "abstract": "Polynomial optimization problems can be reformulated as convex conic programs, but the resulting relaxations are often computationally demanding at large scale. In this work, we propose RiNNAL-POP, a low-rank augmented Lagrangian method for solving large-scale polyhedral–SDP relaxations of polynomial optimization problems. The method combines a tailored projection scheme for the numerous nonnegativity and consistency constraints with an exploitation of hidden facial structure to eliminate many linear constraints. A projected-gradient step adaptively adjusts the factorization rank and helps escape spurious local minima. We also extend the framework to moment-SOS relaxations. Numerical experiments on benchmark problems demonstrate the robustness and efficiency of RiNNAL-POP.",
+      "authors": null,
+      "slot_id": "D2S3",
+      "date": "2026-08-25",
+      "start": null,
+      "end": null,
+      "room": "M"
+    },
+    {
+      "presentation_id": "CT-SC-007",
+      "program_type": "CT-SC",
+      "cmt_paper_id": null,
+      "parent_program_id": "CT-SC",
+      "session_id": "CT-SC2",
+      "order": 1,
+      "duration_minutes": null,
+      "speaker": "Chenlong Pei",
+      "affiliation": "The Academy of Mathematics and Systems Science, Chinese Academy of Sciences",
+      "title": "FLUID: Flow-Based Unified Inference for Dynamics",
+      "abstract": "Bayesian filtering and smoothing for high-dimensional nonlinear dynamical systems are fundamental yet challenging problems in many areas of science and engineering. Gaussian-based approximations often break down when posterior distributions are highly nonlinear or non-Gaussian, while sequential Monte Carlo methods can be computationally demanding and often suffer from particle degeneracy, especially over long time horizons or when smoothing distributions are required. Recent deep generative models are capable of representing complex high-dimensional posteriors, but they typically treat filtering and smoothing separately and often rely on costly per-instance optimization, which limits their applicability in online and large-scale settings.\n\nTo address these challenges, we propose FLUID, a flow-based unified amortized inference framework for filtering and smoothing dynamics. The core idea is to encode each observation history into a fixed-dimensional summary statistic and use this shared representation to learn both a forward flow for the filtering distribution and a backward flow for the backward transition kernel. Specifically, a recurrent encoder maps each observation history to a fixed-dimensional summary statistic whose dimension does not depend on the length of the time series. Conditioned on this shared summary statistic, the forward flow approximates the filtering distribution, while the backward flow approximates the backward transition kernel. The smoothing distribution over an entire trajectory is then recovered by combining the terminal filtering distribution with the learned backward flow through the standard backward recursion. By learning the underlying temporal evolution structure, FLUID also supports extrapolation beyond the training horizon. Moreover, by coupling the two flows through shared summary statistics, FLUID induces implicit regularization across latent-state trajectories and improves trajectory-level smoothing. In addition, we develop a flow-based particle-filtering variant that provides an alternative filtering procedure and enables effective-sample-size (ESS) diagnostics when explicit model factors are available. Numerical experiments on a high-dimensional advection–diffusion system, a strongly nonlinear stochastic-volatility model, a high-dimensional PDE system, and Lorenz systems in both single-scale and two-scale settings demonstrate that FLUID provides accurate approximations of both filtering distributions and smoothing paths.",
+      "authors": null,
+      "slot_id": "D3S1",
+      "date": "2026-08-26",
+      "start": null,
+      "end": null,
+      "room": "M"
+    },
+    {
+      "presentation_id": "CT-SC-008",
+      "program_type": "CT-SC",
+      "cmt_paper_id": null,
+      "parent_program_id": "CT-SC",
+      "session_id": "CT-SC2",
+      "order": 2,
+      "duration_minutes": null,
+      "speaker": "CHENG Zilan",
+      "affiliation": "Nanyang Technological University, Singapore",
+      "title": "Preconditioned One-Step Generative Modeling for Bayesian Inverse Problems in Function Spaces",
+      "abstract": "We propose a machine-learning algorithm for Bayesian inverse problems in the function-space regime. Based on one-step generative transport, the method learns an amortized neural operator whose pushforward of a Gaussian source approximates the posterior distribution conditioned on each new observation. We show that white-noise sources are incompatible with the function-space limit and therefore adopt a prior-aligned Gaussian random field (GRF) as the source. We justify this choice through the Lipschitz regularity of the resulting one-step conditional posterior transport and numerical experiments on linear inverse and PDE-based inverse problems. The method is not distilled from Markov chain Monte Carlo (MCMC): it is trained only with prior samples and simulated partial noisy observations. Once trained, it generates a 64 × 64 posterior sample in approximately 10−3 s, avoiding repeated forward-model evaluations in MCMC and repeated network evaluations in multistep generative samplers while matching key posterior summaries.",
+      "authors": null,
+      "slot_id": "D3S1",
+      "date": "2026-08-26",
+      "start": null,
+      "end": null,
+      "room": "M"
+    },
+    {
+      "presentation_id": "CT-SC-009",
+      "program_type": "CT-SC",
+      "cmt_paper_id": null,
+      "parent_program_id": "CT-SC",
+      "session_id": "CT-SC2",
+      "order": 3,
+      "duration_minutes": null,
+      "speaker": "Seungwan Han",
+      "affiliation": "Pohang University of Science and Technology",
+      "title": "A Scaled TW-PINN for Traveling-Wave Solutions of Reaction–Diffusion Equations with General Coefficients",
+      "abstract": "We propose a physics-informed neural network framework, termed scaled TW-PINN, for computing traveling-wave solutions of reaction–diffusion equations with general reaction and diffusion coefficients in arbitrary spatial dimensions. By introducing a scaling transformation based on the traveling-wave formulation, we reduce the original problem to a one-dimensional equation with unit reaction and diffusion coefficients. This reduction enables the construction of a single PINN solver that can be reused across different coefficient regimes and spatial dimensions. Numerical experiments in one and two spatial dimensions, together with comparisons with the wave-PINN method, demonstrate the accuracy and computational advantages of the proposed approach. We further extend the proposed framework to more general initial conditions and present corresponding numerical results. In addition, we present preliminary numerical results on applying the proposed framework to soliton solutions of the Korteweg–de Vries (KdV) equation, demonstrating its potential applicability to a broader class of nonlinear partial differential equations.",
+      "authors": null,
+      "slot_id": "D3S1",
+      "date": "2026-08-26",
+      "start": null,
+      "end": null,
+      "room": "M"
+    },
+    {
+      "presentation_id": "CT-SC-010",
+      "program_type": "CT-SC",
+      "cmt_paper_id": null,
+      "parent_program_id": "CT-SC",
+      "session_id": "CT-SC2",
+      "order": 4,
+      "duration_minutes": null,
+      "speaker": "SeongHeon Lee",
+      "affiliation": "Pohang University of Science and Technology",
+      "title": "Uniform Ergodicity of Continuous-Space Pseudo-Gibbs Samplers in Coupled Generative Models for Inverse Problems",
+      "abstract": "While pseudo-Gibbs sampling is widely used to circumvent intractable joint distributions by alternating between conditional sampling steps, its strict convergence guarantees have largely been restricted to discrete spaces or otherwise tractable models. Applying this alternating inference to continuous state spaces with deep generative models frequently degenerates into deterministic mode collapse, in which the sampler contracts to a point mass rather than the target distribution and total-variation uniform ergodicity fails.\n\nIn this talk, we establish the uniform ergodicity of a continuous-space pseudo-Gibbs sampler (CPGS) constructed from coupled deep generative models. We show that strictly positive Gaussian noise injection, together with the compactness induced by a boundary projection, is a sufficient—and, by construction, always satisfiable—condition for Doeblin’s minorization on the state space, thereby guaranteeing convergence in total variation. By shifting the analysis to the quadratic Wasserstein metric (W2), we further prove that the contraction rate is governed solely by the conditional Lipschitz constants of the generative models, as the injection noise cancels exactly in the Wasserstein coupling. This decoupling shows that the noise required to prevent deterministic collapse does not compromise the chain’s contraction rate.",
+      "authors": null,
+      "slot_id": "D3S1",
+      "date": "2026-08-26",
+      "start": null,
+      "end": null,
+      "room": "M"
+    },
+    {
+      "presentation_id": "CT-SC-011",
+      "program_type": "CT-SC",
+      "cmt_paper_id": null,
+      "parent_program_id": "CT-SC",
+      "session_id": "CT-SC2",
+      "order": 5,
+      "duration_minutes": null,
+      "speaker": "LEI Han",
+      "affiliation": "The Chinese University of Hong Kong",
+      "title": "Geometry-Aware Image Generation Framework for Medical Imaging",
+      "abstract": "Deep learning in medical imaging is constrained by data scarcity arising from rare pathological cases and stringent privacy regulations. Although data augmentation is crucial for mitigating this issue, conventional techniques rely heavily on standard affine transformations, such as rotation, translation, and scaling. These operations are not geometry-aware: they fail to accommodate anatomical variations in bones or organs across individuals and often yield artifacts that deviate from clinical reality. Deep generative models such as generative adversarial networks (GANs) and variational autoencoders (VAEs) have also been introduced, but they still struggle to capture and preserve complex geometric structures explicitly.\n\nTo bridge this gap, we propose a novel geometry-aware image-generation framework underpinned by the Harmonic Beltrami Signature. By leveraging this quasi-conformal geometry-based descriptor, our method encodes intrinsic geometric features, enabling the network to generate highly realistic, anatomically consistent, and medically meaningful images. Numerical experiments demonstrate the effectiveness of the framework in synthesizing high-quality medical data. This geometry-aware generation approach is also highly generalizable and holds substantial potential for synthesizing diverse medical images.",
+      "authors": null,
+      "slot_id": "D3S1",
+      "date": "2026-08-26",
+      "start": null,
+      "end": null,
+      "room": "M"
+    },
+    {
+      "presentation_id": "CT-SC-012",
+      "program_type": "CT-SC",
+      "cmt_paper_id": null,
+      "parent_program_id": "CT-SC",
+      "session_id": "CT-SC3",
+      "order": 1,
+      "duration_minutes": null,
+      "speaker": "Junchao Duan",
+      "affiliation": "The Hong Kong Polytechnic University",
+      "title": "An Ultraspherical Spectral Method for Differential Stochastic Linear Complementarity Problems",
+      "abstract": "We develop an ultraspherical spectral method for solving differential stochastic linear complementarity problems (DSLCPs), in which a deterministic ordinary differential equation (ODE) is coupled with time-dependent random linear complementarity constraints, leading to nonsmooth closed-loop dynamics. The samplewise complementarity conditions are regularized by Fischer–Burmeister smoothing, and the stochastic feedback is approximated using sample average approximation (SAA). The resulting finite-sample ODE is discretized in time by the ultraspherical spectral method, and the associated finite-dimensional algebraic system is solved by a block Gauss–Seidel iteration. Under a uniform P-matrix condition and appropriate measurability and regularity assumptions, we establish the existence and uniqueness of solutions to the original DSLCP and its successive approximations: the smoothed reformulation, the corresponding finite-sample SAA problem, and the final finite-dimensional algebraic system obtained through spectral time discretization. A numerical experiment illustrates the accuracy and computational efficiency of the proposed method.",
+      "authors": null,
+      "slot_id": "D3S2",
+      "date": "2026-08-26",
+      "start": null,
+      "end": null,
+      "room": "M"
+    },
+    {
+      "presentation_id": "CT-SC-013",
+      "program_type": "CT-SC",
+      "cmt_paper_id": null,
+      "parent_program_id": "CT-SC",
+      "session_id": "CT-SC3",
+      "order": 2,
+      "duration_minutes": null,
+      "speaker": "Caoyi Liu",
+      "affiliation": "Department of Mathematics, National University of Singapore, Singapore",
+      "title": "A Uniformly Accurate Multiscale Time Integrator for the Nonlinear Klein–Gordon Equation via Simplified Transmission Conditions",
+      "abstract": "We study the numerical approximation of the nonlinear Klein–Gordon equation in the nonrelativistic regime, where the solution is highly oscillatory in time with wavelength O(ε2). This requires restrictive meshing strategies for standard methods and creates significant difficulties in designing uniformly accurate numerical methods. We present a new and simplified multiscale time integrator based on a frequency-based multiscale decomposition on each time interval with simplified transmission conditions. The numerical scheme applies an exponential wave integrator and a Fourier pseudospectral method for temporal and spatial discretization, respectively, and achieves optimal spatial accuracy and a uniformly first-order convergence rate in time. We also introduce a multiscale interpolation technique that provides uniformly accurate approximations at any time t > 0 by linearly interpolating the micro-variables within each time interval. Numerical experiments demonstrate the efficiency and robustness of the method compared with classical approaches. The work provides a practical framework for constructing uniformly accurate schemes for highly oscillatory partial differential equations.",
+      "authors": null,
+      "slot_id": "D3S2",
+      "date": "2026-08-26",
+      "start": null,
+      "end": null,
+      "room": "M"
+    },
+    {
+      "presentation_id": "CT-SC-014",
+      "program_type": "CT-SC",
+      "cmt_paper_id": null,
+      "parent_program_id": "CT-SC",
+      "session_id": "CT-SC3",
+      "order": 3,
+      "duration_minutes": null,
+      "speaker": "Takatoshi Yoshii",
+      "affiliation": "School of Fundamental Science and Engineering, Waseda University, Japan",
+      "title": "Optimal Strategies for Headway Adjustment in Response to Train Delays",
+      "abstract": "Train delays in densely operated railway systems propagate through increased dwell times caused by passenger accumulation at stations. We formulate and analytically solve an optimal-control problem for headway regulation, in which the train immediately preceding a delayed train is intentionally held to redistribute waiting passengers. Passenger arrivals and boarding are modeled using constant rates, yielding an explicit expression for the additional dwell time. The cost functional is defined by the product of the delay duration and the number of affected passengers. Analytical optimization yields a closed-form expression for the optimal holding time, which is approximately one-half of the delayed train’s delay when the initial delay is sufficiently large. The resulting control equalizes headways, redistributes passenger demand, and suppresses delay propagation. These results provide a mathematical characterization of optimal headway regulation based on passenger-delay cost.",
+      "authors": null,
+      "slot_id": "D3S2",
+      "date": "2026-08-26",
+      "start": null,
+      "end": null,
+      "room": "M"
+    },
+    {
+      "presentation_id": "CT-SC-015",
+      "program_type": "CT-SC",
+      "cmt_paper_id": null,
+      "parent_program_id": "CT-SC",
+      "session_id": "CT-SC3",
+      "order": 4,
+      "duration_minutes": null,
+      "speaker": "Tianyuan Zhao",
+      "affiliation": "Graduate School of Engineering, Nagoya University, Japan",
+      "title": "Adaptive Observations for Data Assimilation: Observation Requirements for Accurate State Estimation in a Chaotic Dynamical System",
+      "abstract": "Data assimilation is a method for improving the accuracy of state estimation by combining model predictions with observational data. For high-dimensional systems, observing all state variables is often impractical. Consequently, the performance of data-assimilation methods is strongly influenced by the choice of observation operator, motivating adaptive observation operators that focus on the most unstable directions of the dynamics.\n\nOur study examines adaptive-in-time observation operators in data assimilation for a chaotic dynamical system under different physical parameters that affect the instability of the dynamics. Numerical experiments examine how the minimum number of observations required for accurate state estimation depends on dynamical instability and observational error. The results suggest that adaptive observations are applicable across a broad range of dynamical conditions and that more unstable dynamics generally require more observations for accurate state estimation.",
+      "authors": null,
+      "slot_id": "D3S2",
+      "date": "2026-08-26",
+      "start": null,
+      "end": null,
+      "room": "M"
+    },
+    {
+      "presentation_id": "CT-SC-016",
+      "program_type": "CT-SC",
+      "cmt_paper_id": null,
+      "parent_program_id": "CT-SC",
+      "session_id": "CT-SC3",
+      "order": 5,
+      "duration_minutes": null,
+      "speaker": "HUANG Yuntong",
+      "affiliation": "The Hong Kong University of Science and Technology",
+      "title": "Phase-Field Modeling of Grain-Boundary Grooving with Tunable Misorientation-Dependent Energy",
+      "abstract": "Grain-boundary grooving, in which grain boundaries meet a free surface, provides a useful setting for studying how interfacial energy, surface diffusion, and microstructural geometry interact during microstructural evolution. In this work, we develop a phase-field model based on the Kobayashi–Warren–Carter framework to investigate the effect of grain-boundary energy on grooving in bicrystal systems. We first validate the model against the classical Mullins theory of thermal grooving. After normalization, the simulated groove profiles collapse onto the expected universal profile, and the groove depth follows the characteristic surface-diffusion-controlled growth behavior. This establishes a reliable baseline for studying how grain-boundary energy affects groove morphology. We then examine misorientation-dependent grain-boundary energy. For a Read–Shockley-like energy response, the stable groove angle increases systematically with misorientation and is broadly consistent with the expected interfacial force balance. This shows that the orientation field transfers changes in grain-boundary energy into measurable changes in groove geometry. Finally, we study the effect of grain rotation on grain-boundary grooving. Grain rotation introduces asymmetry into the groove, with one side becoming deeper and the other shallower in the setting considered. These results show that KWC-type phase-field models can connect interfacial thermodynamics with mesoscale groove evolution, providing a useful route for multiscale studies of anisotropic and prescribed grain-boundary energetics in evolving microstructures.",
+      "authors": null,
+      "slot_id": "D3S2",
+      "date": "2026-08-26",
+      "start": null,
+      "end": null,
+      "room": "M"
+    },
+    {
+      "presentation_id": "CT-SC-017",
+      "program_type": "CT-SC",
+      "cmt_paper_id": null,
+      "parent_program_id": "CT-SC",
+      "session_id": "CT-SC4",
+      "order": 1,
+      "duration_minutes": null,
+      "speaker": "Sijin Yeom",
+      "affiliation": "Pohang University of Science and Technology",
+      "title": "Induced Probability Measures on Persistence Diagrams: Persistent Cross-Entropy",
+      "abstract": "Persistent entropy summarizes values within a single persistence diagram. However, two diagrams generally lie on different event spaces, making persistent cross-entropy nontrivial. We introduce an induced probability measure on a reference diagram using persistence-weighted kernel similarities to an explaining diagram. This encodes information from the explaining diagram on the reference diagram, enabling us to define persistent cross-entropy. We illustrate how it captures relationships between persistence diagrams through numerical examples, including causality analysis in dynamical systems.",
+      "authors": null,
+      "slot_id": "D3S3",
+      "date": "2026-08-26",
+      "start": null,
+      "end": null,
+      "room": "M"
+    },
+    {
+      "presentation_id": "CT-SC-018",
+      "program_type": "CT-SC",
+      "cmt_paper_id": null,
+      "parent_program_id": "CT-SC",
+      "session_id": "CT-SC4",
+      "order": 2,
+      "duration_minutes": null,
+      "speaker": "Kanta Kotsuzumi",
+      "affiliation": "1 Department of Pure and Applied Mathematics, Graduate School of Fundamental Science and Engineering, Waseda University, Japan",
+      "title": "Reconstructing Level-3 Phylogenetic Networks from Shortest/Longest Distances and Shortest-Path Counts",
+      "abstract": "The distance-based phylogenetic reconstruction problem asks how much of an evolutionary history can be reconstructed from information measured only between pairs of observed taxa, such as species or molecular sequences. Mathematically, this is an inverse problem in which local measurements are used to determine a complex global combinatorial structure. Phylogenetic trees are a standard model for histories governed solely by branching, and this reconstruction problem has been studied extensively for trees, yielding several criteria and algorithms. Yet many evolutionary histories are not adequately tree-like. Events such as hybridization and gene flow can bring previously separated lineages together, which a tree cannot represent. Phylogenetic networks provide a more flexible model for such histories. In this setting, the taxa label the leaves, whereas the internal vertices, edges, and non-tree-like connections are unknown and must be inferred. The input therefore contains no direct description of the full network topology. The corresponding question is: how much of a network can be reconstructed from pairwise data at its leaves?\n\nWe study this problem for proper, unweighted, unrooted, binary phylogenetic networks of level 3. Here, level is a standard measure of network complexity; informally, it measures how far the nontrivial biconnected components of the network are from being trees. Huber et al. (2022) showed that level-2 networks can be reconstructed from the shortest and longest distances between each pair of leaves. For level-3 networks, however, examples show that a direct extension of this length-based method does not always reconstruct the network correctly. This failure is the obstruction addressed in our work.\n\nTo overcome this obstruction, we enrich the pairwise data by adding one further invariant: the number of shortest simple paths between each pair of leaves. Some level-3 structures cannot be distinguished using shortest and longest path lengths alone but become reconstructable once shortest-path counts are included. Thus, the count is not introduced merely as an additional descriptor; it addresses a specific failure of the length-based reconstruction strategy. We refer to the combined information—shortest-path length, longest simple-path length, and shortest-path count—as shortest–longest–count data.\n\nUnder the necessary identifiability condition that no non-isomorphic network on the same leaf set has the same shortest–longest–count data, we solve the distance-based phylogenetic reconstruction problem for this class. We give a constructive algorithm that reconstructs the network up to leaf-labeled isomorphism by combining local reductions with a finite catalog of level-3 building blocks. The result extends distance-based reconstruction beyond the level-2 setting and shows how shortest-path counts overcome the level-3 obstruction.",
+      "authors": null,
+      "slot_id": "D3S3",
+      "date": "2026-08-26",
+      "start": null,
+      "end": null,
+      "room": "M"
+    },
+    {
+      "presentation_id": "CT-SC-019",
+      "program_type": "CT-SC",
+      "cmt_paper_id": null,
+      "parent_program_id": "CT-SC",
+      "session_id": "CT-SC4",
+      "order": 3,
+      "duration_minutes": null,
+      "speaker": "Yukino Kawai",
+      "affiliation": "Graduate School of Fundamental Science and Engineering, Waseda University, Japan",
+      "title": "Separation Index for Cluster-Label Convexity on Weighted Phylogenetic Trees",
+      "abstract": "A phylogenetic tree has cluster labels on its leaves, and measuring how well these labels reflect the tree structure is a fundamental problem in phylogenetics and hierarchical clustering. A labeling is called convex when the minimal subtrees spanned by the individual color classes are pairwise disjoint. Known measures such as the consistency index (CI) and the convex recoloring distance (CRD) describe this fit. However, they depend only on the tree topology and ignore branch lengths.\n\nWe study k-colorings of the leaves of a weighted, unrooted, binary phylogenetic tree. For each edge, we count the colors appearing on both sides and use this to define a branch-length-based separation index. The index is maximal if and only if the labeling is convex. When the labeling is not convex, the index detects color mixing that CI and CRD cannot identify. Finally, we give an O(nk)-time algorithm for computing the index and report numerical experiments, including experiments with real data.",
+      "authors": null,
+      "slot_id": "D3S3",
+      "date": "2026-08-26",
+      "start": null,
+      "end": null,
+      "room": "M"
+    },
+    {
+      "presentation_id": "CT-SC-020",
+      "program_type": "CT-SC",
+      "cmt_paper_id": null,
+      "parent_program_id": "CT-SC",
+      "session_id": "CT-SC4",
+      "order": 4,
+      "duration_minutes": null,
+      "speaker": "Takatora Suzuki",
+      "affiliation": "School of Fundamental Science and Engineering, Waseda University, Japan",
+      "title": "Extracting the Most Tree-Like Subgraph of a Phylogenetic Network",
+      "abstract": "Branching evolution of species has traditionally been represented by phylogenetic trees, but some evolutionary events, such as hybridization and horizontal gene transfer, cannot be captured by trees. Phylogenetic networks, which can also represent such reticulate evolution, are used instead; these, however, are complex and difficult to analyze. One approach to making a complex phylogenetic network more tractable is to extract a meaningful subgraph from it. In particular, the class of tree-based networks, introduced by Francis and Steel (2015), has been studied extensively as the class of networks from which a support tree can be extracted. Not every network is tree-based, however, and for such networks it is meaningful to extract a structure more complex than a tree—namely, a support network.\n\nIn the first part of the talk, we generalize a structural characterization of the set of support trees given by Hayamizu (2022) to obtain a direct-product formula characterizing the set of support networks within a given network. This also yields counting formulas expressed in terms of classical integer sequences such as the Fibonacci, Lucas, Padovan, and Perrin numbers.\n\nIn the second part, we address the problem of extracting the most tree-like support network, as measured by level. Because we have shown this problem to be NP-hard, we instead develop an integer linear programming formulation for extracting a level-1 network—the next-simplest graph beyond a tree—from a given network. We then present experiments comparing our method with the exhaustive-search algorithm obtained from the characterization above, confirming its practical effectiveness.",
+      "authors": null,
+      "slot_id": "D3S3",
+      "date": "2026-08-26",
+      "start": null,
+      "end": null,
+      "room": "M"
+    },
+    {
+      "presentation_id": "CT-SC-021",
+      "program_type": "CT-SC",
+      "cmt_paper_id": null,
+      "parent_program_id": "CT-SC",
+      "session_id": "CT-SC4",
+      "order": 5,
+      "duration_minutes": null,
+      "speaker": "Shunsuke Maeda",
+      "affiliation": "Graduate School of Fundamental Science and Engineering, Waseda University, Japan",
+      "title": "A Mixed-Integer Programming Approach to the Tree-Based Orientation Problem",
+      "abstract": "Distance-based methods are widely used in phylogenetics to infer phylogenetic networks from dissimilarity matrices. However, most inferred networks are undirected, preventing the interpretation of evolutionary directions. To address this issue, the orientation problem—which seeks to assign directions to the edges of an undirected network so as to obtain a directed phylogenetic network—has recently gained increasing attention. In this talk, we study the Tree-Based Orientation problem, which asks whether an undirected network can be oriented as a tree-based phylogenetic network. We present a practical mixed-integer programming formulation for solving this problem.",
+      "authors": null,
+      "slot_id": "D3S3",
+      "date": "2026-08-26",
+      "start": null,
+      "end": null,
+      "room": "M"
+    },
+    {
+      "presentation_id": "CT-SC-022",
+      "program_type": "CT-SC",
+      "cmt_paper_id": null,
+      "parent_program_id": "CT-SC",
+      "session_id": "CT-SC5",
+      "order": 1,
+      "duration_minutes": null,
+      "speaker": "XIONG Yu",
+      "affiliation": "Nanyang Technological University, Singapore",
+      "title": "A Priori and A Posteriori Error Analyses of a Pressure-Robust Virtual Element Method for the Two-Dimensional Brinkman Problem",
+      "abstract": "This talk investigates both a priori and a posteriori error estimates for a pressure-robust and divergence-free virtual element method to approximate the incompressible Brinkman problem on polygonal meshes. The exactly divergence-free property of the virtual space preserves the mass conservation of the system. By extending the lowest-order Raviart–Thomas element to polygonal meshes, we construct a divergence-preserving reconstructor for the discretization of the right-hand side. A rigorous a priori error analysis is developed, showing that the velocity error is independent of both the continuous pressure and the viscosity. Taking advantage of the virtual element method’s ability to handle more general polygonal meshes, we design an adaptive mesh-refinement approach and construct a residual-type a posteriori error indicator. This indicator is proven to provide global upper and local lower bounds for the discretization error. Finally, numerical experiments demonstrate the robustness, accuracy, reliability, and efficiency of the method.",
+      "authors": null,
+      "slot_id": "D3S4",
+      "date": "2026-08-26",
+      "start": null,
+      "end": null,
+      "room": "M"
+    },
+    {
+      "presentation_id": "CT-SC-023",
+      "program_type": "CT-SC",
+      "cmt_paper_id": null,
+      "parent_program_id": "CT-SC",
+      "session_id": "CT-SC5",
+      "order": 2,
+      "duration_minutes": null,
+      "speaker": "YANG Qizheng",
+      "affiliation": "The Chinese University of Hong Kong",
+      "title": "A Deep Learning–Enhanced Dual-Index Direct Sampling Method for PDE Inverse Problems",
+      "abstract": "Inverse problems in partial differential equations (PDEs) are notoriously challenging because of their inherent ill-posedness. Traditional optimization-based methods reconstruct internal structures by matching boundary measurements and minimizing objective functions equipped with data-fidelity and regularization terms. Although these methods yield high reconstruction accuracy, they incur prohibitive computational costs because forward PDEs must be solved iteratively. To alleviate this computational burden, the Direct Sampling Method (DSM) was proposed as a computationally efficient alternative. By calculating a positive index value for each point in the domain, DSM constructs an index function to locate internal inhomogeneities without requiring iterative PDE solvers. It demands less measurement data and exhibits strong robustness to measurement noise. Recently, a dual-index DSM was developed to reconstruct two different types of inhomogeneities simultaneously from limited data by constructing two distinct index functions. However, its performance depends heavily on the design of specialized probing functions, whose accuracy leaves room for improvement. In this work, we propose a novel approach that integrates deep learning to enhance the design and accuracy of these probing functions for the dual-index DSM. Numerical experiments demonstrate that the probing functions generated by our AI-driven framework better satisfy the accuracy requirements of the dual-index DSM, thereby significantly improving overall reconstruction quality.",
+      "authors": null,
+      "slot_id": "D3S4",
+      "date": "2026-08-26",
+      "start": null,
+      "end": null,
+      "room": "M"
+    },
+    {
+      "presentation_id": "CT-SC-024",
+      "program_type": "CT-SC",
+      "cmt_paper_id": null,
+      "parent_program_id": "CT-SC",
+      "session_id": "CT-SC5",
+      "order": 3,
+      "duration_minutes": null,
+      "speaker": "Motohiro Otsuka",
+      "affiliation": "Graduate School of Engineering, Nagoya University, Japan",
+      "title": "Error Control for Double-Exponential-Based Algorithms for Computing Quadratic Forms Associated with A log(A)",
+      "abstract": "This study focuses on the computation of quadratic forms associated with A log(A), where A is a positive semidefinite Hermitian matrix and log(A) denotes the matrix logarithm.\n\nUsing an integral representation of the matrix function, a double-exponential (DE) quadrature formula approximates such quadratic forms through the solution of several shifted linear systems. While previous studies have mainly focused on the quadrature error arising from the DE approximation, less attention has been paid to the algebraic error caused by solving these shifted linear systems approximately.\n\nIn this study, we derive an upper bound for this algebraic error using the residuals of the approximate solutions. This yields a stopping criterion for iterative solvers that keeps the total error in the target quadratic form below a prescribed tolerance. Numerical results demonstrate that the proposed criterion enables the computation of the target quadratic form within the prescribed tolerance.",
+      "authors": null,
+      "slot_id": "D3S4",
+      "date": "2026-08-26",
+      "start": null,
+      "end": null,
+      "room": "M"
+    },
+    {
+      "presentation_id": "CT-SC-025",
+      "program_type": "CT-SC",
+      "cmt_paper_id": null,
+      "parent_program_id": "CT-SC",
+      "session_id": "CT-SC5",
+      "order": 4,
+      "duration_minutes": null,
+      "speaker": "Zhixuan Xu",
+      "affiliation": "1 Department of Applied Physics, Nagoya University, Japan; 2 Department of Mathematics, Meijo University, Japan",
+      "title": "On Two Numerical Approaches for Linear Systems ABx = b",
+      "abstract": "We consider the linear system ABx = b, which can be rewritten as the two-stage system Ay = b and Bx = y. Here A and B are nonsingular square matrices of dimension N, and x, y, and b are vectors of dimension N. When solving such systems numerically, the two formulations exploit the matrices A and B in different ways and may therefore yield different results under finite-precision arithmetic.\n\nWe propose two numerical approaches for solving linear systems of the form ABx = b. These approaches can be readily incorporated into linear solvers for Ax = b, including direct methods, stationary iterative methods, and Krylov subspace methods. In the first approach, the matrix-vector product ABp is computed implicitly as A(Bp). In the second approach, one first solves Ay = b and then solves Bx = y using the computed approximation of y.\n\nWe focus on Krylov subspace methods for the following reason. In the first approach, the implicit construction can reduce the computational cost from O(Nnz3) to O(Nnz) when A and B are sparse and Nnz is the number of nonzeros. However, this construction is applicable only to Krylov subspace methods, so we restrict our discussion to this setting. Although the second approach can be used with other linear solvers, we do not consider those settings here.\n\nNumerical experiments in double-precision arithmetic will compare the two approaches in terms of iteration count, CPU time, and true relative residual under several choices of A and B.",
+      "authors": null,
+      "slot_id": "D3S4",
+      "date": "2026-08-26",
+      "start": null,
+      "end": null,
+      "room": "M"
+    },
+    {
+      "presentation_id": "CT-SC-026",
+      "program_type": "CT-SC",
+      "cmt_paper_id": null,
+      "parent_program_id": "CT-SC",
+      "session_id": "CT-SC5",
+      "order": 5,
+      "duration_minutes": null,
+      "speaker": "Qiu-Yi Chen",
+      "affiliation": "1 Department of Applied Physics, Nagoya University, Japan; 2 School of Mathematics and Statistics, Hainan University, China",
+      "title": "Tensor Form of the LSMR Method for a Generalized Sylvester Quaternion Tensor Equation with an Application",
+      "abstract": "This paper concerns the least-squares solutions of a generalized Sylvester quaternion tensor equation arising from color-video restoration. Using properties of quaternions, the vectorization operator, and the Kronecker product, we propose a tensor form of the least-squares minimum residual (LSMR) method for finding a least-squares solution. Numerical examples from practical applications demonstrate the effectiveness of the proposed method. A comparison with an existing method is also provided.",
+      "authors": null,
+      "slot_id": "D3S4",
+      "date": "2026-08-26",
+      "start": null,
+      "end": null,
+      "room": "M"
     }
   ],
   "posters": [
