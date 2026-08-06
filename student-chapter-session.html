@@ -92,7 +92,7 @@ permalink: /student-chapter-session/
                 <div class="program-accordion-list">
                     {% assign student_sessions = site.data.program.sessions | where: "program_type", "CT-SC" %}
                     {% for session in student_sessions %}
-                    {% assign session_talks = site.data.program.talks | where: "session_id", session.session_id %}
+                    {% assign session_talks = site.data.program.talks | where: "session_id", session.session_id | sort: "order" %}
                     {% assign slot = site.data.program.slots | where: "slot_id", session.slot_id | first %}
                     <details class="program-card searchable-item">
                         <summary>

@@ -32,7 +32,7 @@ permalink: /contributed-talks-and-posters/
                 <div class="program-accordion-list">
                     {% assign ct_sessions = site.data.program.sessions | where: "program_type", "CT" %}
                     {% for session in ct_sessions %}
-                    {% assign session_talks = site.data.program.talks | where: "session_id", session.session_id %}
+                    {% assign session_talks = site.data.program.talks | where: "session_id", session.session_id | sort: "start" %}
                     {% assign slot = site.data.program.slots | where: "slot_id", session.slot_id | first %}
                     <details class="program-card searchable-item">
                         <summary>

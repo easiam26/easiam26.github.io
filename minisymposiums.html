@@ -33,7 +33,7 @@ permalink: /minisymposia/
                 {% assign ms_groups = ms_sessions | group_by: "parent_program_id" %}
                 {% for group in ms_groups %}
                 {% assign first_session = group.items | first %}
-                {% assign group_talks = site.data.program.talks | where: "parent_program_id", group.name %}
+                {% assign group_talks = site.data.program.talks | where: "parent_program_id", group.name | sort: "start" %}
                 <details class="program-card searchable-item">
                     <summary>
                         <span class="program-card-id">{{ group.name | escape }}</span>
