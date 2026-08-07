@@ -60,12 +60,12 @@ body {
 
 .nav-container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1380px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 30px;
+    padding: 0 20px;
 }
 
 .logo {
@@ -75,9 +75,39 @@ body {
     text-decoration: none;
 }
 
+.brand-lockup {
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    gap: 10px;
+}
+
+.brand-lockup a {
+    align-items: center;
+    display: inline-flex;
+}
+
+.easiam-brand-logo {
+    display: block;
+    height: 38px;
+    width: auto;
+}
+
+.brand-divider {
+    background: #d5dfdd;
+    height: 30px;
+    width: 1px;
+}
+
+.siam-brand-logo {
+    display: block;
+    height: 16px;
+    width: auto;
+}
+
 .nav-links {
     display: flex;
-    gap: 20px;
+    gap: 13px;
     list-style: none;
 }
 
@@ -89,7 +119,7 @@ body {
     text-decoration: none;
     color: var(--text-color);
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 0.9rem;
     transition: 0.3s;
 }
 
@@ -197,10 +227,38 @@ body {
 }
 
 .section-title {
-    font-size: 2.2rem;
+    font-size: clamp(1.85rem, 3.5vw, 2.2rem);
     color: var(--primary-color);
     margin-bottom: 40px;
     font-weight: 700;
+}
+
+.about-content {
+    margin: 0 auto;
+    max-width: 960px;
+    text-align: left;
+}
+
+.about-content p {
+    color: #40514e;
+    font-size: 1.03rem;
+    line-height: 1.8;
+}
+
+.about-conference-intro {
+    font-size: 1.08rem !important;
+}
+
+.about-subsection {
+    border-top: 1px solid #dce7e5;
+    margin-top: 30px;
+    padding-top: 26px;
+}
+
+.about-subsection h3 {
+    color: var(--primary-color);
+    font-size: 1.35rem;
+    margin-bottom: 12px;
 }
 
 /* Committee Grid */
@@ -601,6 +659,26 @@ footer {
 
 /* Responsive Design - Mobile */
 @media (max-width: 768px) {
+    .nav-container {
+        padding: 0 18px;
+    }
+
+    .brand-lockup {
+        gap: 7px;
+    }
+
+    .easiam-brand-logo {
+        height: 32px;
+    }
+
+    .brand-divider {
+        height: 25px;
+    }
+
+    .siam-brand-logo {
+        height: 13px;
+    }
+
     .hamburger {
         display: flex;
     }
@@ -665,6 +743,7 @@ footer {
 
     .hero h1 {
         font-size: 2rem;
+        line-height: 1.2;
     }
 
     .hero p {
@@ -675,15 +754,27 @@ footer {
 /* Tablet adjustments */
 @media (max-width: 1024px) and (min-width: 769px) {
     .nav-links {
-        gap: 15px;
+        gap: 8px;
     }
 
     .nav-links a {
-        font-size: 0.9rem;
+        font-size: 0.78rem;
     }
 
-    .logo {
-        font-size: 1.2rem;
+    .brand-lockup {
+        gap: 7px;
+    }
+
+    .easiam-brand-logo {
+        height: 31px;
+    }
+
+    .brand-divider {
+        height: 24px;
+    }
+
+    .siam-brand-logo {
+        height: 12px;
     }
 }
 

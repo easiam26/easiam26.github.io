@@ -1,5 +1,5 @@
 # Conference Basic Information
-name: "19th EASIAM Annual Meeting"
+name: "East Asia Section of SIAM Annual Meeting"
 short_name: "EASIAM 2026"
 dates: "August 23-27, 2026"
 venue: "Oriental Hotel, Jeju Island, Korea"
@@ -7,4 +7,9 @@ location: "Jeju Island, Korea"
 email: "easiam2026@gmail.com"
 
 # About
-about: "The 19th East Asia SIAM (EASIAM) Annual Meeting brings together researchers, educators, and students in the field of industrial and applied mathematics from East and Southeast Asia. The conference provides a forum for the exchange of ideas and the presentation of recent results in all areas of applied mathematics."
+about: >-
+  The EASIAM (East Asia Section of SIAM) Annual Meeting brings together researchers, educators, and students in industrial and applied mathematics from East and Southeast Asia. The conference provides a forum for the exchange of ideas and the presentation of recent results in all areas of applied mathematics.
+section_about: >-
+  The East Asia Section of SIAM serves members in East Asia and South East Asia, including but not limited to the following countries and regions: Brunei, Cambodia, China, Far East Russia, Hong Kong, Indonesia, Japan, Laos, Macau, Malaysia, Mongolia, Myanmar, North Korea, Philippines, Singapore, South Korea, Taiwan, Thailand, Vietnam. The East Asia Section of SIAM was formed in 1998 to promote the application of mathematics to science, engineering, and technology in East and South East Asia while also providing opportunity for interaction between mathematicians and users of mathematics in the region.
+siam_about: >-
+  Society for Industrial and Applied Mathematics (SIAM) is an international organization that fosters the development of applied mathematics and computational methodologies needed in various application areas through publications, conferences, and communities like student chapters, geographic sections, and activity groups.

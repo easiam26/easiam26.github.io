@@ -1,8 +1,14 @@
 <nav class="navbar">
     <div class="nav-container">
-        <a href="{{ '/' | relative_url }}" class="logo">
-            <img src="{{ '/assets/images/logo_easiam2026.png' | relative_url }}" alt="EASIAM 2026" style="height: 50px; width: auto; vertical-align: middle;">
-        </a>
+        <div class="brand-lockup">
+            <a href="{{ '/' | relative_url }}" class="logo easiam-brand-link" aria-label="EASIAM 2026 home">
+                <img src="{{ '/assets/images/logo_easiam2026.png' | relative_url }}" alt="EASIAM 2026" class="easiam-brand-logo">
+            </a>
+            <span class="brand-divider" aria-hidden="true"></span>
+            <a href="https://www.siam.org/" class="siam-brand-link" aria-label="Society for Industrial and Applied Mathematics">
+                <img src="{{ '/assets/images/logo_siam.png' | relative_url }}" alt="SIAM — Society for Industrial and Applied Mathematics" class="siam-brand-logo">
+            </a>
+        </div>
         <!-- Hamburger menu button for mobile -->
         <button class="hamburger" id="hamburger" aria-label="Toggle menu">
             <span></span>
