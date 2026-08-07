@@ -239,6 +239,13 @@ body {
     text-align: left;
 }
 
+.about-section-title {
+    font-size: 1.35rem;
+    margin: 0 auto 12px;
+    max-width: 960px;
+    text-align: left;
+}
+
 .about-content p {
     color: #40514e;
     font-size: 1.03rem;
