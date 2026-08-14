@@ -34,16 +34,23 @@ permalink: /contributed-talks-and-posters/
                     {% for session in ct_sessions %}
                     {% assign session_talks = site.data.program.talks | where: "session_id", session.session_id | sort: "start" %}
                     {% assign slot = site.data.program.slots | where: "slot_id", session.slot_id | first %}
+                    {% assign session_end = session.display_end | default: slot.end %}
                     <details class="program-card searchable-item">
                         <summary>
                             <span class="program-card-id">{{ session.session_id | escape }}</span>
                             <span class="program-card-heading">
                                 <strong>{{ session.title | escape }}</strong>
-                                <small>{{ slot.date | date: "%A, %B %d" }} · {{ slot.start }}–{{ slot.end }} · Room {{ session.room | escape }}</small>
+                                <small>{{ slot.date | date: "%A, %B %d" }} · {{ slot.start }}–{{ session_end }} · Room {{ session.room | escape }}{% if session.chair %} · Chair: {{ session.chair | escape }}{% endif %}</small>
                             </span>
                             <span class="program-card-toggle" aria-hidden="true"></span>
                         </summary>
                         <div class="program-card-body">
+                            {% if session.chair %}
+                            <div class="organizer-panel">
+                                <h3>Session Chair</h3>
+                                <p>{{ session.chair | escape }}</p>
+                            </div>
+                            {% endif %}
                             <ol class="talk-list">
                                 {% for talk in session_talks %}
                                 <li>
@@ -62,7 +69,8 @@ permalink: /contributed-talks-and-posters/
             </section>
 
             <section id="poster-presentations" class="program-tab-panel" role="tabpanel" hidden>
-                <p class="program-intro">Poster Session: Tuesday, August 25, 17:10–18:40, Room H. Select a poster to view authors and abstract.</p>
+                {% assign poster_event = site.data.program.fixed_program | where: "event_id", "POSTER" | first %}
+                <p class="program-intro">Poster Session: {{ poster_event.date | date: "%A, %B %d" }}, {{ poster_event.start }}–{{ poster_event.end }}, Room {{ poster_event.room | escape }}. Select a poster to view authors and abstract.</p>
                 <p class="program-empty" data-program-empty hidden>No posters match your search.</p>
                 <div class="poster-grid">
                     {% for poster in site.data.program.posters %}

@@ -25,7 +25,7 @@ permalink: /minisymposia/
                 </div>
             </div>
 
-            <p class="program-intro">Select a minisymposium to see its schedule and full list of public talks. Times and rooms follow the current working program.</p>
+            <p class="program-intro">Select a minisymposium to see its schedule and full list of public talks.</p>
             <p class="program-empty" data-program-empty hidden>No minisymposia match your search.</p>
 
             <div class="program-accordion-list">
@@ -59,10 +59,11 @@ permalink: /minisymposia/
                         <div class="session-schedule-list">
                             {% for session in group.items %}
                             {% assign slot = site.data.program.slots | where: "slot_id", session.slot_id | first %}
+                            {% assign session_end = session.display_end | default: slot.end %}
                             <div class="session-schedule-item">
                                 <strong>{{ session.session_id | escape }}</strong>
                                 <span>{{ slot.date | date: "%A, %B %d" }}</span>
-                                <span>{{ slot.start }}–{{ slot.end }}</span>
+                                <span>{{ slot.start }}–{{ session_end }}</span>
                                 <span>Room {{ session.room | escape }}</span>
                             </div>
                             {% endfor %}

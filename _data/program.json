@@ -1,6 +1,6 @@
 {
-  "schema_version": "1.4",
-  "generated_on": "2026-08-06",
+  "schema_version": "1.5",
+  "generated_on": "2026-08-14",
   "source": "master/EASIAM2026_program_management_master.xlsx",
   "publication_policy": {
     "excludes_private_email": true,
@@ -9,6 +9,7 @@
     "ct_talk_max_minutes": 16,
     "ms_talk_max_minutes": 20,
     "five_talk_ms_minutes": 16,
+    "approved_ms03b_exception": "five 20-minute talks, 17:20-19:00 on 2026-08-24",
     "ms_website_includes_co_organizers": true,
     "at_a_glance_uses_main_organizer_only": true,
     "ct_student_chapter_details_published": true,
@@ -257,7 +258,7 @@
       "event_id": "OPENING",
       "day": 1,
       "date": "2026-08-24",
-      "start": "08:15",
+      "start": "08:10",
       "end": "08:30",
       "event_type": "Opening",
       "title": "Opening Ceremony",
@@ -265,7 +266,14 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
-      "notes": null
+      "programme_details": [
+        "Tao Zhou (EASIAM president)",
+        "Carol S. Woodward (SIAM president)",
+        "Youngmok Jeon (KSIAM president)",
+        "Yunsung Choi (NIMS president)"
+      ],
+      "slot_id": null,
+      "notes": "Opening time updated by explicit organizer instruction on 2026-08-13.\nProgramme details: Tao Zhou (EASIAM president); Carol S. Woodward (SIAM president); Youngmok Jeon (KSIAM president); Yunsung Choi (NIMS president)"
     },
     {
       "event_id": "PLENARY1",
@@ -279,6 +287,8 @@
       "speaker": "Shi Jin",
       "speaker_affiliation": null,
       "talk_title": "Quantum Computations of nonlinear PDEs and the UnitaryLab Software",
+      "programme_details": [],
+      "slot_id": null,
       "notes": "Talk title: Quantum Computations of nonlinear PDEs and the UnitaryLab Software\nCarol Woodward and Shi Jin plenary slots swapped by request dated 2026-08-04."
     },
     {
@@ -288,12 +298,14 @@
       "start": "09:20",
       "end": "09:50",
       "event_type": "Break",
-      "title": "Coffee Break",
+      "title": "Group Photo & Coffee Break",
       "room": null,
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
-      "notes": null
+      "programme_details": [],
+      "slot_id": null,
+      "notes": "Latest programme instruction: take the group photo immediately after Plenary Lecture 1, followed by the coffee break."
     },
     {
       "event_id": "D1-LUNCH",
@@ -307,6 +319,8 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "programme_details": [],
+      "slot_id": null,
       "notes": null
     },
     {
@@ -321,6 +335,8 @@
       "speaker": "Te-Sheng Lin",
       "speaker_affiliation": null,
       "talk_title": "Structure-Aware Scientific Machine Learning for Interface Problems",
+      "programme_details": [],
+      "slot_id": null,
       "notes": "Talk title: Structure-Aware Scientific Machine Learning for Interface Problems\nWorking speaker assignment per user instruction, 2026-07-28."
     },
     {
@@ -335,6 +351,8 @@
       "speaker": "Zhenli Xu",
       "speaker_affiliation": null,
       "talk_title": "Machine-Learning Interatomic Potentials for Long-Range Systems",
+      "programme_details": [],
+      "slot_id": null,
       "notes": "Talk title: Machine-Learning Interatomic Potentials for Long-Range Systems\nWorking speaker assignment per user instruction, 2026-07-28."
     },
     {
@@ -349,6 +367,8 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "programme_details": [],
+      "slot_id": null,
       "notes": null
     },
     {
@@ -359,11 +379,13 @@
       "end": "20:00",
       "event_type": "Reception",
       "title": "Welcome Reception",
-      "room": "H",
+      "room": "I",
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
-      "notes": "Moved from Monday to Sunday per authoritative timetable update."
+      "programme_details": [],
+      "slot_id": null,
+      "notes": "Moved from Monday to Sunday per authoritative timetable update.\nLatest room instruction: Welcome Reception uses room I."
     },
     {
       "event_id": "PLENARY2",
@@ -377,6 +399,8 @@
       "speaker": "Carol S. Woodward",
       "speaker_affiliation": null,
       "talk_title": "Adaptive Time Integration Methods, Software, and Applications",
+      "programme_details": [],
+      "slot_id": null,
       "notes": "Talk title: Adaptive Time Integration Methods, Software, and Applications\nCarol Woodward and Shi Jin plenary slots swapped by request dated 2026-08-04."
     },
     {
@@ -391,6 +415,8 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "programme_details": [],
+      "slot_id": null,
       "notes": null
     },
     {
@@ -405,6 +431,8 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "programme_details": [],
+      "slot_id": null,
       "notes": null
     },
     {
@@ -419,6 +447,8 @@
       "speaker": "Kenji Kajiwara",
       "speaker_affiliation": null,
       "talk_title": "Geometric Shape Generation: Integrability, Artisticity and Mechanical Optimality",
+      "programme_details": [],
+      "slot_id": null,
       "notes": "Talk title: Geometric Shape Generation: Integrability, Artisticity and Mechanical Optimality\nPlaced on August 25, consistent with the MS20 scheduling note."
     },
     {
@@ -433,6 +463,8 @@
       "speaker": "Guanghui Hu",
       "speaker_affiliation": "University of Macau",
       "talk_title": "Towards extreme efficiency: numerical methods for PDEs in AI era",
+      "programme_details": [],
+      "slot_id": null,
       "notes": "Talk title: Towards extreme efficiency: numerical methods for PDEs in AI era\nSpeaker affiliation: University of Macau\nAffiliation corrected in source/plenary_invited_talks.docx."
     },
     {
@@ -447,21 +479,25 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "programme_details": [],
+      "slot_id": null,
       "notes": null
     },
     {
       "event_id": "POSTER",
       "day": 2,
       "date": "2026-08-25",
-      "start": "17:10",
+      "start": "17:20",
       "end": "18:40",
       "event_type": "Poster",
       "title": "Poster Session",
-      "room": "S2",
+      "room": "S",
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
-      "notes": null
+      "programme_details": [],
+      "slot_id": null,
+      "notes": "Poster Session uses the combined Sara hall. Start moved to 17:20 by explicit organizer instruction on 2026-08-13."
     },
     {
       "event_id": "BANQUET",
@@ -475,6 +511,8 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "programme_details": [],
+      "slot_id": null,
       "notes": "End time not specified in timetable; room confirmed as H by user on 2026-07-29."
     },
     {
@@ -489,6 +527,8 @@
       "speaker": "Myungjoo Kang",
       "speaker_affiliation": null,
       "talk_title": "Deep Learning-Based Surface Reconstruction from Point Clouds",
+      "programme_details": [],
+      "slot_id": null,
       "notes": "Talk title: Deep Learning-Based Surface Reconstruction from Point Clouds\nWorking speaker assignment per user instruction, 2026-07-28."
     },
     {
@@ -503,6 +543,8 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "programme_details": [],
+      "slot_id": null,
       "notes": null
     },
     {
@@ -517,6 +559,8 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "programme_details": [],
+      "slot_id": null,
       "notes": null
     },
     {
@@ -531,6 +575,8 @@
       "speaker": "Zhi Zhou",
       "speaker_affiliation": null,
       "talk_title": "The Parareal Algorithm Revisited: Toward Parallel-in-Time Integration",
+      "programme_details": [],
+      "slot_id": null,
       "notes": "Talk title: The Parareal Algorithm Revisited: Toward Parallel-in-Time Integration\nWorking speaker assignment per user instruction, 2026-07-28."
     },
     {
@@ -545,6 +591,8 @@
       "speaker": "Mikyoung Lim",
       "speaker_affiliation": null,
       "talk_title": "Direct and inverse problems for inclusions via layer potentials",
+      "programme_details": [],
+      "slot_id": null,
       "notes": "Talk title: Direct and inverse problems for inclusions via layer potentials\nWorking speaker assignment per user instruction, 2026-07-28."
     },
     {
@@ -559,6 +607,8 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "programme_details": [],
+      "slot_id": null,
       "notes": null
     },
     {
@@ -573,6 +623,8 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "programme_details": [],
+      "slot_id": null,
       "notes": null
     },
     {
@@ -587,6 +639,8 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "programme_details": [],
+      "slot_id": null,
       "notes": null
     },
     {
@@ -601,7 +655,105 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "programme_details": [],
+      "slot_id": null,
       "notes": "Pre-conference registration; timetable updated 2026-07-29."
+    },
+    {
+      "event_id": "REGISTRATION-D1",
+      "day": 1,
+      "date": "2026-08-24",
+      "start": "08:00",
+      "end": "18:00",
+      "event_type": "Registration",
+      "title": "Conference Registration",
+      "room": null,
+      "speaker": null,
+      "speaker_affiliation": null,
+      "talk_title": null,
+      "programme_details": [],
+      "slot_id": null,
+      "notes": "Monday registration 08:00-18:00."
+    },
+    {
+      "event_id": "REGISTRATION-D2",
+      "day": 2,
+      "date": "2026-08-25",
+      "start": "08:00",
+      "end": "18:00",
+      "event_type": "Registration",
+      "title": "Conference Registration",
+      "room": null,
+      "speaker": null,
+      "speaker_affiliation": null,
+      "talk_title": null,
+      "programme_details": [],
+      "slot_id": null,
+      "notes": "Tuesday registration 08:00-18:00."
+    },
+    {
+      "event_id": "REGISTRATION-D3",
+      "day": 3,
+      "date": "2026-08-26",
+      "start": "08:00",
+      "end": "18:00",
+      "event_type": "Registration",
+      "title": "Conference Registration",
+      "room": null,
+      "speaker": null,
+      "speaker_affiliation": null,
+      "talk_title": null,
+      "programme_details": [],
+      "slot_id": null,
+      "notes": "Wednesday registration 08:00-18:00."
+    },
+    {
+      "event_id": "REGISTRATION-D4",
+      "day": 4,
+      "date": "2026-08-27",
+      "start": "08:00",
+      "end": "18:00",
+      "event_type": "Registration",
+      "title": "Conference Registration",
+      "room": null,
+      "speaker": null,
+      "speaker_affiliation": null,
+      "talk_title": null,
+      "programme_details": [],
+      "slot_id": null,
+      "notes": "Thursday registration 08:00-18:00."
+    },
+    {
+      "event_id": "D2-POSTER-BREAK",
+      "day": 2,
+      "date": "2026-08-25",
+      "start": "17:10",
+      "end": "17:20",
+      "event_type": "Break",
+      "title": "Break",
+      "room": null,
+      "speaker": null,
+      "speaker_affiliation": null,
+      "talk_title": null,
+      "programme_details": [],
+      "slot_id": null,
+      "notes": "Explicit break before the Poster Session."
+    },
+    {
+      "event_id": "ROOM-D1S4-M-ACEC",
+      "day": 1,
+      "date": "2026-08-24",
+      "start": "17:20",
+      "end": "18:40",
+      "event_type": "Committee Meeting",
+      "title": "AC/EC Committee Meeting",
+      "room": "M",
+      "speaker": null,
+      "speaker_affiliation": null,
+      "talk_title": null,
+      "programme_details": [],
+      "slot_id": "D1S4",
+      "notes": "Slot_ID: D1S4\nRoom M is reserved for the AC/EC Committee Meeting. This is a room-occupancy event, not an academic session assignment."
     }
   ],
   "sessions": [
@@ -623,7 +775,8 @@
       "chair": null,
       "slot_id": "D1S2",
       "room": "I1",
-      "talk_count": 5
+      "talk_count": 5,
+      "display_end": "12:40"
     },
     {
       "session_id": "MS02A",
@@ -638,7 +791,8 @@
       "chair": null,
       "slot_id": "D4S1",
       "room": "H3",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "09:50"
     },
     {
       "session_id": "MS02B",
@@ -653,7 +807,8 @@
       "chair": null,
       "slot_id": "D4S2",
       "room": "H3",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "11:40"
     },
     {
       "session_id": "MS03A",
@@ -673,7 +828,8 @@
       "chair": null,
       "slot_id": "D1S3",
       "room": "S2",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "17:10"
     },
     {
       "session_id": "MS03B",
@@ -693,7 +849,8 @@
       "chair": null,
       "slot_id": "D1S4",
       "room": "S2",
-      "talk_count": 4
+      "talk_count": 5,
+      "display_end": "19:00"
     },
     {
       "session_id": "MS04A",
@@ -713,7 +870,8 @@
       "chair": null,
       "slot_id": "D3S1",
       "room": "H1",
-      "talk_count": 3
+      "talk_count": 3,
+      "display_end": "10:50"
     },
     {
       "session_id": "MS04B",
@@ -733,7 +891,8 @@
       "chair": null,
       "slot_id": "D3S2",
       "room": "H1",
-      "talk_count": 2
+      "talk_count": 2,
+      "display_end": "12:00"
     },
     {
       "session_id": "MS05A",
@@ -757,7 +916,8 @@
       "chair": null,
       "slot_id": "D4S2",
       "room": "H1",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "11:40"
     },
     {
       "session_id": "MS05B",
@@ -781,7 +941,8 @@
       "chair": null,
       "slot_id": "D4S3",
       "room": "H1",
-      "talk_count": 3
+      "talk_count": 3,
+      "display_end": "12:50"
     },
     {
       "session_id": "MS06A",
@@ -801,7 +962,8 @@
       "chair": null,
       "slot_id": "D1S1",
       "room": "H1",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "11:10"
     },
     {
       "session_id": "MS06B",
@@ -821,7 +983,8 @@
       "chair": null,
       "slot_id": "D1S2",
       "room": "H1",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "12:40"
     },
     {
       "session_id": "MS07A",
@@ -845,7 +1008,8 @@
       "chair": null,
       "slot_id": "D4S1",
       "room": "S1",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "09:50"
     },
     {
       "session_id": "MS07B",
@@ -869,7 +1033,8 @@
       "chair": null,
       "slot_id": "D4S2",
       "room": "S1",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "11:40"
     },
     {
       "session_id": "MS08A",
@@ -889,7 +1054,8 @@
       "chair": null,
       "slot_id": "D2S2",
       "room": "S2",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "12:40"
     },
     {
       "session_id": "MS08B",
@@ -909,7 +1075,8 @@
       "chair": null,
       "slot_id": "D2S3",
       "room": "S2",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "17:10"
     },
     {
       "session_id": "MS09A",
@@ -929,7 +1096,8 @@
       "chair": null,
       "slot_id": "D3S3",
       "room": "H1",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "17:10"
     },
     {
       "session_id": "MS09B",
@@ -949,7 +1117,8 @@
       "chair": null,
       "slot_id": "D3S4",
       "room": "H1",
-      "talk_count": 3
+      "talk_count": 3,
+      "display_end": "18:20"
     },
     {
       "session_id": "MS10",
@@ -964,7 +1133,8 @@
       "chair": null,
       "slot_id": "D2S3",
       "room": "H1",
-      "talk_count": 4
+      "talk_count": 3,
+      "display_end": "16:50"
     },
     {
       "session_id": "MS11",
@@ -988,7 +1158,8 @@
       "chair": null,
       "slot_id": "D3S4",
       "room": "S2",
-      "talk_count": 5
+      "talk_count": 5,
+      "display_end": "18:40"
     },
     {
       "session_id": "MS12A",
@@ -1008,7 +1179,8 @@
       "chair": null,
       "slot_id": "D1S3",
       "room": "H1",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "17:10"
     },
     {
       "session_id": "MS12B",
@@ -1028,7 +1200,8 @@
       "chair": null,
       "slot_id": "D1S4",
       "room": "H1",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "18:40"
     },
     {
       "session_id": "MS13",
@@ -1043,7 +1216,8 @@
       "chair": null,
       "slot_id": "D2S1",
       "room": "S2",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "11:10"
     },
     {
       "session_id": "MS14A",
@@ -1058,7 +1232,8 @@
       "chair": null,
       "slot_id": "D1S3",
       "room": "H3",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "17:10"
     },
     {
       "session_id": "MS14B",
@@ -1073,7 +1248,8 @@
       "chair": null,
       "slot_id": "D1S4",
       "room": "H3",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "18:40"
     },
     {
       "session_id": "MS15A",
@@ -1093,7 +1269,8 @@
       "chair": null,
       "slot_id": "D2S1",
       "room": "S1",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "11:10"
     },
     {
       "session_id": "MS15B",
@@ -1113,7 +1290,8 @@
       "chair": null,
       "slot_id": "D2S2",
       "room": "S1",
-      "talk_count": 2
+      "talk_count": 2,
+      "display_end": "12:00"
     },
     {
       "session_id": "MS16A",
@@ -1137,7 +1315,8 @@
       "chair": null,
       "slot_id": "D4S2",
       "room": "S2",
-      "talk_count": 4
+      "talk_count": 3,
+      "display_end": "11:20"
     },
     {
       "session_id": "MS16B",
@@ -1161,7 +1340,8 @@
       "chair": null,
       "slot_id": "D4S3",
       "room": "S2",
-      "talk_count": 4
+      "talk_count": 3,
+      "display_end": "12:50"
     },
     {
       "session_id": "MS17",
@@ -1176,7 +1356,8 @@
       "chair": null,
       "slot_id": "D3S4",
       "room": "I1",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "18:40"
     },
     {
       "session_id": "MS18A",
@@ -1196,7 +1377,8 @@
       "chair": null,
       "slot_id": "D1S1",
       "room": "S2",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "11:10"
     },
     {
       "session_id": "MS18B",
@@ -1216,7 +1398,8 @@
       "chair": null,
       "slot_id": "D1S2",
       "room": "S2",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "12:40"
     },
     {
       "session_id": "MS19A",
@@ -1240,7 +1423,8 @@
       "chair": null,
       "slot_id": "D2S2",
       "room": "I1",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "12:40"
     },
     {
       "session_id": "MS19B",
@@ -1264,7 +1448,8 @@
       "chair": null,
       "slot_id": "D2S3",
       "room": "I1",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "17:10"
     },
     {
       "session_id": "MS20A",
@@ -1288,7 +1473,8 @@
       "chair": null,
       "slot_id": "D2S1",
       "room": "H3",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "11:10"
     },
     {
       "session_id": "MS20B",
@@ -1312,7 +1498,8 @@
       "chair": null,
       "slot_id": "D2S2",
       "room": "H3",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "12:40"
     },
     {
       "session_id": "MS21A",
@@ -1336,7 +1523,8 @@
       "chair": null,
       "slot_id": "D2S1",
       "room": "H1",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "11:10"
     },
     {
       "session_id": "MS21B",
@@ -1360,7 +1548,8 @@
       "chair": null,
       "slot_id": "D2S2",
       "room": "H1",
-      "talk_count": 3
+      "talk_count": 3,
+      "display_end": "12:20"
     },
     {
       "session_id": "MS22",
@@ -1384,7 +1573,8 @@
       "chair": null,
       "slot_id": "D3S2",
       "room": "I1",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "12:40"
     },
     {
       "session_id": "MS23",
@@ -1408,7 +1598,8 @@
       "chair": null,
       "slot_id": "D2S1",
       "room": "I1",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "11:10"
     },
     {
       "session_id": "MS24A",
@@ -1432,7 +1623,8 @@
       "chair": null,
       "slot_id": "D1S3",
       "room": "I1",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "17:10"
     },
     {
       "session_id": "MS24B",
@@ -1456,7 +1648,8 @@
       "chair": null,
       "slot_id": "D1S4",
       "room": "I1",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "18:40"
     },
     {
       "session_id": "MS25A",
@@ -1480,7 +1673,8 @@
       "chair": null,
       "slot_id": "D3S1",
       "room": "H3",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "11:10"
     },
     {
       "session_id": "MS25B",
@@ -1504,7 +1698,8 @@
       "chair": null,
       "slot_id": "D3S2",
       "room": "H3",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "12:40"
     },
     {
       "session_id": "MS26",
@@ -1528,7 +1723,8 @@
       "chair": null,
       "slot_id": "D3S4",
       "room": "S1",
-      "talk_count": 5
+      "talk_count": 5,
+      "display_end": "18:40"
     },
     {
       "session_id": "MS27A",
@@ -1548,7 +1744,8 @@
       "chair": null,
       "slot_id": "D1S1",
       "room": "S1",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "11:10"
     },
     {
       "session_id": "MS27B",
@@ -1568,7 +1765,8 @@
       "chair": null,
       "slot_id": "D1S2",
       "room": "S1",
-      "talk_count": 3
+      "talk_count": 3,
+      "display_end": "12:20"
     },
     {
       "session_id": "MS28A",
@@ -1588,7 +1786,8 @@
       "chair": null,
       "slot_id": "D3S3",
       "room": "H3",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "17:10"
     },
     {
       "session_id": "MS28B",
@@ -1608,7 +1807,8 @@
       "chair": null,
       "slot_id": "D3S4",
       "room": "H3",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "18:40"
     },
     {
       "session_id": "MS29A",
@@ -1628,7 +1828,8 @@
       "chair": null,
       "slot_id": "D3S1",
       "room": "S1",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "11:10"
     },
     {
       "session_id": "MS29B",
@@ -1648,7 +1849,8 @@
       "chair": null,
       "slot_id": "D3S2",
       "room": "S1",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "12:40"
     },
     {
       "session_id": "MS30",
@@ -1668,7 +1870,8 @@
       "chair": null,
       "slot_id": "D3S3",
       "room": "S2",
-      "talk_count": 5
+      "talk_count": 5,
+      "display_end": "17:10"
     },
     {
       "session_id": "MS31A",
@@ -1688,7 +1891,8 @@
       "chair": null,
       "slot_id": "D3S1",
       "room": "S2",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "11:10"
     },
     {
       "session_id": "MS31B",
@@ -1708,7 +1912,8 @@
       "chair": null,
       "slot_id": "D3S2",
       "room": "S2",
-      "talk_count": 3
+      "talk_count": 3,
+      "display_end": "12:20"
     },
     {
       "session_id": "MS32A",
@@ -1732,7 +1937,8 @@
       "chair": null,
       "slot_id": "D1S1",
       "room": "H3",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "11:10"
     },
     {
       "session_id": "MS32B",
@@ -1756,7 +1962,8 @@
       "chair": null,
       "slot_id": "D1S2",
       "room": "H3",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "12:40"
     },
     {
       "session_id": "MS33",
@@ -1780,7 +1987,8 @@
       "chair": null,
       "slot_id": "D4S3",
       "room": "S1",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "13:10"
     },
     {
       "session_id": "MS34",
@@ -1800,7 +2008,8 @@
       "chair": null,
       "slot_id": "D4S1",
       "room": "S2",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "09:50"
     },
     {
       "session_id": "MS35A",
@@ -1809,12 +2018,12 @@
       "session_part": "A",
       "title": "Fast Solvers for Multiphysics Problems",
       "public_label": "MS35A",
-      "main_organizer": "Wei Wang",
-      "main_organizer_affiliation": "Academy of Mathematics and Systems Science, CAS",
+      "main_organizer": "Shihua Gong",
+      "main_organizer_affiliation": "The Chinese University of Hong Kong, Shenzhen",
       "co_organizers": [
         {
-          "name": "Shihua Gong",
-          "affiliation": "The Chinese University of Hong Kong, Shenzhen"
+          "name": "Wei Wang",
+          "affiliation": "Academy of Mathematics and Systems Science, CAS"
         },
         {
           "name": "Chupeng Ma",
@@ -1824,7 +2033,8 @@
       "chair": null,
       "slot_id": "D4S2",
       "room": "I1",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "11:40"
     },
     {
       "session_id": "MS35B",
@@ -1833,22 +2043,23 @@
       "session_part": "B",
       "title": "Fast Solvers for Multiphysics Problems",
       "public_label": "MS35B",
-      "main_organizer": "Wei Wang",
-      "main_organizer_affiliation": "Academy of Mathematics and Systems Science, CAS",
+      "main_organizer": "Chupeng Ma",
+      "main_organizer_affiliation": "Great Bay University",
       "co_organizers": [
+        {
+          "name": "Wei Wang",
+          "affiliation": "Academy of Mathematics and Systems Science, CAS"
+        },
         {
           "name": "Shihua Gong",
           "affiliation": "The Chinese University of Hong Kong, Shenzhen"
-        },
-        {
-          "name": "Chupeng Ma",
-          "affiliation": "Great Bay University"
         }
       ],
       "chair": null,
       "slot_id": "D4S3",
       "room": "I1",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "13:10"
     },
     {
       "session_id": "MS36",
@@ -1868,7 +2079,8 @@
       "chair": null,
       "slot_id": "D2S3",
       "room": "H3",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "17:10"
     },
     {
       "session_id": "MS37",
@@ -1892,7 +2104,8 @@
       "chair": null,
       "slot_id": "D4S1",
       "room": "I1",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "09:50"
     },
     {
       "session_id": "MS38A",
@@ -1916,7 +2129,8 @@
       "chair": null,
       "slot_id": "D1S3",
       "room": "S1",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "17:10"
     },
     {
       "session_id": "MS38B",
@@ -1940,7 +2154,8 @@
       "chair": null,
       "slot_id": "D1S4",
       "room": "S1",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "18:40"
     },
     {
       "session_id": "MS39",
@@ -1964,7 +2179,8 @@
       "chair": null,
       "slot_id": "D3S3",
       "room": "S1",
-      "talk_count": 5
+      "talk_count": 5,
+      "display_end": "17:10"
     },
     {
       "session_id": "CT01",
@@ -1976,10 +2192,11 @@
       "main_organizer": null,
       "main_organizer_affiliation": null,
       "co_organizers": [],
-      "chair": null,
+      "chair": "Jaemin Shin",
       "slot_id": "D1S1",
       "room": "I1",
-      "talk_count": 5
+      "talk_count": 5,
+      "display_end": "11:10"
     },
     {
       "session_id": "CT02",
@@ -1991,10 +2208,11 @@
       "main_organizer": null,
       "main_organizer_affiliation": null,
       "co_organizers": [],
-      "chair": null,
+      "chair": "Jinwoo Jang",
       "slot_id": "D2S3",
       "room": "S1",
-      "talk_count": 5
+      "talk_count": 5,
+      "display_end": "17:10"
     },
     {
       "session_id": "CT03",
@@ -2006,10 +2224,11 @@
       "main_organizer": null,
       "main_organizer_affiliation": null,
       "co_organizers": [],
-      "chair": null,
+      "chair": "Jae-Hyuk Lim",
       "slot_id": "D4S3",
       "room": "H3",
-      "talk_count": 5
+      "talk_count": 5,
+      "display_end": "13:10"
     },
     {
       "session_id": "CT04",
@@ -2021,10 +2240,11 @@
       "main_organizer": null,
       "main_organizer_affiliation": null,
       "co_organizers": [],
-      "chair": null,
+      "chair": "Hyeongki Park",
       "slot_id": "D2S2",
       "room": "M",
-      "talk_count": 5
+      "talk_count": 5,
+      "display_end": "12:40"
     },
     {
       "session_id": "CT05",
@@ -2036,10 +2256,11 @@
       "main_organizer": null,
       "main_organizer_affiliation": null,
       "co_organizers": [],
-      "chair": null,
+      "chair": "Youngjoon Hong",
       "slot_id": "D3S3",
       "room": "I1",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "16:54"
     },
     {
       "session_id": "CT06",
@@ -2051,10 +2272,11 @@
       "main_organizer": null,
       "main_organizer_affiliation": null,
       "co_organizers": [],
-      "chair": null,
+      "chair": "Dongwook Shin",
       "slot_id": "D4S1",
       "room": "H1",
-      "talk_count": 5
+      "talk_count": 5,
+      "display_end": "09:50"
     },
     {
       "session_id": "CT07",
@@ -2066,10 +2288,11 @@
       "main_organizer": null,
       "main_organizer_affiliation": null,
       "co_organizers": [],
-      "chair": null,
+      "chair": "Seungchul Lee",
       "slot_id": "D3S1",
       "room": "I1",
-      "talk_count": 4
+      "talk_count": 4,
+      "display_end": "10:54"
     },
     {
       "session_id": "CT-SC1",
@@ -2084,7 +2307,8 @@
       "chair": "Yihao Xu",
       "slot_id": "D2S3",
       "room": "M",
-      "talk_count": 6
+      "talk_count": 6,
+      "display_end": null
     },
     {
       "session_id": "CT-SC2",
@@ -2099,7 +2323,8 @@
       "chair": "Jungmin LEE",
       "slot_id": "D3S1",
       "room": "M",
-      "talk_count": 5
+      "talk_count": 5,
+      "display_end": null
     },
     {
       "session_id": "CT-SC3",
@@ -2114,7 +2339,8 @@
       "chair": "Yuntong Huang",
       "slot_id": "D3S2",
       "room": "M",
-      "talk_count": 5
+      "talk_count": 5,
+      "display_end": null
     },
     {
       "session_id": "CT-SC4",
@@ -2129,7 +2355,8 @@
       "chair": "Shunsuke Maeda",
       "slot_id": "D3S3",
       "room": "M",
-      "talk_count": 5
+      "talk_count": 5,
+      "display_end": null
     },
     {
       "session_id": "CT-SC5",
@@ -2144,7 +2371,8 @@
       "chair": "CHENG Zilan",
       "slot_id": "D3S4",
       "room": "M",
-      "talk_count": 5
+      "talk_count": 5,
+      "display_end": null
     },
     {
       "session_id": "SPP",
@@ -2159,7 +2387,8 @@
       "chair": null,
       "slot_id": "D1S3",
       "room": "M",
-      "talk_count": 5
+      "talk_count": 5,
+      "display_end": "17:30"
     }
   ],
   "pending_room_assignments": [],
@@ -2473,18 +2702,18 @@
       "program_type": "MS",
       "cmt_paper_id": 214,
       "parent_program_id": "MS03",
-      "session_id": "MS03A",
-      "order": 4,
+      "session_id": "MS03B",
+      "order": 1,
       "duration_minutes": 20,
       "speaker": "Yufeng Nie",
       "affiliation": "Northwestern Polytechnical University",
       "title": "Re-derivation and Mathematical Analysis for Linear Peridynamics Model for Arbitrary Poisson Ratio’s Material",
       "abstract": "This talk is concerned with the modeling and mathematical analysis of linear peridynamic model for arbitrary Poisson’s ratio material. Based on the fundamental laws of dynamics, we re-derive the bond-based peridynamic model for anisotropic materials by relaxing certain assumptions. Through this process, we draw several significant conclusions, such as the relationship between the equivalent strain energy density hypothesis and the convergence of the peridynamic operator to the classical Navier operator. Additionally, the well-posedness of time-dependent peridynamic equations of motion is established. Finally, some necessary conditions for the material stability of anisotropic material are given.",
       "authors": "Yufeng Nie (Northwestern Polytechnical University)*; Shangyuan Zhang (Northwestern Polytechnical University)",
-      "slot_id": "D1S3",
+      "slot_id": "D1S4",
       "date": "2026-08-24",
-      "start": "16:50",
-      "end": "17:10",
+      "start": "17:20",
+      "end": "17:40",
       "room": "S2"
     },
     {
@@ -2492,18 +2721,18 @@
       "program_type": "MS",
       "cmt_paper_id": 219,
       "parent_program_id": "MS03",
-      "session_id": "MS03B",
-      "order": 1,
+      "session_id": "MS03A",
+      "order": 4,
       "duration_minutes": 20,
       "speaker": "Huajie Chen",
       "affiliation": "Beijing Normal University",
       "title": "Complete Invariants of Symmetric and Self-Adjoint Matrix Families",
       "abstract": "A parameterized matrix family on a configuration domain is determined by its physical content only up to a constant orthogonal change of basis. This gauge ambiguity is intrinsic to data-driven Hamiltonian models, such as tight-binding parameterizations, reduced-order electronic structure methods, or excited states models. It raises a basic inverse problem: what observations suffice to identify the family up to this gauge? The pointwise spectrum is incomplete already for linear families. Here, we prove that, under natural non-degeneracy and connectivity assumptions, augmenting the spectrum with loop products of the coupling matrices in the instantaneous eigenframe yields a complete invariant. We support the theory with numerical experiments.",
       "authors": "Huajie Chen (Beijing Normal University)*",
-      "slot_id": "D1S4",
+      "slot_id": "D1S3",
       "date": "2026-08-24",
-      "start": "17:20",
-      "end": "17:40",
+      "start": "16:50",
+      "end": "17:10",
       "room": "S2"
     },
     {
@@ -3229,25 +3458,6 @@
       "room": "H1"
     },
     {
-      "presentation_id": "MS-PROP-MS10-01",
-      "program_type": "MS",
-      "cmt_paper_id": null,
-      "parent_program_id": "MS10",
-      "session_id": "MS10",
-      "order": 4,
-      "duration_minutes": 20,
-      "speaker": "Zhilan Feng",
-      "affiliation": "National Science Foundation",
-      "title": "Modeling the invasion of novel SARS-CoV-2 variants and their co-existence with or replacement of ancestral variants in the United States",
-      "abstract": "Background: Newly emerging RNA viruses become genetically diverse not only via mutation, recombination, and reassortment, but also error-prone replication and limited correction capability. As SARS-CoV-2 became endemic in the human population, it evolved in response to changing conditions. Methods: We developed age- and variant-stratified SEIR models to elucidate means by which some of the variants that arose during the COVID-19 pandemic replaced others. We evaluated increased reproduction numbers and decreased generation times or cross-immunity when Delta replaced Alpha and was, in turn, replaced by Omicron. We also simulated an otherwise similar age- and location-stratified model with and without vaccination to explain why infections did not increase as Delta replaced Alpha. Findings: Delta may have had a shorter generation time than Alpha, by virtue of infecting upper versus lower respiratory tract cells. It may also have had a greater reproduction number, but neither enabled it to increase when it first arose. Simulations of our age- and location-stratified model, together with subpopulation contributions to the metapopulation reproduction number, indicate that the vaccination of healthcare and other essential workers delayed the increase in infections with Delta. As most hosts were immune when Omicron arose, immune escape almost certainly is the primary means by which it replaced Delta. And similarly for successive Omicron variants. Interpretation: Had those healthcare and other essential workers who were immunized during Q1 of 2021 been infected, Delta might have increased sooner by virtue of the greater than average contributions of working-aged people to its possibly greater metapopulation reproduction number.",
-      "authors": "Zhilan Feng",
-      "slot_id": "D2S3",
-      "date": "2026-08-25",
-      "start": "16:50",
-      "end": "17:10",
-      "room": "H1"
-    },
-    {
       "presentation_id": "MS-CMT-0025",
       "program_type": "MS",
       "cmt_paper_id": 25,
@@ -3594,18 +3804,18 @@
       "program_type": "MS",
       "cmt_paper_id": 216,
       "parent_program_id": "MS14",
-      "session_id": "MS14A",
-      "order": 4,
+      "session_id": "MS14B",
+      "order": 2,
       "duration_minutes": 20,
       "speaker": "Ryoki Endo",
       "affiliation": "Niigata University",
       "title": "Sharp Dirichlet Eigenvalue Inequalities on Triangles",
       "abstract": "This study proves sharp inequalities for the first Dirichlet eigenvalue of the Laplacian on planar triangles. We settle a conjecture of Siudeja on an optimal two-term lower bound involving the area and perimeter, or equivalently a scale-invariant minimization problem formulated by Laugesen and Siudeja. We also prove a Cheeger-type inequality for triangles with the sharp constant conjectured by Parini.\n\nThe proof is based on a computer-assisted method. We introduce a computable lower bound for second-order directional derivatives of Dirichlet eigenvalues under vertex perturbations. This is combined with validated finite-element estimates, interval arithmetic, and analytic estimates for nearly degenerate triangles.",
       "authors": "Ryoki Endo (Niigata University)*; Xuefeng Liu (Tokyo Woman's Christian University); Phanuel Mariano (Union College)",
-      "slot_id": "D1S3",
+      "slot_id": "D1S4",
       "date": "2026-08-24",
-      "start": "16:50",
-      "end": "17:10",
+      "start": "17:40",
+      "end": "18:00",
       "room": "H3"
     },
     {
@@ -3632,18 +3842,18 @@
       "program_type": "MS",
       "cmt_paper_id": 257,
       "parent_program_id": "MS14",
-      "session_id": "MS14B",
-      "order": 2,
+      "session_id": "MS14A",
+      "order": 4,
       "duration_minutes": 20,
       "speaker": "Rei Iwamoto",
       "affiliation": "The University of Electro-Communications",
       "title": "Validated Numerics for ODEs with Conserved Quantities: Application to Black Hole Orbits",
       "abstract": "Numerical verification methods for ODEs compute rigorous enclosures that are guaranteed to contain the true solutions. In conservative systems, however, such methods may suffer from severe overestimation (the wrapping effect), while conserved-quantity constraints are not explicitly used. We propose a validated integration method that uses multiple first integrals to reduce such overestimation. At each step, we construct a frame that separates directions constrained by the first integrals from directions along the motion. In this frame, we remove regions violating the conservation laws by combining interval reduction and linear prediction. For geodesic motion in Schwarzschild spacetime (a strongly nonlinear system with three invariants), the proposed method extends the validated time horizon by a factor of approximately 21 (from proper time 17,941 to 376,579) and, in high-precision regimes, outperforms standard methods in both accuracy and computational efficiency.",
       "authors": "Rei Iwamoto (The University of Electro-Communications)*; Koki Nitta (TDSE Inc.); Hidetomo Hoshino (Waseda University); Nobito Yamamoto (The University of Electro-Communications)",
-      "slot_id": "D1S4",
+      "slot_id": "D1S3",
       "date": "2026-08-24",
-      "start": "17:40",
-      "end": "18:00",
+      "start": "16:50",
+      "end": "17:10",
       "room": "H3"
     },
     {
@@ -3821,19 +4031,19 @@
       "presentation_id": "MS-CMT-0108",
       "program_type": "MS",
       "cmt_paper_id": 108,
-      "parent_program_id": "MS16",
-      "session_id": "MS16A",
-      "order": 2,
+      "parent_program_id": "MS03",
+      "session_id": "MS03B",
+      "order": 4,
       "duration_minutes": 20,
       "speaker": "Tomoyuki Oka",
       "affiliation": "Fukuoka Institute of Technology",
       "title": "Two-material optimal design problem governed by the heat equation",
       "abstract": "In this talk, we shall consider the two-material optimal design problem for the time-averaged duality pairing between a heat source and the weak solution of an initial-boundary value problem for the heat equation with a two-material diffusion coefficient, under a volume constraint. In the elliptic (i.e., time-independent) case, this problem can be relaxed through homogenization, and the relaxation problem has a self-adjoint structure. In this elliptic setting, a direct relaxation with respect to the density is possible, and the convexity of the relaxed problem allows us to construct an optimal density. On the other hand, in the parabolic case, such a structure is in general not ensured due to the time-dependence. In this talk, we shall discuss the direct relaxability and the long-time behavior for the parabolic case in some specific settings.",
       "authors": "Tomoyuki Oka (Fukuoka Institute of Technology)*",
-      "slot_id": "D4S2",
-      "date": "2026-08-27",
-      "start": "10:40",
-      "end": "11:00",
+      "slot_id": "D1S4",
+      "date": "2026-08-24",
+      "start": "18:20",
+      "end": "18:40",
       "room": "S2"
     },
     {
@@ -3841,18 +4051,18 @@
       "program_type": "MS",
       "cmt_paper_id": 166,
       "parent_program_id": "MS16",
-      "session_id": "MS16A",
-      "order": 3,
+      "session_id": "MS16B",
+      "order": 1,
       "duration_minutes": 20,
       "speaker": "Wei Gong",
       "affiliation": "Chinese Academy of Sciences",
       "title": "A penalty method for topology optimization problems",
       "abstract": "We propose a novel penalty framework for compliant mechanism problems, incorporating a convex nonlocal perimeter approximation. We rigorously analyze the existence of solutions to the optimization problem derived from the penalty method. Furthermore, we establish that the discrete problem Gamma-converges to the continuous problem. To solve the discrete problem, we develop a projected gradient method that guarantees strict monotonic descent of the objective function. Numerical experiments on the compliant mechanism and heat dissipation problems validate the effectiveness of the proposed method. We also generalize this approach to minimum compliance problems with pointwise stress constraints. This is a joint work with Yuanda Ye.",
       "authors": "Wei Gong (Chinese Academy of Sciences)*",
-      "slot_id": "D4S2",
+      "slot_id": "D4S3",
       "date": "2026-08-27",
-      "start": "11:00",
-      "end": "11:20",
+      "start": "11:50",
+      "end": "12:10",
       "room": "S2"
     },
     {
@@ -3861,7 +4071,7 @@
       "cmt_paper_id": 234,
       "parent_program_id": "MS16",
       "session_id": "MS16A",
-      "order": 4,
+      "order": 3,
       "duration_minutes": 20,
       "speaker": "Jizu Huang",
       "affiliation": "Academy of Mathematics and Systems Science, Chinese Academy of Sciences",
@@ -3870,27 +4080,27 @@
       "authors": "Jizu Huang (Academy of Mathematics and Systems Science, Chinese Academy of Sciences)*",
       "slot_id": "D4S2",
       "date": "2026-08-27",
-      "start": "11:20",
-      "end": "11:40",
+      "start": "11:00",
+      "end": "11:20",
       "room": "S2"
     },
     {
       "presentation_id": "MS-CMT-0238",
       "program_type": "MS",
       "cmt_paper_id": 238,
-      "parent_program_id": "MS16",
-      "session_id": "MS16B",
-      "order": 1,
+      "parent_program_id": "MS03",
+      "session_id": "MS03B",
+      "order": 5,
       "duration_minutes": 20,
       "speaker": "Kei Matsushima",
       "affiliation": "Hiroshima University",
       "title": "Optimal design of two-material thermal conductors with thermal radiation",
       "abstract": "Thermal radiation is important in high-temperature and thermally isolated systems, but it leads to nonlinear boundary conditions beyond standard linear theories for optimal design. This talk presents an optimal design framework for two-material thermal conductors governed by steady-state diffusion equations with nonlinear boundary conditions, including radiation modeled by maximal monotone operators. We discuss a homogenization-based relaxation of the original topology optimization problem and show that the relaxed problem admits minimizers with the same infimum value as the original one. We then introduce a level-set approximation to avoid grayscale material distributions and derive sensitivities for numerical optimization. Numerical examples for radiative heat-dissipating structures illustrate how nonlinear boundary effects and heat-source intensity shape optimal configurations, and show that optimized designs can outperform intuitive fin-like structures.",
       "authors": "Kosuke Kita (Hokkaido University); Kei Matsushima (Hiroshima University)*; Tomoyuki Oka (Fukuoka Institute of Technology)",
-      "slot_id": "D4S3",
-      "date": "2026-08-27",
-      "start": "11:50",
-      "end": "12:10",
+      "slot_id": "D1S4",
+      "date": "2026-08-24",
+      "start": "18:40",
+      "end": "19:00",
       "room": "S2"
     },
     {
@@ -3916,8 +4126,8 @@
       "presentation_id": "MS-CMT-0255",
       "program_type": "MS",
       "cmt_paper_id": 255,
-      "parent_program_id": "MS16",
-      "session_id": "MS16B",
+      "parent_program_id": "MS03",
+      "session_id": "MS03B",
       "order": 3,
       "duration_minutes": 20,
       "speaker": "Dong Wang",
@@ -3925,10 +4135,10 @@
       "title": "A weighted quantile filter based framework for interface optimal design problems",
       "abstract": "We present a robust and efficient numerical framework based on a median filter scheme for solving a broad class of interface optimal design problems, from image segmentation to topology optimization. A key innovation of our work is the extension of the binary scheme into a level-set scheme via a weighted quantile interpretation. Unlike traditional binary iterative convolution-thresholding method (ICTM), this continuous weighted quantile filter scheme effectively overcomes the pinning effect caused by spatial discretization, achieving interface evolution even with small time steps. We also provide a rigorous theoretical analysis, proving the unconditional energy stability of the iterative scheme. Furthermore, we prove that for a wide class of data fidelity terms, the convex relaxation inherently enforces a binary solution, justifying the effectiveness of the method without explicit penalization.",
       "authors": "Dong Wang (The Chinese University of Hong Kong, Shenzhen)*",
-      "slot_id": "D4S3",
-      "date": "2026-08-27",
-      "start": "12:30",
-      "end": "12:50",
+      "slot_id": "D1S4",
+      "date": "2026-08-24",
+      "start": "18:00",
+      "end": "18:20",
       "room": "S2"
     },
     {
@@ -3936,18 +4146,18 @@
       "program_type": "MS",
       "cmt_paper_id": 289,
       "parent_program_id": "MS16",
-      "session_id": "MS16B",
-      "order": 4,
+      "session_id": "MS16A",
+      "order": 2,
       "duration_minutes": 20,
       "speaker": "Xiaoping Wang",
       "affiliation": "Chinese University of Hong Kong (Shenzhen)",
       "title": "Advances in Numerical Methods for Topology Optimization: Applications Across Disciplines",
       "abstract": "This talk explores the cutting-edge numerical methods and their diverse applications in the field of topology optimization.\nWe will highlight the development of robust numerical strategies designed to tackle the challenges that arise from the high dimensionality and non-linearity inherent in topology optimization problems. The iterative thresholding method will be discussed for its significant improvements over conventional techniques, enhancing both the efficiency and stability of solutions.\nAdditionally, the presentation will highlight innovative research integrating machine learning with numerical methods to accelerate the process of topology optimization.",
       "authors": "Xiaoping Wang (Chinese University of Hong Kong (Shenzhen))*",
-      "slot_id": "D4S3",
+      "slot_id": "D4S2",
       "date": "2026-08-27",
-      "start": "12:50",
-      "end": "13:10",
+      "start": "10:40",
+      "end": "11:00",
       "room": "S2"
     },
     {
@@ -5837,7 +6047,7 @@
       "cmt_paper_id": 29,
       "parent_program_id": "MS36",
       "session_id": "MS36",
-      "order": 1,
+      "order": 4,
       "duration_minutes": 20,
       "speaker": "Yaobin Wang",
       "affiliation": "Beijing Normal-Hong Kong Baptist University",
@@ -5846,8 +6056,8 @@
       "authors": "Yaobin Wang (Beijing Normal-Hong Kong Baptist University)*",
       "slot_id": "D2S3",
       "date": "2026-08-25",
-      "start": "15:50",
-      "end": "16:10",
+      "start": "16:50",
+      "end": "17:10",
       "room": "H3"
     },
     {
@@ -5856,7 +6066,7 @@
       "cmt_paper_id": 46,
       "parent_program_id": "MS36",
       "session_id": "MS36",
-      "order": 2,
+      "order": 1,
       "duration_minutes": 20,
       "speaker": "Aiqing Zhu",
       "affiliation": "National University of Singapore",
@@ -5865,8 +6075,8 @@
       "authors": "Aiqing Zhu (National University of Singapore)*",
       "slot_id": "D2S3",
       "date": "2026-08-25",
-      "start": "16:10",
-      "end": "16:30",
+      "start": "15:50",
+      "end": "16:10",
       "room": "H3"
     },
     {
@@ -5875,7 +6085,7 @@
       "cmt_paper_id": 209,
       "parent_program_id": "MS36",
       "session_id": "MS36",
-      "order": 3,
+      "order": 2,
       "duration_minutes": 20,
       "speaker": "Xintong Wang",
       "affiliation": "Shanghai Normal University",
@@ -5884,8 +6094,8 @@
       "authors": "Xintong Wang (Shanghai Normal University)*",
       "slot_id": "D2S3",
       "date": "2026-08-25",
-      "start": "16:30",
-      "end": "16:50",
+      "start": "16:10",
+      "end": "16:30",
       "room": "H3"
     },
     {
@@ -5894,7 +6104,7 @@
       "cmt_paper_id": 236,
       "parent_program_id": "MS36",
       "session_id": "MS36",
-      "order": 4,
+      "order": 3,
       "duration_minutes": 20,
       "speaker": "Li Zeng",
       "affiliation": "Fuzhou University",
@@ -5903,8 +6113,8 @@
       "authors": "Li Zeng (Fuzhou University)*",
       "slot_id": "D2S3",
       "date": "2026-08-25",
-      "start": "16:50",
-      "end": "17:10",
+      "start": "16:30",
+      "end": "16:50",
       "room": "H3"
     },
     {
@@ -5970,7 +6180,7 @@
       "cmt_paper_id": 103,
       "parent_program_id": "MS38",
       "session_id": "MS38A",
-      "order": 1,
+      "order": 4,
       "duration_minutes": 20,
       "speaker": "Xiaoxue Qin",
       "affiliation": "Shanghai University",
@@ -5979,8 +6189,8 @@
       "authors": "Xiaoxue Qin (Shanghai University)*",
       "slot_id": "D1S3",
       "date": "2026-08-24",
-      "start": "15:50",
-      "end": "16:10",
+      "start": "16:50",
+      "end": "17:10",
       "room": "S1"
     },
     {
@@ -5989,17 +6199,17 @@
       "cmt_paper_id": 149,
       "parent_program_id": "MS38",
       "session_id": "MS38A",
-      "order": 2,
+      "order": 1,
       "duration_minutes": 20,
-      "speaker": "伟英 郑",
-      "affiliation": "中国科学院",
+      "speaker": "Weiying Zheng",
+      "affiliation": "Chinese Academy of Sciences",
       "title": "Finite element method for the spin-diffusion Landau-Lifshitz-Gilbert (SDLLG) model",
       "abstract": "In this talk, I will present the finite element approximation of the nonlinear spin-diffusion Landau-Lifshitz-Gilbert (SDLLG) model. We first establish the unconditional energy stablity for the continuous LLG model independent of the small damping parameter. A fully-discrete finite element method is proposed to solve the LLG model. Unconditional stability for the numerical scheme is proved with respect to the damping parameter. Based on the analysis for the LLG model, we further prove the unconditional stability for the SDLLG model under a very weak and physically reasonable assumption. A decoupled time-marching scheme is proposed for the coupled SDLLG problem.",
-      "authors": "伟英 郑 (中国科学院)*",
+      "authors": "Weiying Zheng (Chinese Academy of Sciences)*",
       "slot_id": "D1S3",
       "date": "2026-08-24",
-      "start": "16:10",
-      "end": "16:30",
+      "start": "15:50",
+      "end": "16:10",
       "room": "S1"
     },
     {
@@ -6026,18 +6236,18 @@
       "program_type": "MS",
       "cmt_paper_id": 201,
       "parent_program_id": "MS38",
-      "session_id": "MS38A",
-      "order": 4,
+      "session_id": "MS38B",
+      "order": 1,
       "duration_minutes": 20,
       "speaker": "Yang Xiang",
       "affiliation": "HKUST",
       "title": "A unified variational model for grain boundary dynamics incorporating microscopic structure",
       "abstract": "Recent experiments, atomistic simulations, and theoretical predictions have identified various new types of grain boundary motions that are controlled by the dynamics of underlying microstructure of line defects (dislocations or disconnections), to which the classical motion by mean curvature model does not apply. We propose a unified variational framework to account for all the underlying line defect mechanisms for the dynamics of both low and high angle grain boundaries and the associated grain rotations.   The variational formulation is based on the developed constraints of the dynamic Frank-Bilby equation that governs the microscopic line defect structures. The unified variational framework is more efficient to describe the collective behaviors of grain boundary networks at larger length scales. It also provides a mathematically tractable basis for rigorous analysis of these partial differential equation models and for the development of efficient numerical methods.",
       "authors": "Yang Xiang (HKUST)*",
-      "slot_id": "D1S3",
+      "slot_id": "D1S4",
       "date": "2026-08-24",
-      "start": "16:50",
-      "end": "17:10",
+      "start": "17:20",
+      "end": "17:40",
       "room": "S1"
     },
     {
@@ -6046,7 +6256,7 @@
       "cmt_paper_id": 227,
       "parent_program_id": "MS38",
       "session_id": "MS38B",
-      "order": 1,
+      "order": 3,
       "duration_minutes": 20,
       "speaker": "Peicheng Zhu",
       "affiliation": "Shanghai University",
@@ -6055,8 +6265,8 @@
       "authors": "Peicheng Zhu (Shanghai University)*",
       "slot_id": "D1S4",
       "date": "2026-08-24",
-      "start": "17:20",
-      "end": "17:40",
+      "start": "18:00",
+      "end": "18:20",
       "room": "S1"
     },
     {
@@ -7584,18 +7794,18 @@
       "program_type": "MS",
       "cmt_paper_id": 320,
       "parent_program_id": "MS38",
-      "session_id": "MS38B",
-      "order": 3,
+      "session_id": "MS38A",
+      "order": 2,
       "duration_minutes": 20,
       "speaker": "Yufeng Nie",
       "affiliation": "Northwestern Polytechnical University",
       "title": "Mixed scheme about ROM/FOM with space-adaptive partitioning strategy for quasi-static peridynamic fracture simulation",
       "abstract": "In this talk, we present a mixed reduced-order/full-order model (ROM/FOM) scheme based on space-adaptive partitioning strategy for peridynamics (PD) to efficiently simulate brittle fractures. Generally, the drastical displacement mutation occurs around the crack tip and path, resulting in the ROM more sensitive to high-fidelity snapshots, and even leading to failure of ROM. To overcome this difficulty, the entire computational domain is partitioned into two types of regions: the damage regions are simulated using full-order PD solver, while the sub-system over remaining regions is projected onto low-dimensional subspaces obtained by the proper orthogonal decomposition (POD) method. The domain partitioning is adaptively performed based on bond-breakage data and no a priori knowledge of cracks is required.",
       "authors": "Yufeng Nie (Northwestern Polytechnical University)*",
-      "slot_id": "D1S4",
+      "slot_id": "D1S3",
       "date": "2026-08-24",
-      "start": "18:00",
-      "end": "18:20",
+      "start": "16:10",
+      "end": "16:30",
       "room": "S1"
     },
     {
