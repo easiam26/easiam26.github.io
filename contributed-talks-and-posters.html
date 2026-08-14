@@ -71,6 +71,11 @@ permalink: /contributed-talks-and-posters/
             <section id="poster-presentations" class="program-tab-panel" role="tabpanel" hidden>
                 {% assign poster_event = site.data.program.fixed_program | where: "event_id", "POSTER" | first %}
                 <p class="program-intro">Poster Session: {{ poster_event.date | date: "%A, %B %d" }}, {{ poster_event.start }}–{{ poster_event.end }}, Room {{ poster_event.room | escape }}. Select a poster to view authors and abstract.</p>
+                <div class="organizer-panel poster-guidelines">
+                    <h3>Poster Guidelines and Awards</h3>
+                    <p><strong>Poster size:</strong> A0 is the recommended and maximum poster size; posters must not exceed these dimensions.</p>
+                    <p><strong>Excellent Poster Awards:</strong> Poster presentations will be evaluated during the session, and selected outstanding posters will be recognized with Excellent Poster Awards.</p>
+                </div>
                 <p class="program-empty" data-program-empty hidden>No posters match your search.</p>
                 <div class="poster-grid">
                     {% for poster in site.data.program.posters %}
