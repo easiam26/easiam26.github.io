@@ -15,6 +15,7 @@ permalink: /student-chapter-session/
         <div class="container student-chapter-layout">
             {% assign spp_session = site.data.program.sessions | where: "session_id", "SPP" | first %}
             {% assign spp_slot = site.data.program.slots | where: "slot_id", spp_session.slot_id | first %}
+            {% assign spp_talks = site.data.program.talks | where: "session_id", "SPP" | sort: "start" %}
             <section class="student-program-feature" aria-labelledby="student-paper-prize-heading">
                 <p class="student-section-eyebrow">Featured Session</p>
                 <h2 id="student-paper-prize-heading">Student Paper Prize (SPP)</h2>
@@ -26,7 +27,7 @@ permalink: /student-chapter-session/
                         </div>
                         <div>
                             <dt>Time</dt>
-                            <dd>{{ spp_slot.start }}–{{ spp_slot.end }}</dd>
+                            <dd>{{ spp_slot.start }}–{{ spp_session.display_end }}</dd>
                         </div>
                         <div>
                             <dt>Room</dt>
@@ -36,15 +37,17 @@ permalink: /student-chapter-session/
 
                     <p class="student-prize-description">Five students have been selected from among the applicants to the EASIAM Student Paper Prize and will present their work in this session. Based on these presentations, three final prize recipients will be selected.</p>
 
-                    <h3>Finalists</h3>
-                    <ul class="student-finalist-list">
-                        <li><strong>Ryoki Endo</strong><span>Niigata University</span></li>
-                        <li><strong>Heechang Kim</strong><span>Pohang University of Science and Technology</span></li>
-                        <li><strong>Peiying Wu</strong><span>Wuhan University</span></li>
-                        <li><strong>Yifei Sun</strong><span>Soochow University</span></li>
-                        <li><strong>Jingpu Cheng</strong><span>National University of Singapore</span></li>
-                    </ul>
-                    <p class="student-session-note">Talk titles and abstracts will be added when they become available.</p>
+                    <h3>Finalist Presentations</h3>
+                    <ol class="talk-list student-prize-talk-list">
+                        {% for talk in spp_talks %}
+                        <li>
+                            <div class="talk-meta"><span>{{ talk.start }}–{{ talk.end }}</span><span>Room {{ talk.room | escape }}</span></div>
+                            <h4>{{ talk.title | escape }}</h4>
+                            <p class="talk-speaker"><strong>{{ talk.speaker | escape }}</strong>{% if talk.affiliation %} <span>({{ talk.affiliation | escape }})</span>{% endif %}</p>
+                            {% if talk.abstract %}<p class="talk-abstract">{{ talk.abstract | escape }}</p>{% endif %}
+                        </li>
+                        {% endfor %}
+                    </ol>
                 </article>
             </section>
 
@@ -70,14 +73,9 @@ permalink: /student-chapter-session/
 
                     <h2>Student Representatives</h2>
                     <ul class="student-representative-list">
-                        <li><strong>Yuntong Huang</strong><span>President, HKUST SIAM Student Chapter</span></li>
-                        <li><strong>Jungmin Lee</strong><span>President, POSTECH SIAM Student Chapter</span></li>
-                        <li><strong>Heechang Kim</strong><span>POSTECH SIAM Student Chapter</span></li>
-                        <li><strong>Yihao Xu</strong><span>President, CUHK SIAM Student Chapter</span></li>
-                        <li><strong>Qizheng Yang</strong><span>Vice President, CUHK SIAM Student Chapter</span></li>
-                        <li><strong>Yiyang Li</strong><span>President, PolyU SIAM Student Chapter</span></li>
-                        <li><strong>Xinpeng Li</strong><span>CAS</span></li>
-                        <li><strong>Shunsuke Maeda</strong><span>Waseda University</span></li>
+                        {% for representative in site.data.program.student_representatives %}
+                        <li><strong>{{ representative.name | escape }}</strong><span>{{ representative.affiliation_and_chapter | escape }}</span></li>
+                        {% endfor %}
                     </ul>
                 </article>
 

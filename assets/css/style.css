@@ -637,6 +637,68 @@ body {
     overflow: hidden;
 }
 
+.venue-floor-plan {
+    margin: 64px auto 0;
+    max-width: 1180px;
+}
+
+.venue-floor-plan-figure {
+    background: var(--white);
+    border: 1px solid #dfe8e6;
+    border-radius: 14px;
+    box-shadow: 0 10px 28px rgba(24, 63, 57, 0.08);
+    margin: 24px 0 0;
+    overflow: hidden;
+    padding: 18px;
+}
+
+.venue-floor-plan-figure a,
+.venue-floor-plan-figure img {
+    display: block;
+    width: 100%;
+}
+
+.venue-floor-plan-figure img {
+    height: auto;
+}
+
+.venue-floor-plan-figure figcaption {
+    color: var(--light-text);
+    font-size: 0.88rem;
+    line-height: 1.55;
+    padding: 12px 4px 2px;
+    text-align: center;
+}
+
+.cancellation-policy {
+    background: #f7faf9;
+    border: 1px solid #dfe8e6;
+    border-left: 5px solid var(--primary-color);
+    border-radius: 10px;
+    margin: 0 0 40px;
+    padding: 28px 30px;
+}
+
+.cancellation-policy h2 {
+    color: var(--primary-color);
+    font-size: 1.55rem;
+    margin-bottom: 16px;
+}
+
+.cancellation-policy ul {
+    margin: 0;
+    padding-left: 1.25rem;
+}
+
+.cancellation-policy li {
+    line-height: 1.7;
+    margin-bottom: 8px;
+}
+
+.cancellation-policy li:last-child {
+    margin-bottom: 0;
+}
+
 .transport-section {
     margin: 0 auto 64px;
     max-width: 980px;
@@ -919,8 +981,13 @@ body {
     }
 
     .venue-summary,
+    .venue-floor-plan-figure,
     .transport-section-muted {
         border-radius: 10px;
+        padding: 22px;
+    }
+
+    .cancellation-policy {
         padding: 22px;
     }
 
@@ -1508,6 +1575,16 @@ footer {
     line-height: 1.7;
     margin: 0 0 22px;
     max-width: 920px;
+}
+
+.student-prize-talk-list {
+    margin: 0;
+    padding: 0;
+}
+
+.student-prize-talk-list li {
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 .student-finalist-list,

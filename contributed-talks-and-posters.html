@@ -35,12 +35,13 @@ permalink: /contributed-talks-and-posters/
                     {% assign session_talks = site.data.program.talks | where: "session_id", session.session_id | sort: "start" %}
                     {% assign slot = site.data.program.slots | where: "slot_id", session.slot_id | first %}
                     {% assign session_end = session.display_end | default: slot.end %}
+                    {% assign chair_affiliation = site.data.ct_chair_affiliations[session.session_id] %}
                     <details class="program-card searchable-item">
                         <summary>
                             <span class="program-card-id">{{ session.session_id | escape }}</span>
                             <span class="program-card-heading">
                                 <strong>{{ session.title | escape }}</strong>
-                                <small>{{ slot.date | date: "%A, %B %d" }} · {{ slot.start }}–{{ session_end }} · Room {{ session.room | escape }}{% if session.chair %} · Chair: {{ session.chair | escape }}{% endif %}</small>
+                                <small>{{ slot.date | date: "%A, %B %d" }} · {{ slot.start }}–{{ session_end }} · Room {{ session.room | escape }} · {{ session_talks.size }} talks{% if session.chair %} · Chair: {{ session.chair | escape }}{% if chair_affiliation %} ({{ chair_affiliation | escape }}){% endif %}{% endif %}</small>
                             </span>
                             <span class="program-card-toggle" aria-hidden="true"></span>
                         </summary>
@@ -48,7 +49,7 @@ permalink: /contributed-talks-and-posters/
                             {% if session.chair %}
                             <div class="organizer-panel">
                                 <h3>Session Chair</h3>
-                                <p>{{ session.chair | escape }}</p>
+                                <p>{{ session.chair | escape }}{% if chair_affiliation %} <span>({{ chair_affiliation | escape }})</span>{% endif %}</p>
                             </div>
                             {% endif %}
                             <ol class="talk-list">

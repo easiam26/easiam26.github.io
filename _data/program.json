@@ -1,6 +1,6 @@
 {
-  "schema_version": "1.5",
-  "generated_on": "2026-08-14",
+  "schema_version": "1.6",
+  "generated_on": "2026-08-17",
   "source": "master/EASIAM2026_program_management_master.xlsx",
   "publication_policy": {
     "excludes_private_email": true,
@@ -13,9 +13,12 @@
     "ms_website_includes_co_organizers": true,
     "at_a_glance_uses_main_organizer_only": true,
     "ct_student_chapter_details_published": true,
+    "ct_student_chapter_active_talks": 25,
     "ct_student_chapter_order_and_timing_pending_confirmation": true,
+    "student_representatives_managed_in_master": true,
     "spp_session_published": true,
-    "spp_talk_details_pending": true,
+    "spp_talk_details_pending": false,
+    "spp_detailed_span": "15:50-17:30 with five 20-minute talks; at-a-glance remains one D1S3 block",
     "existing_ct_schedule_preserved_except_explicit_user_moves": true
   },
   "conference": {
@@ -2275,7 +2278,7 @@
       "chair": "Dongwook Shin",
       "slot_id": "D4S1",
       "room": "H1",
-      "talk_count": 5,
+      "talk_count": 4,
       "display_end": "09:50"
     },
     {
@@ -2355,7 +2358,7 @@
       "chair": "Shunsuke Maeda",
       "slot_id": "D3S3",
       "room": "M",
-      "talk_count": 5,
+      "talk_count": 4,
       "display_end": null
     },
     {
@@ -4489,7 +4492,7 @@
       "cmt_paper_id": 44,
       "parent_program_id": "MS20",
       "session_id": "MS20A",
-      "order": 1,
+      "order": 4,
       "duration_minutes": 20,
       "speaker": "Hajin Lee",
       "affiliation": "Korea University",
@@ -4498,8 +4501,8 @@
       "authors": "Hajin Lee (Korea University)*; Kwangho Kim (Korea University)",
       "slot_id": "D2S1",
       "date": "2026-08-25",
-      "start": "09:50",
-      "end": "10:10",
+      "start": "10:50",
+      "end": "11:10",
       "room": "H3"
     },
     {
@@ -4508,7 +4511,7 @@
       "cmt_paper_id": 240,
       "parent_program_id": "MS20",
       "session_id": "MS20A",
-      "order": 2,
+      "order": 1,
       "duration_minutes": 20,
       "speaker": "Byeongchan Choi",
       "affiliation": "KIAS",
@@ -4517,8 +4520,8 @@
       "authors": "Byeongchan Choi (KIAS)*",
       "slot_id": "D2S1",
       "date": "2026-08-25",
-      "start": "10:10",
-      "end": "10:30",
+      "start": "09:50",
+      "end": "10:10",
       "room": "H3"
     },
     {
@@ -4526,18 +4529,18 @@
       "program_type": "MS",
       "cmt_paper_id": 264,
       "parent_program_id": "MS20",
-      "session_id": "MS20A",
-      "order": 3,
+      "session_id": "MS20B",
+      "order": 1,
       "duration_minutes": 20,
       "speaker": "Shizuo Kaji",
       "affiliation": "Kyoto University",
       "title": "Topological Regularisation in Basis Learning",
       "abstract": "We investigate the learning of interpretable bases in non-negative matrix factorisation (NMF) by regularising the topology of the learned basis functions. Many data modalities can be viewed as non-negative functions on structured domains, where basis quality is intrinsically linked to its topology. However, standard methods for incorporating support topology are often hindered by discreteness and threshold dependence, rendering them unsuitable for continuous optimisation. We address these challenges by employing persistent homology as a stable, threshold-free topological quantifier, designing topological scores that integrate into the NMF objective as regularisers. The resulting framework unifies the modelling of spatially coherent image components, periodic time-series structures, and clique-like graph signals.",
       "authors": "Shizuo Kaji (Kyoto University)*",
-      "slot_id": "D2S1",
+      "slot_id": "D2S2",
       "date": "2026-08-25",
-      "start": "10:30",
-      "end": "10:50",
+      "start": "11:20",
+      "end": "11:40",
       "room": "H3"
     },
     {
@@ -4546,17 +4549,17 @@
       "cmt_paper_id": 269,
       "parent_program_id": "MS20",
       "session_id": "MS20A",
-      "order": 4,
+      "order": 3,
       "duration_minutes": 20,
-      "speaker": "MEIYAN KANG",
+      "speaker": "Meiyan Kang",
       "affiliation": "Kyoto University",
       "title": "Learning Long-Range Connectivity with Neural Networks",
       "abstract": "Deep neural networks (DNNs) are highly effective at learning local image features such as texture, yet some image analysis tasks require an understanding of global connectivity. Such information cannot be inferred from local cues alone and is therefore challenging for standard neural networks. In this talk, we propose an auxiliary, or pretext, task for learning connectivity. Given an image and a pair of points, the network predicts whether the two points belong to the same connected component. We also construct a synthetic benchmark dataset whose intricate patterns require long-range connectivity reasoning.\nSince connectivity is mathematically computable, labels can be generated not only for synthetic images but also for images from arbitrary domains. This makes the method a form of task augmentation rather than data augmentation. We evaluate its effectiveness on several downstream tasks. The results show that connectivity-aware training improves performance.",
-      "authors": "MEIYAN KANG (Kyoto University)*",
+      "authors": "Meiyan Kang (Kyoto University)*",
       "slot_id": "D2S1",
       "date": "2026-08-25",
-      "start": "10:50",
-      "end": "11:10",
+      "start": "10:30",
+      "end": "10:50",
       "room": "H3"
     },
     {
@@ -4565,7 +4568,7 @@
       "cmt_paper_id": 303,
       "parent_program_id": "MS20",
       "session_id": "MS20B",
-      "order": 1,
+      "order": 2,
       "duration_minutes": 20,
       "speaker": "Jisu Kim",
       "affiliation": "Seoul National University",
@@ -4574,8 +4577,8 @@
       "authors": "Jisu Kim (Seoul National University)*",
       "slot_id": "D2S2",
       "date": "2026-08-25",
-      "start": "11:20",
-      "end": "11:40",
+      "start": "11:40",
+      "end": "12:00",
       "room": "H3"
     },
     {
@@ -6897,25 +6900,6 @@
       "room": "H1"
     },
     {
-      "presentation_id": "CT-CMT-0100",
-      "program_type": "CT",
-      "cmt_paper_id": 100,
-      "parent_program_id": "CT-GENERAL",
-      "session_id": "CT06",
-      "order": 4,
-      "duration_minutes": 16,
-      "speaker": "Xingming Gao",
-      "affiliation": "Beijing Institute of technology",
-      "title": "Novel discrete transparent boundary conditions for the two-dimensional time-dependent Schrödinger equation on a rectangular region",
-      "abstract": "This work investigates discrete transparent boundary conditions for the time-dependent Schrödinger equation and develops two new approximate discrete transparent boundary conditions for two-dimensional problems within the Crank-Nicolson scheme. The proposed treatments accurately describe wave transmission through artificial boundaries while enabling efficient computation on bounded domains. A rigorous stability analysis is established for the coupled CN-ADTBC schemes. To quantify residual numerical reflections, an a posteriori reflection indicator is introduced by extending the computational domain. Numerical experiments show that the methods achieve second-order accuracy in both space and time and effectively suppress artificial reflections under various incident angles and potential configurations, demonstrating their accuracy, robustness, and applicability to open quantum-system simulations.",
-      "authors": "Xingming Gao (Beijing Institute of technology)*",
-      "slot_id": "D4S1",
-      "date": "2026-08-27",
-      "start": "09:18",
-      "end": "09:34",
-      "room": "H1"
-    },
-    {
       "presentation_id": "CT-CMT-0021",
       "program_type": "CT",
       "cmt_paper_id": 21,
@@ -7018,7 +7002,7 @@
       "session_id": "CT-SC1",
       "order": 1,
       "duration_minutes": null,
-      "speaker": "FENG Yaxing",
+      "speaker": "Feng Yaxin",
       "affiliation": "The Hong Kong University of Science and Technology",
       "title": "Discrete Mean-Field Games on Graphs as Finite-Dimensional Initial-Value Optimization",
       "abstract": "In this work, we propose an initial-value formulation of discrete mean-field games on finite graphs (Graph MFG) and design a neural-network-based solver. Graph MFG describes an infinite number of non-cooperative, interacting homogeneous agents moving between node states along edges to optimize their respective objectives. The Nash equilibrium of a Graph MFG is characterized by a coupled system of ordinary differential equations (ODEs), comprising a forward continuity equation and a backward Hamilton–Jacobi equation at each node of the graph. We focus primarily on potential mean-field games (Potential MFG) on finite graphs, which possess an infinite-dimensional constrained optimization structure. We reformulate Potential MFG as an initial-value, finite-dimensional optimization problem with dynamic constraints, termed Graph MFG-IV. Specifically, the initial condition of the Hamilton–Jacobi equation is treated as the sole optimization variable, constrained by a system of coupled Hamilton–Jacobi and continuity equations that serves as an ODE integrator. This finite-dimensional reformulation avoids time discretization of infinite-dimensional paths and has a substantially smaller search space than the general pathwise problem setting.",
@@ -7372,25 +7356,6 @@
       "room": "M"
     },
     {
-      "presentation_id": "CT-SC-020",
-      "program_type": "CT-SC",
-      "cmt_paper_id": null,
-      "parent_program_id": "CT-SC",
-      "session_id": "CT-SC4",
-      "order": 4,
-      "duration_minutes": null,
-      "speaker": "Takatora Suzuki",
-      "affiliation": "School of Fundamental Science and Engineering, Waseda University, Japan",
-      "title": "Extracting the Most Tree-Like Subgraph of a Phylogenetic Network",
-      "abstract": "Branching evolution of species has traditionally been represented by phylogenetic trees, but some evolutionary events, such as hybridization and horizontal gene transfer, cannot be captured by trees. Phylogenetic networks, which can also represent such reticulate evolution, are used instead; these, however, are complex and difficult to analyze. One approach to making a complex phylogenetic network more tractable is to extract a meaningful subgraph from it. In particular, the class of tree-based networks, introduced by Francis and Steel (2015), has been studied extensively as the class of networks from which a support tree can be extracted. Not every network is tree-based, however, and for such networks it is meaningful to extract a structure more complex than a tree—namely, a support network.\n\nIn the first part of the talk, we generalize a structural characterization of the set of support trees given by Hayamizu (2022) to obtain a direct-product formula characterizing the set of support networks within a given network. This also yields counting formulas expressed in terms of classical integer sequences such as the Fibonacci, Lucas, Padovan, and Perrin numbers.\n\nIn the second part, we address the problem of extracting the most tree-like support network, as measured by level. Because we have shown this problem to be NP-hard, we instead develop an integer linear programming formulation for extracting a level-1 network—the next-simplest graph beyond a tree—from a given network. We then present experiments comparing our method with the exhaustive-search algorithm obtained from the characterization above, confirming its practical effectiveness.",
-      "authors": null,
-      "slot_id": "D3S3",
-      "date": "2026-08-26",
-      "start": null,
-      "end": null,
-      "room": "M"
-    },
-    {
       "presentation_id": "CT-SC-021",
       "program_type": "CT-SC",
       "cmt_paper_id": null,
@@ -7502,6 +7467,101 @@
       "date": "2026-08-26",
       "start": null,
       "end": null,
+      "room": "M"
+    },
+    {
+      "presentation_id": "SPP-05",
+      "program_type": "SPP",
+      "cmt_paper_id": null,
+      "parent_program_id": "SPP",
+      "session_id": "SPP",
+      "order": 1,
+      "duration_minutes": 20,
+      "speaker": "Ryoki Endo",
+      "affiliation": "Niigata University",
+      "title": "Computer-Assisted Proof of the Simplicity of the Second Dirichlet Eigenvalue for Non-Equilateral Triangles",
+      "abstract": "This study proves that the second eigenvalue of the Dirichlet Laplacian is simple for every non-equilateral triangle, resolving a conjecture of R. Laugesen and B. Siudeja. The main difficulties arise for nearly equilateral triangles, where the second and third eigenvalues form a tight cluster, and for collapsing triangles, where the eigenvalues diverge. We first introduce a difference-quotient formula based on the Hadamard shape derivative to handle the clustered eigenvalues of nearly equilateral triangles. For collapsing triangles, we derive rigorous eigenvalue bounds using one-dimensional Schrödinger operators. Combining these estimates with verified numerical computation establishes the desired simplicity result for all non-equilateral triangles.\nThis is joint work with Xuefeng Liu (Tokyo Woman’s Christian University, Japan).",
+      "authors": "Ryoki Endo (Niigata University)*",
+      "slot_id": "D1S3",
+      "date": "2026-08-24",
+      "start": "15:50",
+      "end": "16:10",
+      "room": "M"
+    },
+    {
+      "presentation_id": "SPP-01",
+      "program_type": "SPP",
+      "cmt_paper_id": null,
+      "parent_program_id": "SPP",
+      "session_id": "SPP",
+      "order": 2,
+      "duration_minutes": 20,
+      "speaker": "Heechang Kim",
+      "affiliation": "Pohang University of Science and Technology",
+      "title": "CEENs: Causality-Enforced Evolutional Networks for Solving Time-Dependent Partial Differential Equations",
+      "abstract": "Physics-informed neural networks (PINNs) have shown promise for solving partial differential equations, but they often struggle with long-time integration because their conventional training procedure does not explicitly respect temporal causality. In this talk, we present causality-enforced evolutional networks (CEENs), which represent the solution as a sequence of neural states and train them progressively from the initial condition forward in time. By constructing local loss functions from the integral form of the governing equation, CEENs prevent later-time states from being learned before earlier states have been accurately resolved. Numerical experiments on several time-dependent PDEs demonstrate that CEENs substantially improve long-time accuracy while reducing computational cost and memory usage compared with conventional PINNs. We also discuss a causality-preserving parallelization strategy and the error behavior of CEENs with respect to the time-step size and training tolerance.",
+      "authors": "Heechang Kim (Pohang University of Science and Technology)*",
+      "slot_id": "D1S3",
+      "date": "2026-08-24",
+      "start": "16:10",
+      "end": "16:30",
+      "room": "M"
+    },
+    {
+      "presentation_id": "SPP-02",
+      "program_type": "SPP",
+      "cmt_paper_id": null,
+      "parent_program_id": "SPP",
+      "session_id": "SPP",
+      "order": 3,
+      "duration_minutes": 20,
+      "speaker": "Peiying Wu",
+      "affiliation": "Wuhan University",
+      "title": "DRM Revisited: A Complete Error Analysis",
+      "abstract": "It is widely known that the error analysis for deep learning involves approximation, statistical, and optimization errors. However, it is challenging to combine them together due to overparameterization. In this paper, we address this gap by providing a comprehensive error analysis of the Deep Ritz Method (DRM). Specifically, we investigate a foundational question in the theoretical analysis of DRM under the overparameterized regime: given a target precision level, how can one determine the appropriate number of training samples, the key architectural parameters of the neural networks, the step size for the projected gradient descent optimization procedure, and the requisite number of iterations, such that the output of the gradient descent process closely approximates the true solution of the underlying partial differential equation to the specified precision?",
+      "authors": "Peiying Wu (Wuhan University)*",
+      "slot_id": "D1S3",
+      "date": "2026-08-24",
+      "start": "16:30",
+      "end": "16:50",
+      "room": "M"
+    },
+    {
+      "presentation_id": "SPP-03",
+      "program_type": "SPP",
+      "cmt_paper_id": null,
+      "parent_program_id": "SPP",
+      "session_id": "SPP",
+      "order": 4,
+      "duration_minutes": 20,
+      "speaker": "Yifei Sun",
+      "affiliation": "Soochow University",
+      "title": "Parallelization of the Random Feature Method with Engineering Applications",
+      "abstract": "The Random Feature Method (RFM) has emerged as an efficient mesh-free numerical approach for solving partial differential equations, offering strong flexibility in handling complex geometries. However, its application to large-scale engineering problems is often constrained by the substantial computational and memory costs associated with large least-squares systems, making efficient parallelization essential. This talk presents recent advances in the parallelization of the RFM based on domain decomposition and high-performance computing techniques. The proposed framework enables distributed computation while preserving the accuracy and robustness of the original method. Building on this parallel framework, the RFM is applied to a variety of engineering problems and further integrated into industrial software platforms to support large-scale scientific computing and computer-aided engineering applications.",
+      "authors": "Yifei Sun (Soochow University)*",
+      "slot_id": "D1S3",
+      "date": "2026-08-24",
+      "start": "16:50",
+      "end": "17:10",
+      "room": "M"
+    },
+    {
+      "presentation_id": "SPP-04",
+      "program_type": "SPP",
+      "cmt_paper_id": null,
+      "parent_program_id": "SPP",
+      "session_id": "SPP",
+      "order": 5,
+      "duration_minutes": 20,
+      "speaker": "Jingpu Cheng",
+      "affiliation": "National University of Singapore",
+      "title": "Interpolation, approximation, and controllability of deep neural networks",
+      "abstract": "Viewing deep residual neural networks as controlled dynamical systems, we use controllability theory to study two notions of expressive power arising from supervised learning: universal interpolation of finite data sets and universal approximation of target functions. In this framework, universal interpolation becomes a problem of simultaneously controlling an ensemble of data points. For globally Lipschitz, affine-invariant control families, we show that exact universal interpolation holds if and only if the family contains a nonlinear vector field. This applies to a broad class of ResNets with nonlinear activations. We also show that, for general control systems, universal interpolation and universal approximation do not imply one another, while their equivalence can be recovered under suitable regularity assumptions and a uniform bound on interpolation time.",
+      "authors": "Jingpu Cheng (National University of Singapore)*",
+      "slot_id": "D1S3",
+      "date": "2026-08-24",
+      "start": "17:10",
+      "end": "17:30",
       "room": "M"
     },
     {
@@ -7864,6 +7924,82 @@
       "start": "09:34",
       "end": "09:50",
       "room": "H1"
+    },
+    {
+      "presentation_id": "MS-CMT-0324",
+      "program_type": "MS",
+      "cmt_paper_id": 324,
+      "parent_program_id": "MS16",
+      "session_id": "MS16B",
+      "order": 3,
+      "duration_minutes": 20,
+      "speaker": "Julius Fergy Rabago",
+      "affiliation": "Kanazawa University",
+      "title": "Topological and Shape Optimization Methods for Inverse Shape Reconstruction",
+      "abstract": "This talk focuses on inverse reconstruction problems governed by elliptic partial differential equations, where the objective is to identify unknown subregions associated with discontinuous coefficients from boundary measurements. We discuss numerical methods based on topological sensitivity analysis and shape optimization for recovering the location and geometry of hidden structures. Particular emphasis is placed on the development of efficient reconstruction algorithms, robustness with respect to noisy measurements, and applications to interface detection problems arising in applied sciences and engineering. This is based on joint work with L.~Afraites (Université Sultan Moulay Slimane, Morocco), A.~Hadri (Université Ibn Zohr, Morocco), and M.~Hrizi (Université de Monastir, Tunisia).",
+      "authors": "Julius Fergy Rabago (Kanazawa University)*",
+      "slot_id": "D4S3",
+      "date": "2026-08-27",
+      "start": "12:30",
+      "end": "12:50",
+      "room": "S2"
+    },
+    {
+      "presentation_id": "MS-CMT-0325",
+      "program_type": "MS",
+      "cmt_paper_id": 325,
+      "parent_program_id": "MS31",
+      "session_id": "MS31B",
+      "order": 3,
+      "duration_minutes": 20,
+      "speaker": "Fenglei Fan",
+      "affiliation": "Cornell",
+      "title": "Model Compression via Dynamic System",
+      "abstract": "Recently, the escalating demand for memory and computational resources by large models has presented formidable challenges for their deployment in resource-constrained environments. One prevalent way to serve large models is to develop effective model compression approaches that crop the size of large models while maintaining acceptable performance levels. In this talk, we introduce a novel and general-purpose approach, referred to as hyper-compression, that redefines model compression as a problem of parameter representation. Specifically, we extend the concept of hypernets into what we term a ‘hyperfunction'. Then, the hyperfunction is designed based on dynamic systems.",
+      "authors": "Fenglei Fan (Cornell)*",
+      "slot_id": "D3S2",
+      "date": "2026-08-26",
+      "start": "12:00",
+      "end": "12:20",
+      "room": "S2"
+    },
+    {
+      "presentation_id": "MS-CMT-0326",
+      "program_type": "MS",
+      "cmt_paper_id": 326,
+      "parent_program_id": "MS20",
+      "session_id": "MS20A",
+      "order": 2,
+      "duration_minutes": 20,
+      "speaker": "Yasharth Yadav",
+      "affiliation": "NTU",
+      "title": "Periodic Topological Deep Learning for Polymer Design and Discovery",
+      "abstract": "Polymers are central to energy, healthcare, and materials science, but their vast chemical space makes discovery challenging. Most machine learning models represent polymers as a monomer graph, missing chain periodicity and many-body interactions. I will introduce Periodic-TDL, a deep learning framework using periodic Rips complexes and hierarchical simplicial message passing to capture interactions across spatial scales. Periodic-TDL achieves state-of-the-art performance across electronic, optical, physical, and thermal property prediction tasks. We then use it to test two design principles for thermal stability, ester-to-amide substitution and backbone alpha-methylation. Across 48,208 generated polymers, the model captures systematic changes in glass transition temperature arising from these functional group modifications. Experiments on six novel polymer pairs, including three newly synthesized polymers, confirm the predicted trends, supporting topology-informed polymer design.",
+      "authors": "Yasharth Yadav (Nanyang Technological University)*",
+      "slot_id": "D2S1",
+      "date": "2026-08-25",
+      "start": "10:10",
+      "end": "10:30",
+      "room": "H3"
+    },
+    {
+      "presentation_id": "MS-CMT-0327",
+      "program_type": "MS",
+      "cmt_paper_id": 327,
+      "parent_program_id": "MS21",
+      "session_id": "MS21B",
+      "order": 3,
+      "duration_minutes": 20,
+      "speaker": "Zhongjian Wang",
+      "affiliation": "Nanyang Technological University",
+      "title": "Posterior learning by Mean Flow",
+      "abstract": "In this talk I will explain how to use the diffusion model, especially mean flow, to construct unbiased, efficient Bayesian posterior sampler. If time permits, I will also talk a bit on the regularity of the mean flow maps.",
+      "authors": "Zhongjian Wang (Nanyang Technological University )*",
+      "slot_id": "D2S2",
+      "date": "2026-08-25",
+      "start": "12:00",
+      "end": "12:20",
+      "room": "H1"
     }
   ],
   "posters": [
@@ -8201,11 +8337,11 @@
       "presentation_id": "POSTER-CMT-0120",
       "cmt_paper_id": 120,
       "poster_number": 34,
-      "speaker": "Yu-Yo Weng",
+      "speaker": "Yu Yu Weng",
       "affiliation": "National Yang Ming Chiao Tung University",
       "title": "Error Analysis of Backward Euler Time Discretizations for Data Assimilation DQ-POD Reduced Order Models",
       "abstract": "In this paper, we propose and analyze a fully discrete Data Assimilation Reduced Order Model that incorporates Difference Quotients into the POD snapshot matrix (DQ-DA-ROM). We establish uniform-in-time error estimates for the proposed DQ-DA-ROM using both Backward Euler time discretizations. A major theoretical contribution of this work is the derivation of optimal error bounds for the Ritz projection within the DQ-POD space. By leveraging the continuous POD framework for multiple data streams, we decouple the spatial gradient and state errors from the ROM stiffness matrix, proving that the errors are exclusively bounded by the discarded DQ-POD eigenvalues. Furthermore, we apply a discrete Gronwall argument to demonstrate that the data assimilation nudging term effectively dampens the initial errors and removes the time-step accumulation, leading to bounds that are completely independent of the final simulation time.",
-      "authors": "Yu-Yo Weng (National Yang Ming Chiao Tung University)*"
+      "authors": "Yu Yu Weng (National Yang Ming Chiao Tung University)*"
     },
     {
       "presentation_id": "POSTER-CMT-0121",
@@ -8316,6 +8452,62 @@
       "title": "A kernel-interpolation error estimate for the radially paired method of fundamental solutions on balls",
       "abstract": "We study the method of fundamental solutions for the Laplace Dirichlet problem in a \\(d\\)-dimensional ball, \\(d\\geq 3\\). The source points are placed on a concentric sphere outside the domain and are paired radially with the boundary collocation points. By restricting the fundamental solutions to the boundary, the MFS approximation is formulated as a kernel interpolation problem on the unit sphere. Using the spherical harmonic expansion of the resulting zonal kernel, we compute its coefficients explicitly and describe the associated native space. Under the assumption that the boundary data belong to this native space, we derive an \\(L^\\infty\\) error estimate in terms of the fill distance of the boundary nodes. The estimate gives exponential-type decay with respect to the inverse fill distance. Numerical experiments are included to illustrate the convergence behavior in several dimensions and to examine the influence of the source radius on accuracy and conditioning.",
       "authors": "Peitian Wang (The University of Osaka )*"
+    }
+  ],
+  "student_representatives": [
+    {
+      "representative_id": "STUDENT-REP-001",
+      "order": 1,
+      "name": "Yuntong Huang",
+      "affiliation_and_chapter": "President, HKUST SIAM Student Chapter"
+    },
+    {
+      "representative_id": "STUDENT-REP-002",
+      "order": 2,
+      "name": "Jungmin Lee",
+      "affiliation_and_chapter": "President, POSTECH SIAM Student Chapter"
+    },
+    {
+      "representative_id": "STUDENT-REP-003",
+      "order": 3,
+      "name": "Heechang Kim",
+      "affiliation_and_chapter": "POSTECH SIAM Student Chapter"
+    },
+    {
+      "representative_id": "STUDENT-REP-004",
+      "order": 4,
+      "name": "Yihao Xu",
+      "affiliation_and_chapter": "President, CUHK SIAM Student Chapter"
+    },
+    {
+      "representative_id": "STUDENT-REP-005",
+      "order": 5,
+      "name": "Qizheng Yang",
+      "affiliation_and_chapter": "Vice President, CUHK SIAM Student Chapter"
+    },
+    {
+      "representative_id": "STUDENT-REP-006",
+      "order": 6,
+      "name": "Yiyang Li",
+      "affiliation_and_chapter": "President, PolyU SIAM Student Chapter"
+    },
+    {
+      "representative_id": "STUDENT-REP-007",
+      "order": 7,
+      "name": "Xinpeng Li",
+      "affiliation_and_chapter": "CAS"
+    },
+    {
+      "representative_id": "STUDENT-REP-008",
+      "order": 8,
+      "name": "Shunsuke Maeda",
+      "affiliation_and_chapter": "Waseda University"
+    },
+    {
+      "representative_id": "STUDENT-REP-009",
+      "order": 9,
+      "name": "Zilan CHENG",
+      "affiliation_and_chapter": "President, NTU SIAM Student Chapter"
     }
   ]
 }
