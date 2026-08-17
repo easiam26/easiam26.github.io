@@ -1,26 +1,140 @@
 ---
 layout: default
-title: Venue
+title: Venue & Transportation
 ---
 
-<main class="container" style="padding: 60px 0;">
-    <h2 id="venue" style="margin-bottom:40px; color:var(--primary-color);">Venue</h2>
-    <h3>Oriental Hotel, Jeju Island, Korea</h3>
-    <p>
-        <a href="https://www.oriental.co.kr/view/index.do?SS_SVC_LANG_CODE=ENG" target="_blank" rel="noopener noreferrer">Visit Hotel Website</a>
-    </p>
+<main class="container travel-page">
+    <header class="travel-page-header">
+        <p class="travel-kicker">Plan Your Visit</p>
+        <h1 id="venue">Venue &amp; Transportation</h1>
+        <p>Conference venue, taxi information, and airport shuttle schedules for EASIAM 2026 participants.</p>
+    </header>
 
-    <div style="margin-top: 20px; line-height: 1.6;">
-        <p>The East Asia Section of SIAM Annual Meeting 2026 (EASIAM 2026) will be held at the Oriental Hotel on Jeju Island, Korea.</p>
-        <p>The Oriental Hotel is located near the coast of Jeju City and is conveniently accessible from Jeju International Airport. The hotel will serve as the main conference venue for plenary talks, invited talks, minisymposia, contributed talks, poster sessions, and the banquet.</p>
-        <p>More detailed information about the venue and transportation will be updated as the conference approaches.</p>
+    <section class="venue-summary" aria-labelledby="venue-hotel-title">
+        <div>
+            <p class="travel-kicker">Conference Venue</p>
+            <h2 id="venue-hotel-title">Jeju Oriental Hotel</h2>
+            <p>The East Asia Section of SIAM Annual Meeting 2026 will be held at Jeju Oriental Hotel.</p>
+            <p class="venue-address"><strong>Address:</strong> 47, Tapdong-ro, Jeju-si</p>
+            <a class="hotel-link hotel-link-primary" href="https://www.oriental.co.kr/view/index.do?SS_SVC_LANG_CODE=ENG" target="_blank" rel="noopener noreferrer">Hotel Website</a>
+        </div>
+        <div class="venue-map">
+            <iframe src="https://maps.google.com/maps?q=Jeju%20Oriental%20Hotel%20%26%20Casino%2C%2047%20Tapdong-ro%2C%20Jeju-si&amp;z=17&amp;output=embed" title="Location of Jeju Oriental Hotel and Casino" width="100%" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
 
-        <h4 style="margin-top: 30px; color:var(--primary-color);">Airport Access</h4>
-        <p>From Jeju International Airport, participants can reach the Oriental Hotel by taxi or local transportation. The hotel is located relatively close to the airport, and taxi travel is expected to be the most convenient option for most participants.</p>
-    </div>
+    <section class="transport-section" aria-labelledby="taxi-title">
+        <div class="transport-heading">
+            <p class="travel-kicker">Option 1</p>
+            <h2 id="taxi-title">Taxi</h2>
+            <p>A taxi is the simplest alternative for participants who are not using a conference shuttle.</p>
+        </div>
+        <div class="taxi-card">
+            <div class="taxi-facts" aria-label="Taxi information from Jeju International Airport to Jeju Oriental Hotel">
+                <div><span>Distance</span><strong>Approximately 3.8 km</strong></div>
+                <div><span>Travel time</span><strong>Approximately 10–15 minutes</strong></div>
+                <div><span>Estimated fare</span><strong>Approximately KRW 7,000</strong></div>
+            </div>
+            <div class="taxi-driver-card">
+                <h3>Show this message to the taxi driver</h3>
+                <p class="taxi-driver-message" lang="ko">제주 오리엔탈호텔로 가 주세요.<br>주소는 제주시 탑동로 47입니다.</p>
+            </div>
+            <p class="transport-footnote">Travel time and fare may vary depending on traffic conditions.</p>
+        </div>
+    </section>
 
-    <div style="margin-top:40px;">
-        <h4 style="margin-bottom: 20px; color:var(--primary-color);">Location Map</h4>
-        <iframe src="https://maps.google.com/maps?q=Jeju%20Oriental%20Hotel%20%26%20Casino%2C%2047%20Tapdong-ro%2C%20Jeju-si&amp;z=17&amp;output=embed" title="Location of Jeju Oriental Hotel and Casino" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
+    <section class="transport-section" aria-labelledby="hotel-shuttle-title">
+        <div class="transport-heading">
+            <p class="travel-kicker">Option 2</p>
+            <h2 id="hotel-shuttle-title">Shuttle 1: Hotel Shuttle Service</h2>
+            <p>The following schedule operates daily from August 23 through August 27. The same departure times apply on all five days.</p>
+        </div>
+
+        <div class="shuttle-schedule-grid">
+            <article class="schedule-card">
+                <h3>Jeju International Airport to Hotel</h3>
+                <div class="table-scroll">
+                    <table class="transport-table">
+                        <thead>
+                            <tr><th>Airport departure</th><th>Hotel arrival</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>10:30</td><td>10:55</td></tr>
+                            <tr><td>11:30</td><td>12:00</td></tr>
+                            <tr><td>13:40</td><td>14:10</td></tr>
+                            <tr><td>15:00</td><td>15:30</td></tr>
+                            <tr><td>16:00</td><td>16:30</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </article>
+
+            <article class="schedule-card">
+                <h3>Hotel to Jeju International Airport</h3>
+                <div class="table-scroll">
+                    <table class="transport-table">
+                        <thead>
+                            <tr><th>Hotel departure</th><th>Airport arrival</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>10:00</td><td>10:30</td></tr>
+                            <tr><td>11:00</td><td>11:30</td></tr>
+                            <tr><td>13:10</td><td>13:40</td></tr>
+                            <tr><td>14:30</td><td>15:00</td></tr>
+                            <tr><td>15:30</td><td>16:00</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </article>
+        </div>
+
+        <div class="shuttle-boarding-layout">
+            <div class="transport-notice">
+                <h3>Airport boarding point</h3>
+                <p><strong>Jeju International Airport, Level 3 (Departures), in front of Gate 5.</strong> Please arrive 5–10 minutes before the scheduled departure time because the shuttle cannot remain at the boarding point for an extended period.</p>
+                <p><strong>License plate:</strong> 74고 2821.</p>
+            </div>
+            <figure class="shuttle-map-figure">
+                <div class="shuttle-map-heading">3F (Departure)</div>
+                <div class="shuttle-map-canvas">
+                    <img src="{{ '/assets/images/jeju-airport-gate5-map.png' | relative_url }}" alt="Complete Level 3 map of Jeju International Airport with the Shuttle 1 boarding point marked near Gate 5">
+                    <span class="shuttle-map-gate4" aria-hidden="true">GATE4</span>
+                    <span class="shuttle-map-gate5" aria-hidden="true">3F GATE5</span>
+                </div>
+                <figcaption>Red marker: Shuttle 1 boarding area on Level 3 (Departures), in front of Gate 5</figcaption>
+            </figure>
+        </div>
+        <p class="transport-footnote">Travel times are subject to change depending on traffic conditions.</p>
+    </section>
+
+    <section class="transport-section transport-section-muted" aria-labelledby="additional-shuttle-title">
+        <div class="transport-heading">
+            <p class="travel-kicker">Option 3 · August 23–24 Only</p>
+            <h2 id="additional-shuttle-title">Shuttle 2: Additional Airport Shuttle</h2>
+            <p>An additional shuttle will operate from Jeju International Airport to Jeju Oriental Hotel and Nohyeong Intersection on August 23 and August 24. The same schedule applies on both days.</p>
+        </div>
+
+        <div class="schedule-card schedule-card-wide">
+            <h3>Airport → Hotel → Nohyeong Intersection</h3>
+            <div class="table-scroll">
+                <table class="transport-table">
+                    <thead>
+                        <tr><th>Airport departure</th><th>Hotel stop</th><th>Nohyeong Intersection</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>09:30</td><td>09:45</td><td>10:10</td></tr>
+                        <tr><td>12:30</td><td>12:45</td><td>13:10</td></tr>
+                        <tr><td>16:30</td><td>16:45</td><td>17:10</td></tr>
+                        <tr><td>18:30</td><td>18:45</td><td>19:10</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="transport-notice">
+            <h3>Airport boarding point</h3>
+            <p><strong>Jeju International Airport, Level 1, bus parking lot.</strong></p>
+        </div>
+        <p class="transport-footnote">Travel times are subject to change depending on traffic conditions.</p>
+    </section>
 </main>

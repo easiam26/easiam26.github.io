@@ -19,23 +19,6 @@
         <ul class="nav-links" id="navLinks">
             <li><a href="{{ '/' | relative_url }}">Home</a></li>
             <li class="dropdown">
-                <a href="#">General Information</a>
-                <ul class="dropdown-menu">
-                    <li><a href="{{ '/jeju' | relative_url }}">Jeju</a></li>
-                    <li><a href="{{ '/accommodation' | relative_url }}">Accommodation</a></li>
-                    <li><a href="{{ '/excursion' | relative_url }}">Excursion</a></li>
-                    <li><a href="{{ '/visa-information' | relative_url }}">Visa Information</a></li>
-                </ul>
-            </li>
-            <li class="dropdown">
-                <a href="#">About</a>
-                <ul class="dropdown-menu">
-                    <li><a href="{{ '/committees' | relative_url }}#organizing">Organizing Committee</a></li>
-                    <li><a href="{{ '/committees' | relative_url }}#scientific">Scientific Committee</a></li>
-                    <li><a href="{{ '/contact' | relative_url }}">Contact</a></li>
-                </ul>
-            </li>
-            <li class="dropdown">
                 <a href="{{ '/program-at-a-glance' | relative_url }}">Program</a>
                 <ul class="dropdown-menu">
                     <li><a href="{{ '/program-at-a-glance' | relative_url }}">Program at a Glance</a></li>
@@ -44,28 +27,36 @@
                     <li><a href="{{ '/minisymposia' | relative_url }}">Minisymposia</a></li>
                     <li><a href="{{ '/contributed-talks-and-posters' | relative_url }}">Contributed Talks and Posters</a></li>
                     <li><a href="{{ '/student-chapter-session' | relative_url }}">Student-Chapter Session</a></li>
+                    <li><a href="{{ '/submission' | relative_url }}">Submission</a></li>
                 </ul>
             </li>
-            <li><a href="{{ '/registration' | relative_url }}">Registration</a></li>
             <li class="dropdown">
-                <a href="#">Submission</a>
+                <a href="{{ '/venue' | relative_url }}">Plan Your Visit</a>
                 <ul class="dropdown-menu">
-                    <li><a href="{{ '/minisymposium-submission' | relative_url }}">Minisymposium</a></li>
-                    <li><a href="{{ '/submission' | relative_url }}">Abstract Submission</a></li>
+                    <li><a href="{{ '/venue' | relative_url }}">Venue &amp; Transportation</a></li>
+                    <li><a href="{{ '/accommodation' | relative_url }}">Accommodation</a></li>
+                    <li><a href="{{ '/excursion' | relative_url }}">Excursion</a></li>
+                    <li><a href="{{ '/visa-information' | relative_url }}">Visa Information</a></li>
+                    <li><a href="{{ '/jeju' | relative_url }}">About Jeju</a></li>
                 </ul>
             </li>
-            <li><a href="{{ '/student-paper-prize' | relative_url }}">Student Paper Prize</a></li>
-            <li><a href="{{ '/travel-awards' | relative_url }}">Travel Awards</a></li>
-            <li><a href="{{ '/venue' | relative_url }}">Venue</a></li>
-            <li><a href="{{ '/submission' | relative_url }}"
-                    style="background: var(--primary-color); color: white;
-                    padding: 8px 16px; border-radius: 4px; font-weight:
-                    bold;">Submission</a>
+            <li class="dropdown">
+                <a href="{{ '/student-paper-prize' | relative_url }}">Awards &amp; Support</a>
+                <ul class="dropdown-menu">
+                    <li><a href="{{ '/student-paper-prize' | relative_url }}">Student Paper Prize</a></li>
+                    <li><a href="{{ '/travel-awards' | relative_url }}">Travel Awards</a></li>
+                </ul>
             </li>
-<!--            <li><a href="{{ '/registration' | relative_url }}"
-                    style="background: var(--primary-color); color: white; padding: 8px 16px; border-radius: 4px; font-weight: bold;">Registration</a>
+            <li class="dropdown">
+                <a href="{{ '/' | relative_url }}#about">About</a>
+                <ul class="dropdown-menu">
+                    <li><a href="{{ '/' | relative_url }}#about">About EASIAM</a></li>
+                    <li><a href="{{ '/committees' | relative_url }}#organizing">Organizing Committee</a></li>
+                    <li><a href="{{ '/committees' | relative_url }}#scientific">Scientific Committee</a></li>
+                    <li><a href="{{ '/contact' | relative_url }}">Contact</a></li>
+                </ul>
             </li>
-            -->
+            <li><a class="nav-cta" href="{{ '/registration' | relative_url }}">Registration</a></li>
         </ul>
     </div>
 </nav>
