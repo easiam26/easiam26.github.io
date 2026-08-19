@@ -1,11 +1,12 @@
 {
-  "schema_version": "1.6",
-  "generated_on": "2026-08-17",
+  "schema_version": "1.7",
+  "generated_on": "2026-08-19",
   "source": "master/EASIAM2026_program_management_master.xlsx",
   "publication_policy": {
     "excludes_private_email": true,
     "excludes_withdrawn": true,
     "excludes_pending_talks": true,
+    "cancelled_poster_20_visible_with_label": true,
     "ct_talk_max_minutes": 16,
     "ms_talk_max_minutes": 20,
     "five_talk_ms_minutes": 16,
@@ -8000,6 +8001,139 @@
       "start": "12:00",
       "end": "12:20",
       "room": "H1"
+    },
+    {
+      "presentation_id": "MS-CMT-0328",
+      "program_type": "MS",
+      "cmt_paper_id": 328,
+      "parent_program_id": "MS25",
+      "session_id": "MS25B",
+      "order": 2,
+      "duration_minutes": 20,
+      "speaker": "JIARONG CHEN",
+      "affiliation": "Beijing Institute of Technology",
+      "title": "Dirichlet Harmonic Solutions via Neumann-Type Curl Potentials: A Unified Natural Deep Ritz Framework on the de Rham Complex",
+      "abstract": "Deep neural networks show great promise for high-dimensional PDEs, yet enforcing Dirichlet boundary conditions remains a core challenge. This work builds on a key geometric insight: Dirichlet harmonic solutions admit a curl-driven Neumann-type representation, circumventing the case-by-case tuning and convergence imbalance of standard penalty-based methods in high dimensions. Based on the de Rham complex, our unified Natural Deep Ritz Method (NatDRM) for all $d\\geq2$ converts Dirichlet constraints into three coupled Neumann subproblems via dimension-adaptive curl potentials, with unified discrete losses, lightweight boundary gauge-fixing regularizations, and extensions to variable-coefficient and semilinear Poisson cases. Numerical experiments up to 6D show the method matches or outperforms optimally tuned DRM and PINN in most cases, with stable convergence and synchronous interior-boundary error decay.",
+      "authors": "JIARONG CHEN (Beijing Institute of Technology)*",
+      "slot_id": "D3S2",
+      "date": "2026-08-26",
+      "start": "11:40",
+      "end": "12:00",
+      "room": "H3"
+    },
+    {
+      "presentation_id": "MS-CMT-0329",
+      "program_type": "MS",
+      "cmt_paper_id": 329,
+      "parent_program_id": "MS25",
+      "session_id": "MS25B",
+      "order": 3,
+      "duration_minutes": 20,
+      "speaker": "Zhang Huaijia",
+      "affiliation": "Beijing Institute of Technology",
+      "title": "Tensor Neural Network Based Machine Learning Method for Elliptic Multiscale Problems",
+      "abstract": "In this work, we present a machine‑learning method based on tensor neural networks for solving elliptic multiscale problems. Thanks to their special structure, tensor neural network functions allow direct, highly‑accurate high‑dimensional integration without resorting to Monte‑Carlo sampling. Using homogenization techniques, the original multiscale problem is first transformed into a high‑dimensional limit problem with satisfactory accuracy. We then construct a machine‑learning approach based on tensor neural networks to solve this resulting high‑dimensional limit problem. The proposed framework offers a new avenue for developing high‑accuracy numerical methods for more general multiscale problems. Several numerical examples are presented to verify the performance of our numerical scheme.",
+      "authors": "Zhang Huaijia (Beijing Institute of Technology)*",
+      "slot_id": "D3S2",
+      "date": "2026-08-26",
+      "start": "12:00",
+      "end": "12:20",
+      "room": "H3"
+    },
+    {
+      "presentation_id": "MS-CMT-0333",
+      "program_type": "MS",
+      "cmt_paper_id": 333,
+      "parent_program_id": "MS25",
+      "session_id": "MS25B",
+      "order": 4,
+      "duration_minutes": 20,
+      "speaker": "Xiaobo Yin",
+      "affiliation": "Central China Normal University",
+      "title": "Neural network methods for fractional Laplacian: from quadrature-enhanced MC fPINN  to fTNN",
+      "abstract": "This talk presents two methods on the neural networks for fractional Laplacian. They all adopt a spatially varying radius, yielding a geometry-adaptive three-part decomposition of the fractional Laplacian: singular near-field, regular interior far-field, and analytical exterior far-field. Then, for the first method called quadrature-enhanced Monte Carlo fPINN, Gauss-Jacobi quadrature is used for the singular near-field radial integral, Gauss quadrature for the regular interior radial integral, and Monte Carlo sampling for the angular variables, combined with a feature-enhanced PINN trial space, achieving 1-3 orders of magnitude improvement over existing baselines on problems up to 10000 dimensions. The second method is a fully deterministic method, called fTNN, which replaces the angular Monte Carlo sampling by deterministic directional quadrature, reaching relative errors on the order of 10^{-4} to 10^{-6} in 1D/2D/3D.",
+      "authors": "Xiaobo Yin (Central China Normal University)*",
+      "slot_id": "D3S2",
+      "date": "2026-08-26",
+      "start": "12:20",
+      "end": "12:40",
+      "room": "H3"
+    },
+    {
+      "presentation_id": "MS-CMT-0330",
+      "program_type": "MS",
+      "cmt_paper_id": 330,
+      "parent_program_id": "MS07",
+      "session_id": "MS07B",
+      "order": 2,
+      "duration_minutes": 20,
+      "speaker": "Yuqing Li",
+      "affiliation": "East China Normal University",
+      "title": "Condensation Phenomena and Stochastic Methods: From Neural Networks to Particle Systems",
+      "abstract": "We study condensation phenomena driven by stochasticity in neural network training and interacting particle systems. In neural networks, we characterize a phase diagram of condensation in two-layer and convolutional models, where training induces concentration of weights along finitely many directions, improving generalization. We further show that Dropout admits a stochastic modified equation description, which captures its dynamics and explains its role in promoting and stabilizing condensation at late training stages. In a second direction, we develop a quasi-Ewald splitting method for charged particles in nanoscale confinement. By combining importance sampling with random batch techniques in Fourier space, we obtain an O(N) algorithm for electrostatic interactions. The method also reveals dielectric boundary effects and anisotropic diffusion induced by confinement. dimensional structures in learning systems and efficient computation in complex physical systems.",
+      "authors": "Yuqing Li (East China Normal University)*",
+      "slot_id": "D4S2",
+      "date": "2026-08-27",
+      "start": "10:40",
+      "end": "11:00",
+      "room": "S1"
+    },
+    {
+      "presentation_id": "MS-CMT-0332",
+      "program_type": "MS",
+      "cmt_paper_id": 332,
+      "parent_program_id": "MS07",
+      "session_id": "MS07B",
+      "order": 3,
+      "duration_minutes": 20,
+      "speaker": "Xiaofei Zhao",
+      "affiliation": "武汉大学",
+      "title": "On action ground state of NLS",
+      "abstract": "In this talk, we first review the definition of action ground state of NLS. Some equivalent formulations are then introduced. Based on each, different computational methods are desigened and compared. With the simulation and analysis, the relation between action and energy ground states are explored. ",
+      "authors": "Xiaofei Zhao (武汉大学)*",
+      "slot_id": "D4S2",
+      "date": "2026-08-27",
+      "start": "11:00",
+      "end": "11:20",
+      "room": "S1"
+    },
+    {
+      "presentation_id": "MS-CMT-0331",
+      "program_type": "MS",
+      "cmt_paper_id": 331,
+      "parent_program_id": "MS20",
+      "session_id": "MS20B",
+      "order": 4,
+      "duration_minutes": 20,
+      "speaker": "Jae-Hun Jung",
+      "affiliation": "POSTECH",
+      "title": "Persistent Cross Entropy for Causal Inference in Dynamical System",
+      "abstract": "Inferring causal relationships between dynamical system time-series is important in many applications. Topological approaches assume that observed data are measurements of underlying manifolds and that the topology of reconstructed embedding spaces contains information about causal structure. We propose a novel causal inference method based on persistent cross entropy(PCE). We introduce a mathematically consistent probabilistic formulation for comparing persistence diagrams, which remains well-defined even for diagrams of different sizes. This enables principled comparison of topological information from different dynamical systems. Based on this, we develop a topology-based method for causal inference between dynamical system signals. Numerical experiments show that the proposed method captures causality more effectively than methods based on bottleneck and Wasserstein distances, persistence images, and persistence silhouettes. \n",
+      "authors": "Jae-Hun Jung (POSTECH)*",
+      "slot_id": "D2S2",
+      "date": "2026-08-25",
+      "start": "12:20",
+      "end": "12:40",
+      "room": "H3"
+    },
+    {
+      "presentation_id": "MS-CMT-0334",
+      "program_type": "MS",
+      "cmt_paper_id": 334,
+      "parent_program_id": "MS06",
+      "session_id": "MS06B",
+      "order": 4,
+      "duration_minutes": 20,
+      "speaker": "Jiyeon Kim",
+      "affiliation": "Ajou University",
+      "title": "Locally Preserving Sparse Neural Operator netWorks",
+      "abstract": "Operator learning is a promising paradigm for parametric partial differential equations (PDEs), yet network parameters grow rapidly with mesh resolution. We present Sparse Neural Operator netWorks (SNOW), a framework that embeds the sparse structure of PDE discretizations into the network architecture. As a primary application, Sparse FEONet restricts each layer's connectivity to the local support of finite element basis functions, supported by a universal approximation theorem and stability analysis, and achieves up to a 98% parameter reduction while maintaining accuracy. In this talk we propose SNOW-HDG, a locally preserving extension based on the Hybridizable Discontinuous Galerkin (HDG) method. The network learns only the skeleton trace λ using HDG connectivity as its sparsity pattern, and element-wise solutions are recovered by the HDG local solver, so the prediction satisfies local conservation property. Poisson experiments confirm accuracy and efficiency.",
+      "authors": "Jiyeon Kim (Ajou University)*; Dongwook Shin (Ajou University)",
+      "slot_id": "D1S2",
+      "date": "2026-08-24",
+      "start": "12:20",
+      "end": "12:40",
+      "room": "H1"
     }
   ],
   "posters": [
@@ -8011,7 +8145,8 @@
       "affiliation": "Data Science Program, University of the Philippines Diliman",
       "title": "An LLM-integrated Optical Character Recognition System for Contextual Disambiguation of Baybayin Scripts",
       "abstract": "Recent advances in natural language processing (NLP) and large language models (LLMs) have significantly enhanced optical character recognition (OCR) through automated text correction and refinement. However, most OCR–NLP pipelines focused on major scripts such as Latin while underrepresented writing systems like Baybayin, a precolonial Tagalog script, remain underexplored. This gap reflects both the script’s antiquity and the limited availability of digital resources. To support its cultural revival and digital preservation, this study enhances Baybayin OCR by integrating advanced NLP. Building on a previous framework that recognizes Baybayin characters using SVM, we address a key limitation: Baybayin words often map to multiple Latin equivalents. To resolve this, we incorporate GPT-5 to perform Filipino contextual analysis within the phrases. Results demonstrate improved phrase-level accuracy in Baybayin translation. Both the proposed algorithm and dataset are made publicly available",
-      "authors": "Rodney Pino (Data Science Program, University of the Philippines Diliman)*; Renier Mendoza (Institute of Mathematics, University of the Philippines Diliman); Rachelle Sambayan (Institute of Mathematics, University of the Philippines Diliman)"
+      "authors": "Rodney Pino (Data Science Program, University of the Philippines Diliman)*; Renier Mendoza (Institute of Mathematics, University of the Philippines Diliman); Rachelle Sambayan (Institute of Mathematics, University of the Philippines Diliman)",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0016",
@@ -8021,7 +8156,8 @@
       "affiliation": "AMSS, CAS",
       "title": "HaTT: Hadamard avoiding TT recompression and its applications",
       "abstract": "The Hadamard product of tensor train (TT) tensors is a key nonlinear operation in scientific computing and data analysis, but it often causes a rapid increase in TT ranks, leading to high computational and storage costs. In this work, we propose a Hadamard avoiding TT recompression (HaTT) algorithm that recompresses Hadamard products without explicitly constructing them. By exploiting the intrinsic structure of the Hadamard product in TT format, HaTT significantly reduces both computational complexity and memory requirements. Theoretical complexity analysis and numerical experiments confirm its efficiency over existing recompression methods. As an application, HaTT is used to solve the Allen–Cahn equation, achieving substantial acceleration without loss of accuracy.",
-      "authors": "Zhonghao Sun (AMSS, CAS)*; Jizu Huang (AMSS, CAS); Chuanfu Xiao (Xiangtan University); Chao Yang (Peking University)"
+      "authors": "Zhonghao Sun (AMSS, CAS)*; Jizu Huang (AMSS, CAS); Chuanfu Xiao (Xiangtan University); Chao Yang (Peking University)",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0017",
@@ -8031,7 +8167,8 @@
       "affiliation": "National Kaohsiung Normal University",
       "title": "Asymptotic Stability Conditions for Cluster Synchronization in Kuramoto Networks with Frustration",
       "abstract": "The study investigates cluster synchronization in a Kuramoto model with frustration, a feature that enhances fidelity in replicating real-world network dynamics. While complete synchronization is widely researched, cluster synchronization mechanisms remain less explored. For a network with multiple identical-phase oscillator groups, we perform a rigorous stability analysis and derive quantitative conditions—incorporating coupling weights, cluster configurations, natural frequencies, and the frustration parameter—to guarantee the asymptotic stability of the cluster synchronization manifold. Numerical simulations are provided to validate the established theoretical results.",
-      "authors": "Chun-Hsien Li (National Kaohsiung Normal University)*"
+      "authors": "Chun-Hsien Li (National Kaohsiung Normal University)*",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0028",
@@ -8041,7 +8178,8 @@
       "affiliation": "Ajou University",
       "title": "Sparse Neural Operator netWorks (SNOW): A Discretization-Based Sparsity Framework for Operator Learning",
       "abstract": "Operator learning is a promising paradigm for parametric partial differential equations (PDEs), yet network parameters grow rapidly with mesh resolution. We propose Sparse Neural Operator netWorks (SNOW), a framework that embeds the sparse structure of PDE discretizations into the network architecture. As a primary application, Sparse FEONet restricts each layer's connectivity to the local support of finite element basis functions, supported by a universal approximation theorem and stability analysis. Across various experiments, Sparse FEONet achieves up to a 98% parameter reduction while maintaining or improving accuracy. Furthermore, we extend SNOW to the Hybridizable Discontinuous Galerkin (HDG) method, the SNOW-HDG learns trace variables on the mesh skeleton. Building on our stability analysis, we further apply SNOW to Extreme Learning Machines (ELM), which enables a principled selection of stable standard deviation for the frozen weight matrix.",
-      "authors": "Jiyeon Kim (Ajou University)*; Dongwook Shin (Ajou University)"
+      "authors": "Jiyeon Kim (Ajou University)*; Dongwook Shin (Ajou University)",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0031",
@@ -8051,7 +8189,8 @@
       "affiliation": "Hong Kong Baptist University",
       "title": "A Thresholding Based Operator-Splitting Method for Curvature-Regularized Surface Reconstruction",
       "abstract": "We study a curvature-regularized variational model for surface reconstruction from point clouds and develop an efficient operator-splitting solver. To avoid the expensive reinitialization required in level-set formulations, we adopt an indicator-function representation of the surface. By introducing an auxiliary variable, we decouple the nonlinear curvature term and reformulate the minimization problem as the steady-state limit of an associated evolution system. The resulting splitting scheme reduces each iteration to two tractable subproblems, including a thresholding step that can be solved efficiently. This provides a new link between threshold dynamics and curvature-regularized variational reconstruction. Numerical results in both two and three dimensions show that the proposed method preserves sharp and concave geometric features while achieving substantially lower computational cost than level-set-based methods.",
-      "authors": "杨 胡 (Hong Kong Baptist University)*"
+      "authors": "杨 胡 (Hong Kong Baptist University)*",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0034",
@@ -8061,7 +8200,8 @@
       "affiliation": "KAIST",
       "title": "Topological Alignment of Vision-Language Embedding Spaces",
       "abstract": "Vision-language models learn a shared embedding space by aligning image and text representations. In this talk, I discuss how topological data analysis can be used to analyze and align this shared embedding space. The main focus is on topological alignment between representations. Instead of considering only pairwise image-text similarity, we examine whether the two modalities have similar structural organization in the embedding space. Persistent homology is used to extract topological information from image and text embeddings, including connectivity and cycle-related structures. I will present two related studies on this topic: one on the topological alignment of shared vision-language embedding spaces, and another on topology-aware representation alignment for semi-supervised vision-language learning. Together, these studies suggest that topological information can provide an additional signal for aligning vision and language representations, especially when supervision is limited.",
-      "authors": "Junwon You (KAIST)*"
+      "authors": "Junwon You (KAIST)*",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0038",
@@ -8071,7 +8211,8 @@
       "affiliation": "National Tsing Hua University",
       "title": "Poisson-Fermi Equations for Thermodynamic Modeling of Ion Activities in Mixed Electrolyte Solutions",
       "abstract": "This work introduces a generalized Debye-Hückel (GDH) theory proposed from a fourth-order molecular mean-field Poisson-Fermi model, which describes ionic activities in mixed-salt and mixed-solvent electrolyte solutions. The electric potential is analytically derived through the linearization of the fourth-order Poisson−Fermi model under rigorous boundary and interface conditions in a spherically symmetric domain. The GDH parameters, which vary with these conditions, are either obtained from physical principles or based on experiments, whereas most of these parameters are fixed in the classical Debye-Hückel theory. Some numerical examples are presented to demonstrate the novel capability of the GDH theory in capturing these physical properties and interactions.",
-      "authors": "Chin-Lung Li (National Tsing Hua University)*; Ren-Chuen Chen (National Kaohsiung Normal University); Xiaodong Liang (Technical University of Denmark); Jinn-Liang Liu (National Tsing Hua University)"
+      "authors": "Chin-Lung Li (National Tsing Hua University)*; Ren-Chuen Chen (National Kaohsiung Normal University); Xiaodong Liang (Technical University of Denmark); Jinn-Liang Liu (National Tsing Hua University)",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0054",
@@ -8081,7 +8222,8 @@
       "affiliation": "Graduate School of Information Science and Technology, The University of Osaka",
       "title": "Accelerating RSAV-based optimization by reusing approximate Hessians",
       "abstract": "Recently, optimization methods based on the RSAV (relaxed scalar auxiliary variable) approach have been proposed, which ensure a modified dissipation law. Existing studies, however, rely solely on gradient information and may converge slowly for ill-conditioned problems.\nIn this work, we incorporate Hessian information into the linear operator arising in the RSAV scheme to accelerate convergence. Directly using the Hessian, however, presents two challenges: (i) increased computational cost at each iteration; and (ii) potential loss of the modified dissipation law when the Hessian is indefinite.\nTo overcome these challenges, we propose using an approximate Hessian as the linear operator. It is efficiently constructed by using the Nyström method, a randomized low-rank approximation technique, and its positive semidefiniteness is enforced via eigenvalue decomposition.\nTo further reduce the computational cost, we adaptively reuse the approximate Hessian based on the energy deviation.",
-      "authors": "Ryo Sagawa (Graduate School of Information Science and Technology, The University of Osaka)*; Daisuke Furihata (D3 Center, The University of Osaka); Yuto Miyatake (D3 Center, The University of Osaka)"
+      "authors": "Ryo Sagawa (Graduate School of Information Science and Technology, The University of Osaka)*; Daisuke Furihata (D3 Center, The University of Osaka); Yuto Miyatake (D3 Center, The University of Osaka)",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0056",
@@ -8091,7 +8233,8 @@
       "affiliation": "National University of Singapore",
       "title": "Scalable learning of macroscopic stochastic dynamics",
       "abstract": "Macroscopic dynamical descriptions are essential for understanding and controlling complex material behavior, yet deriving them from microscopic simulations remains computationally prohibitive for spatially extended stochastic systems. To address this challenge, we propose a machine-learning framework that learns large-scale macroscopic dynamics using only small-system simulations. The method uses a partial evolution scheme to generate training data within local patches, a tailored loss to learn the macroscopic dynamics, and a hierarchical upsampling strategy to efficiently construct large-system configurations. Across stochastic PDEs, lattice spin models, and an NbMoTa alloy system, the framework demonstrates high accuracy, robustness, and computational efficiency.",
-      "authors": "Mengyi Chen (National University of Singapore)*; Qianxiao Li (National University of Singapore)"
+      "authors": "Mengyi Chen (National University of Singapore)*; Qianxiao Li (National University of Singapore)",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0057",
@@ -8101,7 +8244,8 @@
       "affiliation": "National University of Singapore",
       "title": "Learning Macroscopic Dynamics from Partial Microscopic Observations",
       "abstract": "Macroscopic observables of a system are of keen interest in real applications such as the design of novel materials. Current methods rely on microscopic trajectory simulations, which is computationally prohibitive for realistic systems.In this paper, we propose a method to learn macroscopic dynamics requiring only force computations on a subset of the microscopic coordinates. Our method relies on a sparsity assumption: the force on each microscopic coordinate relies only on a small number of other coordinates. The main idea of our approach is to map the training procedure on the macroscopic coordinates back to the microscopic coordinates, on which partial force computations can be used as stochastic estimation to update model parameters. We provide a theoretical justification of this under suitable conditions. We demonstrate the accuracy, force computation efficiency, and robustness of our method on learning macroscopic closure models from a variety of microscopic systems.",
-      "authors": "Mengyi Chen (National University of Singapore)*; qianxiao Li (National University of Singapore)"
+      "authors": "Mengyi Chen (National University of Singapore)*; qianxiao Li (National University of Singapore)",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0061",
@@ -8111,7 +8255,8 @@
       "affiliation": "National Yang Ming Chiao Tung University",
       "title": "The Korteweg--de Vries equation with an interface",
       "abstract": "In this talk, I will present how to establish local well-posedness for the one-dimensional interface problem associated with the Korteweg–de Vries equation. I will begin with a brief historical overview of the development of Korteweg--de Vries equation, and then introduce an effective approach now known as the Fokas method. This method can be adapted to the linear Korteweg--de Vries equation with piecewise constant coefficient. Finally, by applying the contraction mapping theorem, we obtain a local well-posedness result.",
-      "authors": "Cheng-Pu Lin (National Yang Ming Chiao Tung University)*"
+      "authors": "Cheng-Pu Lin (National Yang Ming Chiao Tung University)*",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0063",
@@ -8121,7 +8266,8 @@
       "affiliation": "University of the Philippines Diliman",
       "title": "An Integrated Optimization Framework for Routing and Inventory Management in Water Buffalo (Bubalus bubalis) Artificial Insemination Programs",
       "abstract": "Efficient routing of service personnel is critical in systems where timely service delivery and limited resources affect operational performance. In the Philippines, the Department of Agriculture–Philippine Carabao Center (DA–PCC) implements a nationwide artificial insemination (AI) program to improve the genetic quality and productivity of carabaos.",
-      "authors": "Rachelle Anne Guanga (University of the Philippines Diliman)*"
+      "authors": "Rachelle Anne Guanga (University of the Philippines Diliman)*",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0070",
@@ -8131,7 +8277,8 @@
       "affiliation": "Kwangwoon University",
       "title": "A Graded-Mesh Enhanced Predictor-Corrector Method for the Fractional Verhulst Model",
       "abstract": "Fractional differential equations have attracted considerable attention due to their ability to model memory effects in various scientific and engineering applications. In particular, the fractional Verhulst model provides an effective framework for describing population dynamics with memory effects. However, the nonlocal nature of fractional derivatives and the weak singularity near the initial time make numerical approximation challenging.\n\nIn this study, we apply a higher-order Enhanced Predictor Corrector Method (EPCM) to the fractional Verhulst model. To improve numerical accuracy near the initial singularity, a graded mesh is employed instead of a uniform mesh. The accuracy and convergence behavior of the higher order graded-mesh EPCM are investigated for various fractional orders and grading parameters. Numerical results demonstrate that graded meshes can improve the performance of high-order predictor-corrector methods for fractional population models.",
-      "authors": "Sunyoung Bu (Kwangwoon University)*; Minuk Hyun (Kwangwoon University); Sungkyu Kim (Kwangwoon Univerisity)"
+      "authors": "Sunyoung Bu (Kwangwoon University)*; Minuk Hyun (Kwangwoon University); Sungkyu Kim (Kwangwoon Univerisity)",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0073",
@@ -8141,7 +8288,8 @@
       "affiliation": "Nagoya University",
       "title": "Structure-preserving methods for two-dimensional stochastic nonlinear wave equations with Stratonovich multiplicative noise",
       "abstract": "This report proposes a structure-preserving numerical method for a nonlinear wave equation driven by Stratonovich-type multiplicative noise under periodic boundary conditions. A Galerkin spectral element method is employed for spatial semi-discretization, followed by temporal discretization using the Crank–Nicolson method. In particular, a specially designed structure-preserving discretization of the nonlinear terms is introduced to ensure that the resulting fully discrete method preserves the underlying multi-symplectic structure and conserves momentum. Furthermore, convergence of the fully discrete method is analyzed, yielding an error bound. Numerical experiments are presented to validate the theoretical analysis and to demonstrate the effectiveness of the proposed method in maintaining physical invariants over long-time simulations.",
-      "authors": "Shuping Lin (Nagoya University)*; Qiang Ma (Harbin Institute of Technology at Weihai); Zhenyu Wang (Harbin Institute of Technology at Weihai); Xiaohua Ding (Harbin Institute of Technology at Weihai); Shao-Liang Zhang (Nagoya University)"
+      "authors": "Shuping Lin (Nagoya University)*; Qiang Ma (Harbin Institute of Technology at Weihai); Zhenyu Wang (Harbin Institute of Technology at Weihai); Xiaohua Ding (Harbin Institute of Technology at Weihai); Shao-Liang Zhang (Nagoya University)",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0074",
@@ -8151,7 +8299,8 @@
       "affiliation": "University of the Philippines Diliman",
       "title": "Modeling tuberculosis dynamics using exponential random graphs and temporal centrality-driven interventions",
       "abstract": "This study presents a network-based modeling framework integrating exponential random graph models and a Markov Chain Monte Carlo-informed gradient ascent method. Dynamic networks are generated and an SEIL model is ran to simulate the tuberculosis spread, which remains a public health concern in populations where interactions facilitate TB transmission. Temporal centrality measures are then used to identify individuals whose targeted intervention may disrupt infection pathways. Simulation results show that targeted intervention can substantially reduce epidemic peak and size, with greater benefit in initially infectious populations. This temporal centrality-based targeted approach, overall, can yield benefits in structured networks, but its advantage is decreased in less organized settings. The framework provides a basis for evaluating targeted and data-driven public health interventions, particularly in resource-constrained settings where large-scale solutions may be impractical.",
-      "authors": "Shawnrick Andrei Pacura (University of the Philippines Diliman)*"
+      "authors": "Shawnrick Andrei Pacura (University of the Philippines Diliman)*",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0075",
@@ -8161,7 +8310,8 @@
       "affiliation": "National Chung Hsing University Department of Applied Mathematic",
       "title": "BIFURCATION DIAGRAM FOR A BOUNDARY VALUE PROBLEM ARISING IN THE POLARIZED IONIC CONDUCTOR",
       "abstract": "This work is to study the structure of stationary solutions of a model arising in the polarized ionic conductor incorporating the fringing field effect. Our strategy is to transform the original quasilinear equation into a semilinear equation so that the classical method can be applied. Moreover, we are able to deal with both Dirichlet and Robin boundary cases simultaneously.",
-      "authors": "Chin-Chin Wu (National Chung Hsing University Department of Applied Mathematic)*; JONG-SHENQ GUO (Department of Applied Mathematics and Data Science, Tamkang University); YU  ICHIDA (Department of Mathematical Sciences, School of Science, Kwansei Gakuin University); SHOJI  YOTSUTANI (Ryukoku University)"
+      "authors": "Chin-Chin Wu (National Chung Hsing University Department of Applied Mathematic)*; JONG-SHENQ GUO (Department of Applied Mathematics and Data Science, Tamkang University); YU  ICHIDA (Department of Mathematical Sciences, School of Science, Kwansei Gakuin University); SHOJI  YOTSUTANI (Ryukoku University)",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0081",
@@ -8171,7 +8321,8 @@
       "affiliation": "NYCU",
       "title": "Variational Models for Image Enhancement: From Fixed Parameters to Optimal Parameter Selection",
       "abstract": "The Total Variation (TV) model and adaptive variational models have been successfully applied to image enhancement problems. However, the quality of the reconstructed image strongly depends on the choice of model parameters, which are often selected empirically. In this talk, I will present the basic ideas of the TV model and adaptive variational models and show some results based on these models. We will discuss the role of model parameters and their impact on reconstruction quality. Finally, I will present our ongoing work on formulating parameter selection as a bilevel optimization problem, aiming to automatically determine optimal parameters.",
-      "authors": "Chang-En Du (NYCU)*"
+      "authors": "Chang-En Du (NYCU)*",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0085",
@@ -8181,7 +8332,8 @@
       "affiliation": "University of the Philippines",
       "title": "Data-Driven Discovery of the Background Dynamics of the Universe using Physics-Informed Deep Learning",
       "abstract": "Physics-Informed Neural Networks and Physics-Informed Kolmogorov–Arnold Networks are developed as data-driven discovery frameworks for reconstructing cosmological expansion and recovering cosmological parameters across three dark-energy models: the standard cosmological model, the\nChevallier–Polarski–Linder parametrization, and quintessence cosmology. Cosmological datasets motivated by theoretical dark-energy scenarios were used to evaluate expansion-history reconstruction and parameter inference. Friedmann and Klein–Gordon physics constraints were embedded into the training process, while PRCC analysis with Latin Hypercube Sampling was performed to assess parameter sensitivities directly from the governing equations. Results demonstrate that both frameworks successfully reconstruct the expansion history and recover cosmological parameters, highlighting the\npotential of physics-informed deep learning for cosmological reconstruction, parameter inference, and data-driven discovery.",
-      "authors": "Christian James Galotera (University of the Philippines)*; Renier Mendoza (University of the Philippines); Reinabelle  Reyes (Philippine Space Agency)"
+      "authors": "Christian James Galotera (University of the Philippines)*; Renier Mendoza (University of the Philippines); Reinabelle  Reyes (Philippine Space Agency)",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0088",
@@ -8191,7 +8343,8 @@
       "affiliation": "Ajou University",
       "title": "Finite Element Convolutional Operator Networks via Local Convolutional Propagation",
       "abstract": "We propose residual-based finite element convolutional operator networks for elliptic partial differential equations with a local propagation architecture. The architecture preserves finite-element locality without resolution reduction and reduces the number of parameters through shared local convolutional kernels. The method trains surrogate solvers directly from finite element residual losses and approximates solution operators without paired input-output data. Finite element analysis establishes a relation between residual loss decay and the H1-error under mesh refinement, which provides training criteria for optimal convergence rates. We further prove a layer-wise approximation result showing that the proposed local block can approximate any Sparse FEONet affine layer on fixed structured grids. Numerical experiments demonstrate comparable accuracy with reduced model size and lower computational cost.",
-      "authors": "Kyoungjin Jung (Ajou University)*; Dongwook Shin (Ajou University)"
+      "authors": "Kyoungjin Jung (Ajou University)*; Dongwook Shin (Ajou University)",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0091",
@@ -8201,7 +8354,8 @@
       "affiliation": "University of the Philippines Diliman",
       "title": "Balancing Economic Cost and Disease Impact: Optimization Models for Wolbachia-Based Dengue Control",
       "abstract": "Dengue, which affects millions of people each year, is one of the most common diseases transmitted by infected Aedes aegypti mosquitoes. Previous studies have shown that controlling the population of mosquitoes capable of transmitting the dengue virus can effectively reduce dengue infection rates. This study explores the use of Wolbachia as a strategy for dengue control. In particular, we propose a mathematical model that captures the dynamics of releasing Wolbachia-carrying mosquitoes and the transmission of dengue in a population. We formulate single- and multi-objective optimization frameworks to minimize the economic costs associated with releasing Wolbachia-infected mosquitoes and the hospitalization costs resulting from dengue infections. This study aims to provide insights into the practical application of Wolbachia-based interventions for controlling dengue transmission. The formulated frameworks are not limited to the Philippines and extend to other dengue-endemic countries.",
-      "authors": "Kyrho Corum (University of the Philippines Diliman)*; Renier Mendoza (University of the Philippines Diliman); Victoria May Mendoza (University of the Philippines Diliman); Arrianne Crystal Velasco (University of the Philippines Diliman)"
+      "authors": "Kyrho Corum (University of the Philippines Diliman)*; Renier Mendoza (University of the Philippines Diliman); Victoria May Mendoza (University of the Philippines Diliman); Arrianne Crystal Velasco (University of the Philippines Diliman)",
+      "status": "Cancelled"
     },
     {
       "presentation_id": "POSTER-CMT-0096",
@@ -8211,7 +8365,8 @@
       "affiliation": "North Eastern Mindanao State University",
       "title": "Development of a Composite Health Coverage Index for National and Subnational Assessment in the Philippines",
       "abstract": "This study developed a Health Coverage Index (HCI) to assess subnational health coverage across provinces and highly urbanized cities using 2024 administrative data. The HCI integrates five dimensions—Promotion, Prevention, Treatment, Rehabilitation, and Palliation—and five health components: Reproductive, Maternal, Newborn and Child Health, Infectious Diseases, Non-Communicable Diseases, Health Services, and Financial Protection. Three weighting methods (AHP, EWM, and PCA) were evaluated through simulation analyses of bias, MSE, and CV. Results showed that EWM performed best, yielding the lowest bias, MSE, and CV. The national HCI was 0.3401, indicating low health coverage, with substantial disparities across areas. Highly urbanized cities generally outperformed rural provinces, while BARMM provinces exhibited the lowest coverage. The HCI provides a robust tool for identifying inequities and guiding targeted health interventions and resource allocation.",
-      "authors": "Resa Mae Sangco (North Eastern Mindanao State University)*"
+      "authors": "Resa Mae Sangco (North Eastern Mindanao State University)*",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0097",
@@ -8221,7 +8376,8 @@
       "affiliation": "Kyung Hee University",
       "title": "Improving the Convergence of Discontinuous Galerkin Methods for Hyperbolic Conservation Laws via an Exponential Approximation Space",
       "abstract": "We propose a new Runge–Kutta discontinuous Galerkin (RKDG) framework for one-dimensional hyperbolic conservation laws, designed to improve numerical accuracy and convergence order. The method incorporates a cell-dependent parameter into an exponential approximation space, allowing the local basis functions to adapt dynamically to solution features within each cell. This adaptive approximation enhances the convergence order without increasing the number of degrees of freedom. To reduce numerical dissipation near singularities, we further incorporate a modified WENO-type limiter guided by a newly developed singularity detector. The detector identifies troubled cells based on local smoothness information, enabling selective application of the limiter while preserving high-order accuracy in smooth regions. The proposed method is evaluated on a range of benchmark problems, including one-dimensional scalar equations and systems of hyperbolic conservation laws.",
-      "authors": "SANGEUN YOUN (Kyung Hee University)*; Hyoseon Yang (Kyung Hee University); Kyungrok Lee (Kyung Hee University)"
+      "authors": "SANGEUN YOUN (Kyung Hee University)*; Hyoseon Yang (Kyung Hee University); Kyungrok Lee (Kyung Hee University)",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0098",
@@ -8231,7 +8387,8 @@
       "affiliation": "The University of Osaka",
       "title": "Efficient Online Tensor Train Decomposition with Sequential Orthogonalization for High-Dimensional Streaming Data",
       "abstract": "Analyzing high-dimensional streaming data is vital for real-time applications. Tensor Train (TT) decomposition compresses data efficiently, but batch methods are too slow for streaming. Existing online methods often suffer from numerical instability or slow convergence.\nWe propose an efficient online algorithm for TT decomposition of streaming tensors. Our strictly online, single-sweep method leverages temporal continuity and continuously enforces orthogonality constraints on TT cores. This sequential orthogonalization avoids inverting ill-conditioned matrices, ensuring numerical stability and enabling deterministic, low-latency updates suitable for resource-constrained environments.\nWe also establish several theoretical results. For example, we prove the monotonic decrease of the objective function and derive a local error bound. Experiments on video and high-dimensional synthetic streams demonstrate our method's superior scalability, tracking quality, and long-term stability.",
-      "authors": "Hiroki Takeda (The University of Osaka)*; Yuto Miyatake (The University of Osaka); Daisuke Furihata (The University of Osaka)"
+      "authors": "Hiroki Takeda (The University of Osaka)*; Yuto Miyatake (The University of Osaka); Daisuke Furihata (The University of Osaka)",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0099",
@@ -8241,7 +8398,8 @@
       "affiliation": "Osaka University",
       "title": "Tensor tree decomposition for kinetic Alfvén wave simulation",
       "abstract": "Kinetic shear Alfvén waves develop nonlinear perturbations in turbulent regimes, where phase mixing and field-particle energy exchange shape the electron distribution and electromagnetic response, causing Alfvénic instabilities. Existing dynamical low rank (DLR) methods solve the electromagnetic closure with the generalized minimal residual method (GMRES), which can fail to converge when turbulent dynamics generate strongly coupled field and distribution structures.\n\nThe present work introduces a tensor tree representation for kinetic shear Alfvén dynamics. The electron distribution, electromagnetic closure, and force operators are encoded and evolved in the same tensor tree coordinates. Numerical simulations confirm that the tensor tree method reproduces the electron distribution, electromagnetic field response, and system invariants in close agreement with DLR, while using less memory and compute, remaining stable in turbulent regimes where GMRES is hard to converge.",
-      "authors": "Boyu Wu (Osaka University)*; Daisuke Furihata (Osaka University); Yuto Miyatake (Osaka University); Shinya Maeyama (National Institute for Fusion Science)"
+      "authors": "Boyu Wu (Osaka University)*; Daisuke Furihata (Osaka University); Yuto Miyatake (Osaka University); Shinya Maeyama (National Institute for Fusion Science)",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0105",
@@ -8251,7 +8409,8 @@
       "affiliation": "Nanjing University of Aeronautics and Astronautics",
       "title": "Local existence and global boundedness for a chemotaxis system with gradient dependent flux limitation",
       "abstract": "We investigate a Keller-Segel system with flux limitation under no-flux boundary conditions in a ball. We prove that the system possesses a unique classical solution that can be extended in time up to a maximal T_{max}. Moreover, it is shown that the above solution is global and bounded under some suitable conditions. In particular, our result is corresponding to the result in [Bellomo-Winkler, Commun. Partial Differ. Equ. 42, 436-473 (2017)]. This is a joint work with Yuxiang Li (SEU).",
-      "authors": "Jianlu Yan (Nanjing University of Aeronautics and Astronautics)*"
+      "authors": "Jianlu Yan (Nanjing University of Aeronautics and Astronautics)*",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0109",
@@ -8261,7 +8420,8 @@
       "affiliation": "Konkuk University",
       "title": "FEM Simulation of STING Pathway for Glioblastoma Immunotherapy",
       "abstract": "Glioblastoma (GBM) features an immunosuppressive microenvironment that limits standard therapies. To address this, the STING pathway is targeted to stimulate local immune responses. This study presents a Finite Element Method (FEM) framework modeling the therapeutic impact of the STING agonist ADU-S100 on glioma growth. Utilizing a realistic brain mesh, we implemented a coupled reaction-diffusion system reflecting tissue heterogeneity in gray and white matter. The simulation tracks ADU-S100 diffusion, subsequent intracellular signaling, and Type I interferon (IFN-β) production leading to tumor cell death. Results show ADU-S100 treatment drives significant tumor suppression compared to rapid expansion in the control group. Validated by experimental data from the Sean Lawler group (Brown University), this computational model provides a robust, predictive tool for optimizing STING-targeted immunotherapy in GBM.",
-      "authors": "Minjong Kim (Konkuk University)*; Donggu Lee (Konkuk University); Yangjin Kim (Konkuk University)"
+      "authors": "Minjong Kim (Konkuk University)*; Donggu Lee (Konkuk University); Yangjin Kim (Konkuk University)",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0110",
@@ -8271,7 +8431,8 @@
       "affiliation": "Northwestern Polytechnical University",
       "title": "A phase-field-smoothed learning method for nonlinear hyperelasticity interface problems",
       "abstract": "We propose a phase-field-smoothed PINN (PFS-PINN) for finite-deformation hyperelastic interface problems. Internal material interfaces cause discontinuous elasticity tensors and globally H1 displacement fields, making standard strong-form PINNs difficult to train. PFS-PINN combines phase-field smoothing with a displacement-stress mixed formulation. The phase-field network replaces the sharp interface with a continuous order parameter and builds a smooth material tensor, converting the original nonlinear interface problem into a smooth-coefficient hyperelastic equilibrium problem. The mixed PINN treats the first Piola-Kirchhoff stress as an independent output, so the residual involves first-order stress divergence rather than second-order displacement derivatives. For the smoothed problem, energy convergence and an H1 displacement error bound are established. Tests on regular, high-curvature, and multiple-interface cases show improved accuracy, efficiency, and robustness.",
-      "authors": "Congzhuo Fang (Northwestern Polytechnical University); Zihao Yang (Northwestern Polytechnical University)*"
+      "authors": "Congzhuo Fang (Northwestern Polytechnical University); Zihao Yang (Northwestern Polytechnical University)*",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0111",
@@ -8281,7 +8442,8 @@
       "affiliation": "Northwestern Polytechnical University",
       "title": "Machine learning-enhanced high-order stochastic multiscale method for random materials",
       "abstract": "We propose a machine learning-enhanced high-order stochastic multiscale (HOSM) method for multiscale diffusion equations in stationary and non-stationary random materials. It preserves local oscillations while avoiding the extensive sampling and fine meshes required by direct numerical simulations. Multiscale asymptotic expansion formulas are derived for both problems. The homogenized equation is solved using a two-stage stochastic homogenization method induced by the normalizing field flow and multimodes Monte Carlo strategy. A limited number of cell problems are solved using the finite element method, and a neural network is developed to establish the mapping between macroscopic and microscopic coordinates and the expected values of the cell functions. The HOSM solutions are constructed by integrating the two-stage stochastic homogenization solutions with the neural-network-predicted cell functions. Numerical examples demonstrate the accuracy and efficiency of the method.",
-      "authors": "Yanfu Chen (Northwestern Polytechnical University); Zihao Yang (Northwestern Polytechnical University)*"
+      "authors": "Yanfu Chen (Northwestern Polytechnical University); Zihao Yang (Northwestern Polytechnical University)*",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0113",
@@ -8291,7 +8453,8 @@
       "affiliation": "UCLouvain",
       "title": "Subgraph Preconditioning for Laplacian Systems Arising from Elliptic PDEs",
       "abstract": "In the last two decades, a variety of algorithms have been developed for solving Laplacian systems in nearly linear time, that is, in O(n log n) time, independently of the system's condition number. These methods construct effective preconditioners by generating carefully chosen subgraphs of the graph underlying the Laplacian matrix.\nWe focus on Laplacian systems arising from structured graphs such as grids and meshes. Such systems occur naturally in the discretization of elliptic partial differential equations, for example, Poisson equations arising in incompressible flow simulations. We show how subgraph preconditioning techniques originally developed for general graph Laplacians can be adapted to structured PDE discretizations. By exploiting the special structure of these graphs, we obtain a robust and practical solver.\nThis talk provides an overview of the underlying algorithms and presents numerical results demonstrating their effectiveness.",
-      "authors": "Christophe Heneffe (UCLouvain)*"
+      "authors": "Christophe Heneffe (UCLouvain)*",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0115",
@@ -8301,7 +8464,8 @@
       "affiliation": "The University of Osaka",
       "title": "A Randomized Deflation Preconditioner for Shifted Skew-Symmetric Systems via Nyström Approximation",
       "abstract": "Large-scale shifted skew-symmetric (SSS) linear systems of the form (αI + S)x = b arise in a variety of scientific and engineering applications. When the shift parameter α is relatively small, the system becomes highly ill-conditioned, leading to the slow convergence of standard Krylov subspace methods. To address this challenge, we propose a randomized deflation preconditioner tailored specifically for SSS systems. By leveraging the property that the matrix α^2I − S^2 is symmetric positive definite, we apply a randomized Nyström approximation to efficiently approximate its dominant spectral components. Theoretical analysis establishes that the expected condition number of the preconditioned system is strictly bounded. Extensive numerical experiments demonstrate that, when integrated with GMRES, the proposed method achieves significant spectral clustering and convergence acceleration for large-scale SSS matrices exhibiting effectively low-rank structures.",
-      "authors": "Xiangwen Zhao (The University of Osaka)*; Yuto Miyatake (The University of Osaka); Furihata Daisuke (The University of Osaka)"
+      "authors": "Xiangwen Zhao (The University of Osaka)*; Yuto Miyatake (The University of Osaka); Furihata Daisuke (The University of Osaka)",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0117",
@@ -8311,7 +8475,8 @@
       "affiliation": "National Chung Hsing University",
       "title": "Newton-Based Matrix Balancing for Optimal Transport via Schur Complement Reduction",
       "abstract": "Point set matching seeks meaningful matches between point clouds, which can be viewed as discrete probability measures and compared using optimal transport. In this work, we reformulate optimal transport as a sequence of Newton-based matrix balancing problems along the central path of an interior-point method with a negative entropy barrier. To address the high-dimensional transport plan, dense constraints, and ill-conditioned Hessian systems, we derive a reduced Schur complement formulation from the block-structured Hessian system, avoiding large dense matrix formation and enabling a more efficient implementation. To improve scalability, we incorporate sparse support constraints into the matrix balancing procedure and solve the resulting Schur complement system using a preconditioned conjugate gradient method. The preconditioner captures dominant spectral information and reduces the number of matrix-vector products, leading to accurate and robust computations in numerical experiments.",
-      "authors": "Janith  Wijesinghe (National Chung Hsing University)*"
+      "authors": "Janith  Wijesinghe (National Chung Hsing University)*",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0118",
@@ -8321,7 +8486,8 @@
       "affiliation": "The University of Tokyo",
       "title": "Convergence of a monotone scheme for Hamilton--Jacobi--Bellman equations with prescribed Hamiltonians",
       "abstract": "This study proposes a numerical scheme for Hamilton--Jacobi--Bellman (HJB) equations in a setting where the Hamiltonian is prescribed directly, rather than derived from a Lagrangian. This formulation commonly appears in mean field game systems, where HJB equations are coupled with Fokker--Planck equations. Semi-Lagrangian schemes are well-known numerical methods for HJB equations. However, since they are designed for Lagrangian-based formulations, they require repeated minimization and may be less efficient in the present setting. Accordingly, we construct a monotone scheme using numerical Hamiltonians, inspired by the monotone scheme of Crandall and Lions. In particular, despite the presence of diffusion terms, the CFL restriction for the proposed explicit scheme remains comparable to that for first-order PDEs. Under suitable smoothness assumptions on the solution, we further derive error estimates. Finally, numerical experiments are presented to verify the theoretical results.",
-      "authors": "Haruka NAKAMURA (The University of Tokyo)*"
+      "authors": "Haruka NAKAMURA (The University of Tokyo)*",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0119",
@@ -8331,7 +8497,8 @@
       "affiliation": "Kyung Hee University",
       "title": "High-Order Finite Volume Methods in Multi-Dimensions via Taylor-Series Correction and Radial Basis Function Reconstruction",
       "abstract": "This study aims to improve the accuracy of high-order finite volume methods (FVMs) for solving multi-dimensional nonlinear conservation laws. The conventional Weighted Essentially Non-Oscillatory (WENO) scheme achieves high-order convergence in smooth regions, but its accuracy deteriorates in multi-dimensional settings due to the dimension-by-dimension reconstruction, which introduces directional bias and averaging errors. To address these issues, we propose a numerical framework combining the Taylor-series-based correction of Buchmüller and Helzel with Radial Basis Function (RBF) reconstruction. The method converts cell averages into point values to correct leading-order averaging errors, and employs RBF reconstruction to reduce directional bias in multi-dimensional settings. Numerical experiments on one- and two-dimensional problems demonstrate improved accuracy over the classical WENO scheme and the potential to reduce grid-induced errors in high-resolution simulations.",
-      "authors": "Dohyun Kim (Kyung Hee University)*; Hyoseon Yang (Kyung Hee University); Andrew  Christlieb (Michigan State University)"
+      "authors": "Dohyun Kim (Kyung Hee University)*; Hyoseon Yang (Kyung Hee University); Andrew  Christlieb (Michigan State University)",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0120",
@@ -8341,7 +8508,8 @@
       "affiliation": "National Yang Ming Chiao Tung University",
       "title": "Error Analysis of Backward Euler Time Discretizations for Data Assimilation DQ-POD Reduced Order Models",
       "abstract": "In this paper, we propose and analyze a fully discrete Data Assimilation Reduced Order Model that incorporates Difference Quotients into the POD snapshot matrix (DQ-DA-ROM). We establish uniform-in-time error estimates for the proposed DQ-DA-ROM using both Backward Euler time discretizations. A major theoretical contribution of this work is the derivation of optimal error bounds for the Ritz projection within the DQ-POD space. By leveraging the continuous POD framework for multiple data streams, we decouple the spatial gradient and state errors from the ROM stiffness matrix, proving that the errors are exclusively bounded by the discarded DQ-POD eigenvalues. Furthermore, we apply a discrete Gronwall argument to demonstrate that the data assimilation nudging term effectively dampens the initial errors and removes the time-step accumulation, leading to bounds that are completely independent of the final simulation time.",
-      "authors": "Yu Yu Weng (National Yang Ming Chiao Tung University)*"
+      "authors": "Yu Yu Weng (National Yang Ming Chiao Tung University)*",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0121",
@@ -8351,7 +8519,8 @@
       "affiliation": "Kyunghee University",
       "title": "Misorientation-Guided Inpainting of Electron Backscatter Diffraction Maps with a Differentiable Crystallographic Loss",
       "abstract": "Electron backscatter diffraction (EBSD) maps often contain missing orientations that compromise downstream simulations. Because orientations lie on SO(3), Euclidean losses yield non-physical reconstructions, while hybrid state-of-the-art methods rely on O(N^2)patch search with limited scalability. We propose the Misori-Guided U-Net, a single-pass framework embedding crystallographic geometry via a differentiable cosine loss with bounded gradients, periodicity-aware reconstruction. On synthetic benchmarks the method achieves an angular mean disorientation of 0.470rad—within 1.3% of the state of the art—while executing 19 times faster with 53.5% lower error than MSE-only training. Accuracy degrades gracefully under severe noise across diverse damage patterns, enabling real-time, crystallographically faithful EBSD restoration without iterative patch matching.",
-      "authors": "Changhyeon Na (Kyunghee University)*; Hyoseon Yang (Kyung Hee University)"
+      "authors": "Changhyeon Na (Kyunghee University)*; Hyoseon Yang (Kyung Hee University)",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0123",
@@ -8361,7 +8530,8 @@
       "affiliation": "University of the Philippines",
       "title": "Solutions of Second-Order Linear Homogeneous Delay Differential Equations using a Generalization of the Lambert $W$ Function",
       "abstract": "Delay differential equations (DDEs) involve values and/or derivatives at present and past states. Building on \\cite{jamilla, mezo} utilizing the $r$-Lambert $W$ function in solving first-order DDEs, this paper extends that framework to second-order DDEs of the form $$ay''(t)+by'(t)+cy(t)+a_dy''(t-h)+b_dy'(t-h)+c_dy(t-h)=0,$$ where $a,b,c,a_d,b_d,c_d,h\\in\\mathbb{R}$ with $a\\ne0,h>0$. Given a history $y(t)=\\varphi(t) \\in \\mathcal{C}^2[t_0-h,t_0]$, we show that the solution can be approximated by $$\\tilde{y}(t) = \\sum_{k=-N}^N \\gamma_k e^{\\lambda_k t}, \\quad N\\in\\mathbb{N}.$$ Each $\\lambda_k$ is obtained via the inverse of $w \\to (w^2+q)e^w+rw^2+sw$ for $w\\in\\mathbb{C}, q,r,s\\in\\mathbb{R}$, while the coefficients $\\{\\gamma_k\\}$ minimize $\\|\\tilde{y} - \\varphi\\|^2$. We test our method on an example with known solution and further compare the results with solution obtained using a built-in solver. Lastly, we pose an application in pendulum-mass-spring-damper model found in \\cite{kyrychko}.",
-      "authors": "Emmanuel David (University of the Philippines)*"
+      "authors": "Emmanuel David (University of the Philippines)*",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0124",
@@ -8371,7 +8541,8 @@
       "affiliation": "Yonsei University",
       "title": "A Direct Implicit High-Order Level-Set Method with Adaptive Reinitialization for Large-CFL Interface Transport",
       "abstract": "The level-set method is widely used for interface transport due to its ability to handle complex deformations and topological changes. However, most existing level-set solvers rely on explicit time integration, resulting in restrictive CFL conditions. We develop a direct implicit high-order level-set method that combines frozen-weight WENO5 reconstruction, a fourth-order singly diagonally implicit Runge–Kutta (SDIRK4) scheme, and a Block-TDMA solver. An adaptive local reinitialization strategy is incorporated to maintain the signed-distance property of the level-set function. Benchmark tests, including rotating-circle and Zalesak slotted-disk problems, are used to assess interface accuracy and robustness at large CFL numbers. The proposed method aims to significantly relax the time-step restriction of conventional explicit level-set solvers while maintaining accurate interface representation for large-scale multiphysics simulations.",
-      "authors": "YUCHEN ZHANG (Yonsei University)*; Jung-Il Choi (Yonsei University)"
+      "authors": "YUCHEN ZHANG (Yonsei University)*; Jung-Il Choi (Yonsei University)",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0125",
@@ -8381,7 +8552,8 @@
       "affiliation": "National Tsing Hua University",
       "title": "Unsupervised Sentence Tagging with LLM Hidden States via Sparse Autoencoders and Non-negative Matrix Factorization: Representation Choice and the Reconstruction-Interpretability Tradeoff",
       "abstract": "We study unsupervised decomposition of sentence-level hidden states from Llama 2 7B on MMLU-Pro (~31k sentences) into semantically meaningful features, a prerequisite for capability-level analysis of LLM pruning. We report two findings. First, comparing a TopK Sparse Autoencoder against Non-negative Matrix Factorization, we find a reconstruction–interpretability tradeoff: the SAE reconstructs near-perfectly (cosine 0.9988) but is largely uninterpretable (2.27/5), while NMF reconstructs less precisely (0.9520) yet yields far more readable features (3.43/5). We attribute this to a regime mismatch with the data-abundant setting where SAE monosemanticity was established. Second, input representation matters more than dictionary size: using the raw last-layer hidden state rather than its unit-normalized projection improves subject-alignment macro-F1 from 0.240 to 0.444, while scaling the dictionary fourfold does not. Last-layer magnitude carries subject signal that normalization discards.",
-      "authors": "Shu-Min Tan (National Tsing Hua University)*"
+      "authors": "Shu-Min Tan (National Tsing Hua University)*",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0128",
@@ -8391,7 +8563,8 @@
       "affiliation": "The University of Fukuchiyama",
       "title": "Infection model using 2D vector fuzzy CA: the effect of population distribution on infection spread",
       "abstract": "The SIR model is one of the most well-known mathematical models for infectious diseases. It has been widely used to analyze the temporal evolution of populations that are susceptible, infected, or recovered.\n  A cellular automaton (CA) is a dynamical system in which each cell takes a certain state that evolves based on the states of neighboring cells. Two-dimensional CAs (2D CAs) defined on an 2D integer lattice have been used to simulate various phenomena. Fuzzification extends the discrete states of a CA to continuous values. Assigning a state vector to each cell yields a vector fuzzy CA.\n  In this study, we construct an infection model based on a 2D vector fuzzy CA and investigate its applications. The proposed model can track the temporal evolution of populations and the locations of individuals. Based on the proposed model, we examine the effects of population distribution on the spread of infection.",
-      "authors": "Ryo Yoshikawa (The University of Fukuchiyama)*; Sennosuke Watanabe (The University of Fukuchiyama)"
+      "authors": "Ryo Yoshikawa (The University of Fukuchiyama)*; Sennosuke Watanabe (The University of Fukuchiyama)",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0135",
@@ -8401,7 +8574,8 @@
       "affiliation": "POSTECH",
       "title": "Asymptotic convergence of nonconvex Wasserstein flows",
       "abstract": "Over the past two decades, gradient flows in the optimal transport framework\nhave received significant attention due to their wide-ranging applications. However, a general theory for non-convex energy functionals remains largely open. In my poster, I will discuss the theory of asymptotic convergence of the McKean-Vlasov equation\n\\begin{align*}\n\\partial_t \\mu_t = \\operatorname{div} \\left( \\nabla \\mu_t + \\mu_t \\nabla \\left[ V + W \\ast \\mu_t \\right] \\right)\n\\end{align*}\nfor non-convex functionals associated with $V, W$ on $\\mathcal{P}_2(\\mathbb{T}^n)$, by applying Łojasiewicz-Simon theory in its tangent space. As a fundamental application, I will present the asymptotic behaviour of parabolic--elliptic Keller--Segel system\n\\begin{align*}\n\\begin{cases}\n\\partial_t \\rho\n= \\nabla\\!\\cdot\\!\\big(\\nabla \\rho - \\chi\\, \\rho\\, \\nabla c\\big)\n+ \\nabla\\!\\cdot\\!\\big(\\rho\\,\\nabla V\\big),\\\\\n(-\\Delta + \\alpha)\\,c \\;=\\; \\rho - \\overline{\\rho}, \\qquad \\alpha\\ge 0.\n\\end{cases}\n\\end{align*}",
-      "authors": "Seunghoon Jeong (POSTECH)*"
+      "authors": "Seunghoon Jeong (POSTECH)*",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0136",
@@ -8411,7 +8585,8 @@
       "affiliation": "Musashino University",
       "title": "Sharp Lifespan Estimates for One-Dimensional Discrete Semilinear Wave Equations",
       "abstract": "We study sharp lifespan estimates for a one-dimensional discrete semilinear wave equation based on a discrete model introduced by Matsuya in 2013. For compactly supported small initial data u_n^0=\\varepsilon f_n, u_n^1=u_n^0+\\varepsilon\\delta g_n, we define the discrete lifespan T_\\varepsilon as the maximal existence time before the nonlinear denominator degenerates. Our main result gives matching upper and lower bounds C_1\\varepsilon^{-(p-1)/2}\\le T_\\varepsilon\\le C_2\\varepsilon^{-(p-1)/2} for sufficiently small \\varepsilon>0, under suitable positivity assumptions. The proof combines the finite propagation property, discrete support estimates, convexity estimates for the nonlinear term, a discrete Kato-type iteration for the upper bound, and a contraction mapping argument based on a discrete Duhamel formula for the lower bound.",
-      "authors": "Tsubota Ryosuke (Musashino University)*; Higashi Kohei (Musashino Unversity)"
+      "authors": "Tsubota Ryosuke (Musashino University)*; Higashi Kohei (Musashino Unversity)",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0137",
@@ -8421,7 +8596,8 @@
       "affiliation": "KAIST",
       "title": "Non-Equilibrium Steady States in Heterogeneous Anisotropic Random Walks and Diffusion Equations",
       "abstract": "Non-equilibrium steady states (NESS) are typically associated with systems driven by material exchange or external forces. In this work, we show that NESS can arise even in a closed system with Neumann boundary conditions, purely from heterogeneous anisotropic random-walk and diffusion dynamics. We consider a random walk with heterogeneous anisotropic jump probabilities $r_1(x,y)$ and $r_2(x,y)$ in the $x$- and $y$-directions. We identify a detailed-balance criterion for the associated Markov process; in particular, non-separability of $r_1/r_2$ yields a stationary state with broken detailed balance, namely, a NESS. In the diffusive limit, more general direction-discretized walks lead to diffusion equations of the form\n\\[u_t=(k_1(m_1u)_x)_x+(k_2(m_2u)_y)_y,\\]\nwith the above case corresponding to $m_i=r_i$ and constant $k_i$. An analogous equilibrium criterion appears at the macroscopic level; non-separability of $m_1/m_2$ produces a steady state with nonzero internal flux.",
-      "authors": "Min-Yoo Kim (KAIST)*; Yong-Jung Kim (KAIST)"
+      "authors": "Min-Yoo Kim (KAIST)*; Yong-Jung Kim (KAIST)",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0140",
@@ -8431,7 +8607,8 @@
       "affiliation": "Waseda University",
       "title": "Adaptive Growth Learning Method for Verified Neural Solvers of Differential Equations",
       "abstract": "This study focuses on approaches that directly learn solutions to differential equations using neural networks, such as PINNs and Neural Operators, and proposes the Adaptive Growth Learning Method (AGLM) as a grow-and-prune framework. AGLM progressively adds trainable correction components, enabling fast and efficient learning of solutions to differential equations. Furthermore, we simultaneously learn not only the desired true solution but also sub- and super-solutions, and by guaranteeing that the true solution lies between them, we perform rigorous error certification.",
-      "authors": "Audrey Chen (Waseda University)*; Chenjian Xu (Waseda University); Kazuaki Tanaka (Waseda University)"
+      "authors": "Audrey Chen (Waseda University)*; Chenjian Xu (Waseda University); Kazuaki Tanaka (Waseda University)",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0141",
@@ -8441,7 +8618,8 @@
       "affiliation": "Universitas Diponegoro",
       "title": "Structural and Algorithmic Aspects of A Super (a, d)-C3-antimagic Labeling of A Bipartite Graph Join with K1",
       "abstract": "Graph labeling is an area of discrete mathematics that studies how labels can be assigned to graph elements while satisfying prescribed constraints. A simple graph G admits an H-covering if every edge in E(G) belongs to a subgraph of G isomorphic to a given graph H. In this case, a bijection $f:V(G) \\cup E(G) \\rightarrow \\{1,2,\\dots, |V(G)|+ |E(G)|\\}$ is called an $(a, d)$-$H$-antimagic labeling if the sequence of subgraph-weight $w_f(H') = \\sum_{v\\in V(H')} f(v) + \\sum_{e\\in E(H')} f(e)$, for all subgraph H' of G that is isomorphic to H, constitutes an arithmetic progression with first term a>0 and common difference $d\\geq 0$. Moreover, f is called a super (a,d)-antimagic if $f(V(G)) = \\{1,2, \\dots, |V(G)|\\}$. In this talk, I present the structural properties concerning the existence of a super (a, d)-C3-antimagic labeling of a bipartite graph join with K1, and provide explicit constructions for various values of d. These results also hold for trees joined with K1.",
-      "authors": "Yeva Fadhilah Ashari (Universitas Diponegoro)*; Ray Novita Yasa (Politeknik Siber dan Sandi Negara)"
+      "authors": "Yeva Fadhilah Ashari (Universitas Diponegoro)*; Ray Novita Yasa (Politeknik Siber dan Sandi Negara)",
+      "status": "Confirmed"
     },
     {
       "presentation_id": "POSTER-CMT-0142",
@@ -8451,7 +8629,8 @@
       "affiliation": "The University of Osaka",
       "title": "A kernel-interpolation error estimate for the radially paired method of fundamental solutions on balls",
       "abstract": "We study the method of fundamental solutions for the Laplace Dirichlet problem in a \\(d\\)-dimensional ball, \\(d\\geq 3\\). The source points are placed on a concentric sphere outside the domain and are paired radially with the boundary collocation points. By restricting the fundamental solutions to the boundary, the MFS approximation is formulated as a kernel interpolation problem on the unit sphere. Using the spherical harmonic expansion of the resulting zonal kernel, we compute its coefficients explicitly and describe the associated native space. Under the assumption that the boundary data belong to this native space, we derive an \\(L^\\infty\\) error estimate in terms of the fill distance of the boundary nodes. The estimate gives exponential-type decay with respect to the inverse fill distance. Numerical experiments are included to illustrate the convergence behavior in several dimensions and to examine the influence of the source radius on accuracy and conditioning.",
-      "authors": "Peitian Wang (The University of Osaka )*"
+      "authors": "Peitian Wang (The University of Osaka )*",
+      "status": "Confirmed"
     }
   ],
   "student_representatives": [

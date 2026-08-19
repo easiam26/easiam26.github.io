@@ -677,26 +677,39 @@ body {
     border-radius: 10px;
     margin: 0 0 40px;
     padding: 28px 30px;
+    text-align: left;
 }
 
 .cancellation-policy h2 {
     color: var(--primary-color);
-    font-size: 1.55rem;
+    font-size: 1.2em;
+    line-height: 1.35;
     margin-bottom: 16px;
 }
 
 .cancellation-policy ul {
+    display: grid;
+    gap: 10px;
+    list-style: none;
     margin: 0;
-    padding-left: 1.25rem;
+    padding: 0;
 }
 
 .cancellation-policy li {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 0.7rem minmax(0, 1fr);
     line-height: 1.7;
-    margin-bottom: 8px;
+    margin: 0;
 }
 
-.cancellation-policy li:last-child {
-    margin-bottom: 0;
+.cancellation-policy li::before {
+    color: var(--secondary-color);
+    content: "•";
+    font-size: 1.05em;
+    font-weight: 700;
+    line-height: 1.7;
+    text-align: center;
 }
 
 .transport-section {
@@ -2082,6 +2095,12 @@ footer {
     grid-column: 1 / -1;
 }
 
+.poster-card-cancelled,
+.poster-card-cancelled[open] {
+    background: #fff8f8;
+    border-color: #d7aaaa;
+}
+
 .poster-card summary {
     cursor: pointer;
     display: flex;
@@ -2104,6 +2123,29 @@ footer {
     font-weight: 850;
     letter-spacing: 0.04em;
     text-transform: uppercase;
+}
+
+.poster-status-cancelled {
+    background: #9b2c2c;
+    border-radius: 999px;
+    color: #fff;
+    display: inline-block;
+    font-size: 0.7rem;
+    letter-spacing: 0.02em;
+    margin-left: 8px;
+    padding: 3px 8px;
+    vertical-align: middle;
+}
+
+.poster-cancelled-notice {
+    color: #9b2c2c;
+}
+
+.poster-card-cancelled summary > strong,
+.poster-card-cancelled .poster-speaker {
+    opacity: 0.72;
+    text-decoration: line-through;
+    text-decoration-thickness: 1.5px;
 }
 
 .poster-card summary strong {

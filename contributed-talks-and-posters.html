@@ -74,19 +74,21 @@ permalink: /contributed-talks-and-posters/
                 <p class="program-intro">Poster Session: {{ poster_event.date | date: "%A, %B %d" }}, {{ poster_event.start }}–{{ poster_event.end }}, Room {{ poster_event.room | escape }}. Select a poster to view authors and abstract.</p>
                 <div class="organizer-panel poster-guidelines">
                     <h3>Poster Guidelines and Awards</h3>
-                    <p><strong>Poster size:</strong> A0 is the recommended and maximum poster size; posters must not exceed these dimensions.</p>
+                    <p><strong>Poster size and orientation:</strong> A0 in portrait orientation (841 mm wide × 1189 mm high) is recommended and is the maximum permitted size. Posters must be displayed in portrait orientation and must not exceed these dimensions.</p>
                     <p><strong>Excellent Poster Awards:</strong> Poster presentations will be evaluated during the session, and selected outstanding posters will be recognized with Excellent Poster Awards.</p>
                 </div>
                 <p class="program-empty" data-program-empty hidden>No posters match your search.</p>
                 <div class="poster-grid">
                     {% for poster in site.data.program.posters %}
-                    <details class="poster-card searchable-item">
+                    {% assign poster_status = poster.status | downcase %}
+                    <details class="poster-card searchable-item{% if poster_status == 'cancelled' or poster_status == 'canceled' %} poster-card-cancelled{% endif %}">
                         <summary>
-                            <span class="poster-number">Poster {{ poster.poster_number }}</span>
+                            <span class="poster-number">Poster {{ poster.poster_number }}{% if poster_status == "cancelled" or poster_status == "canceled" %} <span class="poster-status-cancelled">Cancelled</span>{% endif %}</span>
                             <strong>{{ poster.title | escape }}</strong>
                             <span class="poster-speaker">{{ poster.speaker | escape }}{% if poster.affiliation %} · {{ poster.affiliation | escape }}{% endif %}</span>
                         </summary>
                         <div class="poster-card-body">
+                            {% if poster_status == "cancelled" or poster_status == "canceled" %}<p class="poster-cancelled-notice"><strong>Cancelled:</strong> This poster will not be presented.</p>{% endif %}
                             {% if poster.authors %}<p><strong>Authors:</strong> {{ poster.authors | escape }}</p>{% endif %}
                             {% if poster.abstract %}<p>{{ poster.abstract | escape }}</p>{% endif %}
                         </div>

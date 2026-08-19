@@ -36,7 +36,9 @@ plenary:
     abstract:
       - >-
         In this presentation, we introduce an advanced deep learning approach for reconstructing surfaces from unorganized point clouds. By leveraging an implicit surface representation through a level set function, our method ensures watertight results and seamlessly adapts to various topologies. We employ the p-Poisson equation to precisely learn the signed distance function (SDF), improving accuracy through a variable splitting strategy that incorporates the SDF gradient as an auxiliary variable. Additionally, we enforce a curl-free condition on the auxiliary variable to exploit the irrotational nature of conservative vector fields. Our numerical results illustrate that this strategic integration of partial differential equations and key vector field characteristics efficiently reconstructs high-quality surfaces without the need for prior surface knowledge
-    bio: []
+    bio:
+      - >-
+        Myungjoo Kang is a Professor in the Department of Mathematical Sciences at Seoul National University (SNU), where he is also affiliated with the Interdisciplinary Programs in Computational Science and Artificial Intelligence. He received his B.S. from Seoul National University, M.S. from KAIST, and Ph.D. in Applied Mathematics from the University of California, Los Angeles (UCLA). His research spans applied mathematics, scientific computing, numerical analysis, and machine learning/deep learning, with a particular focus on optimal transport, physics-informed neural networks (PINNs), and neural operators. A Fellow of the Korean Academy of Science and Technology (KAST), Prof. Kang has published over 150 SCI-indexed papers in premier journals and top-tier AI conferences including ICML, NeurIPS, ICLR, and ICCV. He previously served as Chair of the Department of Mathematical Sciences at SNU and Vice President of KSIAM and EASIAM.
 
 invited:
   - name: Te-Sheng Lin
