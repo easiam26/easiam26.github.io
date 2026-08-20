@@ -1,8 +1,90 @@
 ---
 layout: default
 title: Excursion
+permalink: /excursion/
 ---
 
-<main class="container" style="padding: 60px 0;">
-    <h2 style="margin-bottom:40px; color:var(--primary-color);">Excursion</h2>
+<main class="container travel-page excursion-page">
+    <header class="travel-page-header">
+        <p class="travel-kicker">Explore Jeju</p>
+        <h1>Excursion</h1>
+        <p>Join the EASIAM 2026 afternoon excursion to Manjanggul Lava Tube, Hamdeok Beach, and Seoubong.</p>
+    </header>
+
+    <section class="excursion-registration" aria-labelledby="excursion-registration-title">
+        <div>
+            <p class="travel-kicker">Registration</p>
+            <h2 id="excursion-registration-title">Would you like to join?</h2>
+            <p>Participants who wish to take part in the excursion should complete the registration form below.</p>
+        </div>
+        <a class="btn btn-primary excursion-registration-button" href="https://forms.gle/UWTZ3FMu2EMtmSCK6" target="_blank" rel="noopener noreferrer">Register via Google Form</a>
+    </section>
+
+    <section class="excursion-section" aria-labelledby="excursion-schedule-title">
+        <div class="excursion-section-heading">
+            <p class="travel-kicker">Afternoon Program</p>
+            <h2 id="excursion-schedule-title">Excursion schedule</h2>
+        </div>
+
+        <div class="excursion-summary">
+            <div class="excursion-summary-item">
+                <span>Date</span>
+                <strong><time datetime="2026-08-27">Thursday, August 27, 2026</time></strong>
+            </div>
+            <div class="excursion-summary-item">
+                <span>Meeting and departure</span>
+                <strong>Meet in the hotel lobby at 14:00 and depart together.</strong>
+            </div>
+            <div class="excursion-summary-item">
+                <span>Destinations</span>
+                <strong>Manjanggul Lava Tube + Hamdeok Beach/Seoubong</strong>
+            </div>
+            <div class="excursion-summary-item">
+                <span>Expected return</span>
+                <strong>Return to the hotel around 18:00.</strong>
+            </div>
+        </div>
+    </section>
+
+    <section class="excursion-section" aria-labelledby="excursion-destinations-title">
+        <div class="excursion-section-heading">
+            <p class="travel-kicker">Destinations</p>
+            <h2 id="excursion-destinations-title">Discover eastern Jeju</h2>
+        </div>
+
+        <article class="excursion-destination">
+            <div class="excursion-destination-copy">
+                <p class="excursion-destination-number">01</p>
+                <div>
+                    <p class="excursion-eyebrow">A natural retreat from the midsummer heat</p>
+                    <h3>Manjanggul Lava Tube</h3>
+                    <p>Recently reopened after refurbishment, Manjanggul Lava Tube is a volcanic cave whose naturally cool air offers a welcome break from Jeju's summer heat. Along the approximately one-hour round-trip walking route, visitors can see distinctive lava-flow patterns, volcanic landforms, and a massive lava column that reveals the island's geological history.</p>
+                </div>
+            </div>
+            <div class="excursion-gallery excursion-gallery-three">
+                <img class="excursion-gallery-main" src="{{ '/assets/images/excursion-manjanggul-main.webp' | relative_url }}" alt="Illuminated walking path inside Manjanggul Lava Tube">
+                <img src="{{ '/assets/images/excursion-manjanggul-wall.webp' | relative_url }}" alt="Lava-flow textures on the wall of Manjanggul Lava Tube" loading="lazy">
+                <img src="{{ '/assets/images/excursion-manjanggul-column.webp' | relative_url }}" alt="Large lava column inside Manjanggul Lava Tube" loading="lazy">
+            </div>
+        </article>
+
+        <article class="excursion-destination">
+            <div class="excursion-destination-copy">
+                <p class="excursion-destination-number">02</p>
+                <div>
+                    <p class="excursion-eyebrow">Emerald water, white sand, and coastal views</p>
+                    <h3>Hamdeok Beach and Seoubong</h3>
+                    <p>Hamdeok Beach is one of eastern Jeju's best-known beaches, celebrated for its clear emerald water and white sand. Seoubong, a volcanic cone beside the beach, and the nearby coastal trail and grassy park provide panoramic views of the shoreline and the surrounding landscape.</p>
+                </div>
+            </div>
+            <div class="excursion-gallery excursion-gallery-four">
+                <img class="excursion-gallery-main" src="{{ '/assets/images/excursion-hamdeok-main.webp' | relative_url }}" alt="Emerald-colored water at Hamdeok Beach with Seoubong in the background">
+                <img src="{{ '/assets/images/excursion-hamdeok-lawn.webp' | relative_url }}" alt="Grassy seaside park near Hamdeok Beach" loading="lazy">
+                <img src="{{ '/assets/images/excursion-hamdeok-shore.webp' | relative_url }}" alt="Visitors enjoying the shoreline at Hamdeok Beach" loading="lazy">
+                <img src="{{ '/assets/images/excursion-hamdeok-sand.webp' | relative_url }}" alt="White sand and orange parasols at Hamdeok Beach" loading="lazy">
+            </div>
+        </article>
+
+        <p class="excursion-photo-credit">Destination information and photographs: VISIT JEJU, Jeju Tourism Organization.</p>
+    </section>
 </main>

@@ -696,6 +696,7 @@ body {
 }
 
 .cancellation-policy li {
+    align-items: start;
     display: grid;
     gap: 10px;
     grid-template-columns: 0.7rem minmax(0, 1fr);
@@ -710,6 +711,11 @@ body {
     font-weight: 700;
     line-height: 1.7;
     text-align: center;
+}
+
+.cancellation-policy li > span {
+    display: block;
+    min-width: 0;
 }
 
 .transport-section {
@@ -824,6 +830,363 @@ body {
 
 .shuttle-boarding-layout .transport-notice {
     margin-top: 0;
+}
+
+.shuttle-arrival-guide {
+    background: #f3f8f7;
+    border: 1px solid #d4e4e1;
+    border-radius: 14px;
+    margin-top: 28px;
+    overflow: hidden;
+    padding: 30px;
+}
+
+.shuttle-guide-intro {
+    margin: 0 auto 24px;
+    max-width: 780px;
+    text-align: center;
+}
+
+.shuttle-guide-intro h3 {
+    color: #173f39;
+    font-size: clamp(1.35rem, 2.5vw, 1.75rem);
+    line-height: 1.3;
+    margin-bottom: 10px;
+}
+
+.shuttle-guide-intro > p:last-child,
+.shuttle-guide-card p,
+.arrival-path-list {
+    color: #425653;
+    line-height: 1.7;
+}
+
+.shuttle-guide-grid,
+.shuttle-visual-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.shuttle-guide-card,
+.shuttle-self-guide,
+.shuttle-bus-identification {
+    background: var(--white);
+    border: 1px solid #d9e5e3;
+    border-radius: 11px;
+}
+
+.shuttle-guide-card {
+    padding: 22px;
+}
+
+.shuttle-arrival-card,
+.shuttle-guide-assisted {
+    grid-column: 1 / -1;
+}
+
+.shuttle-guide-card h4,
+.shuttle-self-guide h4,
+.shuttle-bus-identification h4 {
+    color: var(--primary-color);
+    font-size: 1.16rem;
+    line-height: 1.4;
+    margin: 7px 0 12px;
+}
+
+.shuttle-step-label {
+    color: var(--secondary-color);
+    font-size: 0.75rem;
+    font-weight: 850;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.arrival-path-list {
+    margin: 0 0 18px;
+    padding-left: 1.15rem;
+}
+
+.arrival-path-list li + li {
+    margin-top: 8px;
+}
+
+.shuttle-guide-assisted {
+    align-self: start;
+    background: #fff8df;
+    border-color: #eadca9;
+}
+
+.shuttle-guide-assisted p + p {
+    margin-top: 12px;
+}
+
+.shuttle-guide-figure {
+    margin: 0;
+}
+
+.shuttle-guide-figure img {
+    background: #fff;
+    border: 1px solid #e0e8e6;
+    border-radius: 8px;
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.shuttle-guide-figure figcaption {
+    color: var(--light-text);
+    font-size: 0.8rem;
+    line-height: 1.5;
+    margin-top: 8px;
+}
+
+.shuttle-ppt-route-grid {
+    display: grid;
+    gap: 18px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-top: 18px;
+}
+
+.shuttle-guide-meeting-figure {
+    margin-top: 22px;
+}
+
+.shuttle-self-guide {
+    margin-top: 20px;
+    padding: 24px;
+}
+
+.shuttle-self-guide-heading {
+    margin-bottom: 18px;
+}
+
+.shuttle-self-guide-heading h4 {
+    margin-bottom: 0;
+}
+
+.shuttle-step-list {
+    display: grid;
+    gap: 10px;
+    list-style: none;
+    margin: 0 0 22px;
+    padding: 0;
+}
+
+.shuttle-step-list li {
+    align-items: start;
+    color: #425653;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: 30px minmax(0, 1fr);
+    line-height: 1.6;
+}
+
+.shuttle-step-list li > span {
+    align-items: center;
+    background: var(--primary-color);
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    font-size: 0.82rem;
+    font-weight: 850;
+    height: 28px;
+    justify-content: center;
+    width: 28px;
+}
+
+.shuttle-bus-identification {
+    align-items: center;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: minmax(0, 1.2fr) minmax(260px, 0.8fr);
+    margin-top: 20px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.shuttle-bus-identification figure {
+    margin: 0;
+}
+
+.shuttle-bus-identification img {
+    border-radius: 8px;
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.shuttle-bus-identification ul {
+    color: #425653;
+    line-height: 1.7;
+    margin: 0;
+    padding-left: 1.15rem;
+}
+
+.shuttle-bus-identification li + li {
+    margin-top: 7px;
+}
+
+.excursion-page {
+    padding-bottom: 70px;
+}
+
+.excursion-registration {
+    align-items: center;
+    background: linear-gradient(135deg, #edf7f4 0%, #f7fbfa 100%);
+    border: 1px solid #cfe3de;
+    border-radius: 14px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin: 0 auto 64px;
+    max-width: 980px;
+    padding: 30px 34px;
+}
+
+.excursion-registration h2,
+.excursion-section-heading h2 {
+    color: var(--primary-color);
+    font-size: clamp(1.45rem, 3vw, 2rem);
+    line-height: 1.3;
+    margin: 5px 0 10px;
+}
+
+.excursion-registration p:last-child {
+    color: #425653;
+    line-height: 1.65;
+    margin: 0;
+}
+
+.excursion-registration-button {
+    flex: 0 0 auto;
+    text-align: center;
+}
+
+.excursion-section {
+    margin: 0 auto 72px;
+    max-width: 980px;
+}
+
+.excursion-section-heading {
+    margin-bottom: 24px;
+}
+
+.excursion-summary {
+    background: #fff;
+    border: 1px solid #dfe8e6;
+    border-radius: 14px;
+    box-shadow: 0 10px 28px rgba(23, 63, 57, 0.07);
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    overflow: hidden;
+}
+
+.excursion-summary-item {
+    padding: 24px 26px;
+}
+
+.excursion-summary-item:nth-child(even) {
+    border-left: 1px solid #e8eeec;
+}
+
+.excursion-summary-item:nth-child(n + 3) {
+    border-top: 1px solid #e8eeec;
+}
+
+.excursion-summary-item span {
+    color: var(--secondary-color);
+    display: block;
+    font-size: 0.74rem;
+    font-weight: 850;
+    letter-spacing: 0.06em;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+}
+
+.excursion-summary-item strong {
+    color: #263c38;
+    font-size: 1.02rem;
+    line-height: 1.55;
+}
+
+.excursion-destination {
+    background: #fff;
+    border: 1px solid #dfe8e6;
+    border-radius: 14px;
+    box-shadow: 0 10px 28px rgba(23, 63, 57, 0.07);
+    overflow: hidden;
+}
+
+.excursion-destination + .excursion-destination {
+    margin-top: 30px;
+}
+
+.excursion-destination-copy {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: auto minmax(0, 1fr);
+    padding: 30px 32px 26px;
+}
+
+.excursion-destination-number {
+    color: var(--secondary-color);
+    font-size: 0.8rem;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    margin: 4px 0 0;
+}
+
+.excursion-eyebrow {
+    color: var(--secondary-color);
+    font-size: 0.77rem;
+    font-weight: 850;
+    letter-spacing: 0.06em;
+    margin: 0 0 5px;
+    text-transform: uppercase;
+}
+
+.excursion-destination h3 {
+    color: var(--primary-color);
+    font-size: clamp(1.35rem, 2.8vw, 1.8rem);
+    line-height: 1.3;
+    margin: 0 0 12px;
+}
+
+.excursion-destination-copy div > p:last-child {
+    color: #425653;
+    line-height: 1.75;
+    margin: 0;
+}
+
+.excursion-gallery {
+    display: grid;
+    gap: 4px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.excursion-gallery img {
+    display: block;
+    height: 210px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.excursion-gallery .excursion-gallery-main {
+    grid-column: 1 / -1;
+    height: 420px;
+}
+
+.excursion-gallery-four {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.excursion-photo-credit {
+    color: var(--light-text);
+    font-size: 0.74rem;
+    line-height: 1.5;
+    margin: 14px 4px 0;
+    text-align: right;
 }
 
 .shuttle-map-figure {
@@ -989,6 +1352,10 @@ body {
     .venue-summary,
     .shuttle-schedule-grid,
     .shuttle-boarding-layout,
+    .shuttle-guide-grid,
+    .shuttle-visual-grid,
+    .shuttle-ppt-route-grid,
+    .shuttle-bus-identification,
     .taxi-facts {
         grid-template-columns: 1fr;
     }
@@ -1002,6 +1369,57 @@ body {
 
     .cancellation-policy {
         padding: 22px;
+    }
+
+    .shuttle-arrival-guide {
+        border-radius: 10px;
+        padding: 22px;
+    }
+
+    .shuttle-bus-identification img {
+        height: auto;
+        max-height: 420px;
+    }
+
+    .excursion-registration {
+        align-items: stretch;
+        flex-direction: column;
+        padding: 24px;
+    }
+
+    .excursion-registration-button {
+        width: 100%;
+    }
+
+    .excursion-summary {
+        grid-template-columns: 1fr;
+    }
+
+    .excursion-summary-item:nth-child(even) {
+        border-left: 0;
+    }
+
+    .excursion-summary-item:nth-child(n + 2) {
+        border-top: 1px solid #e8eeec;
+    }
+
+    .excursion-destination-copy {
+        gap: 14px;
+        grid-template-columns: 1fr;
+        padding: 24px 22px;
+    }
+
+    .excursion-gallery,
+    .excursion-gallery-four {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .excursion-gallery .excursion-gallery-main {
+        height: 300px;
+    }
+
+    .excursion-gallery-four img:last-child {
+        grid-column: 1 / -1;
     }
 
     .venue-map iframe {
