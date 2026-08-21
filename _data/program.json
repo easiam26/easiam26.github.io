@@ -1,12 +1,16 @@
 {
-  "schema_version": "1.7",
-  "generated_on": "2026-08-19",
+  "schema_version": "1.8",
+  "generated_on": "2026-08-21",
   "source": "master/EASIAM2026_program_management_master.xlsx",
   "publication_policy": {
     "excludes_private_email": true,
     "excludes_withdrawn": true,
     "excludes_pending_talks": true,
-    "cancelled_poster_20_visible_with_label": true,
+    "cancelled_posters_visible_with_label": [
+      9,
+      10,
+      20
+    ],
     "ct_talk_max_minutes": 16,
     "ms_talk_max_minutes": 20,
     "five_talk_ms_minutes": 16,
@@ -20,7 +24,14 @@
     "spp_session_published": true,
     "spp_talk_details_pending": false,
     "spp_detailed_span": "15:50-17:30 with five 20-minute talks; at-a-glance remains one D1S3 block",
-    "existing_ct_schedule_preserved_except_explicit_user_moves": true
+    "existing_ct_schedule_preserved_except_explicit_user_moves": true,
+    "featured_talk_chairs_published_when_confirmed": true,
+    "invited_talk_chairs_pending": [
+      "INVITED3",
+      "INVITED4",
+      "INVITED5",
+      "INVITED6"
+    ]
   },
   "conference": {
     "name": "EASIAM 2026",
@@ -270,6 +281,7 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "chair": null,
       "programme_details": [
         "Tao Zhou (EASIAM president)",
         "Carol S. Woodward (SIAM president)",
@@ -291,9 +303,10 @@
       "speaker": "Shi Jin",
       "speaker_affiliation": null,
       "talk_title": "Quantum Computations of nonlinear PDEs and the UnitaryLab Software",
+      "chair": "Tao Tang",
       "programme_details": [],
       "slot_id": null,
-      "notes": "Talk title: Quantum Computations of nonlinear PDEs and the UnitaryLab Software\nCarol Woodward and Shi Jin plenary slots swapped by request dated 2026-08-04."
+      "notes": "Talk title: Quantum Computations of nonlinear PDEs and the UnitaryLab Software\nCarol Woodward and Shi Jin plenary slots swapped by request dated 2026-08-04.\nChair: Tao Tang"
     },
     {
       "event_id": "D1-BREAK1",
@@ -307,6 +320,7 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "chair": null,
       "programme_details": [],
       "slot_id": null,
       "notes": "Latest programme instruction: take the group photo immediately after Plenary Lecture 1, followed by the coffee break."
@@ -323,6 +337,7 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "chair": null,
       "programme_details": [],
       "slot_id": null,
       "notes": null
@@ -339,9 +354,10 @@
       "speaker": "Te-Sheng Lin",
       "speaker_affiliation": null,
       "talk_title": "Structure-Aware Scientific Machine Learning for Interface Problems",
+      "chair": "Matthew Lin",
       "programme_details": [],
       "slot_id": null,
-      "notes": "Talk title: Structure-Aware Scientific Machine Learning for Interface Problems\nWorking speaker assignment per user instruction, 2026-07-28."
+      "notes": "Talk title: Structure-Aware Scientific Machine Learning for Interface Problems\nWorking speaker assignment per user instruction, 2026-07-28.\nChair: Matthew Lin"
     },
     {
       "event_id": "INVITED2",
@@ -355,9 +371,10 @@
       "speaker": "Zhenli Xu",
       "speaker_affiliation": null,
       "talk_title": "Machine-Learning Interatomic Potentials for Long-Range Systems",
+      "chair": "Zhiwen Zhang",
       "programme_details": [],
       "slot_id": null,
-      "notes": "Talk title: Machine-Learning Interatomic Potentials for Long-Range Systems\nWorking speaker assignment per user instruction, 2026-07-28."
+      "notes": "Talk title: Machine-Learning Interatomic Potentials for Long-Range Systems\nWorking speaker assignment per user instruction, 2026-07-28.\nChair: Zhiwen Zhang"
     },
     {
       "event_id": "D1-BREAK2",
@@ -371,6 +388,7 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "chair": null,
       "programme_details": [],
       "slot_id": null,
       "notes": null
@@ -387,6 +405,7 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "chair": null,
       "programme_details": [],
       "slot_id": null,
       "notes": "Moved from Monday to Sunday per authoritative timetable update.\nLatest room instruction: Welcome Reception uses room I."
@@ -403,9 +422,10 @@
       "speaker": "Carol S. Woodward",
       "speaker_affiliation": null,
       "talk_title": "Adaptive Time Integration Methods, Software, and Applications",
+      "chair": "Ming-Chih Lai",
       "programme_details": [],
       "slot_id": null,
-      "notes": "Talk title: Adaptive Time Integration Methods, Software, and Applications\nCarol Woodward and Shi Jin plenary slots swapped by request dated 2026-08-04."
+      "notes": "Talk title: Adaptive Time Integration Methods, Software, and Applications\nCarol Woodward and Shi Jin plenary slots swapped by request dated 2026-08-04.\nChair: Ming-Chih Lai"
     },
     {
       "event_id": "D2-BREAK1",
@@ -419,6 +439,7 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "chair": null,
       "programme_details": [],
       "slot_id": null,
       "notes": null
@@ -435,6 +456,7 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "chair": null,
       "programme_details": [],
       "slot_id": null,
       "notes": null
@@ -451,6 +473,7 @@
       "speaker": "Kenji Kajiwara",
       "speaker_affiliation": null,
       "talk_title": "Geometric Shape Generation: Integrability, Artisticity and Mechanical Optimality",
+      "chair": null,
       "programme_details": [],
       "slot_id": null,
       "notes": "Talk title: Geometric Shape Generation: Integrability, Artisticity and Mechanical Optimality\nPlaced on August 25, consistent with the MS20 scheduling note."
@@ -467,6 +490,7 @@
       "speaker": "Guanghui Hu",
       "speaker_affiliation": "University of Macau",
       "talk_title": "Towards extreme efficiency: numerical methods for PDEs in AI era",
+      "chair": null,
       "programme_details": [],
       "slot_id": null,
       "notes": "Talk title: Towards extreme efficiency: numerical methods for PDEs in AI era\nSpeaker affiliation: University of Macau\nAffiliation corrected in source/plenary_invited_talks.docx."
@@ -483,6 +507,7 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "chair": null,
       "programme_details": [],
       "slot_id": null,
       "notes": null
@@ -499,6 +524,7 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "chair": null,
       "programme_details": [],
       "slot_id": null,
       "notes": "Poster Session uses the combined Sara hall. Start moved to 17:20 by explicit organizer instruction on 2026-08-13."
@@ -515,6 +541,7 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "chair": null,
       "programme_details": [],
       "slot_id": null,
       "notes": "End time not specified in timetable; room confirmed as H by user on 2026-07-29."
@@ -531,9 +558,10 @@
       "speaker": "Myungjoo Kang",
       "speaker_affiliation": null,
       "talk_title": "Deep Learning-Based Surface Reconstruction from Point Clouds",
+      "chair": "Hisashi Okamoto",
       "programme_details": [],
       "slot_id": null,
-      "notes": "Talk title: Deep Learning-Based Surface Reconstruction from Point Clouds\nWorking speaker assignment per user instruction, 2026-07-28."
+      "notes": "Talk title: Deep Learning-Based Surface Reconstruction from Point Clouds\nWorking speaker assignment per user instruction, 2026-07-28.\nChair: Hisashi Okamoto"
     },
     {
       "event_id": "D3-BREAK1",
@@ -547,6 +575,7 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "chair": null,
       "programme_details": [],
       "slot_id": null,
       "notes": null
@@ -563,6 +592,7 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "chair": null,
       "programme_details": [],
       "slot_id": null,
       "notes": null
@@ -579,6 +609,7 @@
       "speaker": "Zhi Zhou",
       "speaker_affiliation": null,
       "talk_title": "The Parareal Algorithm Revisited: Toward Parallel-in-Time Integration",
+      "chair": null,
       "programme_details": [],
       "slot_id": null,
       "notes": "Talk title: The Parareal Algorithm Revisited: Toward Parallel-in-Time Integration\nWorking speaker assignment per user instruction, 2026-07-28."
@@ -595,6 +626,7 @@
       "speaker": "Mikyoung Lim",
       "speaker_affiliation": null,
       "talk_title": "Direct and inverse problems for inclusions via layer potentials",
+      "chair": null,
       "programme_details": [],
       "slot_id": null,
       "notes": "Talk title: Direct and inverse problems for inclusions via layer potentials\nWorking speaker assignment per user instruction, 2026-07-28."
@@ -611,6 +643,7 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "chair": null,
       "programme_details": [],
       "slot_id": null,
       "notes": null
@@ -627,6 +660,7 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "chair": null,
       "programme_details": [],
       "slot_id": null,
       "notes": null
@@ -643,6 +677,7 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "chair": null,
       "programme_details": [],
       "slot_id": null,
       "notes": null
@@ -659,6 +694,7 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "chair": null,
       "programme_details": [],
       "slot_id": null,
       "notes": "Pre-conference registration; timetable updated 2026-07-29."
@@ -675,6 +711,7 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "chair": null,
       "programme_details": [],
       "slot_id": null,
       "notes": "Monday registration 08:00-18:00."
@@ -691,6 +728,7 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "chair": null,
       "programme_details": [],
       "slot_id": null,
       "notes": "Tuesday registration 08:00-18:00."
@@ -707,6 +745,7 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "chair": null,
       "programme_details": [],
       "slot_id": null,
       "notes": "Wednesday registration 08:00-18:00."
@@ -723,6 +762,7 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "chair": null,
       "programme_details": [],
       "slot_id": null,
       "notes": "Thursday registration 08:00-18:00."
@@ -739,6 +779,7 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "chair": null,
       "programme_details": [],
       "slot_id": null,
       "notes": "Explicit break before the Poster Session."
@@ -755,6 +796,7 @@
       "speaker": null,
       "speaker_affiliation": null,
       "talk_title": null,
+      "chair": null,
       "programme_details": [],
       "slot_id": "D1S4",
       "notes": "Slot_ID: D1S4\nRoom M is reserved for the AC/EC Committee Meeting. This is a room-occupancy event, not an academic session assignment."
@@ -1252,8 +1294,8 @@
       "chair": null,
       "slot_id": "D1S4",
       "room": "H3",
-      "talk_count": 4,
-      "display_end": "18:40"
+      "talk_count": 3,
+      "display_end": "18:20"
     },
     {
       "session_id": "MS15A",
@@ -2279,7 +2321,7 @@
       "chair": "Dongwook Shin",
       "slot_id": "D4S1",
       "room": "H1",
-      "talk_count": 4,
+      "talk_count": 5,
       "display_end": "09:50"
     },
     {
@@ -3861,31 +3903,12 @@
       "room": "H3"
     },
     {
-      "presentation_id": "MS-CMT-0260",
-      "program_type": "MS",
-      "cmt_paper_id": 260,
-      "parent_program_id": "MS14",
-      "session_id": "MS14B",
-      "order": 3,
-      "duration_minutes": 20,
-      "speaker": "Hisashi Okamoto",
-      "affiliation": "EASIAM",
-      "title": "A challenge problem on an eigenvalue problem from the Hilbert matrix",
-      "abstract": "The Hilbert matrix is an NxN matrix whose (i,j) entries are 1/(i+j-1). It is well-known that its condition number is extremely large, so large that Nick Higham says ‘The Hilbert matrix is not a good test matrix, for several reasons. First, it is too ill conditioned,…’ It is a positive matrix and its maximal eigenvalue is a positive real number < . Olga Taussky proved that it tended to  as N → ∞. But its rate of convergence is extremely slow, so slow that we cannot detect the convergence numerically. I will report in my talk some numerical experiments which I performed recently. I believe that they suggest some interesting properties of the Hilbert matrix.\n\nReferences\n\nhttps://nhigham.com/2020/06/30/what-is-the-hilbert-matrix/\n\nO. Taussky, A remark concerning the characteristic roots of the finite segments of the Hilbert matrix, Quart. J. Math., vol. 20 (1949), 80—83.\nH. Wilf, Finite Sections of Some Classical Inequalities, Springer, (1970).",
-      "authors": "Hisashi Okamoto (EASIAM)*",
-      "slot_id": "D1S4",
-      "date": "2026-08-24",
-      "start": "18:00",
-      "end": "18:20",
-      "room": "H3"
-    },
-    {
       "presentation_id": "MS-CMT-0275",
       "program_type": "MS",
       "cmt_paper_id": 275,
       "parent_program_id": "MS14",
       "session_id": "MS14B",
-      "order": 4,
+      "order": 3,
       "duration_minutes": 20,
       "speaker": "Kenta Kobayashi",
       "affiliation": "Hitotsubashi University",
@@ -3894,8 +3917,8 @@
       "authors": "Kenta Kobayashi (Hitotsubashi University)*",
       "slot_id": "D1S4",
       "date": "2026-08-24",
-      "start": "18:20",
-      "end": "18:40",
+      "start": "18:00",
+      "end": "18:20",
       "room": "H3"
     },
     {
@@ -4911,17 +4934,17 @@
       "cmt_paper_id": 82,
       "parent_program_id": "MS25",
       "session_id": "MS25A",
-      "order": 1,
+      "order": 4,
       "duration_minutes": 20,
-      "speaker": "FEI XU",
+      "speaker": "Fei Xu",
       "affiliation": "Beijing University of Technology",
       "title": "Effective Approximations for Hybrid Density Functional Theory Calculations",
       "abstract": "A novel adaptive finite element algorithm is proposed for hybrid density functional theory to address the high complexity and large dense eigenvalue problems induced by the nonlocal Fock exchange operator. The algorithm adopts the multilevel correction framework to decompose high-dimensional nonlinear eigenvalue problems into linear boundary value problems and low-dimensional subspace problems. A general low-rank approximate exchange operator is constructed, which maintains Hermiticity, guarantees calculation accuracy and avoids matrix singularity. A three-level nested SCF iteration strategy is also introduced to cut the cost of repeated operator construction. This method effectively breaks the computational bottleneck of traditional approaches and offers an efficient numerical solution for electronic structure simulations.",
       "authors": "FEI XU (Beijing University of Technology)*",
       "slot_id": "D3S1",
       "date": "2026-08-26",
-      "start": "09:50",
-      "end": "10:10",
+      "start": "10:50",
+      "end": "11:10",
       "room": "H3"
     },
     {
@@ -4929,18 +4952,18 @@
       "program_type": "MS",
       "cmt_paper_id": 145,
       "parent_program_id": "MS25",
-      "session_id": "MS25A",
-      "order": 2,
+      "session_id": "MS25B",
+      "order": 1,
       "duration_minutes": 20,
       "speaker": "Jie Xu",
       "affiliation": "Academy of Mathematics and Systems Science, Chinese Academy of Sciences",
       "title": "Quasi-entropy: in free energies and closure approximations",
       "abstract": "Molecular-theory-based tensor models of liquid crystals typically contain an explicit entropy term deduced from the maximum entropy state. For dynamic models, high-order tensors also appear in the model, for which a classical closure approximation is also given the maximum entropy state. The maximum entropy state is able to maintain the essential properties and structures of the molecular theory in tensor models, but leads to high computational cost. Quasi-entropy is a class of elementary functions to substitute the terms deduced from the maximum entropy state, which can be incorporated both in free energies and in closure approximations. It not only keeps the desired properties and structures of the models, but also reduces the complexity of dealing with implicit functions involving three dimensional integrals to O(1). We present a few representative results in equilibrium states and dynamics.",
       "authors": "Jie Xu (Academy of Mathematics and Systems Science, Chinese Academy of Sciences)*",
-      "slot_id": "D3S1",
+      "slot_id": "D3S2",
       "date": "2026-08-26",
-      "start": "10:10",
-      "end": "10:30",
+      "start": "11:20",
+      "end": "11:40",
       "room": "H3"
     },
     {
@@ -4949,7 +4972,7 @@
       "cmt_paper_id": 169,
       "parent_program_id": "MS25",
       "session_id": "MS25A",
-      "order": 3,
+      "order": 1,
       "duration_minutes": 20,
       "speaker": "Haijun Yu",
       "affiliation": "Academy of Mathematics and Systems Science, Chinese Academy of Sciences",
@@ -4958,8 +4981,8 @@
       "authors": "Haijun Yu (Academy of Mathematics and Systems Science, Chinese Academy of Sciences)*",
       "slot_id": "D3S1",
       "date": "2026-08-26",
-      "start": "10:30",
-      "end": "10:50",
+      "start": "09:50",
+      "end": "10:10",
       "room": "H3"
     },
     {
@@ -4967,18 +4990,18 @@
       "program_type": "MS",
       "cmt_paper_id": 171,
       "parent_program_id": "MS25",
-      "session_id": "MS25A",
-      "order": 4,
+      "session_id": "MS25B",
+      "order": 2,
       "duration_minutes": 20,
       "speaker": "Manting Xie",
       "affiliation": "Tianjin University",
       "title": "Numerical computation of Bogoliubov collective excitations in Bose-Einstein condensates",
       "abstract": "Bogoliubov collective excitations represent a distinctive quantum state in Bose-Einstein condensates, which mathematically correspond to a class of linear response eigenvalue problems known as the Bogoliubov-de Gennes equations (BdGEs).\nThis report presents an efficient, robust, and high-precision numerical method for solving such BdGEs. It covers the fundamental underlying mathematical theories and the numerical analysis framework. The superiority of the proposed method in terms of accuracy and computational efficiency is validated via numerical experiments. Numerical results demonstrate that the implemented algorithm can precisely characterize the low-energy excitation spectra, thereby providing reliable numerical support for investigating macroscopic quantum phenomena in ultracold quantum gases.",
       "authors": "Manting Xie (Tianjin University)*",
-      "slot_id": "D3S1",
+      "slot_id": "D3S2",
       "date": "2026-08-26",
-      "start": "10:50",
-      "end": "11:10",
+      "start": "11:40",
+      "end": "12:00",
       "room": "H3"
     },
     {
@@ -4986,18 +5009,18 @@
       "program_type": "MS",
       "cmt_paper_id": 178,
       "parent_program_id": "MS25",
-      "session_id": "MS25B",
-      "order": 1,
+      "session_id": "MS25A",
+      "order": 3,
       "duration_minutes": 20,
       "speaker": "Xiaoying Dai",
       "affiliation": "Academy of Mathematics and Systems Science, Chinese Academy of Sciences",
       "title": "Orthogonality Preserving Methods for Electronic Structure Calculations",
       "abstract": "To obtain convergent numerical approximations without orthogonalization operations is of great importance in electronic structure calculations. In this talk, we will introduce an extended gradient flow based Kohn-Sham DFT model, for which we prove that the flow is orthogonality preserving and that the solution evolves to the ground state. With the help of the extended gradient flow based Kohn-Sham DFT model, we propose some iteration schemes for the discretized Kohn-Sham model, which are proved to preserve the orthogonality of the Kohn-Sham orbitals automatically. With our schemes, the iterative approximations are guaranteed to converge to the Kohn-Sham orbitals without any orthogonalization operations when the initial orbitals are orthogonal.",
       "authors": "Xiaoying Dai (Academy of Mathematics and Systems Science, Chinese Academy of Sciences)*",
-      "slot_id": "D3S2",
+      "slot_id": "D3S1",
       "date": "2026-08-26",
-      "start": "11:20",
-      "end": "11:40",
+      "start": "10:30",
+      "end": "10:50",
       "room": "H3"
     },
     {
@@ -8008,17 +8031,17 @@
       "cmt_paper_id": 328,
       "parent_program_id": "MS25",
       "session_id": "MS25B",
-      "order": 2,
+      "order": 3,
       "duration_minutes": 20,
-      "speaker": "JIARONG CHEN",
+      "speaker": "Jiarong Chen",
       "affiliation": "Beijing Institute of Technology",
       "title": "Dirichlet Harmonic Solutions via Neumann-Type Curl Potentials: A Unified Natural Deep Ritz Framework on the de Rham Complex",
       "abstract": "Deep neural networks show great promise for high-dimensional PDEs, yet enforcing Dirichlet boundary conditions remains a core challenge. This work builds on a key geometric insight: Dirichlet harmonic solutions admit a curl-driven Neumann-type representation, circumventing the case-by-case tuning and convergence imbalance of standard penalty-based methods in high dimensions. Based on the de Rham complex, our unified Natural Deep Ritz Method (NatDRM) for all $d\\geq2$ converts Dirichlet constraints into three coupled Neumann subproblems via dimension-adaptive curl potentials, with unified discrete losses, lightweight boundary gauge-fixing regularizations, and extensions to variable-coefficient and semilinear Poisson cases. Numerical experiments up to 6D show the method matches or outperforms optimally tuned DRM and PINN in most cases, with stable convergence and synchronous interior-boundary error decay.",
       "authors": "JIARONG CHEN (Beijing Institute of Technology)*",
       "slot_id": "D3S2",
       "date": "2026-08-26",
-      "start": "11:40",
-      "end": "12:00",
+      "start": "12:00",
+      "end": "12:20",
       "room": "H3"
     },
     {
@@ -8027,17 +8050,17 @@
       "cmt_paper_id": 329,
       "parent_program_id": "MS25",
       "session_id": "MS25B",
-      "order": 3,
+      "order": 4,
       "duration_minutes": 20,
-      "speaker": "Zhang Huaijia",
+      "speaker": "Huaijia Zhang",
       "affiliation": "Beijing Institute of Technology",
       "title": "Tensor Neural Network Based Machine Learning Method for Elliptic Multiscale Problems",
       "abstract": "In this work, we present a machine‑learning method based on tensor neural networks for solving elliptic multiscale problems. Thanks to their special structure, tensor neural network functions allow direct, highly‑accurate high‑dimensional integration without resorting to Monte‑Carlo sampling. Using homogenization techniques, the original multiscale problem is first transformed into a high‑dimensional limit problem with satisfactory accuracy. We then construct a machine‑learning approach based on tensor neural networks to solve this resulting high‑dimensional limit problem. The proposed framework offers a new avenue for developing high‑accuracy numerical methods for more general multiscale problems. Several numerical examples are presented to verify the performance of our numerical scheme.",
       "authors": "Zhang Huaijia (Beijing Institute of Technology)*",
       "slot_id": "D3S2",
       "date": "2026-08-26",
-      "start": "12:00",
-      "end": "12:20",
+      "start": "12:20",
+      "end": "12:40",
       "room": "H3"
     },
     {
@@ -8045,18 +8068,18 @@
       "program_type": "MS",
       "cmt_paper_id": 333,
       "parent_program_id": "MS25",
-      "session_id": "MS25B",
-      "order": 4,
+      "session_id": "MS25A",
+      "order": 2,
       "duration_minutes": 20,
       "speaker": "Xiaobo Yin",
       "affiliation": "Central China Normal University",
       "title": "Neural network methods for fractional Laplacian: from quadrature-enhanced MC fPINN  to fTNN",
       "abstract": "This talk presents two methods on the neural networks for fractional Laplacian. They all adopt a spatially varying radius, yielding a geometry-adaptive three-part decomposition of the fractional Laplacian: singular near-field, regular interior far-field, and analytical exterior far-field. Then, for the first method called quadrature-enhanced Monte Carlo fPINN, Gauss-Jacobi quadrature is used for the singular near-field radial integral, Gauss quadrature for the regular interior radial integral, and Monte Carlo sampling for the angular variables, combined with a feature-enhanced PINN trial space, achieving 1-3 orders of magnitude improvement over existing baselines on problems up to 10000 dimensions. The second method is a fully deterministic method, called fTNN, which replaces the angular Monte Carlo sampling by deterministic directional quadrature, reaching relative errors on the order of 10^{-4} to 10^{-6} in 1D/2D/3D.",
       "authors": "Xiaobo Yin (Central China Normal University)*",
-      "slot_id": "D3S2",
+      "slot_id": "D3S1",
       "date": "2026-08-26",
-      "start": "12:20",
-      "end": "12:40",
+      "start": "10:10",
+      "end": "10:30",
       "room": "H3"
     },
     {
@@ -8126,13 +8149,51 @@
       "duration_minutes": 20,
       "speaker": "Jiyeon Kim",
       "affiliation": "Ajou University",
-      "title": "Locally Preserving Sparse Neural Operator netWorks",
-      "abstract": "Operator learning is a promising paradigm for parametric partial differential equations (PDEs), yet network parameters grow rapidly with mesh resolution. We present Sparse Neural Operator netWorks (SNOW), a framework that embeds the sparse structure of PDE discretizations into the network architecture. As a primary application, Sparse FEONet restricts each layer's connectivity to the local support of finite element basis functions, supported by a universal approximation theorem and stability analysis, and achieves up to a 98% parameter reduction while maintaining accuracy. In this talk we propose SNOW-HDG, a locally preserving extension based on the Hybridizable Discontinuous Galerkin (HDG) method. The network learns only the skeleton trace λ using HDG connectivity as its sparsity pattern, and element-wise solutions are recovered by the HDG local solver, so the prediction satisfies local conservation property. Poisson experiments confirm accuracy and efficiency.",
+      "title": "Locally Conservative Sparse Neural Operator netWorks",
+      "abstract": "Operator learning is a promising paradigm for parametric partial differential equations (PDEs), yet network parameters grow rapidly with mesh resolution. We present Sparse Neural Operator netWorks (SNOW), a framework that embeds the sparse structure of PDE discretizations into the network architecture. As a primary application, Sparse FEONet restricts each layer's connectivity to the local support of finite element basis functions, supported by a universal approximation theorem and stability analysis, and achieves up to a 98% parameter reduction while maintaining accuracy. In this talk we propose SNOW-HDG, a locally conservative extension based on the Hybridizable Discontinuous Galerkin (HDG) method. The network learns only the skeleton trace λ using HDG connectivity as its sparsity pattern, and element-wise solutions are recovered by the HDG local solver, so the prediction satisfies local conservation property. Poisson experiments confirm accuracy and efficiency.",
       "authors": "Jiyeon Kim (Ajou University)*; Dongwook Shin (Ajou University)",
       "slot_id": "D1S2",
       "date": "2026-08-24",
       "start": "12:20",
       "end": "12:40",
+      "room": "H1"
+    },
+    {
+      "presentation_id": "MS-CMT-0335",
+      "program_type": "MS",
+      "cmt_paper_id": 335,
+      "parent_program_id": "MS07",
+      "session_id": "MS07B",
+      "order": 4,
+      "duration_minutes": 20,
+      "speaker": "Haozhe Xu",
+      "affiliation": "Eastern Institute of Technology, Ningbo",
+      "title": "NN-WGF: A Neural Ritz Flow-Map Method for Two- and Three-Dimensional Porous Medium Flows",
+      "abstract": "We present NN-WGF, a neural Ritz discretization of a Lagrangian flow-map variational scheme for Wasserstein gradient flows. Unlike PINNs, the method does not fit PDE residuals or solution data. At each implicit time step, a residual neural network represents the transport map and directly minimizes a weighted movement cost plus the porous-medium internal energy. The density is reconstructed by rho(T(X),t)=rho_0(X)/det(DT(X)), so discrete Lagrangian mass is conserved by construction. We evaluate the method on the compactly supported Barenblatt benchmark with m=5, dt=0.01, and 400 steps to T=4. Against the exact self-similar scaling, the final relative density errors are 1.94% in 2D and 1.72% in 3D, with map errors of 0.40% and 0.55%. Both runs exhibit energy dissipation, zero reported mass drift, and positive sampled Jacobians. The results support neural flow-map optimization for long-time free-boundary Wasserstein dynamics in three dimensions.",
+      "authors": "Haozhe Xu (Eastern Institute of Technology, Ningbo)*; Zhiping Mao (Eastern Institute of Technology, Ningbo)",
+      "slot_id": "D4S2",
+      "date": "2026-08-27",
+      "start": "11:20",
+      "end": "11:40",
+      "room": "S1"
+    },
+    {
+      "presentation_id": "CT-MANUAL-HAO-HU",
+      "program_type": "CT",
+      "cmt_paper_id": null,
+      "parent_program_id": "CT-GENERAL",
+      "session_id": "CT06",
+      "order": 4,
+      "duration_minutes": 16,
+      "speaker": "Hao Hu",
+      "affiliation": "Academy of Mathematics and Systems Science, Chinese Academy of Sciences",
+      "title": "Scaling Optimized Hermite Approximation Methods",
+      "abstract": "Classical spectral approximation theories, which are established for spaces with finite smoothness, are incapable of describing the sophisticated convergence characteristics of scaled Hermite and Laguerre approximation methods. This paper constructs a novel unified error estimation framework for scaled spectral approximations on unbounded domains based on generalized Hermite and Laguerre functions. By rigorously quantifying the trade-off between spatial truncation and frequency truncation errors, the proposed framework enables the systematic and rational selection of optimal scaling factors. We theoretically prove that the optimal scaling factor balances different types of truncation errors, leading to rigorous characterizations of general exponential convergence rates — a key result that is unattainable via classical spectral approximation theories. Moreover, this framework elucidates the counterintuitive pre-asymptotic convergence behaviors of unscaled Hermite and Laguerre approximations for functions with algebraic decay. We further verify the optimality of scaled quadrature rules and reveal a non-trivial phenomenon: concatenated Laguerre approximations deliver faster convergence rates than standalone Hermite expansions, even for highly smooth functions with Gaussian decay, which contradicts conventional empirical intuition. This study resolves several long-standing open problems concerning the theoretical properties of Hermite and Laguerre spectral approximations.",
+      "authors": "Hao Hu (Academy of Mathematics and Systems Science, Chinese Academy of Sciences)*",
+      "slot_id": "D4S1",
+      "date": "2026-08-27",
+      "start": "09:18",
+      "end": "09:34",
       "room": "H1"
     }
   ],
@@ -8234,7 +8295,7 @@
       "title": "Scalable learning of macroscopic stochastic dynamics",
       "abstract": "Macroscopic dynamical descriptions are essential for understanding and controlling complex material behavior, yet deriving them from microscopic simulations remains computationally prohibitive for spatially extended stochastic systems. To address this challenge, we propose a machine-learning framework that learns large-scale macroscopic dynamics using only small-system simulations. The method uses a partial evolution scheme to generate training data within local patches, a tailored loss to learn the macroscopic dynamics, and a hierarchical upsampling strategy to efficiently construct large-system configurations. Across stochastic PDEs, lattice spin models, and an NbMoTa alloy system, the framework demonstrates high accuracy, robustness, and computational efficiency.",
       "authors": "Mengyi Chen (National University of Singapore)*; Qianxiao Li (National University of Singapore)",
-      "status": "Confirmed"
+      "status": "Cancelled"
     },
     {
       "presentation_id": "POSTER-CMT-0057",
@@ -8245,7 +8306,7 @@
       "title": "Learning Macroscopic Dynamics from Partial Microscopic Observations",
       "abstract": "Macroscopic observables of a system are of keen interest in real applications such as the design of novel materials. Current methods rely on microscopic trajectory simulations, which is computationally prohibitive for realistic systems.In this paper, we propose a method to learn macroscopic dynamics requiring only force computations on a subset of the microscopic coordinates. Our method relies on a sparsity assumption: the force on each microscopic coordinate relies only on a small number of other coordinates. The main idea of our approach is to map the training procedure on the macroscopic coordinates back to the microscopic coordinates, on which partial force computations can be used as stochastic estimation to update model parameters. We provide a theoretical justification of this under suitable conditions. We demonstrate the accuracy, force computation efficiency, and robustness of our method on learning macroscopic closure models from a variety of microscopic systems.",
       "authors": "Mengyi Chen (National University of Singapore)*; qianxiao Li (National University of Singapore)",
-      "status": "Confirmed"
+      "status": "Cancelled"
     },
     {
       "presentation_id": "POSTER-CMT-0061",
@@ -8451,7 +8512,7 @@
       "poster_number": 29,
       "speaker": "Christophe Heneffe",
       "affiliation": "UCLouvain",
-      "title": "Subgraph Preconditioning for Laplacian Systems Arising from Elliptic PDEs",
+      "title": "Fast Solver for Laplacian Systems Arising from Elliptic PDEs.",
       "abstract": "In the last two decades, a variety of algorithms have been developed for solving Laplacian systems in nearly linear time, that is, in O(n log n) time, independently of the system's condition number. These methods construct effective preconditioners by generating carefully chosen subgraphs of the graph underlying the Laplacian matrix.\nWe focus on Laplacian systems arising from structured graphs such as grids and meshes. Such systems occur naturally in the discretization of elliptic partial differential equations, for example, Poisson equations arising in incompressible flow simulations. We show how subgraph preconditioning techniques originally developed for general graph Laplacians can be adapted to structured PDE discretizations. By exploiting the special structure of these graphs, we obtain a robust and practical solver.\nThis talk provides an overview of the underlying algorithms and presents numerical results demonstrating their effectiveness.",
       "authors": "Christophe Heneffe (UCLouvain)*",
       "status": "Confirmed"
@@ -8687,6 +8748,12 @@
       "order": 9,
       "name": "Zilan CHENG",
       "affiliation_and_chapter": "President, NTU SIAM Student Chapter"
+    },
+    {
+      "representative_id": "STUDENT-REP-010",
+      "order": 10,
+      "name": "Di Hou",
+      "affiliation_and_chapter": "President, NUS SIAM Student Chapter"
     }
   ]
 }

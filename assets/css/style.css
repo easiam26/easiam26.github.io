@@ -230,6 +230,87 @@ body {
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
 }
 
+.home-program-resources {
+    background: #f4f9f8;
+    border-bottom: 1px solid #dce8e5;
+    padding: 32px 0 36px;
+}
+
+.home-program-resources-header {
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.home-program-resources-header h2 {
+    color: var(--primary-color);
+    font-size: 1.35rem;
+    line-height: 1.3;
+    margin: 4px 0 0;
+}
+
+.home-program-links {
+    display: grid;
+    gap: 14px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin: 0 auto;
+    max-width: 980px;
+}
+
+.home-program-link {
+    align-items: center;
+    background: #fff;
+    border: 1px solid #d4e2df;
+    border-radius: 10px;
+    color: #263c38;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    padding: 17px 18px;
+    text-decoration: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.home-program-link:hover,
+.home-program-link:focus-visible {
+    border-color: var(--secondary-color);
+    box-shadow: 0 8px 20px rgba(23, 63, 57, 0.1);
+    color: var(--primary-color);
+    transform: translateY(-2px);
+}
+
+.home-program-file-type {
+    background: var(--secondary-color);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 0.65rem;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    padding: 5px 6px;
+}
+
+.home-program-link strong,
+.home-program-link small {
+    display: block;
+}
+
+.home-program-link strong {
+    font-size: 0.98rem;
+    line-height: 1.35;
+}
+
+.home-program-link small {
+    color: var(--light-text);
+    font-size: 0.75rem;
+    line-height: 1.4;
+    margin-top: 3px;
+}
+
+.home-program-link-arrow {
+    color: var(--secondary-color);
+    font-size: 1.15rem;
+    font-weight: 800;
+}
+
 /* Section 스타일 */
 .section {
     padding: 60px 0;
@@ -1385,6 +1466,10 @@ body {
         align-items: stretch;
         flex-direction: column;
         padding: 24px;
+    }
+
+    .home-program-links {
+        grid-template-columns: 1fr;
     }
 
     .excursion-registration-button {

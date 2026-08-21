@@ -44,6 +44,7 @@ permalink: /plenary-speakers/
                             <div><dt>Date</dt><dd>{{ event.date | date: "%A, %B %d" }}</dd></div>
                             <div><dt>Time</dt><dd>{{ event.start }}–{{ event.end }}</dd></div>
                             <div><dt>Room</dt><dd>{{ event.room | escape }}</dd></div>
+                            {% if event.chair %}<div><dt>Chair</dt><dd>{{ event.chair | escape }}</dd></div>{% endif %}
                         </dl>
 
                         {% if abstract_count > 0 or bio_count > 0 %}
