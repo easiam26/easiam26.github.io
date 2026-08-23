@@ -251,7 +251,7 @@ body {
 .home-program-links {
     display: grid;
     gap: 14px;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     margin: 0 auto;
     max-width: 980px;
 }
@@ -2446,6 +2446,19 @@ footer {
     color: #204c46;
     font-size: 1.05rem;
     margin: 26px 0 12px;
+}
+
+.ms-description {
+    border-bottom: 1px solid #e1e9e7;
+    margin: 0 0 18px;
+    padding: 0 0 18px;
+}
+
+.ms-description p {
+    color: #425653;
+    font-size: 0.95rem;
+    line-height: 1.65;
+    margin: 0;
 }
 
 .organizer-panel {

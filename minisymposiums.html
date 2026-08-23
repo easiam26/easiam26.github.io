@@ -44,6 +44,11 @@ permalink: /minisymposia/
                         <span class="program-card-toggle" aria-hidden="true"></span>
                     </summary>
                     <div class="program-card-body">
+                        {% if first_session.description %}
+                        <section class="ms-description" aria-label="Minisymposium description">
+                            <p>{{ first_session.description | escape | newline_to_br }}</p>
+                        </section>
+                        {% endif %}
                         <div class="organizer-panel">
                             <h3>Organizers</h3>
                             <p><strong>Main organizer:</strong> {{ first_session.main_organizer | escape }}{% if first_session.main_organizer_affiliation %} <span>({{ first_session.main_organizer_affiliation | escape }})</span>{% endif %}</p>
