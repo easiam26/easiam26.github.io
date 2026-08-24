@@ -34,12 +34,13 @@ permalink: /minisymposia/
                 {% for group in ms_groups %}
                 {% assign first_session = group.items | first %}
                 {% assign group_talks = site.data.program.talks | where: "parent_program_id", group.name | sort: "start" %}
+                {% assign active_group_talks = group_talks | where: "status", "Confirmed" %}
                 <details class="program-card searchable-item">
                     <summary>
                         <span class="program-card-id">{{ group.name | escape }}</span>
                         <span class="program-card-heading">
                             <strong>{{ first_session.title | escape }}</strong>
-                            <small>Main organizer: {{ first_session.main_organizer | escape }}{% if first_session.main_organizer_affiliation %} ({{ first_session.main_organizer_affiliation | escape }}){% endif %} · {{ group_talks.size }} talk{% if group_talks.size != 1 %}s{% endif %}</small>
+                            <small>Main organizer: {{ first_session.main_organizer | escape }}{% if first_session.main_organizer_affiliation %} ({{ first_session.main_organizer_affiliation | escape }}){% endif %} · {{ active_group_talks.size }} active talk{% if active_group_talks.size != 1 %}s{% endif %}</small>
                         </span>
                         <span class="program-card-toggle" aria-hidden="true"></span>
                     </summary>
@@ -77,7 +78,10 @@ permalink: /minisymposia/
                         <h3>Program &amp; Speakers</h3>
                         <ol class="talk-list">
                             {% for talk in group_talks %}
-                            <li>
+                            <li{% if talk.status == "Cancelled" %} class="talk-cancelled"{% endif %}>
+                                {% if talk.updated %}
+                                <p class="talk-update-notice"><span class="program-update-badge">Updated</span>{% if talk.status == "Cancelled" %}<strong>Cancelled — no replacement talk</strong>{% else %}<strong>New talk added</strong>{% endif %}</p>
+                                {% endif %}
                                 <div class="talk-meta">
                                     <span>{{ talk.session_id | escape }} · {{ talk.start }}–{{ talk.end }}</span>
                                     <span>Room {{ talk.room | escape }}</span>

@@ -2521,6 +2521,43 @@ footer {
     padding-top: 4px;
 }
 
+.talk-list li.talk-cancelled {
+    background: #fff8f8;
+    border: 1px solid #d7aaaa;
+    border-radius: 8px;
+    margin: 8px 0;
+    padding: 18px;
+}
+
+.talk-update-notice {
+    align-items: center;
+    color: #8a2929;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.82rem;
+    gap: 8px;
+    margin: 0 0 9px;
+}
+
+.program-update-badge {
+    background: #b33a2f;
+    border-radius: 999px;
+    color: #fff;
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 850;
+    letter-spacing: 0.04em;
+    padding: 3px 9px;
+    text-transform: uppercase;
+}
+
+.talk-cancelled h4,
+.talk-cancelled .talk-speaker {
+    opacity: 0.72;
+    text-decoration: line-through;
+    text-decoration-thickness: 1.4px;
+}
+
 .talk-meta {
     color: var(--primary-color);
     display: flex;
