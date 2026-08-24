@@ -80,7 +80,7 @@ permalink: /minisymposia/
                             {% for talk in group_talks %}
                             <li{% if talk.status == "Cancelled" %} class="talk-cancelled"{% endif %}>
                                 {% if talk.updated %}
-                                <p class="talk-update-notice"><span class="program-update-badge">Updated</span>{% if talk.status == "Cancelled" %}<strong>Cancelled — no replacement talk</strong>{% else %}<strong>New talk added</strong>{% endif %}</p>
+                                <p class="talk-update-notice"><span class="program-update-badge">Updated</span>{% if talk.status == "Cancelled" %}<strong>Cancelled</strong>{% else %}<strong>New talk added</strong>{% endif %}</p>
                                 {% endif %}
                                 <div class="talk-meta">
                                     <span>{{ talk.session_id | escape }} · {{ talk.start }}–{{ talk.end }}</span>
