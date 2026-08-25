@@ -270,6 +270,10 @@ body {
     transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
 }
 
+.home-program-link-featured {
+    grid-column: 1 / -1;
+}
+
 .home-program-link:hover,
 .home-program-link:focus-visible {
     border-color: var(--secondary-color);
