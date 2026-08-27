@@ -230,6 +230,29 @@ body {
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
 }
 
+.conference-closed-notice {
+    background: #fffaf0;
+    border-bottom: 1px solid #ead9a7;
+    border-top: 4px solid var(--secondary-color);
+    padding: 34px 20px 36px;
+    text-align: center;
+}
+
+.conference-closed-notice h2 {
+    color: var(--primary-color);
+    font-size: clamp(1.6rem, 3vw, 2rem);
+    line-height: 1.25;
+    margin: 0 0 10px;
+}
+
+.conference-closed-notice p {
+    color: #3d4d49;
+    font-size: clamp(1rem, 2vw, 1.15rem);
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 820px;
+}
+
 .home-program-resources {
     background: #f4f9f8;
     border-bottom: 1px solid #dce8e5;
@@ -268,10 +291,6 @@ body {
     padding: 17px 18px;
     text-decoration: none;
     transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
-}
-
-.home-program-link-featured {
-    grid-column: 1 / -1;
 }
 
 .home-program-link:hover,
